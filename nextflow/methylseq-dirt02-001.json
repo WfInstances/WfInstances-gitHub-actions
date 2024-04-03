@@ -1,0 +1,1918 @@
+{
+    "name": "methylseq",
+    "description": "Trace generated from Nextflow (via https://github.com/wfcommons/nextflow_workflow_tracer)",
+    "createdAt": "2023-03-22T07:18:51.211906+00:00",
+    "schemaVersion": "1.5",
+    "workflow": {
+        "repo": "https://github.com/nf-core/methylseq",
+        "runName": "nostalgic_joliot",
+        "specification": {
+            "tasks": [
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.INPUT_CHECK.SAMPLESHEET_CHECK",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.INPUT_CHECK.SAMPLESHEET_CHECK_1",
+                    "children": [],
+                    "inputFiles": [
+                        "samplesheet_test.csv"
+                    ],
+                    "outputFiles": [
+                        "samplesheet.valid.csv",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.PREPARE_GENOME.BISMARK_GENOMEPREPARATION",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PREPARE_GENOME.BISMARK_GENOMEPREPARATION_2",
+                    "children": [],
+                    "inputFiles": [
+                        "genome.fa"
+                    ],
+                    "outputFiles": [
+                        "BismarkIndex",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC_3",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1.fastq.gz"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1_fastqc.html",
+                        "SRR389222_sub1_fastqc.zip",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE_4",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1.fastq.gz"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1_trimmed.fq.gz",
+                        "SRR389222_sub1.fastq.gz_trimming_report.txt",
+                        "versions.yml",
+                        "SRR389222_sub1_trimmed_fastqc.html",
+                        "SRR389222_sub1_trimmed_fastqc.zip"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC_6",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_R1.fastq.gz",
+                        "Ecoli_10K_methylated_R2.fastq.gz"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated_R1_fastqc.html",
+                        "Ecoli_10K_methylated_R2_fastqc.html",
+                        "Ecoli_10K_methylated_R1_fastqc.zip",
+                        "Ecoli_10K_methylated_R2_fastqc.zip",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE_7",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_R1.fastq.gz",
+                        "Ecoli_10K_methylated_R2.fastq.gz"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated_1_val_1.fq.gz",
+                        "Ecoli_10K_methylated_2_val_2.fq.gz",
+                        "Ecoli_10K_methylated_1.fastq.gz_trimming_report.txt",
+                        "Ecoli_10K_methylated_2.fastq.gz_trimming_report.txt",
+                        "versions.yml",
+                        "Ecoli_10K_methylated_1_val_1_fastqc.html",
+                        "Ecoli_10K_methylated_2_val_2_fastqc.html",
+                        "Ecoli_10K_methylated_1_val_1_fastqc.zip",
+                        "Ecoli_10K_methylated_2_val_2_fastqc.zip"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.CAT_FASTQ",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.CAT_FASTQ_5",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2.fastq.gz",
+                        "SRR389222_sub3.fastq.gz"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2.merged.fastq.gz",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN_8",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1_trimmed.fq.gz",
+                        "BismarkIndex"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2.bam",
+                        "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN_9",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_1_val_1.fq.gz",
+                        "Ecoli_10K_methylated_2_val_2.fq.gz",
+                        "BismarkIndex"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC_11",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2.merged.fastq.gz"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2.merged_fastqc.html",
+                        "SRR389222_sub2.merged_fastqc.zip",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE_10",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2.merged.fastq.gz"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2_trimmed.fq.gz",
+                        "SRR389222_sub2.fastq.gz_trimming_report.txt",
+                        "versions.yml",
+                        "SRR389222_sub2_trimmed_fastqc.html",
+                        "SRR389222_sub2_trimmed_fastqc.zip"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE_12",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED_13",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1.sorted.bam",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED_14",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated.sorted.bam",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE_15",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN_16",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2_trimmed.fq.gz",
+                        "BismarkIndex"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2.bam",
+                        "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED_18",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1.sorted.bam",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR_17",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam",
+                        "BismarkIndex"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bedGraph.gz",
+                        "CHG_OB_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CHG_OT_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CHH_OB_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CHH_OT_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CpG_OB_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CpG_OT_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bismark.cov.gz",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP_19",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1.sorted.bam"
+                    ],
+                    "outputFiles": [],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP_20",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated.sorted.bam"
+                    ],
+                    "outputFiles": [],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED_21",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated.sorted.bam",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR_22",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam",
+                        "BismarkIndex"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bedGraph.gz",
+                        "CHG_OB_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                        "CHG_OT_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                        "CHH_OB_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                        "CHH_OT_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                        "CpG_OB_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                        "CpG_OT_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED_24",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2.sorted.bam",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE_23",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC_25",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1.sorted.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT_26",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2_SE_report.html",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC_27",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated.sorted.bam"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT_28",
+                    "children": [],
+                    "inputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt"
+                    ],
+                    "outputFiles": [
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.html",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP_29",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2.sorted.bam"
+                    ],
+                    "outputFiles": [],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED_30",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2.sorted.bam",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR_31",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam",
+                        "BismarkIndex"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bedGraph.gz",
+                        "CHG_OB_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CHG_OT_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CHH_OB_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CHH_OT_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CpG_OB_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "CpG_OT_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bismark.cov.gz",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC_32",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2.sorted.bam"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT_33",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt"
+                    ],
+                    "outputFiles": [
+                        "SRR389222_sub2_trimmed_bismark_bt2_SE_report.html",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_SUMMARY",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_SUMMARY_34",
+                    "children": [],
+                    "inputFiles": [
+                        "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt"
+                    ],
+                    "outputFiles": [
+                        "bismark_summary_report.html",
+                        "bismark_summary_report.txt",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.CUSTOM_DUMPSOFTWAREVERSIONS",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.CUSTOM_DUMPSOFTWAREVERSIONS_35",
+                    "children": [],
+                    "inputFiles": [
+                        "collated_versions.yml"
+                    ],
+                    "outputFiles": [
+                        "software_versions.yml",
+                        "software_versions_mqc.yml",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                },
+                {
+                    "name": "NFCORE_METHYLSEQ.METHYLSEQ.MULTIQC",
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.MULTIQC_36",
+                    "children": [],
+                    "inputFiles": [
+                        "methods_description_mqc.yaml",
+                        "workflow_summary_mqc.yaml",
+                        "SRR389222_sub1_fastqc.zip",
+                        "Ecoli_10K_methylated_R1_fastqc.zip",
+                        "Ecoli_10K_methylated_R2_fastqc.zip",
+                        "SRR389222_sub2.merged_fastqc.zip",
+                        "SRR389222_sub1.fastq.gz_trimming_report.txt",
+                        "Ecoli_10K_methylated_1.fastq.gz_trimming_report.txt",
+                        "Ecoli_10K_methylated_2.fastq.gz_trimming_report.txt",
+                        "SRR389222_sub2.fastq.gz_trimming_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                        "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt",
+                        "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                        "SRR389222_sub1",
+                        "Ecoli_10K_methylated",
+                        "SRR389222_sub2",
+                        "SRR389222_sub1_trimmed_bismark_bt2_SE_report.html",
+                        "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.html",
+                        "SRR389222_sub2_trimmed_bismark_bt2_SE_report.html",
+                        "bismark_summary_report.html",
+                        "bismark_summary_report.txt",
+                        "software_versions_mqc.yml",
+                        "multiqc_config.yml"
+                    ],
+                    "outputFiles": [
+                        "multiqc_report.html",
+                        "multiqc_data",
+                        "multiqc_plots",
+                        "versions.yml"
+                    ],
+                    "parents": []
+                }
+            ],
+            "files": [
+                {
+                    "id": "samplesheet_test.csv",
+                    "sizeInBytes": 561
+                },
+                {
+                    "id": "samplesheet.valid.csv",
+                    "sizeInBytes": 610
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 78
+                },
+                {
+                    "id": "genome.fa",
+                    "sizeInBytes": 49200
+                },
+                {
+                    "id": "BismarkIndex",
+                    "sizeInBytes": 17063136
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 92
+                },
+                {
+                    "id": "SRR389222_sub1.fastq.gz",
+                    "sizeInBytes": 3302006
+                },
+                {
+                    "id": "SRR389222_sub1_fastqc.html",
+                    "sizeInBytes": 648055
+                },
+                {
+                    "id": "SRR389222_sub1_fastqc.zip",
+                    "sizeInBytes": 512693
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 56
+                },
+                {
+                    "id": "SRR389222_sub1.fastq.gz",
+                    "sizeInBytes": 3302006
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed.fq.gz",
+                    "sizeInBytes": 3258041
+                },
+                {
+                    "id": "SRR389222_sub1.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2142
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_fastqc.html",
+                    "sizeInBytes": 665628
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_fastqc.zip",
+                    "sizeInBytes": 527274
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R1.fastq.gz",
+                    "sizeInBytes": 467487
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R2.fastq.gz",
+                    "sizeInBytes": 467335
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R1_fastqc.html",
+                    "sizeInBytes": 528253
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R2_fastqc.html",
+                    "sizeInBytes": 523741
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R1_fastqc.zip",
+                    "sizeInBytes": 262043
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R2_fastqc.zip",
+                    "sizeInBytes": 254367
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 56
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R1.fastq.gz",
+                    "sizeInBytes": 467487
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R2.fastq.gz",
+                    "sizeInBytes": 467335
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1.fq.gz",
+                    "sizeInBytes": 469684
+                },
+                {
+                    "id": "Ecoli_10K_methylated_2_val_2.fq.gz",
+                    "sizeInBytes": 469561
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2025
+                },
+                {
+                    "id": "Ecoli_10K_methylated_2.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2221
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_fastqc.html",
+                    "sizeInBytes": 537530
+                },
+                {
+                    "id": "Ecoli_10K_methylated_2_val_2_fastqc.html",
+                    "sizeInBytes": 538961
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_fastqc.zip",
+                    "sizeInBytes": 269511
+                },
+                {
+                    "id": "Ecoli_10K_methylated_2_val_2_fastqc.zip",
+                    "sizeInBytes": 270558
+                },
+                {
+                    "id": "SRR389222_sub2.fastq.gz",
+                    "sizeInBytes": 3947922
+                },
+                {
+                    "id": "SRR389222_sub3.fastq.gz",
+                    "sizeInBytes": 2646597
+                },
+                {
+                    "id": "SRR389222_sub2.merged.fastq.gz",
+                    "sizeInBytes": 6594519
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 54
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed.fq.gz",
+                    "sizeInBytes": 3258041
+                },
+                {
+                    "id": "BismarkIndex",
+                    "sizeInBytes": 17063136
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.bam",
+                    "sizeInBytes": 2482472
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1807
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1.fq.gz",
+                    "sizeInBytes": 469684
+                },
+                {
+                    "id": "Ecoli_10K_methylated_2_val_2.fq.gz",
+                    "sizeInBytes": 469561
+                },
+                {
+                    "id": "BismarkIndex",
+                    "sizeInBytes": 17063136
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam",
+                    "sizeInBytes": 1578
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                    "sizeInBytes": 1891
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "SRR389222_sub2.merged.fastq.gz",
+                    "sizeInBytes": 6594519
+                },
+                {
+                    "id": "SRR389222_sub2.merged_fastqc.html",
+                    "sizeInBytes": 644689
+                },
+                {
+                    "id": "SRR389222_sub2.merged_fastqc.zip",
+                    "sizeInBytes": 508279
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 56
+                },
+                {
+                    "id": "SRR389222_sub2.merged.fastq.gz",
+                    "sizeInBytes": 6594519
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed.fq.gz",
+                    "sizeInBytes": 6505091
+                },
+                {
+                    "id": "SRR389222_sub2.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2167
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_fastqc.html",
+                    "sizeInBytes": 661263
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_fastqc.zip",
+                    "sizeInBytes": 522302
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.bam",
+                    "sizeInBytes": 2482472
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam",
+                    "sizeInBytes": 18453
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.bam",
+                    "sizeInBytes": 2482472
+                },
+                {
+                    "id": "SRR389222_sub1.sorted.bam",
+                    "sizeInBytes": 1710163
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam",
+                    "sizeInBytes": 1578
+                },
+                {
+                    "id": "Ecoli_10K_methylated.sorted.bam",
+                    "sizeInBytes": 1646
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam",
+                    "sizeInBytes": 1578
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam",
+                    "sizeInBytes": 1625
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                    "sizeInBytes": 277
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed.fq.gz",
+                    "sizeInBytes": 6505091
+                },
+                {
+                    "id": "BismarkIndex",
+                    "sizeInBytes": 17063136
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.bam",
+                    "sizeInBytes": 4967241
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1808
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam",
+                    "sizeInBytes": 18453
+                },
+                {
+                    "id": "SRR389222_sub1.sorted.bam",
+                    "sizeInBytes": 16880
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 87
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam",
+                    "sizeInBytes": 18453
+                },
+                {
+                    "id": "BismarkIndex",
+                    "sizeInBytes": 17063136
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bedGraph.gz",
+                    "sizeInBytes": 288
+                },
+                {
+                    "id": "CHG_OB_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 388
+                },
+                {
+                    "id": "CHG_OT_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 8418
+                },
+                {
+                    "id": "CHH_OB_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 477
+                },
+                {
+                    "id": "CHH_OT_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 7732
+                },
+                {
+                    "id": "CpG_OB_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 430
+                },
+                {
+                    "id": "CpG_OT_SRR389222_sub1_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 7790
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bismark.cov.gz",
+                    "sizeInBytes": 263
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 782
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 1994
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 88
+                },
+                {
+                    "id": "SRR389222_sub1.sorted.bam",
+                    "sizeInBytes": 1710163
+                },
+                {
+                    "id": "Ecoli_10K_methylated.sorted.bam",
+                    "sizeInBytes": 1646
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam",
+                    "sizeInBytes": 1625
+                },
+                {
+                    "id": "Ecoli_10K_methylated.sorted.bam",
+                    "sizeInBytes": 1688
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 87
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam",
+                    "sizeInBytes": 1625
+                },
+                {
+                    "id": "BismarkIndex",
+                    "sizeInBytes": 17063136
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bedGraph.gz",
+                    "sizeInBytes": 272
+                },
+                {
+                    "id": "CHG_OB_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "CHG_OT_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                    "sizeInBytes": 187
+                },
+                {
+                    "id": "CHH_OB_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                    "sizeInBytes": 432
+                },
+                {
+                    "id": "CHH_OT_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                    "sizeInBytes": 272
+                },
+                {
+                    "id": "CpG_OB_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                    "sizeInBytes": 257
+                },
+                {
+                    "id": "CpG_OT_Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.txt.gz",
+                    "sizeInBytes": 222
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz",
+                    "sizeInBytes": 220
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 859
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt",
+                    "sizeInBytes": 7287
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 88
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.bam",
+                    "sizeInBytes": 4967241
+                },
+                {
+                    "id": "SRR389222_sub2.sorted.bam",
+                    "sizeInBytes": 3378487
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.bam",
+                    "sizeInBytes": 4967241
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam",
+                    "sizeInBytes": 19666
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "SRR389222_sub1.sorted.bam",
+                    "sizeInBytes": 16880
+                },
+                {
+                    "id": "SRR389222_sub1",
+                    "sizeInBytes": 694146
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 70
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1807
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 782
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 1994
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2_SE_report.html",
+                    "sizeInBytes": 3151203
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 74
+                },
+                {
+                    "id": "Ecoli_10K_methylated.sorted.bam",
+                    "sizeInBytes": 1688
+                },
+                {
+                    "id": "Ecoli_10K_methylated",
+                    "sizeInBytes": 941939
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 70
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                    "sizeInBytes": 1891
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                    "sizeInBytes": 277
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 859
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt",
+                    "sizeInBytes": 7287
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.html",
+                    "sizeInBytes": 3155676
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 74
+                },
+                {
+                    "id": "SRR389222_sub2.sorted.bam",
+                    "sizeInBytes": 3378487
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam",
+                    "sizeInBytes": 19666
+                },
+                {
+                    "id": "SRR389222_sub2.sorted.bam",
+                    "sizeInBytes": 18091
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 87
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam",
+                    "sizeInBytes": 19666
+                },
+                {
+                    "id": "BismarkIndex",
+                    "sizeInBytes": 17063136
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bedGraph.gz",
+                    "sizeInBytes": 291
+                },
+                {
+                    "id": "CHG_OB_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 724
+                },
+                {
+                    "id": "CHG_OT_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 8350
+                },
+                {
+                    "id": "CHH_OB_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 931
+                },
+                {
+                    "id": "CHH_OT_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 7797
+                },
+                {
+                    "id": "CpG_OB_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 846
+                },
+                {
+                    "id": "CpG_OT_SRR389222_sub2_trimmed_bismark_bt2.deduplicated.txt.gz",
+                    "sizeInBytes": 7742
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bismark.cov.gz",
+                    "sizeInBytes": 273
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 784
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 2027
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 88
+                },
+                {
+                    "id": "SRR389222_sub2.sorted.bam",
+                    "sizeInBytes": 18091
+                },
+                {
+                    "id": "SRR389222_sub2",
+                    "sizeInBytes": 702482
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 70
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1808
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 784
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 2027
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2_SE_report.html",
+                    "sizeInBytes": 3151242
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 74
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1807
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                    "sizeInBytes": 1891
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1808
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                    "sizeInBytes": 277
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 782
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 859
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 784
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 1994
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt",
+                    "sizeInBytes": 7287
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 2027
+                },
+                {
+                    "id": "bismark_summary_report.html",
+                    "sizeInBytes": 3152054
+                },
+                {
+                    "id": "bismark_summary_report.txt",
+                    "sizeInBytes": 543
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 75
+                },
+                {
+                    "id": "collated_versions.yml",
+                    "sizeInBytes": 505
+                },
+                {
+                    "id": "software_versions.yml",
+                    "sizeInBytes": 368
+                },
+                {
+                    "id": "software_versions_mqc.yml",
+                    "sizeInBytes": 2289
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 87
+                },
+                {
+                    "id": "methods_description_mqc.yaml",
+                    "sizeInBytes": 2021
+                },
+                {
+                    "id": "workflow_summary_mqc.yaml",
+                    "sizeInBytes": 2245
+                },
+                {
+                    "id": "SRR389222_sub1_fastqc.zip",
+                    "sizeInBytes": 512693
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R1_fastqc.zip",
+                    "sizeInBytes": 262043
+                },
+                {
+                    "id": "Ecoli_10K_methylated_R2_fastqc.zip",
+                    "sizeInBytes": 254367
+                },
+                {
+                    "id": "SRR389222_sub2.merged_fastqc.zip",
+                    "sizeInBytes": 508279
+                },
+                {
+                    "id": "SRR389222_sub1.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2142
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2025
+                },
+                {
+                    "id": "Ecoli_10K_methylated_2.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2221
+                },
+                {
+                    "id": "SRR389222_sub2.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2167
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplication_report.txt",
+                    "sizeInBytes": 277
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplication_report.txt",
+                    "sizeInBytes": 279
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1807
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.txt",
+                    "sizeInBytes": 1891
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2_SE_report.txt",
+                    "sizeInBytes": 1808
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 782
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 859
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated_splitting_report.txt",
+                    "sizeInBytes": 784
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 1994
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.M-bias.txt",
+                    "sizeInBytes": 7287
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2.deduplicated.M-bias.txt",
+                    "sizeInBytes": 2027
+                },
+                {
+                    "id": "SRR389222_sub1",
+                    "sizeInBytes": 694146
+                },
+                {
+                    "id": "Ecoli_10K_methylated",
+                    "sizeInBytes": 941939
+                },
+                {
+                    "id": "SRR389222_sub2",
+                    "sizeInBytes": 702482
+                },
+                {
+                    "id": "SRR389222_sub1_trimmed_bismark_bt2_SE_report.html",
+                    "sizeInBytes": 3151203
+                },
+                {
+                    "id": "Ecoli_10K_methylated_1_val_1_bismark_bt2_PE_report.html",
+                    "sizeInBytes": 3155676
+                },
+                {
+                    "id": "SRR389222_sub2_trimmed_bismark_bt2_SE_report.html",
+                    "sizeInBytes": 3151242
+                },
+                {
+                    "id": "bismark_summary_report.html",
+                    "sizeInBytes": 3152054
+                },
+                {
+                    "id": "bismark_summary_report.txt",
+                    "sizeInBytes": 543
+                },
+                {
+                    "id": "software_versions_mqc.yml",
+                    "sizeInBytes": 2289
+                },
+                {
+                    "id": "multiqc_config.yml",
+                    "sizeInBytes": 624
+                },
+                {
+                    "id": "multiqc_report.html",
+                    "sizeInBytes": 1264349
+                },
+                {
+                    "id": "multiqc_data",
+                    "sizeInBytes": 467108
+                },
+                {
+                    "id": "multiqc_plots",
+                    "sizeInBytes": 2286696
+                },
+                {
+                    "id": "versions.yml",
+                    "sizeInBytes": 56
+                }
+            ]
+        },
+        "execution": {
+            "makespanInSeconds": 528,
+            "executedAt": "2023-03-21T21:18:47-10:00",
+            "tasks": [
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.INPUT_CHECK.SAMPLESHEET_CHECK_1",
+                    "runtimeInSeconds": 1.0,
+                    "command": {
+                        "program": "check_samplesheet.py \\\n        samplesheet_test.csv \\\n        samplesheet.valid.csv\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:INPUT_CHECK:SAMPLESHEET_CHECK\":\n        python: $(python --version | sed 's/Python //g')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 33.4,
+                    "readBytes": 920914,
+                    "writtenBytes": 1026,
+                    "memoryInBytes": 2789376
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PREPARE_GENOME.BISMARK_GENOMEPREPARATION_2",
+                    "runtimeInSeconds": 7.0,
+                    "command": {
+                        "program": "bismark_genome_preparation \\\n        --bowtie2 \\\n        BismarkIndex\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:PREPARE_GENOME:BISMARK_GENOMEPREPARATION\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 23.0,
+                    "readBytes": 3657434,
+                    "writtenBytes": 17039303,
+                    "memoryInBytes": 52137984
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC_3",
+                    "runtimeInSeconds": 21.0,
+                    "command": {
+                        "program": "printf \"%s\\n\" SRR389222_sub1.fastq.gz | while read f; do [[ $f =~ ^SRR389222_sub1.* ]] || ln -s $f SRR389222_sub1_$f ; done\n    fastqc --quiet --threads 1 SRR389222_sub1*\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:FASTQC\":\n        fastqc: $( fastqc --version | sed -e \"s/FastQC v//g\" )\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 94.4,
+                    "readBytes": 24144216,
+                    "writtenBytes": 2101783,
+                    "memoryInBytes": 199352320
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE_4",
+                    "runtimeInSeconds": 25.0,
+                    "command": {
+                        "program": "[ ! -f  SRR389222_sub1.fastq.gz ] && ln -s SRR389222_sub1.fastq.gz SRR389222_sub1.fastq.gz\n        trim_galore \\\n            --fastqc \\\n            --cores 1 \\\n            --gzip \\\n            SRR389222_sub1.fastq.gz\n\n        cat <<-END_VERSIONS > versions.yml\n        \"NFCORE_METHYLSEQ:METHYLSEQ:TRIMGALORE\":\n            trimgalore: $(echo $(trim_galore --version 2>&1) | sed 's/^.*version //; s/Last.*$//')\n            cutadapt: $(cutadapt --version)\n        END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 85.8,
+                    "readBytes": 93586566,
+                    "writtenBytes": 65820073,
+                    "memoryInBytes": 220377088
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC_6",
+                    "runtimeInSeconds": 15.0,
+                    "command": {
+                        "program": "printf \"%s\\n\" Ecoli_10K_methylated_R1.fastq.gz Ecoli_10K_methylated_R2.fastq.gz | while read f; do [[ $f =~ ^Ecoli_10K_methylated.* ]] || ln -s $f Ecoli_10K_methylated_$f ; done\n    fastqc --quiet --threads 1 Ecoli_10K_methylated*\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:FASTQC\":\n        fastqc: $( fastqc --version | sed -e \"s/FastQC v//g\" )\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 92.3,
+                    "readBytes": 22461796,
+                    "writtenBytes": 3140240,
+                    "memoryInBytes": 166318080
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE_7",
+                    "runtimeInSeconds": 26.0,
+                    "command": {
+                        "program": "[ ! -f  Ecoli_10K_methylated_1.fastq.gz ] && ln -s Ecoli_10K_methylated_R1.fastq.gz Ecoli_10K_methylated_1.fastq.gz\n        [ ! -f  Ecoli_10K_methylated_2.fastq.gz ] && ln -s Ecoli_10K_methylated_R2.fastq.gz Ecoli_10K_methylated_2.fastq.gz\n        trim_galore \\\n            --fastqc \\\n            --cores 1 \\\n            --paired \\\n            --gzip \\\n            Ecoli_10K_methylated_1.fastq.gz \\\n            Ecoli_10K_methylated_2.fastq.gz\n\n        cat <<-END_VERSIONS > versions.yml\n        \"NFCORE_METHYLSEQ:METHYLSEQ:TRIMGALORE\":\n            trimgalore: $(echo $(trim_galore --version 2>&1) | sed 's/^.*version //; s/Last.*$//')\n            cutadapt: $(cutadapt --version)\n        END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 86.8,
+                    "readBytes": 66244200,
+                    "writtenBytes": 28069619,
+                    "memoryInBytes": 171663360
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.CAT_FASTQ_5",
+                    "runtimeInSeconds": 0.033,
+                    "command": {
+                        "program": "cat input1/SRR389222_sub2.fastq.gz input2/SRR389222_sub3.fastq.gz > SRR389222_sub2.merged.fastq.gz\n\n            cat <<-END_VERSIONS > versions.yml\n            \"NFCORE_METHYLSEQ:METHYLSEQ:CAT_FASTQ\":\n                cat: $(echo $(cat --version 2>&1) | sed 's/^.*coreutils) //; s/ .*$//')\n            END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 27.9,
+                    "readBytes": 6680581,
+                    "writtenBytes": 6595517,
+                    "memoryInBytes": 0
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN_8",
+                    "runtimeInSeconds": 38.0,
+                    "command": {
+                        "program": "bismark \\\n        SRR389222_sub1_trimmed.fq.gz \\\n        --genome BismarkIndex \\\n        --bam \\\n        --bowtie2\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_ALIGN\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 76.3,
+                    "readBytes": 170449153,
+                    "writtenBytes": 126047948,
+                    "memoryInBytes": 75603968
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN_9",
+                    "runtimeInSeconds": 9.0,
+                    "command": {
+                        "program": "bismark \\\n        -1 Ecoli_10K_methylated_1_val_1.fq.gz -2 Ecoli_10K_methylated_2_val_2.fq.gz \\\n        --genome BismarkIndex \\\n        --bam \\\n        --bowtie2\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_ALIGN\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 36.9,
+                    "readBytes": 53907649,
+                    "writtenBytes": 26544764,
+                    "memoryInBytes": 78553088
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.FASTQC_11",
+                    "runtimeInSeconds": 16.0,
+                    "command": {
+                        "program": "printf \"%s\\n\" SRR389222_sub2.merged.fastq.gz | while read f; do [[ $f =~ ^SRR389222_sub2.* ]] || ln -s $f SRR389222_sub2_$f ; done\n    fastqc --quiet --threads 1 SRR389222_sub2*\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:FASTQC\":\n        fastqc: $( fastqc --version | sed -e \"s/FastQC v//g\" )\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 92.4,
+                    "readBytes": 27430027,
+                    "writtenBytes": 2087806,
+                    "memoryInBytes": 173699072
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.TRIMGALORE_10",
+                    "runtimeInSeconds": 31.0,
+                    "command": {
+                        "program": "[ ! -f  SRR389222_sub2.fastq.gz ] && ln -s SRR389222_sub2.merged.fastq.gz SRR389222_sub2.fastq.gz\n        trim_galore \\\n            --fastqc \\\n            --cores 1 \\\n            --gzip \\\n            SRR389222_sub2.fastq.gz\n\n        cat <<-END_VERSIONS > versions.yml\n        \"NFCORE_METHYLSEQ:METHYLSEQ:TRIMGALORE\":\n            trimgalore: $(echo $(trim_galore --version 2>&1) | sed 's/^.*version //; s/Last.*$//')\n            cutadapt: $(cutadapt --version)\n        END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 89.3,
+                    "readBytes": 163789635,
+                    "writtenBytes": 129424412,
+                    "memoryInBytes": 275476480
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE_12",
+                    "runtimeInSeconds": 2.0,
+                    "command": {
+                        "program": "deduplicate_bismark \\\n         \\\n        -s \\\n        --bam SRR389222_sub1_trimmed_bismark_bt2.bam\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_DEDUPLICATE\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 77.9,
+                    "readBytes": 19242941,
+                    "writtenBytes": 15690146,
+                    "memoryInBytes": 21512192
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED_13",
+                    "runtimeInSeconds": 1.0,
+                    "command": {
+                        "program": "samtools sort  -@ 1 -o SRR389222_sub1.sorted.bam -T SRR389222_sub1.sorted SRR389222_sub1_trimmed_bismark_bt2.bam\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:SAMTOOLS_SORT_ALIGNED\":\n        samtools: $(echo $(samtools --version 2>&1) | sed 's/^.*samtools //; s/Using.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 48.4,
+                    "readBytes": 2594488,
+                    "writtenBytes": 1715083,
+                    "memoryInBytes": 3461120
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED_14",
+                    "runtimeInSeconds": 0.0,
+                    "command": {
+                        "program": "samtools sort  -@ 1 -o Ecoli_10K_methylated.sorted.bam -T Ecoli_10K_methylated.sorted Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:SAMTOOLS_SORT_ALIGNED\":\n        samtools: $(echo $(samtools --version 2>&1) | sed 's/^.*samtools //; s/Using.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 45.9,
+                    "readBytes": 111094,
+                    "writtenBytes": 6565,
+                    "memoryInBytes": 6942720
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE_15",
+                    "runtimeInSeconds": 0.0,
+                    "command": {
+                        "program": "deduplicate_bismark \\\n         \\\n        -p \\\n        --bam Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_DEDUPLICATE\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 75.0,
+                    "readBytes": 1157251,
+                    "writtenBytes": 27914,
+                    "memoryInBytes": 10080256
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_ALIGN_16",
+                    "runtimeInSeconds": 68.0,
+                    "command": {
+                        "program": "bismark \\\n        SRR389222_sub2_trimmed.fq.gz \\\n        --genome BismarkIndex \\\n        --bam \\\n        --bowtie2\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_ALIGN\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 84.2,
+                    "readBytes": 320681914,
+                    "writtenBytes": 252203675,
+                    "memoryInBytes": 75661312
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED_18",
+                    "runtimeInSeconds": 0.0,
+                    "command": {
+                        "program": "samtools sort  -@ 1 -o SRR389222_sub1.sorted.bam -T SRR389222_sub1.sorted SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:SAMTOOLS_SORT_DEDUPLICATED\":\n        samtools: $(echo $(samtools --version 2>&1) | sed 's/^.*samtools //; s/Using.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 25.9,
+                    "readBytes": 130496,
+                    "writtenBytes": 21809,
+                    "memoryInBytes": 3485696
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR_17",
+                    "runtimeInSeconds": 12.0,
+                    "command": {
+                        "program": "bismark_methylation_extractor \\\n        SRR389222_sub1_trimmed_bismark_bt2.deduplicated.bam \\\n        --bedGraph \\\n        --counts \\\n        --gzip \\\n        --report \\\n        -s \\\n        \n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_METHYLATIONEXTRACTOR\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 6.2,
+                    "readBytes": 2858302,
+                    "writtenBytes": 1061676,
+                    "memoryInBytes": 33943552
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP_19",
+                    "runtimeInSeconds": 2.505,
+                    "command": {
+                        "program": "preseq \\\n        lc_extrap \\\n         -verbose -bam \\\n         \\\n        -output SRR389222_sub1.lc_extrap.txt \\\n        SRR389222_sub1.sorted.bam\n    cp .command.err SRR389222_sub1.command.log\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:PRESEQ_LCEXTRAP\":\n        preseq: $(echo $(preseq 2>&1) | sed 's/^.*Version: //; s/Usage:.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 0.0,
+                    "readBytes": 0,
+                    "writtenBytes": 0,
+                    "memoryInBytes": 0
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP_20",
+                    "runtimeInSeconds": 1.655,
+                    "command": {
+                        "program": "preseq \\\n        lc_extrap \\\n         -verbose -bam \\\n        -pe \\\n        -output Ecoli_10K_methylated.lc_extrap.txt \\\n        Ecoli_10K_methylated.sorted.bam\n    cp .command.err Ecoli_10K_methylated.command.log\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:PRESEQ_LCEXTRAP\":\n        preseq: $(echo $(preseq 2>&1) | sed 's/^.*Version: //; s/Usage:.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 0.0,
+                    "readBytes": 0,
+                    "writtenBytes": 0,
+                    "memoryInBytes": 0
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED_21",
+                    "runtimeInSeconds": 0.0,
+                    "command": {
+                        "program": "samtools sort  -@ 1 -o Ecoli_10K_methylated.sorted.bam -T Ecoli_10K_methylated.sorted Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:SAMTOOLS_SORT_DEDUPLICATED\":\n        samtools: $(echo $(samtools --version 2>&1) | sed 's/^.*samtools //; s/Using.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 21.6,
+                    "readBytes": 111217,
+                    "writtenBytes": 6617,
+                    "memoryInBytes": 3522560
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR_22",
+                    "runtimeInSeconds": 14.0,
+                    "command": {
+                        "program": "bismark_methylation_extractor \\\n        Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.deduplicated.bam \\\n        --bedGraph \\\n        --counts \\\n        --gzip \\\n        --report \\\n        -p \\\n        --no_overlap --ignore_r2 2 --ignore_r2 2\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_METHYLATIONEXTRACTOR\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 4.7,
+                    "readBytes": 1937834,
+                    "writtenBytes": 80221,
+                    "memoryInBytes": 34381824
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_ALIGNED_24",
+                    "runtimeInSeconds": 2.0,
+                    "command": {
+                        "program": "samtools sort  -@ 1 -o SRR389222_sub2.sorted.bam -T SRR389222_sub2.sorted SRR389222_sub2_trimmed_bismark_bt2.bam\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:SAMTOOLS_SORT_ALIGNED\":\n        samtools: $(echo $(samtools --version 2>&1) | sed 's/^.*samtools //; s/Using.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 76.4,
+                    "readBytes": 5079259,
+                    "writtenBytes": 3383407,
+                    "memoryInBytes": 10072064
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_DEDUPLICATE_23",
+                    "runtimeInSeconds": 4.0,
+                    "command": {
+                        "program": "deduplicate_bismark \\\n         \\\n        -s \\\n        --bam SRR389222_sub2_trimmed_bismark_bt2.bam\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_DEDUPLICATE\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 80.9,
+                    "readBytes": 37299330,
+                    "writtenBytes": 31254947,
+                    "memoryInBytes": 21835776
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC_25",
+                    "runtimeInSeconds": 16.0,
+                    "command": {
+                        "program": "unset DISPLAY\n    mkdir tmp\n    export _JAVA_OPTIONS=-Djava.io.tmpdir=./tmp\n    qualimap \\\n        --java-mem-size=6G \\\n        bamqc \\\n         \\\n        -bam SRR389222_sub1.sorted.bam \\\n         \\\n        -p non-strand-specific \\\n         \\\n        -outdir SRR389222_sub1 \\\n        -nt 1\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:QUALIMAP_BAMQC\":\n        qualimap: $(echo $(qualimap 2>&1) | sed 's/^.*QualiMap v.//; s/Built.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 85.8,
+                    "readBytes": 21038572,
+                    "writtenBytes": 756599,
+                    "memoryInBytes": 136794112
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT_26",
+                    "runtimeInSeconds": 1.0,
+                    "command": {
+                        "program": "bismark2report \n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_REPORT\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 72.9,
+                    "readBytes": 4289282,
+                    "writtenBytes": 3153279,
+                    "memoryInBytes": 9084928
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC_27",
+                    "runtimeInSeconds": 15.0,
+                    "command": {
+                        "program": "unset DISPLAY\n    mkdir tmp\n    export _JAVA_OPTIONS=-Djava.io.tmpdir=./tmp\n    qualimap \\\n        --java-mem-size=6G \\\n        bamqc \\\n         \\\n        -bam Ecoli_10K_methylated.sorted.bam \\\n         \\\n        -p non-strand-specific \\\n        --collect-overlap-pairs \\\n        -outdir Ecoli_10K_methylated \\\n        -nt 1\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:QUALIMAP_BAMQC\":\n        qualimap: $(echo $(qualimap 2>&1) | sed 's/^.*QualiMap v.//; s/Built.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 91.2,
+                    "readBytes": 21063445,
+                    "writtenBytes": 950373,
+                    "memoryInBytes": 146046976
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT_28",
+                    "runtimeInSeconds": 1.0,
+                    "command": {
+                        "program": "bismark2report \n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_REPORT\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 83.1,
+                    "readBytes": 4294734,
+                    "writtenBytes": 3157824,
+                    "memoryInBytes": 9973760
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.PRESEQ_LCEXTRAP_29",
+                    "runtimeInSeconds": 2.386,
+                    "command": {
+                        "program": "preseq \\\n        lc_extrap \\\n         -verbose -bam \\\n         \\\n        -output SRR389222_sub2.lc_extrap.txt \\\n        SRR389222_sub2.sorted.bam\n    cp .command.err SRR389222_sub2.command.log\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:PRESEQ_LCEXTRAP\":\n        preseq: $(echo $(preseq 2>&1) | sed 's/^.*Version: //; s/Usage:.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 0.0,
+                    "readBytes": 0,
+                    "writtenBytes": 0,
+                    "memoryInBytes": 0
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.SAMTOOLS_SORT_DEDUPLICATED_30",
+                    "runtimeInSeconds": 1.0,
+                    "command": {
+                        "program": "samtools sort  -@ 1 -o SRR389222_sub2.sorted.bam -T SRR389222_sub2.sorted SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:SAMTOOLS_SORT_DEDUPLICATED\":\n        samtools: $(echo $(samtools --version 2>&1) | sed 's/^.*samtools //; s/Using.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 14.6,
+                    "readBytes": 131708,
+                    "writtenBytes": 23020,
+                    "memoryInBytes": 3350528
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_METHYLATIONEXTRACTOR_31",
+                    "runtimeInSeconds": 12.0,
+                    "command": {
+                        "program": "bismark_methylation_extractor \\\n        SRR389222_sub2_trimmed_bismark_bt2.deduplicated.bam \\\n        --bedGraph \\\n        --counts \\\n        --gzip \\\n        --report \\\n        -s \\\n        \n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_METHYLATIONEXTRACTOR\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 6.2,
+                    "readBytes": 2916917,
+                    "writtenBytes": 1116001,
+                    "memoryInBytes": 33935360
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.QUALIMAP_BAMQC_32",
+                    "runtimeInSeconds": 15.0,
+                    "command": {
+                        "program": "unset DISPLAY\n    mkdir tmp\n    export _JAVA_OPTIONS=-Djava.io.tmpdir=./tmp\n    qualimap \\\n        --java-mem-size=6G \\\n        bamqc \\\n         \\\n        -bam SRR389222_sub2.sorted.bam \\\n         \\\n        -p non-strand-specific \\\n         \\\n        -outdir SRR389222_sub2 \\\n        -nt 1\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:QUALIMAP_BAMQC\":\n        qualimap: $(echo $(qualimap 2>&1) | sed 's/^.*QualiMap v.//; s/Built.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 91.5,
+                    "readBytes": 21036898,
+                    "writtenBytes": 710868,
+                    "memoryInBytes": 135217152
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_REPORT_33",
+                    "runtimeInSeconds": 1.0,
+                    "command": {
+                        "program": "bismark2report \n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_REPORT\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 75.3,
+                    "readBytes": 4289319,
+                    "writtenBytes": 3153318,
+                    "memoryInBytes": 9691136
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.BISMARK.BISMARK_SUMMARY_34",
+                    "runtimeInSeconds": 1.0,
+                    "command": {
+                        "program": "bismark2summary SRR389222_sub1_trimmed_bismark_bt2.bam Ecoli_10K_methylated_1_val_1_bismark_bt2_pe.bam SRR389222_sub2_trimmed_bismark_bt2.bam\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:BISMARK:BISMARK_SUMMARY\":\n        bismark: $(echo $(bismark -v 2>&1) | sed 's/^.*Bismark Version: v//; s/Copyright.*$//')\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 75.2,
+                    "readBytes": 4270845,
+                    "writtenBytes": 3153742,
+                    "memoryInBytes": 9248768
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.CUSTOM_DUMPSOFTWAREVERSIONS_35",
+                    "runtimeInSeconds": 0.611,
+                    "command": {
+                        "program": "def args = task.ext.args ?: ''\ntemplate 'dumpsoftwareversions.py'",
+                        "arguments": []
+                    },
+                    "avgCPU": 27.2,
+                    "readBytes": 860612,
+                    "writtenBytes": 2963,
+                    "memoryInBytes": 1892352
+                },
+                {
+                    "id": "NFCORE_METHYLSEQ.METHYLSEQ.MULTIQC_36",
+                    "runtimeInSeconds": 84.176,
+                    "command": {
+                        "program": "multiqc \\\n        --force \\\n         \\\n        --config multiqc_config.yml \\\n         \\\n        .\n\n    cat <<-END_VERSIONS > versions.yml\n    \"NFCORE_METHYLSEQ:METHYLSEQ:MULTIQC\":\n        multiqc: $( multiqc --version | sed -e \"s/multiqc, version //g\" )\n    END_VERSIONS",
+                        "arguments": []
+                    },
+                    "avgCPU": 92.1,
+                    "readBytes": 1696891232,
+                    "writtenBytes": 7771595,
+                    "memoryInBytes": 166219776
+                }
+            ],
+            "machines": [
+                {
+                    "nodeName": "dirt02",
+                    "system": "linux",
+                    "release": "5.15.0-48-generic",
+                    "architecture": "x86_64",
+                    "cpu": {
+                        "coreCount": 1,
+                        "speedInMHz": 2400
+                    }
+                }
+            ]
+        }
+    },
+    "runtimeSystem": {
+        "name": "Nextflow",
+        "url": "https://www.nextflow.io/",
+        "version": "23.04.1"
+    }
+}
