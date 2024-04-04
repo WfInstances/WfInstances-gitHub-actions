@@ -24,7 +24,14 @@
                 {
                     "name": "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES",
                     "id": "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES_1",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_MAKEBINS_6",
+                        "NFCORE_HIC.HIC.COOLER.COOLER_MAKEBINS_5",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO2PAIRS_23",
+                        "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_26",
+                        "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_25",
+                        "NFCORE_HIC.HIC.COMPARTMENTS.COOLTOOLS_EIGSCIS_35"
+                    ],
                     "inputFiles": [
                         "W303_SGD_2015_JRIU00000000.fsa"
                     ],
@@ -38,7 +45,9 @@
                 {
                     "name": "NFCORE_HIC.HIC.PREPARE_GENOME.GET_RESTRICTION_FRAGMENTS",
                     "id": "NFCORE_HIC.HIC.PREPARE_GENOME.GET_RESTRICTION_FRAGMENTS_3",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.GET_VALID_INTERACTION_19"
+                    ],
                     "inputFiles": [
                         "W303_SGD_2015_JRIU00000000.fsa"
                     ],
@@ -51,7 +60,12 @@
                 {
                     "name": "NFCORE_HIC.HIC.PREPARE_GENOME.BOWTIE2_BUILD",
                     "id": "NFCORE_HIC.HIC.PREPARE_GENOME.BOWTIE2_BUILD",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_9",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_8",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_12",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_13"
+                    ],
                     "inputFiles": [
                         "W303_SGD_2015_JRIU00000000.fsa"
                     ],
@@ -72,7 +86,9 @@
                         "cooler_bins_1000.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_MAKEBINS",
@@ -85,12 +101,16 @@
                         "cooler_bins_2000.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.FASTQC",
                     "id": "NFCORE_HIC.HIC.FASTQC_7",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.MULTIQC_24"
+                    ],
                     "inputFiles": [
                         "SRR4292758_00_R1.fastq.gz",
                         "SRR4292758_00_R2.fastq.gz"
@@ -107,7 +127,10 @@
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_9",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS_10",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_14"
+                    ],
                     "inputFiles": [
                         "SRR4292758_00_R2.fastq.gz",
                         "bowtie2"
@@ -118,12 +141,17 @@
                         "SRR4292758_0_R2.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.BOWTIE2_BUILD"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_8",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS_11",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_15"
+                    ],
                     "inputFiles": [
                         "SRR4292758_00_R1.fastq.gz",
                         "bowtie2"
@@ -134,12 +162,16 @@
                         "SRR4292758_0_R1.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.BOWTIE2_BUILD"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS_10",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_12"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R2.unmapped.fastq.gz"
                     ],
@@ -147,12 +179,16 @@
                         "SRR4292758_0_R2_trimmed.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_9"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS_11",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_13"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R1.unmapped.fastq.gz"
                     ],
@@ -160,12 +196,16 @@
                         "SRR4292758_0_R1_trimmed.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_12",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_14"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R2_trimmed.fastq.gz",
                         "bowtie2"
@@ -175,12 +215,17 @@
                         "SRR4292758_0_R2_trimmed.bowtie2.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS_10",
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.BOWTIE2_BUILD"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_13",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_15"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R1_trimmed.fastq.gz",
                         "bowtie2"
@@ -190,12 +235,18 @@
                         "SRR4292758_0_R1_trimmed.bowtie2.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.TRIM_READS_11",
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.BOWTIE2_BUILD"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_14",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.MERGE_STATS_16",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.COMBINE_MATES_17"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R2.bam",
                         "SRR4292758_0_R2_trimmed.bam"
@@ -205,12 +256,18 @@
                         "SRR4292758_0_R2.mapstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_9",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_12"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_15",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.COMBINE_MATES_17",
+                        "NFCORE_HIC.HIC.HICPRO.MERGE_STATS_18"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R1.bam",
                         "SRR4292758_0_R1_trimmed.bam"
@@ -220,12 +277,17 @@
                         "SRR4292758_0_R1.mapstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_8",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.BOWTIE2_ALIGN_TRIMMED_13"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.MERGE_STATS",
                     "id": "NFCORE_HIC.HIC.HICPRO.MERGE_STATS_16",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.MULTIQC_24"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R2.mapstat"
                     ],
@@ -234,12 +296,17 @@
                         "SRR4292758.R2.mmapstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.COMBINE_MATES",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.COMBINE_MATES_17",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.MERGE_STATS_20",
+                        "NFCORE_HIC.HIC.HICPRO.GET_VALID_INTERACTION_19"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_R2_bwt2merged.bam",
                         "SRR4292758_0_R1_bwt2merged.bam"
@@ -249,7 +316,10 @@
                         "SRR4292758_0_bwt2pairs.pairstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_14",
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_15"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.MERGE_STATS",
@@ -263,7 +333,9 @@
                         "SRR4292758.R1.mmapstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.MERGE_BOWTIE2_15"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.MERGE_STATS",
@@ -277,12 +349,17 @@
                         "SRR4292758.mpairstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.COMBINE_MATES_17"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.GET_VALID_INTERACTION",
                     "id": "NFCORE_HIC.HIC.HICPRO.GET_VALID_INTERACTION_19",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.MERGE_VALID_INTERACTION_21",
+                        "NFCORE_HIC.HIC.HICPRO.MERGE_STATS_22"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_bwt2pairs.bam",
                         "restriction_fragments.bed"
@@ -296,12 +373,17 @@
                         "SRR4292758_0_bwt2pairs.RSstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO_MAPPING.COMBINE_MATES_17",
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.GET_RESTRICTION_FRAGMENTS_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.MERGE_VALID_INTERACTION",
                     "id": "NFCORE_HIC.HIC.HICPRO.MERGE_VALID_INTERACTION_21",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO2PAIRS_23"
+                    ],
                     "inputFiles": [
                         "SRR4292758_0_bwt2pairs.validPairs"
                     ],
@@ -311,7 +393,9 @@
                         "SRR4292758_allValidPairs.mergestat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.GET_VALID_INTERACTION_19"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.MERGE_STATS",
@@ -325,12 +409,17 @@
                         "SRR4292758.mRSstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.GET_VALID_INTERACTION_19"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HICPRO.HICPRO2PAIRS",
                     "id": "NFCORE_HIC.HIC.HICPRO.HICPRO2PAIRS_23",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_26",
+                        "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_25"
+                    ],
                     "inputFiles": [
                         "SRR4292758.allValidPairs",
                         "W303_SGD_2015_JRIU00000000.fsa.sizes"
@@ -340,7 +429,10 @@
                         "SRR4292758_contacts.pairs.gz.px2",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.MERGE_VALID_INTERACTION_21",
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.MULTIQC",
@@ -363,12 +455,18 @@
                         "multiqc_plots",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.FASTQC_7",
+                        "NFCORE_HIC.HIC.HICPRO.MERGE_STATS_16"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD",
                     "id": "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_26",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_27",
+                        "NFCORE_HIC.HIC.COOLER.COOLER_ZOOMIFY_28"
+                    ],
                     "inputFiles": [
                         "SRR4292758_contacts.pairs.gz",
                         "SRR4292758_contacts.pairs.gz.px2",
@@ -378,12 +476,17 @@
                         "SRR4292758.1000.cool",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO2PAIRS_23",
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD",
                     "id": "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_25",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_29"
+                    ],
                     "inputFiles": [
                         "SRR4292758_contacts.pairs.gz",
                         "SRR4292758_contacts.pairs.gz.px2",
@@ -393,12 +496,20 @@
                         "SRR4292758.2000.cool",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.HICPRO.HICPRO2PAIRS_23",
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE",
                     "id": "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_27",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.TADS.HIC_FIND_TADS_33",
+                        "NFCORE_HIC.HIC.HIC_PLOT_DIST_VS_COUNTS_31",
+                        "NFCORE_HIC.HIC.TADS.COOLTOOLS_INSULATION_32",
+                        "NFCORE_HIC.HIC.COOLER.COOLER_DUMP_30"
+                    ],
                     "inputFiles": [
                         "SRR4292758.1000.cool"
                     ],
@@ -406,7 +517,9 @@
                         "SRR4292758.1000_balanced.cool",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_26"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_ZOOMIFY",
@@ -419,12 +532,17 @@
                         "SRR4292758.mcool",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_26"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE",
                     "id": "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_29",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_DUMP_34",
+                        "NFCORE_HIC.HIC.COMPARTMENTS.COOLTOOLS_EIGSCIS_35"
+                    ],
                     "inputFiles": [
                         "SRR4292758.2000.cool"
                     ],
@@ -432,7 +550,9 @@
                         "SRR4292758.2000_balanced.cool",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_CLOAD_25"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.TADS.HIC_FIND_TADS",
@@ -450,7 +570,9 @@
                         "SRR4292758.1000_balanced_hicfindtads_zscore_matrix.cool",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_27"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.HIC_PLOT_DIST_VS_COUNTS",
@@ -464,7 +586,9 @@
                         "SRR4292758_distcount.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_27"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.TADS.COOLTOOLS_INSULATION",
@@ -477,12 +601,16 @@
                         "SRR4292758.1000_balanced_insulation.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_27"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_DUMP",
                     "id": "NFCORE_HIC.HIC.COOLER.COOLER_DUMP_30",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.COOLER.SPLIT_COOLER_DUMP_36"
+                    ],
                     "inputFiles": [
                         "SRR4292758.1000_balanced.cool"
                     ],
@@ -490,12 +618,16 @@
                         "SRR4292758.1000_balanced.bedpe",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_27"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.COOLER_DUMP",
                     "id": "NFCORE_HIC.HIC.COOLER.COOLER_DUMP_34",
-                    "children": [],
+                    "children": [
+                        "NFCORE_HIC.HIC.COOLER.SPLIT_COOLER_DUMP_37"
+                    ],
                     "inputFiles": [
                         "SRR4292758.2000_balanced.cool"
                     ],
@@ -503,7 +635,9 @@
                         "SRR4292758.2000_balanced.bedpe",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_29"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COMPARTMENTS.COOLTOOLS_EIGSCIS",
@@ -520,7 +654,10 @@
                         "SRR4292758.2000_compartments.cis.vecs.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_BALANCE_29",
+                        "NFCORE_HIC.HIC.PREPARE_GENOME.CUSTOM_GETCHROMSIZES_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.SPLIT_COOLER_DUMP",
@@ -534,7 +671,9 @@
                         "SRR4292758.1000_raw.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_DUMP_30"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.COOLER.SPLIT_COOLER_DUMP",
@@ -548,7 +687,9 @@
                         "SRR4292758.2000_raw.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_HIC.HIC.COOLER.COOLER_DUMP_34"
+                    ]
                 },
                 {
                     "name": "NFCORE_HIC.HIC.CUSTOM_DUMPSOFTWAREVERSIONS",
@@ -591,56 +732,20 @@
                     "sizeInBytes": 12249
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa",
-                    "sizeInBytes": 11542637
-                },
-                {
                     "id": "restriction_fragments.bed",
                     "sizeInBytes": 390905
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 78
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa",
-                    "sizeInBytes": 11542637
                 },
                 {
                     "id": "bowtie2",
                     "sizeInBytes": 24532794
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 66
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa.sizes",
-                    "sizeInBytes": 8889
-                },
-                {
                     "id": "cooler_bins_1000.bed",
                     "sizeInBytes": 505925
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa.sizes",
-                    "sizeInBytes": 8889
-                },
-                {
                     "id": "cooler_bins_2000.bed",
                     "sizeInBytes": 255773
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "SRR4292758_00_R1.fastq.gz",
@@ -667,18 +772,6 @@
                     "sizeInBytes": 308165
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 44
-                },
-                {
-                    "id": "SRR4292758_00_R2.fastq.gz",
-                    "sizeInBytes": 26201604
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 24532794
-                },
-                {
                     "id": "SRR4292758_0_R2.bam",
                     "sizeInBytes": 19374983
                 },
@@ -689,18 +782,6 @@
                 {
                     "id": "SRR4292758_0_R2.unmapped.fastq.gz",
                     "sizeInBytes": 6031893
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 109
-                },
-                {
-                    "id": "SRR4292758_00_R1.fastq.gz",
-                    "sizeInBytes": 26066317
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 24532794
                 },
                 {
                     "id": "SRR4292758_0_R1.bam",
@@ -715,40 +796,12 @@
                     "sizeInBytes": 5748941
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 109
-                },
-                {
-                    "id": "SRR4292758_0_R2.unmapped.fastq.gz",
-                    "sizeInBytes": 6031893
-                },
-                {
                     "id": "SRR4292758_0_R2_trimmed.fastq.gz",
                     "sizeInBytes": 5300788
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 66
-                },
-                {
-                    "id": "SRR4292758_0_R1.unmapped.fastq.gz",
-                    "sizeInBytes": 5748941
                 },
                 {
                     "id": "SRR4292758_0_R1_trimmed.fastq.gz",
                     "sizeInBytes": 5037896
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 66
-                },
-                {
-                    "id": "SRR4292758_0_R2_trimmed.fastq.gz",
-                    "sizeInBytes": 5300788
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 24532794
                 },
                 {
                     "id": "SRR4292758_0_R2_trimmed.bam",
@@ -759,36 +812,12 @@
                     "sizeInBytes": 2090
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 117
-                },
-                {
-                    "id": "SRR4292758_0_R1_trimmed.fastq.gz",
-                    "sizeInBytes": 5037896
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 24532794
-                },
-                {
                     "id": "SRR4292758_0_R1_trimmed.bam",
                     "sizeInBytes": 4394835
                 },
                 {
                     "id": "SRR4292758_0_R1_trimmed.bowtie2.log",
                     "sizeInBytes": 2638
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 117
-                },
-                {
-                    "id": "SRR4292758_0_R2.bam",
-                    "sizeInBytes": 19374983
-                },
-                {
-                    "id": "SRR4292758_0_R2_trimmed.bam",
-                    "sizeInBytes": 4596947
                 },
                 {
                     "id": "SRR4292758_0_R2_bwt2merged.bam",
@@ -799,31 +828,11 @@
                     "sizeInBytes": 83
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 76
-                },
-                {
-                    "id": "SRR4292758_0_R1.bam",
-                    "sizeInBytes": 19423555
-                },
-                {
-                    "id": "SRR4292758_0_R1_trimmed.bam",
-                    "sizeInBytes": 4394835
-                },
-                {
                     "id": "SRR4292758_0_R1_bwt2merged.bam",
                     "sizeInBytes": 24356153
                 },
                 {
                     "id": "SRR4292758_0_R1.mapstat",
-                    "sizeInBytes": 83
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 76
-                },
-                {
-                    "id": "SRR4292758_0_R2.mapstat",
                     "sizeInBytes": 83
                 },
                 {
@@ -835,68 +844,20 @@
                     "sizeInBytes": 64
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
-                    "id": "SRR4292758_0_R2_bwt2merged.bam",
-                    "sizeInBytes": 24522069
-                },
-                {
-                    "id": "SRR4292758_0_R1_bwt2merged.bam",
-                    "sizeInBytes": 24356153
-                },
-                {
                     "id": "SRR4292758_0_bwt2pairs.bam",
                     "sizeInBytes": 36531318
                 },
                 {
                     "id": "SRR4292758_0_bwt2pairs.pairstat",
                     "sizeInBytes": 319
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
-                },
-                {
-                    "id": "SRR4292758_0_R1.mapstat",
-                    "sizeInBytes": 83
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 64
                 },
                 {
                     "id": "SRR4292758.R1.mmapstat",
                     "sizeInBytes": 64
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
-                    "id": "SRR4292758_0_bwt2pairs.pairstat",
-                    "sizeInBytes": 319
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 319
-                },
-                {
                     "id": "SRR4292758.mpairstat",
                     "sizeInBytes": 319
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
-                    "id": "SRR4292758_0_bwt2pairs.bam",
-                    "sizeInBytes": 36531318
-                },
-                {
-                    "id": "restriction_fragments.bed",
-                    "sizeInBytes": 390905
                 },
                 {
                     "id": "SRR4292758_0_bwt2pairs.validPairs",
@@ -923,52 +884,16 @@
                     "sizeInBytes": 306
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 66
-                },
-                {
-                    "id": "SRR4292758_0_bwt2pairs.validPairs",
-                    "sizeInBytes": 5476826
-                },
-                {
                     "id": "SRR4292758.allValidPairs",
                     "sizeInBytes": 5473293
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 138
                 },
                 {
                     "id": "SRR4292758_allValidPairs.mergestat",
                     "sizeInBytes": 138
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 64
-                },
-                {
-                    "id": "SRR4292758_0_bwt2pairs.RSstat",
-                    "sizeInBytes": 306
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 287
-                },
-                {
                     "id": "SRR4292758.mRSstat",
                     "sizeInBytes": 287
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
-                    "id": "SRR4292758.allValidPairs",
-                    "sizeInBytes": 5473293
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa.sizes",
-                    "sizeInBytes": 8889
                 },
                 {
                     "id": "SRR4292758_contacts.pairs.gz",
@@ -979,44 +904,12 @@
                     "sizeInBytes": 123774
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
                     "id": "multiqc_config.yml",
                     "sizeInBytes": 465
                 },
                 {
                     "id": "workflow_summary_mqc.yaml",
                     "sizeInBytes": 3800
-                },
-                {
-                    "id": "SRR4292758_1_fastqc.zip",
-                    "sizeInBytes": 306974
-                },
-                {
-                    "id": "SRR4292758_2_fastqc.zip",
-                    "sizeInBytes": 308165
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 138
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 64
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 64
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 319
-                },
-                {
-                    "id": "SRR4292758",
-                    "sizeInBytes": 287
                 },
                 {
                     "id": "multiqc_report.html",
@@ -1031,88 +924,24 @@
                     "sizeInBytes": 1121675
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 44
-                },
-                {
-                    "id": "SRR4292758_contacts.pairs.gz",
-                    "sizeInBytes": 442410
-                },
-                {
-                    "id": "SRR4292758_contacts.pairs.gz.px2",
-                    "sizeInBytes": 123774
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa.sizes",
-                    "sizeInBytes": 8889
-                },
-                {
                     "id": "SRR4292758.1000.cool",
                     "sizeInBytes": 119521
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 57
-                },
-                {
-                    "id": "SRR4292758_contacts.pairs.gz",
-                    "sizeInBytes": 442410
-                },
-                {
-                    "id": "SRR4292758_contacts.pairs.gz.px2",
-                    "sizeInBytes": 123774
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa.sizes",
-                    "sizeInBytes": 8889
                 },
                 {
                     "id": "SRR4292758.2000.cool",
                     "sizeInBytes": 108601
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 57
-                },
-                {
-                    "id": "SRR4292758.1000.cool",
-                    "sizeInBytes": 119521
-                },
-                {
                     "id": "SRR4292758.1000_balanced.cool",
                     "sizeInBytes": 146949
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 59
-                },
-                {
-                    "id": "SRR4292758.1000.cool",
-                    "sizeInBytes": 119521
                 },
                 {
                     "id": "SRR4292758.mcool",
                     "sizeInBytes": 673010
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 59
-                },
-                {
-                    "id": "SRR4292758.2000.cool",
-                    "sizeInBytes": 108601
-                },
-                {
                     "id": "SRR4292758.2000_balanced.cool",
                     "sizeInBytes": 132689
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 59
-                },
-                {
-                    "id": "SRR4292758.1000_balanced.cool",
-                    "sizeInBytes": 146949
                 },
                 {
                     "id": "SRR4292758.1000_balanced_hicfindtads_boundaries.bed",
@@ -1139,14 +968,6 @@
                     "sizeInBytes": 227065
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "SRR4292758.1000_balanced.cool",
-                    "sizeInBytes": 146949
-                },
-                {
                     "id": "SRR4292758_distcount.png",
                     "sizeInBytes": 21281
                 },
@@ -1155,56 +976,16 @@
                     "sizeInBytes": 10588
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
-                    "id": "SRR4292758.1000_balanced.cool",
-                    "sizeInBytes": 146949
-                },
-                {
                     "id": "SRR4292758.1000_balanced_insulation.tsv",
                     "sizeInBytes": 1604534
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
-                    "id": "SRR4292758.1000_balanced.cool",
-                    "sizeInBytes": 146949
                 },
                 {
                     "id": "SRR4292758.1000_balanced.bedpe",
                     "sizeInBytes": 525245
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
-                    "id": "SRR4292758.2000_balanced.cool",
-                    "sizeInBytes": 132689
-                },
-                {
                     "id": "SRR4292758.2000_balanced.bedpe",
                     "sizeInBytes": 528371
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
-                    "id": "SRR4292758.2000_balanced.cool",
-                    "sizeInBytes": 132689
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa",
-                    "sizeInBytes": 11542637
-                },
-                {
-                    "id": "W303_SGD_2015_JRIU00000000.fsa.sizes",
-                    "sizeInBytes": 8889
                 },
                 {
                     "id": "SRR4292758.2000_compartments.cis.bw",
@@ -1219,14 +1000,6 @@
                     "sizeInBytes": 452733
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 70
-                },
-                {
-                    "id": "SRR4292758.1000_balanced.bedpe",
-                    "sizeInBytes": 525245
-                },
-                {
                     "id": "SRR4292758.1000_balanced.txt",
                     "sizeInBytes": 470513
                 },
@@ -1235,24 +1008,12 @@
                     "sizeInBytes": 332336
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
-                },
-                {
-                    "id": "SRR4292758.2000_balanced.bedpe",
-                    "sizeInBytes": 528371
-                },
-                {
                     "id": "SRR4292758.2000_balanced.txt",
                     "sizeInBytes": 475477
                 },
                 {
                     "id": "SRR4292758.2000_raw.txt",
                     "sizeInBytes": 307708
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
                 },
                 {
                     "id": "collated_versions.yml",
@@ -1265,10 +1026,6 @@
                 {
                     "id": "software_versions_mqc.yml",
                     "sizeInBytes": 5078
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 75
                 }
             ]
         },

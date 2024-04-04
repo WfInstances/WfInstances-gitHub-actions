@@ -24,7 +24,12 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_BUILD",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_BUILD_3",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_40",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_42",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_43",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45"
+                    ],
                     "inputFiles": [
                         "genome.fasta"
                     ],
@@ -37,7 +42,9 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_INDEX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_INDEX_1",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_ALIGN_38"
+                    ],
                     "inputFiles": [
                         "genome.fasta"
                     ],
@@ -50,7 +57,15 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_14",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_24",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_67",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_82",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_91"
+                    ],
                     "inputFiles": [
                         "testdb-bracken.tar.gz"
                     ],
@@ -63,7 +78,11 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_7",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_62",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_66",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_72"
+                    ],
                     "inputFiles": [
                         "metaphlan_database.tar.gz"
                     ],
@@ -76,7 +95,12 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_5",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_19",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_69",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_65",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_76"
+                    ],
                     "inputFiles": [
                         "testdb-kraken2.tar.gz"
                     ],
@@ -89,7 +113,14 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_6",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_63",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_70",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_74",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_84",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_85",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_93"
+                    ],
                     "inputFiles": [
                         "test-db-centrifuge.tar.gz"
                     ],
@@ -102,7 +133,21 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_22",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_34",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_33",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_64",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_68",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_75",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_79",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_80",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_86",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_87",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_89",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_90",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED_94"
+                    ],
                     "inputFiles": [
                         "kaiju.tar.gz"
                     ],
@@ -115,7 +160,9 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_10",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952.fastq.gz"
                     ],
@@ -129,7 +176,10 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.PORECHOP_PORECHOP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.PORECHOP_PORECHOP_9",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FILTLONG_23",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952.fastq.gz"
                     ],
@@ -143,7 +193,13 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_14",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_24",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_25",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_108",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_117",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474930_ERR5766174_1.fa.gz",
                         "testdb-bracken"
@@ -154,12 +210,17 @@
                         "2611_se_db1.bracken.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_11",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_110",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474930_ERR5766174_1.fa.gz",
                         "testdb-diamond.dmnd"
@@ -174,7 +235,9 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_12",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474932_ERR5766176_1.fastq.gz",
                         "ERX5474932_ERR5766176_2.fastq.gz"
@@ -191,7 +254,11 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_13",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_26",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_27",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474932_ERR5766176_1.fastq.gz",
                         "ERX5474932_ERR5766176_2.fastq.gz"
@@ -210,7 +277,12 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_19",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_28",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_111",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_118",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474930_ERR5766174_1.fa.gz",
                         "testdb-kraken2"
@@ -221,12 +293,16 @@
                         "2611_se_db2.kraken2.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_15",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474932_ERR5766176_B_1.fastq.gz",
                         "ERX5474932_ERR5766176_B_2.fastq.gz"
@@ -243,7 +319,11 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_16",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_29",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_30",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474932_ERR5766176_B_1.fastq.gz",
                         "ERX5474932_ERR5766176_B_2.fastq.gz"
@@ -262,7 +342,11 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_SINGLE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_SINGLE_18",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_31",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_32",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474936_ERR5766180_1.fastq.gz"
                     ],
@@ -278,7 +362,9 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_17",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474936_ERR5766180_1.fastq.gz"
                     ],
@@ -292,7 +378,11 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_22",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_34",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_33",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED_94"
+                    ],
                     "inputFiles": [
                         "ERX5474930_ERR5766174_1.fa.gz",
                         "kaiju"
@@ -301,12 +391,18 @@
                         "2611_se_db5.kaiju.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_21",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_35",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_36",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474937_ERR5766181_1.fastq.gz",
                         "ERX5474937_ERR5766181_2.fastq.gz"
@@ -325,7 +421,9 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_20",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERX5474937_ERR5766181_1.fastq.gz",
                         "ERX5474937_ERR5766181_2.fastq.gz"
@@ -342,7 +440,11 @@
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FILTLONG",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FILTLONG_23",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_ALIGN_38",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FASTQC_PROCESSED_37",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952_porechopped.fastq.gz"
                     ],
@@ -351,12 +453,17 @@
                         "ERR3201952_ERR3201952_filtered.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.PORECHOP_PORECHOP_9"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_24",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.BRACKEN_COMBINEBRACKENOUTPUTS_107",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_112"
+                    ],
                     "inputFiles": [
                         "2611_se_db1.bracken.kraken2.report.txt",
                         "testdb-bracken"
@@ -365,12 +472,19 @@
                         "2611_se_db1.bracken.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_14",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_25",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_39",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_41",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_44"
+                    ],
                     "inputFiles": [
                         "2611_se_db1.bracken.kraken2.report.txt"
                     ],
@@ -378,12 +492,17 @@
                         "2611_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_26",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_40",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176.merged.fastq.gz"
                     ],
@@ -392,12 +511,16 @@
                         "2612_ERR5766176.bbduk.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_13"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_27",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176.merged.fastq.gz"
                     ],
@@ -406,7 +529,9 @@
                         "2612_ERR5766176_processed_fastqc.zip",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_13"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -419,12 +544,16 @@
                         "2611_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_19"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_29",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176_B.merged.fastq.gz"
                     ],
@@ -433,12 +562,17 @@
                         "2612_ERR5766176_B_processed_fastqc.zip",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_16"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_30",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_42",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176_B.merged.fastq.gz"
                     ],
@@ -447,12 +581,17 @@
                         "2612_ERR5766176_B.bbduk.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_16"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_31",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_43",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766180.fastp.fastq.gz"
                     ],
@@ -461,12 +600,16 @@
                         "2612_ERR5766180.bbduk.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_SINGLE_18"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_32",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766180.fastp.fastq.gz"
                     ],
@@ -475,7 +618,9 @@
                         "2612_ERR5766180_processed_fastqc.zip",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_SINGLE_18"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA",
@@ -489,12 +634,18 @@
                         "2611_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_22",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_33",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_113",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2611_se_db5.kaiju.tsv",
                         "kaiju"
@@ -503,12 +654,18 @@
                         "2611_se_db5.kaijutable.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_22",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_35",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.merged.fastq.gz"
                     ],
@@ -517,12 +674,16 @@
                         "2613_ERR5766181.bbduk.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_21"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_36",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.merged.fastq.gz"
                     ],
@@ -531,12 +692,18 @@
                         "2613_ERR5766181_processed_fastqc.zip",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_21"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_ALIGN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_ALIGN_38",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_VIEW_47",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_INDEX_46",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_STATS_53"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952_filtered.fastq.gz",
                         "genome.mmi"
@@ -545,12 +712,17 @@
                         "ERR3201952_ERR3201952.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FILTLONG_23",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_INDEX_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FASTQC_PROCESSED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FASTQC_PROCESSED_37",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952_filtered.fastq.gz"
                     ],
@@ -559,12 +731,16 @@
                         "ERR3201952_ERR3201952_processed_fastqc.zip",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FILTLONG_23"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_39",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_122"
+                    ],
                     "inputFiles": [
                         "2611_se.txt"
                     ],
@@ -572,12 +748,19 @@
                         "2611_se_db1.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_25"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_40",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_48",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_54",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176.fastq.gz",
                         "bowtie2"
@@ -588,12 +771,17 @@
                         "2612_ERR5766176.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_26",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_BUILD_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_41",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_123"
+                    ],
                     "inputFiles": [
                         "2611_se.txt"
                     ],
@@ -601,12 +789,19 @@
                         "2611_se_db2.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_25"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_42",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_49",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_55",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176_B.fastq.gz",
                         "bowtie2"
@@ -617,12 +812,20 @@
                         "2612_ERR5766176_B.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_30",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_BUILD_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_43",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_50",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_56",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766180.fastq.gz",
                         "bowtie2"
@@ -633,12 +836,17 @@
                         "2612_ERR5766180.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_31",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_BUILD_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_44",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_124"
+                    ],
                     "inputFiles": [
                         "2611_se.txt"
                     ],
@@ -646,12 +854,24 @@
                         "2611_se_db5.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_25"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_51",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_57",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_62",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_64",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_65",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_63",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_59",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.fastq.gz",
                         "bowtie2"
@@ -662,12 +882,17 @@
                         "2613_ERR5766181.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_35",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_BUILD_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_VIEW",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_VIEW_47",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.bam"
                     ],
@@ -675,12 +900,16 @@
                         "ERR3201952_ERR3201952.unmapped.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_ALIGN_38"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_INDEX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_INDEX_46",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_STATS_53"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.bam"
                     ],
@@ -688,12 +917,16 @@
                         "ERR3201952_ERR3201952.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_ALIGN_38"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_48",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_54"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176.bam"
                     ],
@@ -701,12 +934,16 @@
                         "2612_ERR5766176.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_40"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_49",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_55"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176_B.bam"
                     ],
@@ -714,12 +951,16 @@
                         "2612_ERR5766176_B.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_42"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_50",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_56"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766180.bam"
                     ],
@@ -727,12 +968,16 @@
                         "2612_ERR5766180.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_43"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_51",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_57"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.bam"
                     ],
@@ -740,12 +985,21 @@
                         "2613_ERR5766181.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_69",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_67",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_66",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_70",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_68",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_61"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.unmapped.bam"
                     ],
@@ -753,12 +1007,16 @@
                         "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_VIEW_47"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_STATS",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_STATS_53",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.bam",
                         "ERR3201952_ERR3201952.bam.bai",
@@ -768,12 +1026,17 @@
                         "ERR3201952_ERR3201952.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.MINIMAP2_ALIGN_38",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_INDEX_46"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_54",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176.bam",
                         "2612_ERR5766176.bam.bai",
@@ -783,12 +1046,17 @@
                         "2612_ERR5766176.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_40",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_48"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_55",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176_B.bam",
                         "2612_ERR5766176_B.bam.bai",
@@ -798,12 +1066,17 @@
                         "2612_ERR5766176_B.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_42",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_49"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_56",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766180.bam",
                         "2612_ERR5766180.bam.bai",
@@ -813,12 +1086,17 @@
                         "2612_ERR5766180.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_43",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_50"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_57",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.bam",
                         "2613_ERR5766181.bam.bai",
@@ -828,12 +1106,22 @@
                         "2613_ERR5766181.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_INDEX_51"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_76",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_75",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_72",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_74",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_71"
+                    ],
                     "inputFiles": [
                         "2612_ERR5766176.unmapped.fastq.gz",
                         "2612_ERR5766176_B.unmapped.fastq.gz",
@@ -843,12 +1131,21 @@
                         "2612.merged.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_40",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_42",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_43"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_69",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_77",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_111",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_118",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                         "testdb-kraken2"
@@ -859,12 +1156,20 @@
                         "ERR3201952_se_db2.kraken2.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_67",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_78",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_108",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_117",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                         "testdb-bracken"
@@ -875,12 +1180,18 @@
                         "ERR3201952_se_db1.bracken.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_62",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.METAPHLAN3_MERGEMETAPHLANTABLES_109",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_114"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.unmapped.fastq.gz",
                         "metaphlan_database"
@@ -891,12 +1202,18 @@
                         "2613_se_db4.metaphlan3.bowtie2out.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_7"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_66",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.METAPHLAN3_MERGEMETAPHLANTABLES_109",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_114"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                         "metaphlan_database"
@@ -907,12 +1224,19 @@
                         "ERR3201952_se_db4.metaphlan3.bowtie2out.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_7"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_64",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_79",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_80",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED_94"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.unmapped.fastq.gz",
                         "kaiju"
@@ -921,12 +1245,21 @@
                         "2613_se_db5.kaiju.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_82",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_81",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_108",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_117",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.unmapped.fastq.gz",
                         "testdb-bracken"
@@ -937,12 +1270,20 @@
                         "2613_se_db1.bracken.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_65",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_83",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_111",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_118",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.unmapped.fastq.gz",
                         "testdb-kraken2"
@@ -953,12 +1294,17 @@
                         "2613_se_db2.kraken2.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_63",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_84"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.unmapped.fastq.gz",
                         "test-db-centrifuge"
@@ -970,12 +1316,17 @@
                         "2613_se_db3.centrifuge.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_70",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_85"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                         "test-db-centrifuge"
@@ -987,12 +1338,19 @@
                         "ERR3201952_se_db3.centrifuge.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_68",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_86",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_87",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED_94"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                         "kaiju"
@@ -1001,12 +1359,18 @@
                         "ERR3201952_se_db5.kaiju.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_61",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_110",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                         "testdb-diamond.dmnd"
@@ -1016,12 +1380,17 @@
                         "ERR3201952_se_db1.diamond.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_BAM2FQ_52"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_59",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_110",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_ERR5766181.unmapped.fastq.gz",
                         "testdb-diamond.dmnd"
@@ -1031,12 +1400,19 @@
                         "2613_se_db1.diamond.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_76",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_88",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_111",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_118",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612.merged.fastq.gz",
                         "testdb-kraken2"
@@ -1047,12 +1423,19 @@
                         "2612_se_db2.kraken2.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_75",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_89",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_90",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED_94"
+                    ],
                     "inputFiles": [
                         "2612.merged.fastq.gz",
                         "kaiju"
@@ -1061,12 +1444,18 @@
                         "2612_se_db5.kaiju.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_72",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.METAPHLAN3_MERGEMETAPHLANTABLES_109",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_114"
+                    ],
                     "inputFiles": [
                         "2612.merged.fastq.gz",
                         "metaphlan_database"
@@ -1077,12 +1466,21 @@
                         "2612_se_db4.metaphlan3.bowtie2out.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_7"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_91",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_92",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_108",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_117",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612.merged.fastq.gz",
                         "testdb-bracken"
@@ -1093,12 +1491,17 @@
                         "2612_se_db1.bracken.kraken2.report.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_74",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_93"
+                    ],
                     "inputFiles": [
                         "2612.merged.fastq.gz",
                         "test-db-centrifuge"
@@ -1110,12 +1513,18 @@
                         "2612_se_db3.centrifuge.unmapped.fastq.gz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_71",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_110",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612.merged.fastq.gz",
                         "testdb-diamond.dmnd"
@@ -1125,12 +1534,19 @@
                         "2612_se_db1.diamond.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CAT_FASTQ_58"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_77",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_95",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_96",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_102",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_120"
+                    ],
                     "inputFiles": [
                         "ERR3201952_se_db2.kraken2.kraken2.report.txt"
                     ],
@@ -1138,7 +1554,9 @@
                         "ERR3201952_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_69"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -1151,12 +1569,17 @@
                         "ERR3201952_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_67"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_79",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_113",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_se_db5.kaiju.tsv",
                         "kaiju"
@@ -1165,12 +1588,20 @@
                         "2613_se_db5.kaijutable.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_64",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_80",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_97",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_98",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_99",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_119"
+                    ],
                     "inputFiles": [
                         "2613_se_db5.kaiju.tsv",
                         "kaiju"
@@ -1179,12 +1610,18 @@
                         "2613_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_64",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_82",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.BRACKEN_COMBINEBRACKENOUTPUTS_107",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_112"
+                    ],
                     "inputFiles": [
                         "2613_se_db1.bracken.kraken2.report.txt",
                         "testdb-bracken"
@@ -1193,7 +1630,10 @@
                         "2613_se_db1.bracken.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -1206,7 +1646,9 @@
                         "2613_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -1219,12 +1661,19 @@
                         "2613_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_65"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_84",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_100",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_CENTRIFUGE_116",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_115",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_se_db3.centrifuge.report.txt",
                         "test-db-centrifuge"
@@ -1233,12 +1682,20 @@
                         "2613_se_db3.centrifuge.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_63",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_85",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_101",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_CENTRIFUGE_116",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_115",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_se_db3.centrifuge.report.txt",
                         "test-db-centrifuge"
@@ -1247,12 +1704,18 @@
                         "ERR3201952_se_db3.centrifuge.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_70",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_86",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_113",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "ERR3201952_se_db5.kaiju.tsv",
                         "kaiju"
@@ -1261,7 +1724,10 @@
                         "ERR3201952_se_db5.kaijutable.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_68",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA",
@@ -1275,12 +1741,20 @@
                         "ERR3201952_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_68",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_88",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_103",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_104",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_105",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_121"
+                    ],
                     "inputFiles": [
                         "2612_se_db2.kraken2.kraken2.report.txt"
                     ],
@@ -1288,12 +1762,17 @@
                         "2612_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_76"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_89",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_113",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_se_db5.kaiju.tsv",
                         "kaiju"
@@ -1302,7 +1781,10 @@
                         "2612_se_db5.kaijutable.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_75",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA",
@@ -1316,12 +1798,18 @@
                         "2612_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_75",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_91",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.BRACKEN_COMBINEBRACKENOUTPUTS_107",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_112"
+                    ],
                     "inputFiles": [
                         "2612_se_db1.bracken.kraken2.report.txt",
                         "testdb-bracken"
@@ -1330,7 +1818,10 @@
                         "2612_se_db1.bracken.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -1343,12 +1834,19 @@
                         "2612_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_93",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_CENTRIFUGE_116",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE_115",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_106",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_se_db3.centrifuge.report.txt",
                         "test-db-centrifuge"
@@ -1357,12 +1855,17 @@
                         "2612_se_db3.centrifuge.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_CENTRIFUGE_74",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED_94",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2611_se_db5.kaiju.tsv",
                         "2613_se_db5.kaiju.tsv",
@@ -1374,12 +1877,20 @@
                         "kaiju_db5_combined_reports.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_22",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_64",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_68",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU_75",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.DB_CHECK.UNTAR_8"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_95",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_123"
+                    ],
                     "inputFiles": [
                         "ERR3201952_se.txt"
                     ],
@@ -1387,12 +1898,16 @@
                         "ERR3201952_se_db2.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_77"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_96",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_122"
+                    ],
                     "inputFiles": [
                         "ERR3201952_se.txt"
                     ],
@@ -1400,12 +1915,16 @@
                         "ERR3201952_se_db1.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_77"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_97",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_124"
+                    ],
                     "inputFiles": [
                         "2613_se.txt"
                     ],
@@ -1413,12 +1932,16 @@
                         "2613_se_db5.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_80"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_98",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_122"
+                    ],
                     "inputFiles": [
                         "2613_se.txt"
                     ],
@@ -1426,12 +1949,16 @@
                         "2613_se_db1.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_80"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_99",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_123"
+                    ],
                     "inputFiles": [
                         "2613_se.txt"
                     ],
@@ -1439,7 +1966,9 @@
                         "2613_se_db2.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_80"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -1452,7 +1981,9 @@
                         "2613_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_84"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -1465,12 +1996,16 @@
                         "ERR3201952_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_85"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_102",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_124"
+                    ],
                     "inputFiles": [
                         "ERR3201952_se.txt"
                     ],
@@ -1478,12 +2013,16 @@
                         "ERR3201952_se_db5.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_77"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_103",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_123"
+                    ],
                     "inputFiles": [
                         "2612_se.txt"
                     ],
@@ -1491,12 +2030,16 @@
                         "2612_se_db2.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_88"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_104",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_124"
+                    ],
                     "inputFiles": [
                         "2612_se.txt"
                     ],
@@ -1504,12 +2047,16 @@
                         "2612_se_db5.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_88"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_105",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_122"
+                    ],
                     "inputFiles": [
                         "2612_se.txt"
                     ],
@@ -1517,12 +2064,16 @@
                         "2612_se_db1.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_88"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.METAPHLAN3_MERGEMETAPHLANTABLES",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.METAPHLAN3_MERGEMETAPHLANTABLES_109",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_se_db4.metaphlan3_profile.txt",
                         "ERR3201952_se_db4.metaphlan3_profile.txt",
@@ -1532,7 +2083,11 @@
                         "metaphlan3_db4_combined_reports.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_62",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_66",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_72"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE",
@@ -1548,7 +2103,12 @@
                         "diamond_db1.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_11",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_61",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_59",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_71"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE",
@@ -1564,7 +2124,12 @@
                         "kraken2_db1.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_14",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_67",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.BRACKEN_COMBINEBRACKENOUTPUTS",
@@ -1579,7 +2144,11 @@
                         "bracken_db1_combined_reports.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_24",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_82",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_91"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE",
@@ -1594,7 +2163,11 @@
                         "bracken_db1.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_24",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_82",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.BRACKEN_BRACKEN_91"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE",
@@ -1610,7 +2183,12 @@
                         "kaiju_db5.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_33",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_79",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_86",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_89"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE",
@@ -1626,12 +2204,19 @@
                         "kraken2_db2.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_19",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_69",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_65",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_76"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_CENTRIFUGE",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_CENTRIFUGE_116",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2613_se_db3.centrifuge.txt",
                         "2612_se_db3.centrifuge.txt",
@@ -1641,7 +2226,11 @@
                         "centrifuge_db3_combined_reports.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_84",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_93",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_85"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE",
@@ -1656,12 +2245,18 @@
                         "centrifuge_db3.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_84",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_85",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_93"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_118",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_se_db2.kraken2.kraken2.report.txt",
                         "2611_se_db2.kraken2.kraken2.report.txt",
@@ -1672,12 +2267,19 @@
                         "kraken2_db2_combined_reports.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_76",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_19",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_65",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_69"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_117",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "2612_se_db1.bracken.kraken2.report.txt",
                         "2611_se_db1.bracken.kraken2.report.txt",
@@ -1688,7 +2290,12 @@
                         "kraken2_db1_combined_reports.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_14",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_67"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA",
@@ -1701,7 +2308,9 @@
                         "2612_se.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_93"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.TAXPASTA_MERGE",
@@ -1716,12 +2325,18 @@
                         "metaphlan_db4.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_62",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_66",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.METAPHLAN3_METAPHLAN3_72"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_119",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_125"
+                    ],
                     "inputFiles": [
                         "2613_se.txt"
                     ],
@@ -1729,12 +2344,16 @@
                         "2613_se_db3.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KAIJU_KAIJU2KRONA_80"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_120",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_125"
+                    ],
                     "inputFiles": [
                         "ERR3201952_se.txt"
                     ],
@@ -1742,12 +2361,16 @@
                         "ERR3201952_se_db3.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_77"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_121",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT_125"
+                    ],
                     "inputFiles": [
                         "2612_se.txt"
                     ],
@@ -1755,7 +2378,9 @@
                         "2612_se_db3.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRAKENTOOLS_KREPORT2KRONA_88"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT",
@@ -1771,7 +2396,12 @@
                         "kraken2_db1.html",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_39",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_96",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_98",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_105"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT",
@@ -1786,7 +2416,11 @@
                         "centrifuge_db3.html",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_119",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_120",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_121"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT",
@@ -1802,7 +2436,12 @@
                         "kaiju_db5.html",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_44",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_97",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_102",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_104"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_KTIMPORTTEXT",
@@ -1818,12 +2457,19 @@
                         "kraken2_db2.html",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_41",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_95",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_99",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.VISUALIZATION_KRONA.KRONA_CLEANUP_103"
+                    ]
                 },
                 {
                     "name": "NFCORE_TAXPROFILER.TAXPROFILER.CUSTOM_DUMPSOFTWAREVERSIONS",
                     "id": "NFCORE_TAXPROFILER.TAXPROFILER.CUSTOM_DUMPSOFTWAREVERSIONS_126",
-                    "children": [],
+                    "children": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.MULTIQC_127"
+                    ],
                     "inputFiles": [
                         "collated_versions.yml"
                     ],
@@ -1907,7 +2553,62 @@
                         "multiqc_plots",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_10",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_12",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_15",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_17",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.FASTQC_20",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_26",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_30",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_31",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_COMPLEXITYFILTERING.BBMAP_BBDUK_35",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_13",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_16",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_SINGLE_18",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.SHORTREAD_FASTP.FASTP_PAIRED_21",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_27",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_29",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_32",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_PREPROCESSING.FASTQC_PROCESSED_36",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.PORECHOP_PORECHOP_9",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FILTLONG_23",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_PREPROCESSING.FASTQC_PROCESSED_37",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.LONGREAD_HOSTREMOVAL.SAMTOOLS_STATS_53",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_40",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_42",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_43",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.BOWTIE2_ALIGN_45",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_54",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_55",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_56",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.SHORTREAD_HOSTREMOVAL.SAMTOOLS_STATS_57",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_14",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_11",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_19",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_33",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_69",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_67",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_60",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_65",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_61",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_59",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_76",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KRAKEN2_KRAKEN2_73",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.DIAMOND_BLASTX_71",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_79",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_84",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_85",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_86",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.KAIJU_KAIJU2TABLE_SINGLE_89",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.PROFILING.CENTRIFUGE_KREPORT_93",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KAIJU_KAIJU2TABLE_COMBINED_94",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.METAPHLAN3_MERGEMETAPHLANTABLES_109",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_CENTRIFUGE_116",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_118",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.STANDARDISATION_PROFILES.KRAKENTOOLS_COMBINEKREPORTS_KRAKEN_117",
+                        "NFCORE_TAXPROFILER.TAXPROFILER.CUSTOM_DUMPSOFTWAREVERSIONS_126"
+                    ]
                 }
             ],
             "files": [
@@ -1932,20 +2633,8 @@
                     "sizeInBytes": 8445728
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "genome.fasta",
-                    "sizeInBytes": 40675
-                },
-                {
                     "id": "genome.mmi",
                     "sizeInBytes": 270726
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 95
                 },
                 {
                     "id": "testdb-bracken.tar.gz",
@@ -1956,20 +2645,12 @@
                     "sizeInBytes": 20630294
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
                     "id": "metaphlan_database.tar.gz",
                     "sizeInBytes": 23881
                 },
                 {
                     "id": "metaphlan_database",
                     "sizeInBytes": 8421490
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
                 },
                 {
                     "id": "testdb-kraken2.tar.gz",
@@ -1980,10 +2661,6 @@
                     "sizeInBytes": 20392840
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
                     "id": "test-db-centrifuge.tar.gz",
                     "sizeInBytes": 5506932
                 },
@@ -1992,20 +2669,12 @@
                     "sizeInBytes": 13973070
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
                     "id": "kaiju.tar.gz",
                     "sizeInBytes": 10160
                 },
                 {
                     "id": "kaiju",
                     "sizeInBytes": 12773
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
                 },
                 {
                     "id": "ERR3201952.fastq.gz",
@@ -2020,14 +2689,6 @@
                     "sizeInBytes": 362395
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "ERR3201952.fastq.gz",
-                    "sizeInBytes": 14519808
-                },
-                {
                     "id": "ERR3201952_ERR3201952_porechopped.fastq.gz",
                     "sizeInBytes": 13885686
                 },
@@ -2036,16 +2697,8 @@
                     "sizeInBytes": 76864
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 95
-                },
-                {
                     "id": "ERX5474930_ERR5766174_1.fa.gz",
                     "sizeInBytes": 31212927
-                },
-                {
-                    "id": "testdb-bracken",
-                    "sizeInBytes": 20630294
                 },
                 {
                     "id": "2611_se_db1.bracken.classified.fastq.gz",
@@ -2060,14 +2713,6 @@
                     "sizeInBytes": 2652
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "ERX5474930_ERR5766174_1.fa.gz",
-                    "sizeInBytes": 31212927
-                },
-                {
                     "id": "testdb-diamond.dmnd",
                     "sizeInBytes": 88042742
                 },
@@ -2078,10 +2723,6 @@
                 {
                     "id": "2611_se_db1.diamond.log",
                     "sizeInBytes": 8833
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
                 },
                 {
                     "id": "ERX5474932_ERR5766176_1.fastq.gz",
@@ -2108,18 +2749,6 @@
                     "sizeInBytes": 397185
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "ERX5474932_ERR5766176_1.fastq.gz",
-                    "sizeInBytes": 60596160
-                },
-                {
-                    "id": "ERX5474932_ERR5766176_2.fastq.gz",
-                    "sizeInBytes": 67298047
-                },
-                {
                     "id": "2612_ERR5766176_1.fastp.fastq.gz",
                     "sizeInBytes": 10960282
                 },
@@ -2140,20 +2769,8 @@
                     "sizeInBytes": 1553
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 105
-                },
-                {
                     "id": "2612_ERR5766176.merged.fastq.gz",
                     "sizeInBytes": 43021224
-                },
-                {
-                    "id": "ERX5474930_ERR5766174_1.fa.gz",
-                    "sizeInBytes": 31212927
-                },
-                {
-                    "id": "testdb-kraken2",
-                    "sizeInBytes": 20392840
                 },
                 {
                     "id": "2611_se_db2.kraken2.classified.fastq.gz",
@@ -2166,10 +2783,6 @@
                 {
                     "id": "2611_se_db2.kraken2.kraken2.report.txt",
                     "sizeInBytes": 2652
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
                 },
                 {
                     "id": "ERX5474932_ERR5766176_B_1.fastq.gz",
@@ -2196,18 +2809,6 @@
                     "sizeInBytes": 397273
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "ERX5474932_ERR5766176_B_1.fastq.gz",
-                    "sizeInBytes": 60596160
-                },
-                {
-                    "id": "ERX5474932_ERR5766176_B_2.fastq.gz",
-                    "sizeInBytes": 67298047
-                },
-                {
                     "id": "2612_ERR5766176_B_1.fastp.fastq.gz",
                     "sizeInBytes": 10960282
                 },
@@ -2226,10 +2827,6 @@
                 {
                     "id": "2612_ERR5766176_B.fastp.log",
                     "sizeInBytes": 1571
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 105
                 },
                 {
                     "id": "2612_ERR5766176_B.merged.fastq.gz",
@@ -2256,14 +2853,6 @@
                     "sizeInBytes": 1010
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 105
-                },
-                {
-                    "id": "ERX5474936_ERR5766180_1.fastq.gz",
-                    "sizeInBytes": 74375931
-                },
-                {
                     "id": "2612_ERR5766180_raw_fastqc.html",
                     "sizeInBytes": 606737
                 },
@@ -2272,24 +2861,8 @@
                     "sizeInBytes": 422584
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "ERX5474930_ERR5766174_1.fa.gz",
-                    "sizeInBytes": 31212927
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
                     "id": "2611_se_db5.kaiju.tsv",
                     "sizeInBytes": 17222189
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
                 },
                 {
                     "id": "ERX5474937_ERR5766181_1.fastq.gz",
@@ -2320,20 +2893,8 @@
                     "sizeInBytes": 1555
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 105
-                },
-                {
                     "id": "2613_ERR5766181.merged.fastq.gz",
                     "sizeInBytes": 33795900
-                },
-                {
-                    "id": "ERX5474937_ERR5766181_1.fastq.gz",
-                    "sizeInBytes": 51852071
-                },
-                {
-                    "id": "ERX5474937_ERR5766181_2.fastq.gz",
-                    "sizeInBytes": 56288763
                 },
                 {
                     "id": "2613_ERR5766181_raw_1_fastqc.html",
@@ -2352,14 +2913,6 @@
                     "sizeInBytes": 404818
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "ERR3201952_ERR3201952_porechopped.fastq.gz",
-                    "sizeInBytes": 13885686
-                },
-                {
                     "id": "ERR3201952_ERR3201952_filtered.fastq.gz",
                     "sizeInBytes": 10656045
                 },
@@ -2368,40 +2921,12 @@
                     "sizeInBytes": 905
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 86
-                },
-                {
-                    "id": "2611_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "testdb-bracken",
-                    "sizeInBytes": 20630294
-                },
-                {
                     "id": "2611_se_db1.bracken.tsv",
                     "sizeInBytes": 183
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 77
-                },
-                {
-                    "id": "2611_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
                     "id": "2611_se.txt",
                     "sizeInBytes": 770
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2612_ERR5766176.merged.fastq.gz",
-                    "sizeInBytes": 43021224
                 },
                 {
                     "id": "2612_ERR5766176.fastq.gz",
@@ -2412,40 +2937,12 @@
                     "sizeInBytes": 973
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766176.merged.fastq.gz",
-                    "sizeInBytes": 43021224
-                },
-                {
                     "id": "2612_ERR5766176_processed_fastqc.html",
                     "sizeInBytes": 687285
                 },
                 {
                     "id": "2612_ERR5766176_processed_fastqc.zip",
                     "sizeInBytes": 399611
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2611_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "2611_se.txt",
-                    "sizeInBytes": 770
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2612_ERR5766176_B.merged.fastq.gz",
-                    "sizeInBytes": 43021224
                 },
                 {
                     "id": "2612_ERR5766176_B_processed_fastqc.html",
@@ -2456,28 +2953,12 @@
                     "sizeInBytes": 399703
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2612_ERR5766176_B.merged.fastq.gz",
-                    "sizeInBytes": 43021224
-                },
-                {
                     "id": "2612_ERR5766176_B.fastq.gz",
                     "sizeInBytes": 46990553
                 },
                 {
                     "id": "2612_ERR5766176_B.bbduk.log",
                     "sizeInBytes": 981
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766180.fastp.fastq.gz",
-                    "sizeInBytes": 37370001
                 },
                 {
                     "id": "2612_ERR5766180.fastq.gz",
@@ -2488,14 +2969,6 @@
                     "sizeInBytes": 979
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766180.fastp.fastq.gz",
-                    "sizeInBytes": 37370001
-                },
-                {
                     "id": "2612_ERR5766180_processed_fastqc.html",
                     "sizeInBytes": 621340
                 },
@@ -2504,44 +2977,8 @@
                     "sizeInBytes": 402131
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2611_se_db5.kaiju.tsv",
-                    "sizeInBytes": 17222189
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
-                    "id": "2611_se.txt",
-                    "sizeInBytes": 20
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "2611_se_db5.kaiju.tsv",
-                    "sizeInBytes": 17222189
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
                     "id": "2611_se_db5.kaijutable.txt",
                     "sizeInBytes": 222
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 86
-                },
-                {
-                    "id": "2613_ERR5766181.merged.fastq.gz",
-                    "sizeInBytes": 33795900
                 },
                 {
                     "id": "2613_ERR5766181.fastq.gz",
@@ -2552,14 +2989,6 @@
                     "sizeInBytes": 971
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2613_ERR5766181.merged.fastq.gz",
-                    "sizeInBytes": 33795900
-                },
-                {
                     "id": "2613_ERR5766181_processed_fastqc.html",
                     "sizeInBytes": 683091
                 },
@@ -2568,28 +2997,8 @@
                     "sizeInBytes": 406789
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "ERR3201952_ERR3201952_filtered.fastq.gz",
-                    "sizeInBytes": 10656045
-                },
-                {
-                    "id": "genome.mmi",
-                    "sizeInBytes": 270726
-                },
-                {
                     "id": "ERR3201952_ERR3201952.bam",
                     "sizeInBytes": 10183050
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 95
-                },
-                {
-                    "id": "ERR3201952_ERR3201952_filtered.fastq.gz",
-                    "sizeInBytes": 10656045
                 },
                 {
                     "id": "ERR3201952_ERR3201952_processed_fastqc.html",
@@ -2600,28 +3009,8 @@
                     "sizeInBytes": 358678
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2611_se.txt",
-                    "sizeInBytes": 770
-                },
-                {
                     "id": "2611_se_db1.txt",
                     "sizeInBytes": 626
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2612_ERR5766176.fastq.gz",
-                    "sizeInBytes": 46990553
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 8445728
                 },
                 {
                     "id": "2612_ERR5766176.bam",
@@ -2636,28 +3025,8 @@
                     "sizeInBytes": 41696350
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 125
-                },
-                {
-                    "id": "2611_se.txt",
-                    "sizeInBytes": 770
-                },
-                {
                     "id": "2611_se_db2.txt",
                     "sizeInBytes": 626
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2612_ERR5766176_B.fastq.gz",
-                    "sizeInBytes": 46990553
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 8445728
                 },
                 {
                     "id": "2612_ERR5766176_B.bam",
@@ -2672,18 +3041,6 @@
                     "sizeInBytes": 41696350
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 125
-                },
-                {
-                    "id": "2612_ERR5766180.fastq.gz",
-                    "sizeInBytes": 40028776
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 8445728
-                },
-                {
                     "id": "2612_ERR5766180.bam",
                     "sizeInBytes": 31490248
                 },
@@ -2696,28 +3053,8 @@
                     "sizeInBytes": 35528205
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 125
-                },
-                {
-                    "id": "2611_se.txt",
-                    "sizeInBytes": 20
-                },
-                {
                     "id": "2611_se_db5.txt",
                     "sizeInBytes": 20
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2613_ERR5766181.fastq.gz",
-                    "sizeInBytes": 36909220
-                },
-                {
-                    "id": "bowtie2",
-                    "sizeInBytes": 8445728
                 },
                 {
                     "id": "2613_ERR5766181.bam",
@@ -2732,220 +3069,56 @@
                     "sizeInBytes": 32743109
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 125
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.bam",
-                    "sizeInBytes": 10183050
-                },
-                {
                     "id": "ERR3201952_ERR3201952.unmapped.bam",
                     "sizeInBytes": 10019122
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.bam",
-                    "sizeInBytes": 10183050
-                },
-                {
                     "id": "ERR3201952_ERR3201952.bam.bai",
                     "sizeInBytes": 104
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 92
-                },
-                {
-                    "id": "2612_ERR5766176.bam",
-                    "sizeInBytes": 37663474
                 },
                 {
                     "id": "2612_ERR5766176.bam.bai",
                     "sizeInBytes": 160
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766176_B.bam",
-                    "sizeInBytes": 37663476
-                },
-                {
                     "id": "2612_ERR5766176_B.bam.bai",
                     "sizeInBytes": 160
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766180.bam",
-                    "sizeInBytes": 31490248
                 },
                 {
                     "id": "2612_ERR5766180.bam.bai",
                     "sizeInBytes": 160
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2613_ERR5766181.bam",
-                    "sizeInBytes": 29455539
-                },
-                {
                     "id": "2613_ERR5766181.bam.bai",
                     "sizeInBytes": 160
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.unmapped.bam",
-                    "sizeInBytes": 10019122
-                },
-                {
                     "id": "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
                     "sizeInBytes": 10472459
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.bam",
-                    "sizeInBytes": 10183050
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.bam.bai",
-                    "sizeInBytes": 104
-                },
-                {
-                    "id": "genome.fasta",
-                    "sizeInBytes": 40675
                 },
                 {
                     "id": "ERR3201952_ERR3201952.stats",
                     "sizeInBytes": 13124274
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 92
-                },
-                {
-                    "id": "2612_ERR5766176.bam",
-                    "sizeInBytes": 37663474
-                },
-                {
-                    "id": "2612_ERR5766176.bam.bai",
-                    "sizeInBytes": 160
-                },
-                {
-                    "id": "genome.fasta",
-                    "sizeInBytes": 40675
-                },
-                {
                     "id": "2612_ERR5766176.stats",
                     "sizeInBytes": 82315
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766176_B.bam",
-                    "sizeInBytes": 37663476
-                },
-                {
-                    "id": "2612_ERR5766176_B.bam.bai",
-                    "sizeInBytes": 160
-                },
-                {
-                    "id": "genome.fasta",
-                    "sizeInBytes": 40675
                 },
                 {
                     "id": "2612_ERR5766176_B.stats",
                     "sizeInBytes": 82317
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766180.bam",
-                    "sizeInBytes": 31490248
-                },
-                {
-                    "id": "2612_ERR5766180.bam.bai",
-                    "sizeInBytes": 160
-                },
-                {
-                    "id": "genome.fasta",
-                    "sizeInBytes": 40675
-                },
-                {
                     "id": "2612_ERR5766180.stats",
                     "sizeInBytes": 49809
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2613_ERR5766181.bam",
-                    "sizeInBytes": 29455539
-                },
-                {
-                    "id": "2613_ERR5766181.bam.bai",
-                    "sizeInBytes": 160
-                },
-                {
-                    "id": "genome.fasta",
-                    "sizeInBytes": 40675
                 },
                 {
                     "id": "2613_ERR5766181.stats",
                     "sizeInBytes": 81582
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612_ERR5766176.unmapped.fastq.gz",
-                    "sizeInBytes": 41696350
-                },
-                {
-                    "id": "2612_ERR5766176_B.unmapped.fastq.gz",
-                    "sizeInBytes": 41696350
-                },
-                {
-                    "id": "2612_ERR5766180.unmapped.fastq.gz",
-                    "sizeInBytes": 35528205
-                },
-                {
                     "id": "2612.merged.fastq.gz",
                     "sizeInBytes": 118920905
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 58
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
-                    "sizeInBytes": 10472459
-                },
-                {
-                    "id": "testdb-kraken2",
-                    "sizeInBytes": 20392840
                 },
                 {
                     "id": "ERR3201952_se_db2.kraken2.classified.fastq.gz",
@@ -2960,18 +3133,6 @@
                     "sizeInBytes": 34
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
-                    "sizeInBytes": 10472459
-                },
-                {
-                    "id": "testdb-bracken",
-                    "sizeInBytes": 20630294
-                },
-                {
                     "id": "ERR3201952_se_db1.bracken.classified.fastq.gz",
                     "sizeInBytes": 63
                 },
@@ -2982,18 +3143,6 @@
                 {
                     "id": "ERR3201952_se_db1.bracken.kraken2.report.txt",
                     "sizeInBytes": 34
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2613_ERR5766181.unmapped.fastq.gz",
-                    "sizeInBytes": 32743109
-                },
-                {
-                    "id": "metaphlan_database",
-                    "sizeInBytes": 8421490
                 },
                 {
                     "id": "2613_se_db4.metaphlan3_profile.txt",
@@ -3008,18 +3157,6 @@
                     "sizeInBytes": 50
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
-                    "sizeInBytes": 10472459
-                },
-                {
-                    "id": "metaphlan_database",
-                    "sizeInBytes": 8421490
-                },
-                {
                     "id": "ERR3201952_se_db4.metaphlan3_profile.txt",
                     "sizeInBytes": 443
                 },
@@ -3032,32 +3169,8 @@
                     "sizeInBytes": 47
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "2613_ERR5766181.unmapped.fastq.gz",
-                    "sizeInBytes": 32743109
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
                     "id": "2613_se_db5.kaiju.tsv",
                     "sizeInBytes": 9468442
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
-                },
-                {
-                    "id": "2613_ERR5766181.unmapped.fastq.gz",
-                    "sizeInBytes": 32743109
-                },
-                {
-                    "id": "testdb-bracken",
-                    "sizeInBytes": 20630294
                 },
                 {
                     "id": "2613_se_db1.bracken.classified.fastq.gz",
@@ -3072,18 +3185,6 @@
                     "sizeInBytes": 2636
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2613_ERR5766181.unmapped.fastq.gz",
-                    "sizeInBytes": 32743109
-                },
-                {
-                    "id": "testdb-kraken2",
-                    "sizeInBytes": 20392840
-                },
-                {
                     "id": "2613_se_db2.kraken2.classified.fastq.gz",
                     "sizeInBytes": 5710
                 },
@@ -3094,18 +3195,6 @@
                 {
                     "id": "2613_se_db2.kraken2.kraken2.report.txt",
                     "sizeInBytes": 2636
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2613_ERR5766181.unmapped.fastq.gz",
-                    "sizeInBytes": 32743109
-                },
-                {
-                    "id": "test-db-centrifuge",
-                    "sizeInBytes": 13973070
                 },
                 {
                     "id": "2613_se_db3.centrifuge.report.txt",
@@ -3124,18 +3213,6 @@
                     "sizeInBytes": 11475486
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 88
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
-                    "sizeInBytes": 10472459
-                },
-                {
-                    "id": "test-db-centrifuge",
-                    "sizeInBytes": 13973070
-                },
-                {
                     "id": "ERR3201952_se_db3.centrifuge.report.txt",
                     "sizeInBytes": 116
                 },
@@ -3152,32 +3229,8 @@
                     "sizeInBytes": 5904134
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 88
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
-                    "sizeInBytes": 10472459
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
                     "id": "ERR3201952_se_db5.kaiju.tsv",
                     "sizeInBytes": 112256
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.unmapped_interleaved.fq.gz",
-                    "sizeInBytes": 10472459
-                },
-                {
-                    "id": "testdb-diamond.dmnd",
-                    "sizeInBytes": 88042742
                 },
                 {
                     "id": "ERR3201952_se_db1.diamond.tsv",
@@ -3188,36 +3241,12 @@
                     "sizeInBytes": 8023
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "2613_ERR5766181.unmapped.fastq.gz",
-                    "sizeInBytes": 32743109
-                },
-                {
-                    "id": "testdb-diamond.dmnd",
-                    "sizeInBytes": 88042742
-                },
-                {
                     "id": "2613_se_db1.diamond.tsv",
                     "sizeInBytes": 9468462
                 },
                 {
                     "id": "2613_se_db1.diamond.log",
                     "sizeInBytes": 8467
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "2612.merged.fastq.gz",
-                    "sizeInBytes": 118920905
-                },
-                {
-                    "id": "testdb-kraken2",
-                    "sizeInBytes": 20392840
                 },
                 {
                     "id": "2612_se_db2.kraken2.classified.fastq.gz",
@@ -3232,32 +3261,8 @@
                     "sizeInBytes": 2683
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612.merged.fastq.gz",
-                    "sizeInBytes": 118920905
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
                     "id": "2612_se_db5.kaiju.tsv",
                     "sizeInBytes": 39540693
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
-                },
-                {
-                    "id": "2612.merged.fastq.gz",
-                    "sizeInBytes": 118920905
-                },
-                {
-                    "id": "metaphlan_database",
-                    "sizeInBytes": 8421490
                 },
                 {
                     "id": "2612_se_db4.metaphlan3_profile.txt",
@@ -3272,18 +3277,6 @@
                     "sizeInBytes": 49
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "2612.merged.fastq.gz",
-                    "sizeInBytes": 118920905
-                },
-                {
-                    "id": "testdb-bracken",
-                    "sizeInBytes": 20630294
-                },
-                {
                     "id": "2612_se_db1.bracken.classified.fastq.gz",
                     "sizeInBytes": 24840
                 },
@@ -3294,18 +3287,6 @@
                 {
                     "id": "2612_se_db1.bracken.kraken2.report.txt",
                     "sizeInBytes": 2683
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 93
-                },
-                {
-                    "id": "2612.merged.fastq.gz",
-                    "sizeInBytes": 118920905
-                },
-                {
-                    "id": "test-db-centrifuge",
-                    "sizeInBytes": 13973070
                 },
                 {
                     "id": "2612_se_db3.centrifuge.report.txt",
@@ -3324,18 +3305,6 @@
                     "sizeInBytes": 41712748
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 88
-                },
-                {
-                    "id": "2612.merged.fastq.gz",
-                    "sizeInBytes": 118920905
-                },
-                {
-                    "id": "testdb-diamond.dmnd",
-                    "sizeInBytes": 88042742
-                },
-                {
                     "id": "2612_se_db1.diamond.tsv",
                     "sizeInBytes": 39540883
                 },
@@ -3344,299 +3313,55 @@
                     "sizeInBytes": 9603
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "ERR3201952_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 34
-                },
-                {
                     "id": "ERR3201952_se.txt",
                     "sizeInBytes": 0
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "ERR3201952_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 34
-                },
-                {
-                    "id": "ERR3201952_se.txt",
-                    "sizeInBytes": 0
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2613_se_db5.kaiju.tsv",
-                    "sizeInBytes": 9468442
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
                 },
                 {
                     "id": "2613_se_db5.kaijutable.txt",
                     "sizeInBytes": 222
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 86
-                },
-                {
-                    "id": "2613_se_db5.kaiju.tsv",
-                    "sizeInBytes": 9468442
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
                     "id": "2613_se.txt",
                     "sizeInBytes": 20
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "2613_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "testdb-bracken",
-                    "sizeInBytes": 20630294
                 },
                 {
                     "id": "2613_se_db1.bracken.tsv",
                     "sizeInBytes": 135
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 77
-                },
-                {
-                    "id": "2613_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "2613_se.txt",
-                    "sizeInBytes": 858
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2613_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "2613_se.txt",
-                    "sizeInBytes": 858
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2613_se_db3.centrifuge.report.txt",
-                    "sizeInBytes": 171
-                },
-                {
-                    "id": "test-db-centrifuge",
-                    "sizeInBytes": 13973070
-                },
-                {
                     "id": "2613_se_db3.centrifuge.txt",
                     "sizeInBytes": 2969
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 85
-                },
-                {
-                    "id": "ERR3201952_se_db3.centrifuge.report.txt",
-                    "sizeInBytes": 116
-                },
-                {
-                    "id": "test-db-centrifuge",
-                    "sizeInBytes": 13973070
                 },
                 {
                     "id": "ERR3201952_se_db3.centrifuge.txt",
                     "sizeInBytes": 1108
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 85
-                },
-                {
-                    "id": "ERR3201952_se_db5.kaiju.tsv",
-                    "sizeInBytes": 112256
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
                     "id": "ERR3201952_se_db5.kaijutable.txt",
                     "sizeInBytes": 238
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 86
-                },
-                {
-                    "id": "ERR3201952_se_db5.kaiju.tsv",
-                    "sizeInBytes": 112256
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
-                    "id": "ERR3201952_se.txt",
-                    "sizeInBytes": 18
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "2612_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2683
-                },
-                {
                     "id": "2612_se.txt",
                     "sizeInBytes": 861
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2612_se_db5.kaiju.tsv",
-                    "sizeInBytes": 39540693
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
                 },
                 {
                     "id": "2612_se_db5.kaijutable.txt",
                     "sizeInBytes": 223
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 86
-                },
-                {
-                    "id": "2612_se_db5.kaiju.tsv",
-                    "sizeInBytes": 39540693
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
-                },
-                {
-                    "id": "2612_se.txt",
-                    "sizeInBytes": 21
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 89
-                },
-                {
-                    "id": "2612_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2683
-                },
-                {
-                    "id": "testdb-bracken",
-                    "sizeInBytes": 20630294
-                },
-                {
                     "id": "2612_se_db1.bracken.tsv",
                     "sizeInBytes": 185
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 77
-                },
-                {
-                    "id": "2612_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2683
-                },
-                {
-                    "id": "2612_se.txt",
-                    "sizeInBytes": 861
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2612_se_db3.centrifuge.report.txt",
-                    "sizeInBytes": 175
-                },
-                {
-                    "id": "test-db-centrifuge",
-                    "sizeInBytes": 13973070
-                },
-                {
                     "id": "2612_se_db3.centrifuge.txt",
                     "sizeInBytes": 2969
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 85
-                },
-                {
-                    "id": "2611_se_db5.kaiju.tsv",
-                    "sizeInBytes": 17222189
-                },
-                {
-                    "id": "2613_se_db5.kaiju.tsv",
-                    "sizeInBytes": 9468442
-                },
-                {
-                    "id": "ERR3201952_se_db5.kaiju.tsv",
-                    "sizeInBytes": 112256
-                },
-                {
-                    "id": "2612_se_db5.kaiju.tsv",
-                    "sizeInBytes": 39540693
-                },
-                {
-                    "id": "kaiju",
-                    "sizeInBytes": 12773
                 },
                 {
                     "id": "kaiju_db5_combined_reports.txt",
                     "sizeInBytes": 788
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 103
-                },
-                {
-                    "id": "ERR3201952_se.txt",
-                    "sizeInBytes": 0
-                },
-                {
                     "id": "ERR3201952_se_db2.txt",
-                    "sizeInBytes": 0
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "ERR3201952_se.txt",
                     "sizeInBytes": 0
                 },
                 {
@@ -3644,520 +3369,108 @@
                     "sizeInBytes": 0
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2613_se.txt",
-                    "sizeInBytes": 20
-                },
-                {
                     "id": "2613_se_db5.txt",
                     "sizeInBytes": 20
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2613_se.txt",
-                    "sizeInBytes": 858
                 },
                 {
                     "id": "2613_se_db1.txt",
                     "sizeInBytes": 693
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2613_se.txt",
-                    "sizeInBytes": 858
-                },
-                {
                     "id": "2613_se_db2.txt",
                     "sizeInBytes": 693
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2613_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
-                },
-                {
-                    "id": "2613_se.txt",
-                    "sizeInBytes": 699
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "ERR3201952_se_db3.centrifuge.txt",
-                    "sizeInBytes": 1108
-                },
-                {
-                    "id": "ERR3201952_se.txt",
-                    "sizeInBytes": 336
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "ERR3201952_se.txt",
-                    "sizeInBytes": 18
                 },
                 {
                     "id": "ERR3201952_se_db5.txt",
                     "sizeInBytes": 18
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2612_se.txt",
-                    "sizeInBytes": 861
-                },
-                {
                     "id": "2612_se_db2.txt",
                     "sizeInBytes": 696
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2612_se.txt",
-                    "sizeInBytes": 21
                 },
                 {
                     "id": "2612_se_db5.txt",
                     "sizeInBytes": 21
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2612_se.txt",
-                    "sizeInBytes": 861
-                },
-                {
                     "id": "2612_se_db1.txt",
                     "sizeInBytes": 696
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2613_se_db4.metaphlan3_profile.txt",
-                    "sizeInBytes": 410
-                },
-                {
-                    "id": "ERR3201952_se_db4.metaphlan3_profile.txt",
-                    "sizeInBytes": 443
-                },
-                {
-                    "id": "2612_se_db4.metaphlan3_profile.txt",
-                    "sizeInBytes": 397
                 },
                 {
                     "id": "metaphlan3_db4_combined_reports.txt",
                     "sizeInBytes": 178
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 114
-                },
-                {
-                    "id": "2611_se_db1.diamond.tsv",
-                    "sizeInBytes": 17222189
-                },
-                {
-                    "id": "ERR3201952_se_db1.diamond.tsv",
-                    "sizeInBytes": 112256
-                },
-                {
-                    "id": "2613_se_db1.diamond.tsv",
-                    "sizeInBytes": 9468462
-                },
-                {
-                    "id": "2612_se_db1.diamond.tsv",
-                    "sizeInBytes": 39540883
-                },
-                {
                     "id": "diamond_db1.tsv",
                     "sizeInBytes": 141
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2611_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "ERR3201952_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 34
-                },
-                {
-                    "id": "2613_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "2612_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2683
                 },
                 {
                     "id": "kraken2_db1.tsv",
                     "sizeInBytes": 788
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2611_se_db1.bracken.tsv",
-                    "sizeInBytes": 183
-                },
-                {
-                    "id": "2613_se_db1.bracken.tsv",
-                    "sizeInBytes": 135
-                },
-                {
-                    "id": "2612_se_db1.bracken.tsv",
-                    "sizeInBytes": 185
-                },
-                {
                     "id": "bracken_db1_combined_reports.txt",
                     "sizeInBytes": 319
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 121
-                },
-                {
-                    "id": "2611_se_db1.bracken.tsv",
-                    "sizeInBytes": 183
-                },
-                {
-                    "id": "2613_se_db1.bracken.tsv",
-                    "sizeInBytes": 135
-                },
-                {
-                    "id": "2612_se_db1.bracken.tsv",
-                    "sizeInBytes": 185
                 },
                 {
                     "id": "bracken_db1.tsv",
                     "sizeInBytes": 100
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2611_se_db5.kaijutable.txt",
-                    "sizeInBytes": 222
-                },
-                {
-                    "id": "2613_se_db5.kaijutable.txt",
-                    "sizeInBytes": 222
-                },
-                {
-                    "id": "ERR3201952_se_db5.kaijutable.txt",
-                    "sizeInBytes": 238
-                },
-                {
-                    "id": "2612_se_db5.kaijutable.txt",
-                    "sizeInBytes": 223
-                },
-                {
                     "id": "kaiju_db5.tsv",
                     "sizeInBytes": 153
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2611_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "ERR3201952_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 34
-                },
-                {
-                    "id": "2613_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "2612_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2683
                 },
                 {
                     "id": "kraken2_db2.tsv",
                     "sizeInBytes": 788
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2613_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
-                },
-                {
-                    "id": "2612_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
-                },
-                {
-                    "id": "ERR3201952_se_db3.centrifuge.txt",
-                    "sizeInBytes": 1108
-                },
-                {
                     "id": "centrifuge_db3_combined_reports.txt",
                     "sizeInBytes": 3893
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 127
-                },
-                {
-                    "id": "2613_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
-                },
-                {
-                    "id": "ERR3201952_se_db3.centrifuge.txt",
-                    "sizeInBytes": 1108
-                },
-                {
-                    "id": "2612_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
                 },
                 {
                     "id": "centrifuge_db3.tsv",
                     "sizeInBytes": 691
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2612_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2683
-                },
-                {
-                    "id": "2611_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "2613_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "ERR3201952_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 34
-                },
-                {
                     "id": "kraken2_db2_combined_reports.txt",
                     "sizeInBytes": 3920
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 123
-                },
-                {
-                    "id": "2612_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2683
-                },
-                {
-                    "id": "2611_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "2613_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "ERR3201952_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 34
                 },
                 {
                     "id": "kraken2_db1_combined_reports.txt",
                     "sizeInBytes": 3920
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 123
-                },
-                {
-                    "id": "2612_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
-                },
-                {
-                    "id": "2612_se.txt",
-                    "sizeInBytes": 699
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 106
-                },
-                {
-                    "id": "2613_se_db4.metaphlan3_profile.txt",
-                    "sizeInBytes": 410
-                },
-                {
-                    "id": "ERR3201952_se_db4.metaphlan3_profile.txt",
-                    "sizeInBytes": 443
-                },
-                {
-                    "id": "2612_se_db4.metaphlan3_profile.txt",
-                    "sizeInBytes": 397
-                },
-                {
                     "id": "metaphlan_db4.tsv",
                     "sizeInBytes": 144
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 94
-                },
-                {
-                    "id": "2613_se.txt",
-                    "sizeInBytes": 699
                 },
                 {
                     "id": "2613_se_db3.txt",
                     "sizeInBytes": 555
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "ERR3201952_se.txt",
-                    "sizeInBytes": 336
-                },
-                {
                     "id": "ERR3201952_se_db3.txt",
                     "sizeInBytes": 273
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2612_se.txt",
-                    "sizeInBytes": 699
-                },
-                {
                     "id": "2612_se_db3.txt",
                     "sizeInBytes": 555
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "2611_se_db1.txt",
-                    "sizeInBytes": 626
-                },
-                {
-                    "id": "ERR3201952_se_db1.txt",
-                    "sizeInBytes": 0
-                },
-                {
-                    "id": "2613_se_db1.txt",
-                    "sizeInBytes": 693
-                },
-                {
-                    "id": "2612_se_db1.txt",
-                    "sizeInBytes": 696
                 },
                 {
                     "id": "kraken2_db1.html",
                     "sizeInBytes": 229375
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
-                },
-                {
-                    "id": "2613_se_db3.txt",
-                    "sizeInBytes": 555
-                },
-                {
-                    "id": "ERR3201952_se_db3.txt",
-                    "sizeInBytes": 273
-                },
-                {
-                    "id": "2612_se_db3.txt",
-                    "sizeInBytes": 555
-                },
-                {
                     "id": "centrifuge_db3.html",
                     "sizeInBytes": 228749
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
-                },
-                {
-                    "id": "2611_se_db5.txt",
-                    "sizeInBytes": 20
-                },
-                {
-                    "id": "2613_se_db5.txt",
-                    "sizeInBytes": 20
-                },
-                {
-                    "id": "ERR3201952_se_db5.txt",
-                    "sizeInBytes": 18
-                },
-                {
-                    "id": "2612_se_db5.txt",
-                    "sizeInBytes": 21
                 },
                 {
                     "id": "kaiju_db5.html",
                     "sizeInBytes": 226742
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
-                },
-                {
-                    "id": "2611_se_db2.txt",
-                    "sizeInBytes": 626
-                },
-                {
-                    "id": "ERR3201952_se_db2.txt",
-                    "sizeInBytes": 0
-                },
-                {
-                    "id": "2613_se_db2.txt",
-                    "sizeInBytes": 693
-                },
-                {
-                    "id": "2612_se_db2.txt",
-                    "sizeInBytes": 696
-                },
-                {
                     "id": "kraken2_db2.html",
                     "sizeInBytes": 229375
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
                 },
                 {
                     "id": "collated_versions.yml",
@@ -4172,244 +3485,12 @@
                     "sizeInBytes": 6568
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
-                },
-                {
                     "id": "methods_description_mqc.yaml",
                     "sizeInBytes": 4115
                 },
                 {
                     "id": "workflow_summary_mqc.yaml",
                     "sizeInBytes": 4715
-                },
-                {
-                    "id": "ERR3201952_ERR3201952_raw_fastqc.zip",
-                    "sizeInBytes": 362395
-                },
-                {
-                    "id": "2612_ERR5766176_raw_1_fastqc.zip",
-                    "sizeInBytes": 383808
-                },
-                {
-                    "id": "2612_ERR5766176_raw_2_fastqc.zip",
-                    "sizeInBytes": 397185
-                },
-                {
-                    "id": "2612_ERR5766176_B_raw_1_fastqc.zip",
-                    "sizeInBytes": 383897
-                },
-                {
-                    "id": "2612_ERR5766176_B_raw_2_fastqc.zip",
-                    "sizeInBytes": 397273
-                },
-                {
-                    "id": "2612_ERR5766180_raw_fastqc.zip",
-                    "sizeInBytes": 422584
-                },
-                {
-                    "id": "2613_ERR5766181_raw_1_fastqc.zip",
-                    "sizeInBytes": 395706
-                },
-                {
-                    "id": "2613_ERR5766181_raw_2_fastqc.zip",
-                    "sizeInBytes": 404818
-                },
-                {
-                    "id": "2612_ERR5766176.bbduk.log",
-                    "sizeInBytes": 973
-                },
-                {
-                    "id": "2612_ERR5766176_B.bbduk.log",
-                    "sizeInBytes": 981
-                },
-                {
-                    "id": "2612_ERR5766180.bbduk.log",
-                    "sizeInBytes": 979
-                },
-                {
-                    "id": "2613_ERR5766181.bbduk.log",
-                    "sizeInBytes": 971
-                },
-                {
-                    "id": "2612_ERR5766176.fastp.json",
-                    "sizeInBytes": 110604
-                },
-                {
-                    "id": "2612_ERR5766176_B.fastp.json",
-                    "sizeInBytes": 110618
-                },
-                {
-                    "id": "2612_ERR5766180.fastp.json",
-                    "sizeInBytes": 65034
-                },
-                {
-                    "id": "2613_ERR5766181.fastp.json",
-                    "sizeInBytes": 110225
-                },
-                {
-                    "id": "2612_ERR5766176_processed_fastqc.zip",
-                    "sizeInBytes": 399611
-                },
-                {
-                    "id": "2612_ERR5766176_B_processed_fastqc.zip",
-                    "sizeInBytes": 399703
-                },
-                {
-                    "id": "2612_ERR5766180_processed_fastqc.zip",
-                    "sizeInBytes": 402131
-                },
-                {
-                    "id": "2613_ERR5766181_processed_fastqc.zip",
-                    "sizeInBytes": 406789
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.log",
-                    "sizeInBytes": 76864
-                },
-                {
-                    "id": "ERR3201952_ERR3201952_filtered.log",
-                    "sizeInBytes": 905
-                },
-                {
-                    "id": "ERR3201952_ERR3201952_processed_fastqc.zip",
-                    "sizeInBytes": 358678
-                },
-                {
-                    "id": "ERR3201952_ERR3201952.stats",
-                    "sizeInBytes": 13124274
-                },
-                {
-                    "id": "2612_ERR5766176.bowtie2.log",
-                    "sizeInBytes": 202
-                },
-                {
-                    "id": "2612_ERR5766176_B.bowtie2.log",
-                    "sizeInBytes": 202
-                },
-                {
-                    "id": "2612_ERR5766180.bowtie2.log",
-                    "sizeInBytes": 204
-                },
-                {
-                    "id": "2613_ERR5766181.bowtie2.log",
-                    "sizeInBytes": 202
-                },
-                {
-                    "id": "2612_ERR5766176.stats",
-                    "sizeInBytes": 82315
-                },
-                {
-                    "id": "2612_ERR5766176_B.stats",
-                    "sizeInBytes": 82317
-                },
-                {
-                    "id": "2612_ERR5766180.stats",
-                    "sizeInBytes": 49809
-                },
-                {
-                    "id": "2613_ERR5766181.stats",
-                    "sizeInBytes": 81582
-                },
-                {
-                    "id": "2611_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "2611_se_db1.diamond.log",
-                    "sizeInBytes": 8833
-                },
-                {
-                    "id": "2611_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2652
-                },
-                {
-                    "id": "2611_se_db5.kaijutable.txt",
-                    "sizeInBytes": 222
-                },
-                {
-                    "id": "ERR3201952_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 34
-                },
-                {
-                    "id": "ERR3201952_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 34
-                },
-                {
-                    "id": "2613_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "2613_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2636
-                },
-                {
-                    "id": "ERR3201952_se_db1.diamond.log",
-                    "sizeInBytes": 8023
-                },
-                {
-                    "id": "2613_se_db1.diamond.log",
-                    "sizeInBytes": 8467
-                },
-                {
-                    "id": "2612_se_db2.kraken2.kraken2.report.txt",
-                    "sizeInBytes": 2683
-                },
-                {
-                    "id": "2612_se_db1.bracken.kraken2.report.txt",
-                    "sizeInBytes": 2683
-                },
-                {
-                    "id": "2612_se_db1.diamond.log",
-                    "sizeInBytes": 9603
-                },
-                {
-                    "id": "2613_se_db5.kaijutable.txt",
-                    "sizeInBytes": 222
-                },
-                {
-                    "id": "2613_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
-                },
-                {
-                    "id": "ERR3201952_se_db3.centrifuge.txt",
-                    "sizeInBytes": 1108
-                },
-                {
-                    "id": "ERR3201952_se_db5.kaijutable.txt",
-                    "sizeInBytes": 238
-                },
-                {
-                    "id": "2612_se_db5.kaijutable.txt",
-                    "sizeInBytes": 223
-                },
-                {
-                    "id": "2612_se_db3.centrifuge.txt",
-                    "sizeInBytes": 2969
-                },
-                {
-                    "id": "kaiju_db5_combined_reports.txt",
-                    "sizeInBytes": 788
-                },
-                {
-                    "id": "metaphlan3_db4_combined_reports.txt",
-                    "sizeInBytes": 178
-                },
-                {
-                    "id": "centrifuge_db3_combined_reports.txt",
-                    "sizeInBytes": 3893
-                },
-                {
-                    "id": "kraken2_db2_combined_reports.txt",
-                    "sizeInBytes": 3920
-                },
-                {
-                    "id": "kraken2_db1_combined_reports.txt",
-                    "sizeInBytes": 3920
-                },
-                {
-                    "id": "software_versions_mqc.yml",
-                    "sizeInBytes": 6568
                 },
                 {
                     "id": "multiqc_config.yml",
@@ -4430,10 +3511,6 @@
                 {
                     "id": "multiqc_plots",
                     "sizeInBytes": 7606630
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 60
                 }
             ]
         },

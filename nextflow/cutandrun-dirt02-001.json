@@ -11,7 +11,9 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.INPUT_CHECK.SAMPLESHEET_CHECK",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.INPUT_CHECK.SAMPLESHEET_CHECK_4",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CUSTOM_DUMPSOFTWAREVERSIONS_119"
+                    ],
                     "inputFiles": [
                         "test-GSE145187-small.csv"
                     ],
@@ -24,7 +26,11 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_BED",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_BED_6",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.ANNOTATION_BEDTOOLS_SORT_12",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_ALL_105"
+                    ],
                     "inputFiles": [],
                     "outputFiles": [
                         "hg38-chr20-genes.bed",
@@ -46,7 +52,11 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_SPIKEIN_FASTA",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_SPIKEIN_FASTA_1",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SPIKEIN_CHROMSIZES_13",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_38",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_41"
+                    ],
                     "inputFiles": [],
                     "outputFiles": [
                         "e_coli_U00096_3.fa",
@@ -57,7 +67,10 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_SPIKEIN",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_SPIKEIN_3",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19"
+                    ],
                     "inputFiles": [],
                     "outputFiles": [
                         "e_coli_U00096_3",
@@ -68,7 +81,21 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX_15",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_47",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_44",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_62",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_64",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_80",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_82",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_94",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
+                    ],
                     "inputFiles": [],
                     "outputFiles": [
                         "hg38-chr20.fa",
@@ -79,7 +106,9 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.ANNOTATION_BEDTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.ANNOTATION_BEDTOOLS_SORT_12",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TABIX_BGZIPTABIX_16"
+                    ],
                     "inputFiles": [
                         "hg38-chr20-genes.bed"
                     ],
@@ -87,12 +116,17 @@
                         "hg38-chr20-genes.sorted.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_BED_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_TARGET",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_TARGET_2",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20"
+                    ],
                     "inputFiles": [],
                     "outputFiles": [
                         "hg38-chr20-bowtie2",
@@ -103,7 +137,9 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.FASTQC",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.FASTQC_8",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_rep1_r1.fastq.gz",
                         "h3k27me3_rep1_r2.fastq.gz"
@@ -120,7 +156,9 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.FASTQC",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.FASTQC_10",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_rep1_r1.fastq.gz",
                         "igg_rep1_r2.fastq.gz"
@@ -137,7 +175,11 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_11",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_rep1_r1.fastq.gz",
                         "igg_rep1_r2.fastq.gz"
@@ -158,7 +200,11 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_9",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_rep1_r1.fastq.gz",
                         "h3k27me3_rep1_r2.fastq.gz"
@@ -188,12 +234,26 @@
                         "e_coli_U00096_3.fa.fai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_SPIKEIN_FASTA_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_AWK_21",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT_35",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT_48",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_103",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
+                    ],
                     "inputFiles": [
                         "hg38-chr20.fa"
                     ],
@@ -202,7 +262,9 @@
                         "hg38-chr20.fa.fai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX",
@@ -215,12 +277,16 @@
                         "hg38-chr20.fa.fai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TABIX_BGZIPTABIX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TABIX_BGZIPTABIX_16",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
+                    ],
                     "inputFiles": [
                         "hg38-chr20-genes.sorted.bed"
                     ],
@@ -229,12 +295,18 @@
                         "hg38-chr20-genes.bed.gz.tbi",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.ANNOTATION_BEDTOOLS_SORT_12"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_TARGET_META.AWK_SCRIPT_23",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1_1.trimmed.fastq.gz",
                         "igg_ctrl_R1_2.trimmed.fastq.gz",
@@ -245,12 +317,19 @@
                         "igg_ctrl_R1.bowtie2.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_11",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_TARGET_2"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_SPIKEIN_META.AWK_SCRIPT_25",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1_1.trimmed.fastq.gz",
                         "igg_ctrl_R1_2.trimmed.fastq.gz",
@@ -261,12 +340,19 @@
                         "igg_ctrl_R1.spikein.bowtie2.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_11",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_SPIKEIN_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_SPIKEIN_META.AWK_SCRIPT_27",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1_1.trimmed.fastq.gz",
                         "h3k27me3_R1_2.trimmed.fastq.gz",
@@ -277,12 +363,19 @@
                         "h3k27me3_R1.spikein.bowtie2.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_9",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_SPIKEIN_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_TARGET_META.AWK_SCRIPT_29",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1_1.trimmed.fastq.gz",
                         "h3k27me3_R1_2.trimmed.fastq.gz",
@@ -293,12 +386,17 @@
                         "h3k27me3_R1.bowtie2.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_9",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.UNTAR_INDEX_TARGET_2"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_AWK",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_AWK_21",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_INTERSECT_30"
+                    ],
                     "inputFiles": [
                         "hg38-chr20.fa.sizes"
                     ],
@@ -306,7 +404,9 @@
                         "chromsizes.awk.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_TARGET_META.AWK_SCRIPT",
@@ -320,12 +420,20 @@
                         "igg_ctrl_R1_meta_bt2_target.awk.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_31",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_43",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_44",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_42",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_49"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.bam"
                     ],
@@ -333,7 +441,9 @@
                         "igg_ctrl_R1.target.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_SPIKEIN_META.AWK_SCRIPT",
@@ -347,12 +457,19 @@
                         "igg_ctrl_R1_meta_bt2_spikein.awk.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_32",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_37",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_38",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.spikein.bam"
                     ],
@@ -360,12 +477,19 @@
                         "igg_ctrl_R1.spikein.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_33",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_41",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_40",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_39"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.spikein.bam"
                     ],
@@ -373,7 +497,9 @@
                         "h3k27me3_R1.spikein.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_SPIKEIN_META.AWK_SCRIPT",
@@ -387,12 +513,20 @@
                         "h3k27me3_R1_meta_bt2_spikein.awk.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_34",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_46",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_47",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_45",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_50"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.bam"
                     ],
@@ -400,7 +534,9 @@
                         "h3k27me3_R1.target.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_TARGET_META.AWK_SCRIPT",
@@ -414,12 +550,16 @@
                         "h3k27me3_R1_meta_bt2_target.awk.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_INTERSECT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_INTERSECT_30",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT_35"
+                    ],
                     "inputFiles": [
                         "hg38-blacklist.bed",
                         "chromsizes.awk.bed"
@@ -428,12 +568,18 @@
                         "blacklist.filtered.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_AWK_21"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_31",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_43",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_44",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_42"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.sorted.bam"
                     ],
@@ -441,12 +587,18 @@
                         "igg_ctrl_R1.target.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_32",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_37",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_38",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.spikein.sorted.bam"
                     ],
@@ -454,12 +606,18 @@
                         "igg_ctrl_R1.spikein.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_33",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_41",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_40",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_39"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.spikein.sorted.bam"
                     ],
@@ -467,12 +625,18 @@
                         "h3k27me3_R1.spikein.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_34",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_46",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_47",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_45"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.sorted.bam"
                     ],
@@ -480,12 +644,16 @@
                         "h3k27me3_R1.target.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT_35",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT_48"
+                    ],
                     "inputFiles": [
                         "blacklist.filtered.bed",
                         "hg38-chr20.fa.sizes"
@@ -494,12 +662,17 @@
                         "blacklist.sorted.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_INTERSECT_30",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_37",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.spikein.sorted.bam",
                         "igg_ctrl_R1.spikein.sorted.bam.bai"
@@ -508,12 +681,17 @@
                         "igg_ctrl_R1.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_32"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_38",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.spikein.sorted.bam",
                         "igg_ctrl_R1.spikein.sorted.bam.bai",
@@ -523,7 +701,11 @@
                         "igg_ctrl_R1.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_32",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_SPIKEIN_FASTA_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -538,12 +720,18 @@
                         "h3k27me3_R1.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_33",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_SPIKEIN_FASTA_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.spikein.sorted.bam",
                         "igg_ctrl_R1.spikein.sorted.bam.bai"
@@ -552,7 +740,10 @@
                         "igg_ctrl_R1.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_32"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -566,7 +757,10 @@
                         "h3k27me3_R1.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_33"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -580,7 +774,10 @@
                         "h3k27me3_R1.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_INDEX_33"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -594,7 +791,10 @@
                         "igg_ctrl_R1.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_31"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -608,7 +808,10 @@
                         "h3k27me3_R1.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_34"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -623,7 +826,11 @@
                         "h3k27me3_R1.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_34",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -638,7 +845,11 @@
                         "igg_ctrl_R1.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_31",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -652,7 +863,10 @@
                         "h3k27me3_R1.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_34"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -666,12 +880,18 @@
                         "igg_ctrl_R1.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_31"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT_48",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_50",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_49"
+                    ],
                     "inputFiles": [
                         "blacklist.sorted.bed",
                         "hg38-chr20.fa.sizes"
@@ -680,12 +900,17 @@
                         "blacklist.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT_35",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_50",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.sorted.bam",
                         "blacklist.bed"
@@ -694,12 +919,17 @@
                         "h3k27me3_R1.target.filtered.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT_48"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_49",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.sorted.bam",
                         "blacklist.bed"
@@ -708,12 +938,22 @@
                         "igg_ctrl_R1.target.filtered.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT_48"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PRESEQ_LCEXTRAP_54",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_53",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_63",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_62",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_61"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.filtered.bam"
                     ],
@@ -721,12 +961,21 @@
                         "h3k27me3_R1.target.filtered.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_50"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_56",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PRESEQ_LCEXTRAP_57",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_66",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_65",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_64"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.filtered.bam"
                     ],
@@ -734,12 +983,18 @@
                         "igg_ctrl_R1.target.filtered.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_49"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_PICARD_DUP_META.AWK_60",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.filtered.sorted.bam",
                         "hg38-chr20.fa",
@@ -750,7 +1005,11 @@
                         "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PRESEQ_LCEXTRAP",
@@ -763,12 +1022,18 @@
                         "h3k27me3_R1.command.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_53",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_63",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_62",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_61"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.filtered.sorted.bam"
                     ],
@@ -776,12 +1041,18 @@
                         "h3k27me3_R1.target.filtered.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_56",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_66",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_65",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_64"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.filtered.sorted.bam"
                     ],
@@ -789,7 +1060,9 @@
                         "igg_ctrl_R1.target.filtered.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PRESEQ_LCEXTRAP",
@@ -802,12 +1075,18 @@
                         "igg_ctrl_R1.command.log",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_PICARD_DUP_META.AWK_68",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.filtered.sorted.bam",
                         "hg38-chr20.fa",
@@ -818,7 +1097,11 @@
                         "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_PICARD_DUP_META.AWK",
@@ -831,12 +1114,24 @@
                         "h3k27me3_R1_meta_picard_dups.awk.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_70",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.SAMTOOLS_SORT_71",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SAMTOOLS_CUSTOMVIEW_74",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_75",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_80",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_81",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_79",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.markdup.bam"
                     ],
@@ -844,7 +1139,9 @@
                         "h3k27me3_R1.target.markdup.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -858,7 +1155,10 @@
                         "h3k27me3_R1.target.filtered.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_53"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -873,7 +1173,11 @@
                         "h3k27me3_R1.target.filtered.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_53",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -887,7 +1191,10 @@
                         "h3k27me3_R1.target.filtered.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_53"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -901,7 +1208,10 @@
                         "igg_ctrl_R1.target.filtered.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_56"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -915,7 +1225,10 @@
                         "igg_ctrl_R1.target.filtered.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_56"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -930,7 +1243,11 @@
                         "igg_ctrl_R1.target.filtered.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_INDEX_56",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_PICARD_DUP_META.AWK",
@@ -943,12 +1260,20 @@
                         "igg_ctrl_R1_meta_picard_dups.awk.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_72",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_83",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_82",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_84"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.markdup.bam"
                     ],
@@ -956,12 +1281,21 @@
                         "igg_ctrl_R1.target.markdup.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SAMTOOLS_CUSTOMVIEW_74",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_75",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_80",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_81",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_79",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.markdup.sorted.bam"
                     ],
@@ -969,12 +1303,16 @@
                         "h3k27me3_R1.target.markdup.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_70",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_76"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.markdup.sorted.bam",
                         "dummy_file.txt"
@@ -983,12 +1321,16 @@
                         "h3k27me3_R1.bedGraph",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.SAMTOOLS_SORT_71",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.BEDTOOLS_BAMTOBED_77"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.markdup.sorted.bam"
                     ],
@@ -996,12 +1338,16 @@
                         "h3k27me3_R1.sortedbyname.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.markdup.sorted.bam",
                         "hg38-chr20.fa",
@@ -1012,12 +1358,20 @@
                         "igg_ctrl_R1.target.dedup.MarkDuplicates.metrics.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_72",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_83",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_82",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_84"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.markdup.sorted.bam"
                     ],
@@ -1025,12 +1379,16 @@
                         "igg_ctrl_R1.target.markdup.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.SAMTOOLS_CUSTOMVIEW",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.SAMTOOLS_CUSTOMVIEW_74",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FRAG_LEN_HIST_97"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.markdup.sorted.bam",
                         "h3k27me3_R1.target.markdup.sorted.bam.bai"
@@ -1039,12 +1397,17 @@
                         "h3k27me3_R1.frags.len.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_75",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.markdup.sorted.bam",
                         "h3k27me3_R1.target.markdup.sorted.bam.bai"
@@ -1055,12 +1418,17 @@
                         "h3k27me3_R1.plotFingerprint.qcmetrics.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_76",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.bedGraph"
                     ],
@@ -1068,12 +1436,16 @@
                         "h3k27me3_R1.sorted.bedGraph",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_70"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.BEDTOOLS_BAMTOBED",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.BEDTOOLS_BAMTOBED_77",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.AWK_86"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.sortedbyname.bam"
                     ],
@@ -1081,12 +1453,22 @@
                         "h3k27me3_R1.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.SAMTOOLS_SORT_71"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_88",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_87",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_95",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_92",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_93",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_94"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.dedup.bam"
                     ],
@@ -1094,7 +1476,9 @@
                         "igg_ctrl_R1.target.dedup.sorted.bam",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -1109,7 +1493,11 @@
                         "h3k27me3_R1.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -1123,7 +1511,10 @@
                         "igg_ctrl_R1.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_72"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -1138,7 +1529,11 @@
                         "igg_ctrl_R1.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_72",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -1152,7 +1547,10 @@
                         "h3k27me3_R1.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -1166,7 +1564,10 @@
                         "h3k27me3_R1.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -1180,12 +1581,18 @@
                         "igg_ctrl_R1.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_72"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.sorted.bedGraph",
                         "hg38-chr20.fa.sizes"
@@ -1194,12 +1601,17 @@
                         "h3k27me3_R1.clipped.bedGraph",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_76",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.AWK",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.AWK_86",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.CUT_90"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.bed"
                     ],
@@ -1207,12 +1619,16 @@
                         "h3k27me3_R1.filt.awk.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.BEDTOOLS_BAMTOBED_77"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_88",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_91"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.dedup.sorted.bam",
                         "dummy_file.txt"
@@ -1221,12 +1637,20 @@
                         "igg_ctrl_R1.bedGraph",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_87",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_95",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_92",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_93",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_94"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.dedup.sorted.bam"
                     ],
@@ -1234,12 +1658,19 @@
                         "igg_ctrl_R1.target.dedup.sorted.bam.bai",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_ALL_105",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS_113"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.clipped.bedGraph",
                         "hg38-chr20.fa.sizes"
@@ -1248,7 +1679,10 @@
                         "h3k27me3_R1.bigWig",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.CUT",
@@ -1261,12 +1695,16 @@
                         "h3k27me3_R1.frags.cut.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.AWK_86"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_91",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.bedGraph"
                     ],
@@ -1274,7 +1712,9 @@
                         "igg_ctrl_R1.sorted.bedGraph",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_88"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
@@ -1288,12 +1728,17 @@
                         "igg_ctrl_R1.idxstats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_87"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_92",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.target.dedup.sorted.bam",
                         "igg_ctrl_R1.target.dedup.sorted.bam.bai"
@@ -1304,7 +1749,10 @@
                         "igg_ctrl_R1.plotFingerprint.qcmetrics.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_87"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
@@ -1318,12 +1766,18 @@
                         "igg_ctrl_R1.flagstat",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_87"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTPCA_100",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTCORRELATION_101"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.target.markdup.sorted.bam",
                         "igg_ctrl_R1.target.dedup.sorted.bam",
@@ -1334,7 +1788,12 @@
                         "all_bam.bamSummary.npz",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_69",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_87"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
@@ -1349,12 +1808,18 @@
                         "igg_ctrl_R1.stats",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_INDEX_87",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.FRAG_LEN_HIST",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FRAG_LEN_HIST_97",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.frags.len.txt",
                         "frag_len_header.txt"
@@ -1363,12 +1828,17 @@
                         "frag_len_mqc.yml",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SAMTOOLS_CUSTOMVIEW_74"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_102",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_PEAKS_115"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.bigWig",
                         "hg38-chr20-genes.bed"
@@ -1378,12 +1848,18 @@
                         "h3k27me3_R1.computeMatrix.vals.mat.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_BED_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_103",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.sorted.bedGraph",
                         "hg38-chr20.fa.sizes"
@@ -1392,12 +1868,17 @@
                         "igg_ctrl_R1.clipped.bedGraph",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_91",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTPCA",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTPCA_100",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "all_bam.bamSummary.npz"
                     ],
@@ -1406,12 +1887,16 @@
                         "all_target_bams.plotPCA.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTCORRELATION",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTCORRELATION_101",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "all_bam.bamSummary.npz"
                     ],
@@ -1420,7 +1905,9 @@
                         "all_target_bams.plotCorrelation.mat.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE",
@@ -1434,12 +1921,16 @@
                         "h3k27me3_R1.plotHeatmap.mat.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_103",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
+                    ],
                     "inputFiles": [
                         "igg_ctrl_R1.clipped.bedGraph",
                         "hg38-chr20.fa.sizes"
@@ -1448,12 +1939,19 @@
                         "igg_ctrl_R1.bigWig",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.AWK_NAME_PEAK_BED_107",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.AWK_EXTRACT_SUMMITS_108",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PRIMARY_PEAK_COUNTS_106"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.clipped.bedGraph",
                         "igg_ctrl_R1.clipped.bedGraph"
@@ -1462,12 +1960,17 @@
                         "h3k27me3_R1.seacr.peaks.stringent.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_ALL",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_ALL_105",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_ALL_110"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.bigWig",
                         "hg38-chr20-genes.bed"
@@ -1477,12 +1980,18 @@
                         "all_genes.computeMatrix.vals.mat.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_BED_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.AWK_NAME_PEAK_BED",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.AWK_NAME_PEAK_BED_107",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.SORT_112",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CUT_CALC_REPROD_111"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.seacr.peaks.stringent.bed"
                     ],
@@ -1490,12 +1999,16 @@
                         "h3k27me3_R1.awk.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.AWK_EXTRACT_SUMMITS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.AWK_EXTRACT_SUMMITS_108",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS_113"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.seacr.peaks.stringent.bed"
                     ],
@@ -1503,12 +2016,16 @@
                         "h3k27me3_R1.max_signal.awk.txt",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PRIMARY_PEAK_COUNTS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PRIMARY_PEAK_COUNTS_106",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.seacr.peaks.stringent.bed",
                         "peak_counts_header.txt"
@@ -1517,7 +2034,9 @@
                         "h3k27me3_R1_mqc.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION",
@@ -1545,7 +2064,13 @@
                         "igv_session.xml",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TABIX_BGZIPTABIX_16",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_103"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_ALL",
@@ -1559,12 +2084,16 @@
                         "all_genes.plotHeatmap.mat.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_ALL_105"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.SORT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.SORT_112",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE_114"
+                    ],
                     "inputFiles": [
                         "h3k27me3_R1.awk.bed"
                     ],
@@ -1572,7 +2101,9 @@
                         "h3k27me3.sort.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.AWK_NAME_PEAK_BED_107"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CUT_CALC_REPROD",
@@ -1585,7 +2116,9 @@
                         "h3k27me3_R1.repro.cut.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.AWK_NAME_PEAK_BED_107"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS",
@@ -1600,12 +2133,18 @@
                         "h3k27me3_R1.computeMatrix.vals.mat.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.AWK_EXTRACT_SUMMITS_108"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE_114",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.AWK_116",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PLOT_CONSENSUS_PEAKS_117"
+                    ],
                     "inputFiles": [
                         "h3k27me3.sort.bed"
                     ],
@@ -1613,7 +2152,9 @@
                         "h3k27me3.consensus.peak_counts.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.SORT_112"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_PEAKS",
@@ -1627,12 +2168,16 @@
                         "h3k27me3_R1.plotHeatmap.mat.tab",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.AWK",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.AWK_116",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CONSENSUS_PEAK_COUNTS_118"
+                    ],
                     "inputFiles": [
                         "h3k27me3.consensus.peak_counts.bed"
                     ],
@@ -1640,7 +2185,9 @@
                         "h3k27me3.consensus.peaks.awk.bed",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE_114"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PLOT_CONSENSUS_PEAKS",
@@ -1652,12 +2199,16 @@
                     "outputFiles": [
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE_114"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CONSENSUS_PEAK_COUNTS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CONSENSUS_PEAK_COUNTS_118",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "h3k27me3.consensus.peaks.awk.bed",
                         "peak_counts_consensus_header.txt"
@@ -1666,12 +2217,16 @@
                         "h3k27me3_mqc.tsv",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.AWK_116"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.CUSTOM_DUMPSOFTWAREVERSIONS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.CUSTOM_DUMPSOFTWAREVERSIONS_119",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
                         "versions.yml"
                     ],
@@ -1681,7 +2236,9 @@
                         "software_versions_unique_mqc.yml",
                         "local_versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.INPUT_CHECK.SAMPLESHEET_CHECK_4"
+                    ]
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC",
@@ -1727,7 +2284,29 @@
                         "multiqc_plots",
                         "versions.yml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.CUSTOM_DUMPSOFTWAREVERSIONS_119",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.FASTQC_8",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.FASTQC_10",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_11",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_9",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_38",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_37",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTCORRELATION_101",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTPCA_100",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_75",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTFINGERPRINT_92",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PRIMARY_PEAK_COUNTS_106",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CONSENSUS_PEAK_COUNTS_118",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.FRAG_LEN_HIST_97"
+                    ]
                 }
             ],
             "files": [
@@ -1748,60 +2327,28 @@
                     "sizeInBytes": 356196
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
-                },
-                {
                     "id": "hg38-chr20-genes.gtf",
                     "sizeInBytes": 5894389
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
                 },
                 {
                     "id": "e_coli_U00096_3.fa",
                     "sizeInBytes": 4708032
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 83
-                },
-                {
                     "id": "e_coli_U00096_3",
                     "sizeInBytes": 14964864
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
                 },
                 {
                     "id": "hg38-chr20.fa",
                     "sizeInBytes": 65518244
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 75
-                },
-                {
-                    "id": "hg38-chr20-genes.bed",
-                    "sizeInBytes": 356196
-                },
-                {
                     "id": "hg38-chr20-genes.sorted.bed",
                     "sizeInBytes": 356196
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
-                },
-                {
                     "id": "hg38-chr20-bowtie2",
                     "sizeInBytes": 98979713
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 80
                 },
                 {
                     "id": "h3k27me3_rep1_r1.fastq.gz",
@@ -1828,10 +2375,6 @@
                     "sizeInBytes": 350913
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 74
-                },
-                {
                     "id": "igg_rep1_r1.fastq.gz",
                     "sizeInBytes": 230684
                 },
@@ -1856,18 +2399,6 @@
                     "sizeInBytes": 347036
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 74
-                },
-                {
-                    "id": "igg_rep1_r1.fastq.gz",
-                    "sizeInBytes": 230684
-                },
-                {
-                    "id": "igg_rep1_r2.fastq.gz",
-                    "sizeInBytes": 233738
-                },
-                {
                     "id": "igg_ctrl_R1_1.trimmed.fastq.gz",
                     "sizeInBytes": 203940
                 },
@@ -1882,10 +2413,6 @@
                 {
                     "id": "igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
                     "sizeInBytes": 2186
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 102
                 },
                 {
                     "id": "igg_ctrl_R1_1.trimmed_fastqc.html",
@@ -1904,14 +2431,6 @@
                     "sizeInBytes": 358651
                 },
                 {
-                    "id": "h3k27me3_rep1_r1.fastq.gz",
-                    "sizeInBytes": 220233
-                },
-                {
-                    "id": "h3k27me3_rep1_r2.fastq.gz",
-                    "sizeInBytes": 228428
-                },
-                {
                     "id": "h3k27me3_R1_1.trimmed.fastq.gz",
                     "sizeInBytes": 200049
                 },
@@ -1926,10 +2445,6 @@
                 {
                     "id": "h3k27me3_R1_2.fastq.gz_trimming_report.txt",
                     "sizeInBytes": 2204
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 102
                 },
                 {
                     "id": "h3k27me3_R1_1.trimmed_fastqc.html",
@@ -1948,10 +2463,6 @@
                     "sizeInBytes": 358638
                 },
                 {
-                    "id": "e_coli_U00096_3.fa",
-                    "sizeInBytes": 4708032
-                },
-                {
                     "id": "e_coli_U00096_3.fa.sizes",
                     "sizeInBytes": 17
                 },
@@ -1960,40 +2471,12 @@
                     "sizeInBytes": 26
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 91
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
                     "id": "hg38-chr20.fa.sizes",
                     "sizeInBytes": 15
                 },
                 {
                     "id": "hg38-chr20.fa.fai",
                     "sizeInBytes": 23
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "hg38-chr20.fa.fai",
-                    "sizeInBytes": 23
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 82
-                },
-                {
-                    "id": "hg38-chr20-genes.sorted.bed",
-                    "sizeInBytes": 356196
                 },
                 {
                     "id": "hg38-chr20-genes.bed.gz",
@@ -2004,44 +2487,12 @@
                     "sizeInBytes": 3024
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 78
-                },
-                {
-                    "id": "igg_ctrl_R1_1.trimmed.fastq.gz",
-                    "sizeInBytes": 203940
-                },
-                {
-                    "id": "igg_ctrl_R1_2.trimmed.fastq.gz",
-                    "sizeInBytes": 208055
-                },
-                {
-                    "id": "hg38-chr20-bowtie2",
-                    "sizeInBytes": 98979713
-                },
-                {
                     "id": "igg_ctrl_R1.bam",
                     "sizeInBytes": 397246
                 },
                 {
                     "id": "igg_ctrl_R1.bowtie2.log",
                     "sizeInBytes": 236
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 120
-                },
-                {
-                    "id": "igg_ctrl_R1_1.trimmed.fastq.gz",
-                    "sizeInBytes": 203940
-                },
-                {
-                    "id": "igg_ctrl_R1_2.trimmed.fastq.gz",
-                    "sizeInBytes": 208055
-                },
-                {
-                    "id": "e_coli_U00096_3",
-                    "sizeInBytes": 14964864
                 },
                 {
                     "id": "igg_ctrl_R1.spikein.bam",
@@ -2052,44 +2503,12 @@
                     "sizeInBytes": 234
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 121
-                },
-                {
-                    "id": "h3k27me3_R1_1.trimmed.fastq.gz",
-                    "sizeInBytes": 200049
-                },
-                {
-                    "id": "h3k27me3_R1_2.trimmed.fastq.gz",
-                    "sizeInBytes": 207942
-                },
-                {
-                    "id": "e_coli_U00096_3",
-                    "sizeInBytes": 14964864
-                },
-                {
                     "id": "h3k27me3_R1.spikein.bam",
                     "sizeInBytes": 368298
                 },
                 {
                     "id": "h3k27me3_R1.spikein.bowtie2.log",
                     "sizeInBytes": 233
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 121
-                },
-                {
-                    "id": "h3k27me3_R1_1.trimmed.fastq.gz",
-                    "sizeInBytes": 200049
-                },
-                {
-                    "id": "h3k27me3_R1_2.trimmed.fastq.gz",
-                    "sizeInBytes": 207942
-                },
-                {
-                    "id": "hg38-chr20-bowtie2",
-                    "sizeInBytes": 98979713
                 },
                 {
                     "id": "h3k27me3_R1.bam",
@@ -2100,24 +2519,8 @@
                     "sizeInBytes": 236
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 120
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
-                },
-                {
                     "id": "chromsizes.awk.bed",
                     "sizeInBytes": 17
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 74
-                },
-                {
-                    "id": "igg_ctrl_R1.bowtie2.log",
-                    "sizeInBytes": 236
                 },
                 {
                     "id": "bt2_report_to_csv.awk",
@@ -2128,476 +2531,104 @@
                     "sizeInBytes": 97
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 80
-                },
-                {
-                    "id": "igg_ctrl_R1.bam",
-                    "sizeInBytes": 397246
-                },
-                {
                     "id": "igg_ctrl_R1.target.sorted.bam",
                     "sizeInBytes": 386856
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 104
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.bowtie2.log",
-                    "sizeInBytes": 234
-                },
-                {
-                    "id": "bt2_report_to_csv.awk",
-                    "sizeInBytes": 1202
                 },
                 {
                     "id": "igg_ctrl_R1_meta_bt2_spikein.awk.txt",
                     "sizeInBytes": 95
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.bam",
-                    "sizeInBytes": 395735
-                },
-                {
                     "id": "igg_ctrl_R1.spikein.sorted.bam",
                     "sizeInBytes": 385870
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 112
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.bam",
-                    "sizeInBytes": 368298
-                },
-                {
                     "id": "h3k27me3_R1.spikein.sorted.bam",
                     "sizeInBytes": 368331
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 112
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.bowtie2.log",
-                    "sizeInBytes": 233
-                },
-                {
-                    "id": "bt2_report_to_csv.awk",
-                    "sizeInBytes": 1202
                 },
                 {
                     "id": "h3k27me3_R1_meta_bt2_spikein.awk.txt",
                     "sizeInBytes": 91
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "h3k27me3_R1.bam",
-                    "sizeInBytes": 395584
-                },
-                {
                     "id": "h3k27me3_R1.target.sorted.bam",
                     "sizeInBytes": 382225
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 104
-                },
-                {
-                    "id": "h3k27me3_R1.bowtie2.log",
-                    "sizeInBytes": 236
-                },
-                {
-                    "id": "bt2_report_to_csv.awk",
-                    "sizeInBytes": 1202
                 },
                 {
                     "id": "h3k27me3_R1_meta_bt2_target.awk.txt",
                     "sizeInBytes": 97
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 80
-                },
-                {
                     "id": "hg38-blacklist.bed",
                     "sizeInBytes": 901
                 },
                 {
-                    "id": "chromsizes.awk.bed",
-                    "sizeInBytes": 17
-                },
-                {
                     "id": "blacklist.filtered.bed",
                     "sizeInBytes": 144
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 95
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam",
-                    "sizeInBytes": 386856
                 },
                 {
                     "id": "igg_ctrl_R1.target.sorted.bam.bai",
                     "sizeInBytes": 37672
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 105
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam",
-                    "sizeInBytes": 385870
-                },
-                {
                     "id": "igg_ctrl_R1.spikein.sorted.bam.bai",
                     "sizeInBytes": 6312
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 113
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam",
-                    "sizeInBytes": 368331
                 },
                 {
                     "id": "h3k27me3_R1.spikein.sorted.bam.bai",
                     "sizeInBytes": 24
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 113
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam",
-                    "sizeInBytes": 382225
-                },
-                {
                     "id": "h3k27me3_R1.target.sorted.bam.bai",
                     "sizeInBytes": 39464
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 105
-                },
-                {
-                    "id": "blacklist.filtered.bed",
-                    "sizeInBytes": 144
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
-                },
-                {
                     "id": "blacklist.sorted.bed",
                     "sizeInBytes": 144
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam",
-                    "sizeInBytes": 385870
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 6312
                 },
                 {
                     "id": "igg_ctrl_R1.idxstats",
                     "sizeInBytes": 35
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 135
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam",
-                    "sizeInBytes": 385870
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 6312
-                },
-                {
-                    "id": "e_coli_U00096_3.fa",
-                    "sizeInBytes": 4708032
-                },
-                {
                     "id": "igg_ctrl_R1.stats",
                     "sizeInBytes": 25401
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 132
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam",
-                    "sizeInBytes": 368331
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 24
-                },
-                {
-                    "id": "e_coli_U00096_3.fa",
-                    "sizeInBytes": 4708032
                 },
                 {
                     "id": "h3k27me3_R1.stats",
                     "sizeInBytes": 16085
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 132
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam",
-                    "sizeInBytes": 385870
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 6312
-                },
-                {
                     "id": "igg_ctrl_R1.flagstat",
                     "sizeInBytes": 477
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 135
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam",
-                    "sizeInBytes": 368331
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 24
-                },
-                {
                     "id": "h3k27me3_R1.idxstats",
                     "sizeInBytes": 33
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 135
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam",
-                    "sizeInBytes": 368331
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 24
                 },
                 {
                     "id": "h3k27me3_R1.flagstat",
                     "sizeInBytes": 469
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 135
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam",
-                    "sizeInBytes": 386856
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 37672
-                },
-                {
-                    "id": "igg_ctrl_R1.idxstats",
-                    "sizeInBytes": 33
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 127
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam",
-                    "sizeInBytes": 382225
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 39464
-                },
-                {
-                    "id": "h3k27me3_R1.idxstats",
-                    "sizeInBytes": 33
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 127
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam",
-                    "sizeInBytes": 382225
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 39464
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "h3k27me3_R1.stats",
-                    "sizeInBytes": 27709
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 124
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam",
-                    "sizeInBytes": 386856
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 37672
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "igg_ctrl_R1.stats",
-                    "sizeInBytes": 28125
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 124
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam",
-                    "sizeInBytes": 382225
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 39464
-                },
-                {
-                    "id": "h3k27me3_R1.flagstat",
-                    "sizeInBytes": 477
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 127
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam",
-                    "sizeInBytes": 386856
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 37672
-                },
-                {
-                    "id": "igg_ctrl_R1.flagstat",
-                    "sizeInBytes": 477
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 127
-                },
-                {
-                    "id": "blacklist.sorted.bed",
-                    "sizeInBytes": 144
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
-                },
-                {
-                    "id": "blacklist.bed",
-                    "sizeInBytes": 137
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 96
-                },
-                {
-                    "id": "h3k27me3_R1.target.sorted.bam",
-                    "sizeInBytes": 382225
-                },
-                {
                     "id": "blacklist.bed",
                     "sizeInBytes": 137
                 },
                 {
                     "id": "h3k27me3_R1.target.filtered.bam",
                     "sizeInBytes": 23181
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam",
-                    "sizeInBytes": 386856
-                },
-                {
-                    "id": "blacklist.bed",
-                    "sizeInBytes": 137
                 },
                 {
                     "id": "igg_ctrl_R1.target.filtered.bam",
                     "sizeInBytes": 13709
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.bam",
-                    "sizeInBytes": 23181
                 },
                 {
                     "id": "h3k27me3_R1.target.filtered.sorted.bam",
                     "sizeInBytes": 23043
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.bam",
-                    "sizeInBytes": 13709
                 },
                 {
                     "id": "igg_ctrl_R1.target.filtered.sorted.bam",
                     "sizeInBytes": 13642
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 23043
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "hg38-chr20.fa.fai",
-                    "sizeInBytes": 23
                 },
                 {
                     "id": "h3k27me3_R1.target.markdup.bam",
@@ -2606,250 +2637,74 @@
                 {
                     "id": "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
                     "sizeInBytes": 1917
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 103
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 23043
                 },
                 {
                     "id": "h3k27me3_R1.command.log",
                     "sizeInBytes": 811
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 23043
-                },
-                {
                     "id": "h3k27me3_R1.target.filtered.sorted.bam.bai",
                     "sizeInBytes": 37832
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 80
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 13642
-                },
-                {
                     "id": "igg_ctrl_R1.target.filtered.sorted.bam.bai",
                     "sizeInBytes": 35336
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 80
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 13642
                 },
                 {
                     "id": "igg_ctrl_R1.command.log",
                     "sizeInBytes": 340
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 13642
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "hg38-chr20.fa.fai",
-                    "sizeInBytes": 23
-                },
-                {
                     "id": "igg_ctrl_R1.target.markdup.bam",
                     "sizeInBytes": 15105
                 },
                 {
                     "id": "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
                     "sizeInBytes": 3792
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 103
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
-                    "sizeInBytes": 1917
                 },
                 {
                     "id": "h3k27me3_R1_meta_picard_dups.awk.txt",
                     "sizeInBytes": 251
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.bam",
-                    "sizeInBytes": 24861
-                },
-                {
                     "id": "h3k27me3_R1.target.markdup.sorted.bam",
                     "sizeInBytes": 23870
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 113
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 23043
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 37832
                 },
                 {
                     "id": "h3k27me3_R1.target.filtered.idxstats",
                     "sizeInBytes": 29
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 102
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 23043
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 37832
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
                     "id": "h3k27me3_R1.target.filtered.stats",
                     "sizeInBytes": 25858
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 99
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 23043
-                },
-                {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 37832
                 },
                 {
                     "id": "h3k27me3_R1.target.filtered.flagstat",
                     "sizeInBytes": 475
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 102
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 13642
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
                     "id": "igg_ctrl_R1.target.filtered.idxstats",
                     "sizeInBytes": 29
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 102
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 13642
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 35336
                 },
                 {
                     "id": "igg_ctrl_R1.target.filtered.flagstat",
                     "sizeInBytes": 475
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 102
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 13642
-                },
-                {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
                     "id": "igg_ctrl_R1.target.filtered.stats",
                     "sizeInBytes": 26128
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 99
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
-                    "sizeInBytes": 3792
                 },
                 {
                     "id": "igg_ctrl_R1_meta_picard_dups.awk.txt",
                     "sizeInBytes": 262
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 73
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.bam",
-                    "sizeInBytes": 15105
-                },
-                {
                     "id": "igg_ctrl_R1.target.markdup.sorted.bam",
                     "sizeInBytes": 14451
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 113
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
                     "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
                     "sizeInBytes": 37832
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 114
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
                 },
                 {
                     "id": "dummy_file.txt",
@@ -2860,32 +2715,8 @@
                     "sizeInBytes": 8124
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
                     "id": "h3k27me3_R1.sortedbyname.bam",
                     "sizeInBytes": 23799
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 84
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 14451
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "hg38-chr20.fa.fai",
-                    "sizeInBytes": 23
                 },
                 {
                     "id": "igg_ctrl_R1.target.dedup.bam",
@@ -2896,44 +2727,12 @@
                     "sizeInBytes": 3786
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 99
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 14451
-                },
-                {
                     "id": "igg_ctrl_R1.target.markdup.sorted.bam.bai",
                     "sizeInBytes": 35336
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 114
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 37832
-                },
-                {
                     "id": "h3k27me3_R1.frags.len.txt",
                     "sizeInBytes": 1147
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 72
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 37832
                 },
                 {
                     "id": "h3k27me3_R1.plotFingerprint.pdf",
@@ -2948,268 +2747,44 @@
                     "sizeInBytes": 296
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "h3k27me3_R1.bedGraph",
-                    "sizeInBytes": 8124
-                },
-                {
                     "id": "h3k27me3_R1.sorted.bedGraph",
                     "sizeInBytes": 8124
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 85
-                },
-                {
-                    "id": "h3k27me3_R1.sortedbyname.bam",
-                    "sizeInBytes": 23799
-                },
-                {
                     "id": "h3k27me3_R1.bed",
                     "sizeInBytes": 22933
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 87
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.bam",
-                    "sizeInBytes": 15071
                 },
                 {
                     "id": "igg_ctrl_R1.target.dedup.sorted.bam",
                     "sizeInBytes": 14437
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 109
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 37832
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "h3k27me3_R1.stats",
-                    "sizeInBytes": 25857
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 133
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 14451
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "igg_ctrl_R1.idxstats",
-                    "sizeInBytes": 29
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 136
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 14451
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "igg_ctrl_R1.stats",
-                    "sizeInBytes": 26128
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 133
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 37832
-                },
-                {
-                    "id": "h3k27me3_R1.flagstat",
-                    "sizeInBytes": 475
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 136
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 37832
-                },
-                {
-                    "id": "h3k27me3_R1.idxstats",
-                    "sizeInBytes": 29
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 136
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 14451
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "igg_ctrl_R1.flagstat",
-                    "sizeInBytes": 475
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 136
-                },
-                {
-                    "id": "h3k27me3_R1.sorted.bedGraph",
-                    "sizeInBytes": 8124
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
-                },
-                {
                     "id": "h3k27me3_R1.clipped.bedGraph",
                     "sizeInBytes": 8124
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 77
-                },
-                {
-                    "id": "h3k27me3_R1.bed",
-                    "sizeInBytes": 22933
                 },
                 {
                     "id": "h3k27me3_R1.filt.awk.bed",
                     "sizeInBytes": 22933
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 67
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
-                    "id": "dummy_file.txt",
-                    "sizeInBytes": 0
-                },
-                {
                     "id": "igg_ctrl_R1.bedGraph",
                     "sizeInBytes": 5494
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
                     "id": "igg_ctrl_R1.target.dedup.sorted.bam.bai",
                     "sizeInBytes": 35336
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 110
-                },
-                {
-                    "id": "h3k27me3_R1.clipped.bedGraph",
-                    "sizeInBytes": 8124
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
                 },
                 {
                     "id": "h3k27me3_R1.bigWig",
                     "sizeInBytes": 35126
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 86
-                },
-                {
-                    "id": "h3k27me3_R1.filt.awk.bed",
-                    "sizeInBytes": 22933
-                },
-                {
                     "id": "h3k27me3_R1.frags.cut.bed",
                     "sizeInBytes": 7350
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 66
-                },
-                {
-                    "id": "igg_ctrl_R1.bedGraph",
-                    "sizeInBytes": 5494
-                },
-                {
                     "id": "igg_ctrl_R1.sorted.bedGraph",
                     "sizeInBytes": 5494
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 85
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "igg_ctrl_R1.idxstats",
-                    "sizeInBytes": 29
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 132
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                    "sizeInBytes": 35336
                 },
                 {
                     "id": "igg_ctrl_R1.plotFingerprint.pdf",
@@ -3224,72 +2799,8 @@
                     "sizeInBytes": 292
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "igg_ctrl_R1.flagstat",
-                    "sizeInBytes": 475
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 132
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 37832
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
                     "id": "all_bam.bamSummary.npz",
                     "sizeInBytes": 4203
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "igg_ctrl_R1.stats",
-                    "sizeInBytes": 26133
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 129
-                },
-                {
-                    "id": "h3k27me3_R1.frags.len.txt",
-                    "sizeInBytes": 1147
                 },
                 {
                     "id": "frag_len_header.txt",
@@ -3300,18 +2811,6 @@
                     "sizeInBytes": 2029
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 119
-                },
-                {
-                    "id": "h3k27me3_R1.bigWig",
-                    "sizeInBytes": 35126
-                },
-                {
-                    "id": "hg38-chr20-genes.bed",
-                    "sizeInBytes": 356196
-                },
-                {
                     "id": "h3k27me3_R1.computeMatrix.mat.gz",
                     "sizeInBytes": 13804
                 },
@@ -3320,28 +2819,8 @@
                     "sizeInBytes": 584652
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 80
-                },
-                {
-                    "id": "igg_ctrl_R1.sorted.bedGraph",
-                    "sizeInBytes": 5494
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
-                },
-                {
                     "id": "igg_ctrl_R1.clipped.bedGraph",
                     "sizeInBytes": 5494
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 77
-                },
-                {
-                    "id": "all_bam.bamSummary.npz",
-                    "sizeInBytes": 4203
                 },
                 {
                     "id": "all_target_bams.plotPCA.pdf",
@@ -3352,28 +2831,12 @@
                     "sizeInBytes": 189
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 82
-                },
-                {
-                    "id": "all_bam.bamSummary.npz",
-                    "sizeInBytes": 4203
-                },
-                {
                     "id": "all_target_bams.plotCorrelation.pdf",
                     "sizeInBytes": 383349
                 },
                 {
                     "id": "all_target_bams.plotCorrelation.mat.tab",
                     "sizeInBytes": 123
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 90
-                },
-                {
-                    "id": "h3k27me3_R1.computeMatrix.mat.gz",
-                    "sizeInBytes": 13804
                 },
                 {
                     "id": "h3k27me3_R1.plotHeatmap.pdf",
@@ -3384,48 +2847,12 @@
                     "sizeInBytes": 14058
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 78
-                },
-                {
-                    "id": "igg_ctrl_R1.clipped.bedGraph",
-                    "sizeInBytes": 5494
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
-                },
-                {
                     "id": "igg_ctrl_R1.bigWig",
                     "sizeInBytes": 34136
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 86
-                },
-                {
-                    "id": "h3k27me3_R1.clipped.bedGraph",
-                    "sizeInBytes": 8124
-                },
-                {
-                    "id": "igg_ctrl_R1.clipped.bedGraph",
-                    "sizeInBytes": 5494
-                },
-                {
                     "id": "h3k27me3_R1.seacr.peaks.stringent.bed",
                     "sizeInBytes": 270
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 103
-                },
-                {
-                    "id": "h3k27me3_R1.bigWig",
-                    "sizeInBytes": 35126
-                },
-                {
-                    "id": "hg38-chr20-genes.bed",
-                    "sizeInBytes": 356196
                 },
                 {
                     "id": "all_genes.computeMatrix.mat.gz",
@@ -3436,36 +2863,12 @@
                     "sizeInBytes": 584652
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 84
-                },
-                {
-                    "id": "h3k27me3_R1.seacr.peaks.stringent.bed",
-                    "sizeInBytes": 270
-                },
-                {
                     "id": "h3k27me3_R1.awk.bed",
                     "sizeInBytes": 460
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 63
-                },
-                {
-                    "id": "h3k27me3_R1.seacr.peaks.stringent.bed",
-                    "sizeInBytes": 270
-                },
-                {
                     "id": "h3k27me3_R1.max_signal.awk.txt",
                     "sizeInBytes": 120
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
-                    "id": "h3k27me3_R1.seacr.peaks.stringent.bed",
-                    "sizeInBytes": 270
                 },
                 {
                     "id": "peak_counts_header.txt",
@@ -3474,34 +2877,6 @@
                 {
                     "id": "h3k27me3_R1_mqc.tsv",
                     "sizeInBytes": 468
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "hg38-chr20.fa.fai",
-                    "sizeInBytes": 23
-                },
-                {
-                    "id": "hg38-chr20-genes.bed.gz",
-                    "sizeInBytes": 90088
-                },
-                {
-                    "id": "hg38-chr20-genes.bed.gz.tbi",
-                    "sizeInBytes": 3024
-                },
-                {
-                    "id": "h3k27me3_R1.bigWig",
-                    "sizeInBytes": 35126
-                },
-                {
-                    "id": "igg_ctrl_R1.bigWig",
-                    "sizeInBytes": 34136
                 },
                 {
                     "id": "exp_files.txt",
@@ -3516,44 +2891,12 @@
                     "sizeInBytes": 0
                 },
                 {
-                    "id": "h3k27me3_R1.bigWig",
-                    "sizeInBytes": 35126
-                },
-                {
-                    "id": "hg38-chr20-genes.bed.gz",
-                    "sizeInBytes": 90088
-                },
-                {
-                    "id": "hg38-chr20-genes.bed.gz.tbi",
-                    "sizeInBytes": 3024
-                },
-                {
-                    "id": "hg38-chr20.fa",
-                    "sizeInBytes": 65518244
-                },
-                {
-                    "id": "hg38-chr20.fa.fai",
-                    "sizeInBytes": 23
-                },
-                {
-                    "id": "igg_ctrl_R1.bigWig",
-                    "sizeInBytes": 34136
-                },
-                {
                     "id": "igv_files.txt",
                     "sizeInBytes": 58
                 },
                 {
                     "id": "igv_session.xml",
                     "sizeInBytes": 1603
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 85
-                },
-                {
-                    "id": "all_genes.computeMatrix.mat.gz",
-                    "sizeInBytes": 13802
                 },
                 {
                     "id": "all_genes.plotHeatmap.pdf",
@@ -3564,23 +2907,7 @@
                     "sizeInBytes": 14056
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 82
-                },
-                {
-                    "id": "h3k27me3_R1.awk.bed",
-                    "sizeInBytes": 460
-                },
-                {
                     "id": "h3k27me3.sort.bed",
-                    "sizeInBytes": 460
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 66
-                },
-                {
-                    "id": "h3k27me3_R1.awk.bed",
                     "sizeInBytes": 460
                 },
                 {
@@ -3588,76 +2915,8 @@
                     "sizeInBytes": 240
                 },
                 {
-                    "id": "versions.yml",
-                    "sizeInBytes": 68
-                },
-                {
-                    "id": "h3k27me3_R1.bigWig",
-                    "sizeInBytes": 35126
-                },
-                {
-                    "id": "h3k27me3_R1.max_signal.awk.txt",
-                    "sizeInBytes": 120
-                },
-                {
-                    "id": "h3k27me3_R1.computeMatrix.mat.gz",
-                    "sizeInBytes": 616
-                },
-                {
-                    "id": "h3k27me3_R1.computeMatrix.vals.mat.tab",
-                    "sizeInBytes": 13347
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "h3k27me3.sort.bed",
-                    "sizeInBytes": 460
-                },
-                {
                     "id": "h3k27me3.consensus.peak_counts.bed",
                     "sizeInBytes": 560
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 82
-                },
-                {
-                    "id": "h3k27me3_R1.computeMatrix.mat.gz",
-                    "sizeInBytes": 616
-                },
-                {
-                    "id": "h3k27me3_R1.plotHeatmap.pdf",
-                    "sizeInBytes": 390765
-                },
-                {
-                    "id": "h3k27me3_R1.plotHeatmap.mat.tab",
-                    "sizeInBytes": 628
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 79
-                },
-                {
-                    "id": "h3k27me3.consensus.peak_counts.bed",
-                    "sizeInBytes": 560
-                },
-                {
-                    "id": "h3k27me3.consensus.peaks.awk.bed",
-                    "sizeInBytes": 560
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 65
-                },
-                {
-                    "id": "h3k27me3.consensus.peak_counts.bed",
-                    "sizeInBytes": 560
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 135
                 },
                 {
                     "id": "h3k27me3.consensus.peaks.awk.bed",
@@ -3670,14 +2929,6 @@
                 {
                     "id": "h3k27me3_mqc.tsv",
                     "sizeInBytes": 477
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 81
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 7791
                 },
                 {
                     "id": "software_versions.yml",
@@ -3700,128 +2951,8 @@
                     "sizeInBytes": 3442
                 },
                 {
-                    "id": "software_versions_mqc.yml",
-                    "sizeInBytes": 15733
-                },
-                {
-                    "id": "software_versions_unique_mqc.yml",
-                    "sizeInBytes": 3875
-                },
-                {
                     "id": "workflow_summary_mqc.yml",
                     "sizeInBytes": 3347
-                },
-                {
-                    "id": "h3k27me3_R1_1_fastqc.zip",
-                    "sizeInBytes": 346119
-                },
-                {
-                    "id": "h3k27me3_R1_2_fastqc.zip",
-                    "sizeInBytes": 350913
-                },
-                {
-                    "id": "igg_ctrl_R1_1_fastqc.zip",
-                    "sizeInBytes": 344197
-                },
-                {
-                    "id": "igg_ctrl_R1_2_fastqc.zip",
-                    "sizeInBytes": 347036
-                },
-                {
-                    "id": "igg_ctrl_R1_1.trimmed_fastqc.zip",
-                    "sizeInBytes": 364129
-                },
-                {
-                    "id": "igg_ctrl_R1_2.trimmed_fastqc.zip",
-                    "sizeInBytes": 358651
-                },
-                {
-                    "id": "h3k27me3_R1_1.trimmed_fastqc.zip",
-                    "sizeInBytes": 365978
-                },
-                {
-                    "id": "h3k27me3_R1_2.trimmed_fastqc.zip",
-                    "sizeInBytes": 358638
-                },
-                {
-                    "id": "igg_ctrl_R1_1.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 2015
-                },
-                {
-                    "id": "igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 2186
-                },
-                {
-                    "id": "h3k27me3_R1_1.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 1988
-                },
-                {
-                    "id": "h3k27me3_R1_2.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 2204
-                },
-                {
-                    "id": "igg_ctrl_R1.bowtie2.log",
-                    "sizeInBytes": 236
-                },
-                {
-                    "id": "h3k27me3_R1.bowtie2.log",
-                    "sizeInBytes": 236
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.bowtie2.log",
-                    "sizeInBytes": 234
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.bowtie2.log",
-                    "sizeInBytes": 233
-                },
-                {
-                    "id": "igg_ctrl_R1.stats",
-                    "sizeInBytes": 26133
-                },
-                {
-                    "id": "igg_ctrl_R1.flagstat",
-                    "sizeInBytes": 475
-                },
-                {
-                    "id": "igg_ctrl_R1.idxstats",
-                    "sizeInBytes": 29
-                },
-                {
-                    "id": "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
-                    "sizeInBytes": 1917
-                },
-                {
-                    "id": "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
-                    "sizeInBytes": 3792
-                },
-                {
-                    "id": "all_target_bams.plotCorrelation.mat.tab",
-                    "sizeInBytes": 123
-                },
-                {
-                    "id": "all_target_bams.plotPCA.tab",
-                    "sizeInBytes": 189
-                },
-                {
-                    "id": "h3k27me3_R1.plotFingerprint.raw.txt",
-                    "sizeInBytes": 5411
-                },
-                {
-                    "id": "igg_ctrl_R1.plotFingerprint.raw.txt",
-                    "sizeInBytes": 3155
-                },
-                {
-                    "id": "h3k27me3_R1_mqc.tsv",
-                    "sizeInBytes": 468
-                },
-                {
-                    "id": "h3k27me3_mqc.tsv",
-                    "sizeInBytes": 477
-                },
-                {
-                    "id": "frag_len_mqc.yml",
-                    "sizeInBytes": 2029
                 },
                 {
                     "id": "multiqc_report.html",
@@ -3834,10 +2965,6 @@
                 {
                     "id": "multiqc_plots",
                     "sizeInBytes": 2476100
-                },
-                {
-                    "id": "versions.yml",
-                    "sizeInBytes": 56
                 }
             ]
         },

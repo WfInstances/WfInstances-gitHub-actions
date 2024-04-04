@@ -11,7 +11,10 @@
                 {
                     "name": "NFCORE_BACASS.BACASS.FASTQC",
                     "id": "NFCORE_BACASS.BACASS.FASTQC_2",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS_10",
+                        "NFCORE_BACASS.BACASS.MULTIQC_11"
+                    ],
                     "inputFiles": [
                         "ERR044595_1M_1.fastq.gz",
                         "ERR044595_1M_2.fastq.gz"
@@ -28,7 +31,10 @@
                 {
                     "name": "NFCORE_BACASS.BACASS.SKEWER",
                     "id": "NFCORE_BACASS.BACASS.SKEWER_1",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.UNICYCLER_5",
+                        "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS_10"
+                    ],
                     "inputFiles": [
                         "ERR044595_1M_1.fastq.gz",
                         "ERR044595_1M_2.fastq.gz"
@@ -44,7 +50,9 @@
                 {
                     "name": "NFCORE_BACASS.BACASS.FASTQC",
                     "id": "NFCORE_BACASS.BACASS.FASTQC_4",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.MULTIQC_11"
+                    ],
                     "inputFiles": [
                         "ERR064912_1M_1.fastq.gz",
                         "ERR064912_1M_2.fastq.gz"
@@ -61,7 +69,9 @@
                 {
                     "name": "NFCORE_BACASS.BACASS.SKEWER",
                     "id": "NFCORE_BACASS.BACASS.SKEWER_3",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.UNICYCLER_6"
+                    ],
                     "inputFiles": [
                         "ERR064912_1M_1.fastq.gz",
                         "ERR064912_1M_2.fastq.gz"
@@ -77,7 +87,11 @@
                 {
                     "name": "NFCORE_BACASS.BACASS.UNICYCLER",
                     "id": "NFCORE_BACASS.BACASS.UNICYCLER_5",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.PROKKA_7",
+                        "NFCORE_BACASS.BACASS.QUAST_9",
+                        "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS_10"
+                    ],
                     "inputFiles": [
                         "ERR044595_trm-cmb.R1.fastq.gz",
                         "ERR044595_trm-cmb.R2.fastq.gz"
@@ -88,12 +102,17 @@
                         "ERR044595.unicycler.log",
                         "unicycler.version.txt"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_BACASS.BACASS.SKEWER_1"
+                    ]
                 },
                 {
                     "name": "NFCORE_BACASS.BACASS.UNICYCLER",
                     "id": "NFCORE_BACASS.BACASS.UNICYCLER_6",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.QUAST_9",
+                        "NFCORE_BACASS.BACASS.PROKKA_8"
+                    ],
                     "inputFiles": [
                         "ERR064912_trm-cmb.R1.fastq.gz",
                         "ERR064912_trm-cmb.R2.fastq.gz"
@@ -104,12 +123,16 @@
                         "ERR064912.unicycler.log",
                         "unicycler.version.txt"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_BACASS.BACASS.SKEWER_3"
+                    ]
                 },
                 {
                     "name": "NFCORE_BACASS.BACASS.PROKKA",
                     "id": "NFCORE_BACASS.BACASS.PROKKA_7",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS_10"
+                    ],
                     "inputFiles": [
                         "ERR044595.scaffolds.fa"
                     ],
@@ -128,12 +151,16 @@
                         "ERR044595.tsv",
                         "prokka.version.txt"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_BACASS.BACASS.UNICYCLER_5"
+                    ]
                 },
                 {
                     "name": "NFCORE_BACASS.BACASS.QUAST",
                     "id": "NFCORE_BACASS.BACASS.QUAST_9",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS_10"
+                    ],
                     "inputFiles": [
                         "ERR044595.scaffolds.fa",
                         "ERR064912.scaffolds.fa"
@@ -143,7 +170,10 @@
                         "report.tsv",
                         "quast.version.txt"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_BACASS.BACASS.UNICYCLER_5",
+                        "NFCORE_BACASS.BACASS.UNICYCLER_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_BACASS.BACASS.PROKKA",
@@ -167,12 +197,16 @@
                         "ERR064912.tsv",
                         "prokka.version.txt"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_BACASS.BACASS.UNICYCLER_6"
+                    ]
                 },
                 {
                     "name": "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS",
                     "id": "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS_10",
-                    "children": [],
+                    "children": [
+                        "NFCORE_BACASS.BACASS.MULTIQC_11"
+                    ],
                     "inputFiles": [
                         "fastqc.version.txt",
                         "skewer.version.txt",
@@ -184,7 +218,13 @@
                         "software_versions.tsv",
                         "software_versions_mqc.yaml"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_BACASS.BACASS.FASTQC_2",
+                        "NFCORE_BACASS.BACASS.SKEWER_1",
+                        "NFCORE_BACASS.BACASS.UNICYCLER_5",
+                        "NFCORE_BACASS.BACASS.PROKKA_7",
+                        "NFCORE_BACASS.BACASS.QUAST_9"
+                    ]
                 },
                 {
                     "name": "NFCORE_BACASS.BACASS.MULTIQC",
@@ -205,7 +245,11 @@
                         "multiqc_plots",
                         "multiqc.version.txt"
                     ],
-                    "parents": []
+                    "parents": [
+                        "NFCORE_BACASS.BACASS.FASTQC_2",
+                        "NFCORE_BACASS.BACASS.FASTQC_4",
+                        "NFCORE_BACASS.BACASS.GET_SOFTWARE_VERSIONS_10"
+                    ]
                 }
             ],
             "files": [
@@ -236,14 +280,6 @@
                 {
                     "id": "fastqc.version.txt",
                     "sizeInBytes": 7
-                },
-                {
-                    "id": "ERR044595_1M_1.fastq.gz",
-                    "sizeInBytes": 57604034
-                },
-                {
-                    "id": "ERR044595_1M_2.fastq.gz",
-                    "sizeInBytes": 59494461
                 },
                 {
                     "id": "ERR044595_trm-cmb.R1.fastq.gz",
@@ -286,18 +322,6 @@
                     "sizeInBytes": 395393
                 },
                 {
-                    "id": "fastqc.version.txt",
-                    "sizeInBytes": 7
-                },
-                {
-                    "id": "ERR064912_1M_1.fastq.gz",
-                    "sizeInBytes": 53691898
-                },
-                {
-                    "id": "ERR064912_1M_2.fastq.gz",
-                    "sizeInBytes": 56303947
-                },
-                {
                     "id": "ERR064912_trm-cmb.R1.fastq.gz",
                     "sizeInBytes": 52163305
                 },
@@ -308,18 +332,6 @@
                 {
                     "id": "ERR064912_1M_1.fastq-trimmed.log",
                     "sizeInBytes": 1769
-                },
-                {
-                    "id": "skewer.version.txt",
-                    "sizeInBytes": 6
-                },
-                {
-                    "id": "ERR044595_trm-cmb.R1.fastq.gz",
-                    "sizeInBytes": 55830723
-                },
-                {
-                    "id": "ERR044595_trm-cmb.R2.fastq.gz",
-                    "sizeInBytes": 57671513
                 },
                 {
                     "id": "ERR044595.scaffolds.fa",
@@ -338,14 +350,6 @@
                     "sizeInBytes": 6
                 },
                 {
-                    "id": "ERR064912_trm-cmb.R1.fastq.gz",
-                    "sizeInBytes": 52163305
-                },
-                {
-                    "id": "ERR064912_trm-cmb.R2.fastq.gz",
-                    "sizeInBytes": 54778579
-                },
-                {
                     "id": "ERR064912.scaffolds.fa",
                     "sizeInBytes": 2955111
                 },
@@ -356,14 +360,6 @@
                 {
                     "id": "ERR064912.unicycler.log",
                     "sizeInBytes": 16817
-                },
-                {
-                    "id": "unicycler.version.txt",
-                    "sizeInBytes": 6
-                },
-                {
-                    "id": "ERR044595.scaffolds.fa",
-                    "sizeInBytes": 2820746
                 },
                 {
                     "id": "ERR044595.gff",
@@ -418,14 +414,6 @@
                     "sizeInBytes": 7
                 },
                 {
-                    "id": "ERR044595.scaffolds.fa",
-                    "sizeInBytes": 2820746
-                },
-                {
-                    "id": "ERR064912.scaffolds.fa",
-                    "sizeInBytes": 2955111
-                },
-                {
                     "id": "other_files",
                     "sizeInBytes": 1337679
                 },
@@ -436,10 +424,6 @@
                 {
                     "id": "quast.version.txt",
                     "sizeInBytes": 6
-                },
-                {
-                    "id": "ERR064912.scaffolds.fa",
-                    "sizeInBytes": 2955111
                 },
                 {
                     "id": "ERR064912.gff",
@@ -490,30 +474,6 @@
                     "sizeInBytes": 170166
                 },
                 {
-                    "id": "prokka.version.txt",
-                    "sizeInBytes": 7
-                },
-                {
-                    "id": "fastqc.version.txt",
-                    "sizeInBytes": 7
-                },
-                {
-                    "id": "skewer.version.txt",
-                    "sizeInBytes": 6
-                },
-                {
-                    "id": "unicycler.version.txt",
-                    "sizeInBytes": 6
-                },
-                {
-                    "id": "prokka.version.txt",
-                    "sizeInBytes": 7
-                },
-                {
-                    "id": "quast.version.txt",
-                    "sizeInBytes": 6
-                },
-                {
                     "id": "software_versions.tsv",
                     "sizeInBytes": 107
                 },
@@ -528,26 +488,6 @@
                 {
                     "id": "workflow_summary_mqc.yaml",
                     "sizeInBytes": 2490
-                },
-                {
-                    "id": "ERR044595_1_fastqc.zip",
-                    "sizeInBytes": 406073
-                },
-                {
-                    "id": "ERR044595_2_fastqc.zip",
-                    "sizeInBytes": 391467
-                },
-                {
-                    "id": "ERR064912_1_fastqc.zip",
-                    "sizeInBytes": 404152
-                },
-                {
-                    "id": "ERR064912_2_fastqc.zip",
-                    "sizeInBytes": 395393
-                },
-                {
-                    "id": "software_versions_mqc.yaml",
-                    "sizeInBytes": 632
                 },
                 {
                     "id": "multiqc_report.html",
