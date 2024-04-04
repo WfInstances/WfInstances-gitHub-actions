@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-
+    strategy:
+      matrix:
+        python-version: [ "3.8", "3.9", "3.10", "3.11", "3.12" ]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          pip3 install jsonschema
+          pip3 install requests
+      - name: Check validity of instances
+        run: |
+          find . -type f -name "*.json" > instances.txt && err=0
+          git clone https://github.com/wfcommons/wfformat
+          err_report() {
+            echo "Error on instance file $1"
+          }
+          trap 'err_report ${instance_file}' ERR;
+          for instance_file in `cat instances.txt`; do
+            python3 ./wfformat/wfcommons-validator.py -d ${instance_file};
+            echo "";
+          done
