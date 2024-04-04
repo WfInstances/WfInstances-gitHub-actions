@@ -2987,26 +2987,6 @@
                     "sizeInBytes": 112561
                 },
                 {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-001_aligned_reads.sam",
-                    "sizeInBytes": 112561
-                },
-                {
-                    "id": "20200407-225740-USB-001_sorted_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-001_sorted_reads.bam",
-                    "sizeInBytes": 36576
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
                     "id": "20200407-225740-USB-001_sorted_reads.bai",
                     "sizeInBytes": 127424
                 },
@@ -3023,128 +3003,16 @@
                     "sizeInBytes": 37469
                 },
                 {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-001_deduped_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-001_deduped_reads.bam",
-                    "sizeInBytes": 37469
-                },
-                {
                     "id": "20200407-225740-USB-001_addrepl.bam",
                     "sizeInBytes": 37955
                 },
                 {
                     "id": "20200407-225740-USB-001_addrepl.bai",
                     "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-001_addrepl.bam",
-                    "sizeInBytes": 37955
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-001_intervals.list",
                     "sizeInBytes": 40
-                },
-                {
-                    "id": "20200407-225740-USB-001_intervals.list",
-                    "sizeInBytes": 40
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-001_addrepl.bam",
-                    "sizeInBytes": 37955
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-001_indel_realigned.bai",
@@ -3153,54 +3021,6 @@
                 {
                     "id": "20200407-225740-USB-001_indel_realigned.bam",
                     "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr01.vcf",
@@ -3211,108 +3031,12 @@
                     "sizeInBytes": 28448
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-001_Chr02.vcf",
                     "sizeInBytes": 59038
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr02.vcf.idx",
                     "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr03.vcf",
@@ -3323,108 +3047,12 @@
                     "sizeInBytes": 28448
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-001_Chr04.vcf",
                     "sizeInBytes": 59038
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr04.vcf.idx",
                     "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr05.vcf",
@@ -3435,108 +3063,12 @@
                     "sizeInBytes": 28448
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-001_Chr06.vcf.idx",
                     "sizeInBytes": 28448
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr06.vcf",
                     "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr07.vcf.idx",
@@ -3547,54 +3079,6 @@
                     "sizeInBytes": 59038
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-001_Chr08.vcf.idx",
                     "sizeInBytes": 28448
                 },
@@ -3603,108 +3087,12 @@
                     "sizeInBytes": 59038
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-001_Chr09.vcf.idx",
                     "sizeInBytes": 28448
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr09.vcf",
                     "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-001_Chr10.vcf",
@@ -3723,68 +3111,8 @@
                     "sizeInBytes": 23845
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-002_aligned_reads.sam",
                     "sizeInBytes": 112561
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-002_aligned_reads.sam",
-                    "sizeInBytes": 112561
-                },
-                {
-                    "id": "20200407-225740-USB-002_sorted_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-002_sorted_reads.bam",
-                    "sizeInBytes": 36576
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
                 },
                 {
                     "id": "20200407-225740-USB-002_sorted_reads.bai",
@@ -3803,128 +3131,16 @@
                     "sizeInBytes": 37468
                 },
                 {
-                    "id": "20200407-225740-USB-002_deduped_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-002_deduped_reads.bam",
-                    "sizeInBytes": 37468
-                },
-                {
                     "id": "20200407-225740-USB-002_addrepl.bai",
                     "sizeInBytes": 127424
                 },
                 {
                     "id": "20200407-225740-USB-002_addrepl.bam",
                     "sizeInBytes": 37955
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "20200407-225740-USB-002_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-002_addrepl.bam",
-                    "sizeInBytes": 37955
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-002_intervals.list",
                     "sizeInBytes": 40
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "20200407-225740-USB-002_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-002_addrepl.bam",
-                    "sizeInBytes": 37955
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-002_intervals.list",
-                    "sizeInBytes": 40
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-002_indel_realigned.bai",
@@ -3933,54 +3149,6 @@
                 {
                     "id": "20200407-225740-USB-002_indel_realigned.bam",
                     "sizeInBytes": 39553
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr01.vcf.idx",
@@ -3991,108 +3159,12 @@
                     "sizeInBytes": 75728
                 },
                 {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-002_Chr02.vcf.idx",
                     "sizeInBytes": 28449
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr02.vcf",
                     "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr03.vcf",
@@ -4103,108 +3175,12 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-002_Chr04.vcf.idx",
                     "sizeInBytes": 28449
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr04.vcf",
                     "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr05.vcf",
@@ -4215,108 +3191,12 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-002_Chr06.vcf",
                     "sizeInBytes": 59039
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr06.vcf.idx",
                     "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr07.vcf.idx",
@@ -4327,108 +3207,12 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-002_Chr08.vcf.idx",
                     "sizeInBytes": 28449
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr08.vcf",
                     "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-002_Chr09.vcf.idx",
@@ -4439,54 +3223,6 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "20200407-225740-USB-002_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-002_Chr10.vcf",
                     "sizeInBytes": 59039
                 },
@@ -4495,62 +3231,14 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
                     "id": "USB-003_2.fastq",
                     "sizeInBytes": 23845
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
                 },
                 {
                     "id": "USB-003_1.fastq",
                     "sizeInBytes": 23845
                 },
                 {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-003_aligned_reads.sam",
-                    "sizeInBytes": 112561
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
                     "id": "20200407-225740-USB-003_aligned_reads.sam",
                     "sizeInBytes": 112561
                 },
@@ -4561,30 +3249,6 @@
                 {
                     "id": "20200407-225740-USB-003_sorted_reads.bai",
                     "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-003_sorted_reads.bam",
-                    "sizeInBytes": 36576
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_sorted_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-003_deduped_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-003_deduped_reads.bam",
-                    "sizeInBytes": 37469
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
                 },
                 {
                     "id": "20200407-225740-USB-003_deduped_reads.bai",
@@ -4603,108 +3267,8 @@
                     "sizeInBytes": 127424
                 },
                 {
-                    "id": "20200407-225740-USB-003_addrepl.bam",
-                    "sizeInBytes": 37953
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-003_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
                     "id": "20200407-225740-USB-003_intervals.list",
                     "sizeInBytes": 40
-                },
-                {
-                    "id": "20200407-225740-USB-003_addrepl.bam",
-                    "sizeInBytes": 37953
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-003_intervals.list",
-                    "sizeInBytes": 40
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-003_addrepl.bai",
-                    "sizeInBytes": 127424
                 },
                 {
                     "id": "20200407-225740-USB-003_indel_realigned.bai",
@@ -4713,54 +3277,6 @@
                 {
                     "id": "20200407-225740-USB-003_indel_realigned.bam",
                     "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr01.vcf",
@@ -4771,108 +3287,12 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-003_Chr02.vcf.idx",
                     "sizeInBytes": 28449
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr02.vcf",
                     "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr03.vcf",
@@ -4883,108 +3303,12 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-003_Chr04.vcf",
                     "sizeInBytes": 59039
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr04.vcf.idx",
                     "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr05.vcf",
@@ -4995,108 +3319,12 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-003_Chr06.vcf",
                     "sizeInBytes": 59039
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr06.vcf.idx",
                     "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr07.vcf.idx",
@@ -5107,108 +3335,12 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-003_Chr08.vcf",
                     "sizeInBytes": 59039
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr08.vcf.idx",
                     "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-003_Chr09.vcf.idx",
@@ -5219,54 +3351,6 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-003_Chr10.vcf.idx",
                     "sizeInBytes": 28449
                 },
@@ -5275,76 +3359,16 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
                     "id": "USB-004_2.fastq",
                     "sizeInBytes": 23845
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
                 },
                 {
                     "id": "USB-004_1.fastq",
                     "sizeInBytes": 23845
                 },
                 {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-004_aligned_reads.sam",
                     "sizeInBytes": 112561
-                },
-                {
-                    "id": "20200407-225740-USB-004_aligned_reads.sam",
-                    "sizeInBytes": 112561
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-004_sorted_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-004_sorted_reads.bam",
-                    "sizeInBytes": 36576
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
                 },
                 {
                     "id": "20200407-225740-USB-004_sorted_reads.bai",
@@ -5363,128 +3387,16 @@
                     "sizeInBytes": 37468
                 },
                 {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-004_deduped_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "20200407-225740-USB-004_deduped_reads.bam",
-                    "sizeInBytes": 37468
-                },
-                {
                     "id": "20200407-225740-USB-004_addrepl.bai",
                     "sizeInBytes": 127424
                 },
                 {
                     "id": "20200407-225740-USB-004_addrepl.bam",
                     "sizeInBytes": 37953
-                },
-                {
-                    "id": "20200407-225740-USB-004_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_addrepl.bam",
-                    "sizeInBytes": 37953
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-004_intervals.list",
                     "sizeInBytes": 40
-                },
-                {
-                    "id": "20200407-225740-USB-004_intervals.list",
-                    "sizeInBytes": 40
-                },
-                {
-                    "id": "20200407-225740-USB-004_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_addrepl.bam",
-                    "sizeInBytes": 37953
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-004_indel_realigned.bam",
@@ -5493,54 +3405,6 @@
                 {
                     "id": "20200407-225740-USB-004_indel_realigned.bai",
                     "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr01.vcf",
@@ -5551,108 +3415,12 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-004_Chr02.vcf.idx",
                     "sizeInBytes": 28449
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr02.vcf",
                     "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr03.vcf.idx",
@@ -5663,108 +3431,12 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-004_Chr04.vcf",
                     "sizeInBytes": 59039
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr04.vcf.idx",
                     "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr05.vcf.idx",
@@ -5775,108 +3447,12 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-004_Chr06.vcf",
                     "sizeInBytes": 59039
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr06.vcf.idx",
                     "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr07.vcf",
@@ -5887,54 +3463,6 @@
                     "sizeInBytes": 28449
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-004_Chr08.vcf.idx",
                     "sizeInBytes": 28449
                 },
@@ -5943,108 +3471,12 @@
                     "sizeInBytes": 59039
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-004_Chr09.vcf",
                     "sizeInBytes": 59039
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr09.vcf.idx",
                     "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bam",
-                    "sizeInBytes": 39552
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-004_Chr10.vcf",
@@ -6063,68 +3495,8 @@
                     "sizeInBytes": 23845
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-005_aligned_reads.sam",
                     "sizeInBytes": 112561
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-005_aligned_reads.sam",
-                    "sizeInBytes": 112561
-                },
-                {
-                    "id": "20200407-225740-USB-005_sorted_reads.bam",
-                    "sizeInBytes": 36576
-                },
-                {
-                    "id": "20200407-225740-USB-005_sorted_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
                 },
                 {
                     "id": "20200407-225740-USB-005_sorted_reads.bam",
@@ -6143,128 +3515,16 @@
                     "sizeInBytes": 127424
                 },
                 {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-005_deduped_reads.bam",
-                    "sizeInBytes": 37469
-                },
-                {
-                    "id": "20200407-225740-USB-005_deduped_reads.bai",
-                    "sizeInBytes": 127424
-                },
-                {
                     "id": "20200407-225740-USB-005_addrepl.bai",
                     "sizeInBytes": 127424
                 },
                 {
                     "id": "20200407-225740-USB-005_addrepl.bam",
                     "sizeInBytes": 37954
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-005_addrepl.bam",
-                    "sizeInBytes": 37954
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-005_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-005_intervals.list",
                     "sizeInBytes": 40
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_intervals.list",
-                    "sizeInBytes": 40
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-005_addrepl.bam",
-                    "sizeInBytes": 37954
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-005_addrepl.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-005_indel_realigned.bam",
@@ -6273,54 +3533,6 @@
                 {
                     "id": "20200407-225740-USB-005_indel_realigned.bai",
                     "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr01.vcf.idx",
@@ -6331,108 +3543,12 @@
                     "sizeInBytes": 75727
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-005_Chr02.vcf.idx",
                     "sizeInBytes": 28448
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr02.vcf",
                     "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr03.vcf.idx",
@@ -6443,54 +3559,6 @@
                     "sizeInBytes": 59038
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-005_Chr04.vcf.idx",
                     "sizeInBytes": 28448
                 },
@@ -6499,108 +3567,12 @@
                     "sizeInBytes": 59038
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-005_Chr05.vcf.idx",
                     "sizeInBytes": 28448
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr05.vcf",
                     "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr06.vcf",
@@ -6611,54 +3583,6 @@
                     "sizeInBytes": 28448
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-005_Chr07.vcf.idx",
                     "sizeInBytes": 28448
                 },
@@ -6667,108 +3591,12 @@
                     "sizeInBytes": 59038
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-005_Chr08.vcf",
                     "sizeInBytes": 59038
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr08.vcf.idx",
                     "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr09.vcf",
@@ -6779,504 +3607,16 @@
                     "sizeInBytes": 28448
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bam",
-                    "sizeInBytes": 39553
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-005_indel_realigned.bai",
-                    "sizeInBytes": 127424
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-USB-005_Chr10.vcf.idx",
                     "sizeInBytes": 28448
                 },
                 {
                     "id": "20200407-225740-USB-005_Chr10.vcf",
                     "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr01.vcf",
-                    "sizeInBytes": 75727
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr01.vcf",
-                    "sizeInBytes": 75728
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr10.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr02.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr10.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr06.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr06.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr08.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr02.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr04.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr05.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr08.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr04.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr07.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr05.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr03.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr04.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr03.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr02.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr04.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr02.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr08.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr04.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr05.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr03.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr01.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr09.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr02.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr07.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr07.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr02.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr02.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr01.vcf",
-                    "sizeInBytes": 75728
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr06.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr10.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr10.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr07.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr07.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr08.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr05.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr01.vcf",
-                    "sizeInBytes": 75728
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr06.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr06.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr04.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr06.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr09.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr06.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr10.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr05.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr05.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr04.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr10.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr06.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr03.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr02.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr08.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr10.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr04.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr10.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr09.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr10.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr04.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr01.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr01.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr05.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr03.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr05.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr05.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr09.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr07.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr03.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr04.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr09.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr02.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr09.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr09.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr01.vcf",
-                    "sizeInBytes": 75727
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr07.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr02.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr01.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr09.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr09.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr01.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr05.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr08.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr08.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr03.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr06.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr03.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr03.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr08.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr08.vcf.idx",
-                    "sizeInBytes": 28448
                 },
                 {
                     "id": "haplotype-files.list",
                     "sizeInBytes": 1700
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr06.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr03.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr07.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr07.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr08.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr09.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr07.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr10.vcf.idx",
-                    "sizeInBytes": 28449
                 },
                 {
                     "id": "20200407-225740-mergeGVCF.vcf.idx",
@@ -7287,172 +3627,12 @@
                     "sizeInBytes": 104389
                 },
                 {
-                    "id": "20200407-225740-USB-005_Chr01.vcf",
-                    "sizeInBytes": 75727
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr01.vcf",
-                    "sizeInBytes": 75728
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr01.vcf",
-                    "sizeInBytes": 75727
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr01.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr01.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr01.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr01.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr01.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr01.vcf",
-                    "sizeInBytes": 75728
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr01.vcf",
-                    "sizeInBytes": 75728
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
                     "id": "20200407-225740-GVCF_Chr01.vcf",
                     "sizeInBytes": 66691
                 },
                 {
                     "id": "20200407-225740-GVCF_Chr01.vcf.idx",
                     "sizeInBytes": 28584
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr02.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr02.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr02.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr02.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr02.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr02.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr02.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr02.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr02.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr02.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
                 },
                 {
                     "id": "20200407-225740-GVCF_Chr02.vcf.idx",
@@ -7463,86 +3643,6 @@
                     "sizeInBytes": 59101
                 },
                 {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr03.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr03.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr03.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr03.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr03.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr03.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr03.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr03.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr03.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr03.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
                     "id": "20200407-225740-GVCF_Chr03.vcf.idx",
                     "sizeInBytes": 28497
                 },
@@ -7551,683 +3651,11 @@
                     "sizeInBytes": 59101
                 },
                 {
-                    "id": "20200407-225740-USB-001_Chr04.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr04.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr04.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr04.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr04.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr04.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr04.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr04.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr04.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr04.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
                     "id": "20200407-225740-GVCF_Chr04.vcf",
                     "sizeInBytes": 59101
                 },
                 {
                     "id": "20200407-225740-GVCF_Chr04.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr05.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr05.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr05.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr05.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr05.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr05.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr05.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr05.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr05.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr05.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr05.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr05.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr06.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr06.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr06.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr06.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr06.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr06.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr06.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr06.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr06.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr06.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr06.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr06.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr07.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr07.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr07.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr07.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr07.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr07.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr07.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr07.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr07.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr07.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr07.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr07.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr08.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr08.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr08.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr08.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr08.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr08.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr08.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr08.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr08.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr08.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr08.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr08.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr09.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr09.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr09.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr09.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr09.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr09.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr09.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr09.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr09.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr09.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr09.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr09.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr10.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr10.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr10.vcf",
-                    "sizeInBytes": 59038
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr10.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "20200407-225740-USB-005_Chr10.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "20200407-225740-USB-002_Chr10.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr10.vcf",
-                    "sizeInBytes": 59039
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "20200407-225740-USB-003_Chr10.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-USB-001_Chr10.vcf.idx",
-                    "sizeInBytes": 28448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-USB-004_Chr10.vcf.idx",
-                    "sizeInBytes": 28449
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr10.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr10.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr04.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr04.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr08.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr06.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr09.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr08.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr10.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr07.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr03.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr01.vcf",
-                    "sizeInBytes": 66691
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr09.vcf.idx",
                     "sizeInBytes": 28497
                 },
                 {
@@ -8239,52 +3667,44 @@
                     "sizeInBytes": 59101
                 },
                 {
+                    "id": "20200407-225740-GVCF_Chr06.vcf",
+                    "sizeInBytes": 59101
+                },
+                {
                     "id": "20200407-225740-GVCF_Chr06.vcf.idx",
                     "sizeInBytes": 28497
                 },
                 {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr01.vcf.idx",
-                    "sizeInBytes": 28584
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
+                    "id": "20200407-225740-GVCF_Chr07.vcf.idx",
+                    "sizeInBytes": 28497
                 },
                 {
                     "id": "20200407-225740-GVCF_Chr07.vcf",
                     "sizeInBytes": 59101
                 },
                 {
+                    "id": "20200407-225740-GVCF_Chr08.vcf.idx",
+                    "sizeInBytes": 28497
+                },
+                {
+                    "id": "20200407-225740-GVCF_Chr08.vcf",
+                    "sizeInBytes": 59101
+                },
+                {
+                    "id": "20200407-225740-GVCF_Chr09.vcf",
+                    "sizeInBytes": 59101
+                },
+                {
+                    "id": "20200407-225740-GVCF_Chr09.vcf.idx",
+                    "sizeInBytes": 28497
+                },
+                {
+                    "id": "20200407-225740-GVCF_Chr10.vcf",
+                    "sizeInBytes": 59101
+                },
+                {
                     "id": "20200407-225740-GVCF_Chr10.vcf.idx",
                     "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr02.vcf.idx",
-                    "sizeInBytes": 28497
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr03.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "20200407-225740-GVCF_Chr02.vcf",
-                    "sizeInBytes": 59101
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
                 },
                 {
                     "id": "20200407-225740-All.vcf.idx",
@@ -8295,96 +3715,8 @@
                     "sizeInBytes": 70314
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-All.vcf",
-                    "sizeInBytes": 70314
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-All.vcf_snp_only.vcf",
                     "sizeInBytes": 71866
-                },
-                {
-                    "id": "20200407-225740-All.vcf_snp_only.vcf",
-                    "sizeInBytes": 71866
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-All_filtered_snp.vcf",
@@ -8395,96 +3727,8 @@
                     "sizeInBytes": 28546
                 },
                 {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "20200407-225740-All.vcf",
-                    "sizeInBytes": 70314
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
-                },
-                {
                     "id": "20200407-225740-All.vcf_indel_only.vcf",
                     "sizeInBytes": 67140
-                },
-                {
-                    "id": "Gmax_275_v2.0.dict",
-                    "sizeInBytes": 142561
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.pac",
-                    "sizeInBytes": 244623820
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.fai",
-                    "sizeInBytes": 41379
-                },
-                {
-                    "id": "20200407-225740-All.vcf_indel_only.vcf",
-                    "sizeInBytes": 67140
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.sa",
-                    "sizeInBytes": 489247688
-                },
-                {
-                    "id": "software.tar.gz",
-                    "sizeInBytes": 108988506
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.amb",
-                    "sizeInBytes": 259156
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa",
-                    "sizeInBytes": 990744229
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.ann",
-                    "sizeInBytes": 47448
-                },
-                {
-                    "id": "Gmax_275_v2.0.fa.bwt",
-                    "sizeInBytes": 978495356
-                },
-                {
-                    "id": "chromosome.txt",
-                    "sizeInBytes": 60
                 },
                 {
                     "id": "20200407-225740-All_filtered_indel.vcf.idx",
