@@ -1,6 +1,3 @@
-![Build](https://github.com/wfcommons/makeflow-instances/workflows/Build/badge.svg)
-[![DOI](https://zenodo.org/badge/324824708.svg)](https://zenodo.org/badge/latestdoi/324824708)
-
 <a href="https://wfcommons.org" target="_blank"><img src="https://wfcommons.org/images/wfcommons-horizontal.png" width="350" /></a>
 
 <img src="http://ccl.cse.nd.edu/software/makeflow/MakeflowLogoSmall.png" width=160 />
