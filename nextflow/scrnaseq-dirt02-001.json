@@ -13,11 +13,11 @@
                     "id": "NFCORE_SCRNASEQ.SCRNASEQ.INPUT_CHECK.SAMPLESHEET_CHECK_2",
                     "children": [],
                     "inputFiles": [
-                        "samplesheet-2-0.csv"
+                        "/nf-core/test-datasets/raw/scrnaseq/samplesheet-2-0.csv"
                     ],
                     "outputFiles": [
-                        "samplesheet.valid.csv",
-                        "versions.yml"
+                        "/11/8233f4bf9453431be241ff4a240c4a/samplesheet.valid.csv",
+                        "/11/8233f4bf9453431be241ff4a240c4a/versions.yml"
                     ],
                     "parents": []
                 },
@@ -30,12 +30,12 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.STARSOLO.STAR_ALIGN_7"
                     ],
                     "inputFiles": [
-                        "GRCm38.p6.genome.chr19.fa",
-                        "gencode.vM19.annotation.chr19.gtf"
+                        "/nf-core/test-datasets/raw/scrnaseq/reference/GRCm38.p6.genome.chr19.fa",
+                        "/nf-core/test-datasets/raw/scrnaseq/reference/gencode.vM19.annotation.chr19.gtf"
                     ],
                     "outputFiles": [
-                        "GRCm38.p6.genome.chr19_genes.gtf",
-                        "versions.yml"
+                        "/6f/9c8353cf67bf1c1c3a2063ab01feee/GRCm38.p6.genome.chr19_genes.gtf",
+                        "/6f/9c8353cf67bf1c1c3a2063ab01feee/versions.yml"
                     ],
                     "parents": []
                 },
@@ -49,12 +49,12 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.MTX_TO_H5AD_10"
                     ],
                     "inputFiles": [
-                        "GRCm38.p6.genome.chr19.fa",
-                        "GRCm38.p6.genome.chr19_genes.gtf"
+                        "/nf-core/test-datasets/raw/scrnaseq/reference/GRCm38.p6.genome.chr19.fa",
+                        "/6f/9c8353cf67bf1c1c3a2063ab01feee/GRCm38.p6.genome.chr19_genes.gtf"
                     ],
                     "outputFiles": [
-                        "star",
-                        "versions.yml"
+                        "/39/87cc00e7b6777b129afd5249a721e0/star",
+                        "/39/87cc00e7b6777b129afd5249a721e0/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.GTF_GENE_FILTER_1"
@@ -67,15 +67,15 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MULTIQC_14"
                     ],
                     "inputFiles": [
-                        "Sample_X_S1_L001_R1_001.fastq.gz",
-                        "Sample_X_S1_L001_R2_001.fastq.gz"
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_X_S1_L001_R1_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_X_S1_L001_R2_001.fastq.gz"
                     ],
                     "outputFiles": [
-                        "Sample_X_1_fastqc.html",
-                        "Sample_X_2_fastqc.html",
-                        "Sample_X_1_fastqc.zip",
-                        "Sample_X_2_fastqc.zip",
-                        "versions.yml"
+                        "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_1_fastqc.html",
+                        "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_2_fastqc.html",
+                        "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_1_fastqc.zip",
+                        "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_2_fastqc.zip",
+                        "/cb/ba1676bb9477ce934fb901ca805a28/versions.yml"
                     ],
                     "parents": []
                 },
@@ -86,21 +86,21 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MULTIQC_14"
                     ],
                     "inputFiles": [
-                        "Sample_Y_S1_L001_R1_001.fastq.gz",
-                        "Sample_Y_S1_L001_R2_001.fastq.gz",
-                        "Sample_Y_S1_L002_R1_001.fastq.gz",
-                        "Sample_Y_S1_L002_R2_001.fastq.gz"
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L001_R1_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L001_R2_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L002_R1_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L002_R2_001.fastq.gz"
                     ],
                     "outputFiles": [
-                        "Sample_Y_1_fastqc.html",
-                        "Sample_Y_2_fastqc.html",
-                        "Sample_Y_3_fastqc.html",
-                        "Sample_Y_4_fastqc.html",
-                        "Sample_Y_1_fastqc.zip",
-                        "Sample_Y_2_fastqc.zip",
-                        "Sample_Y_3_fastqc.zip",
-                        "Sample_Y_4_fastqc.zip",
-                        "versions.yml"
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_1_fastqc.html",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_2_fastqc.html",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_3_fastqc.html",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_4_fastqc.html",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_1_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_2_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_3_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_4_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/versions.yml"
                     ],
                     "parents": []
                 },
@@ -112,20 +112,20 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.MTX_TO_H5AD_9"
                     ],
                     "inputFiles": [
-                        "Sample_X_S1_L001_R1_001.fastq.gz",
-                        "Sample_X_S1_L001_R2_001.fastq.gz",
-                        "star",
-                        "GRCm38.p6.genome.chr19_genes.gtf",
-                        "10x_V2_barcode_whitelist.txt.gz"
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_X_S1_L001_R1_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_X_S1_L001_R2_001.fastq.gz",
+                        "/39/87cc00e7b6777b129afd5249a721e0/star",
+                        "/6f/9c8353cf67bf1c1c3a2063ab01feee/GRCm38.p6.genome.chr19_genes.gtf",
+                        "/assets/whitelist/10x_V2_barcode_whitelist.txt.gz"
                     ],
                     "outputFiles": [
-                        "Sample_X.Aligned.sortedByCoord.out.bam",
-                        "Sample_X.Solo.out",
-                        "Sample_X.Log.final.out",
-                        "Sample_X.Log.out",
-                        "Sample_X.Log.progress.out",
-                        "versions.yml",
-                        "Sample_X.SJ.out.tab"
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.Aligned.sortedByCoord.out.bam",
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.Solo.out",
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.Log.final.out",
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.Log.out",
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.Log.progress.out",
+                        "/34/70728da3904d6e998a35b67037b43b/versions.yml",
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.SJ.out.tab"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.STARSOLO.STAR_GENOMEGENERATE_5",
@@ -141,22 +141,22 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MULTIQC_14"
                     ],
                     "inputFiles": [
-                        "Sample_Y_S1_L001_R1_001.fastq.gz",
-                        "Sample_Y_S1_L001_R2_001.fastq.gz",
-                        "Sample_Y_S1_L002_R1_001.fastq.gz",
-                        "Sample_Y_S1_L002_R2_001.fastq.gz",
-                        "star",
-                        "GRCm38.p6.genome.chr19_genes.gtf",
-                        "10x_V2_barcode_whitelist.txt.gz"
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L001_R1_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L001_R2_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L002_R1_001.fastq.gz",
+                        "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L002_R2_001.fastq.gz",
+                        "/39/87cc00e7b6777b129afd5249a721e0/star",
+                        "/6f/9c8353cf67bf1c1c3a2063ab01feee/GRCm38.p6.genome.chr19_genes.gtf",
+                        "/assets/whitelist/10x_V2_barcode_whitelist.txt.gz"
                     ],
                     "outputFiles": [
-                        "Sample_Y.Aligned.sortedByCoord.out.bam",
-                        "Sample_Y.Solo.out",
-                        "Sample_Y.Log.final.out",
-                        "Sample_Y.Log.out",
-                        "Sample_Y.Log.progress.out",
-                        "versions.yml",
-                        "Sample_Y.SJ.out.tab"
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Aligned.sortedByCoord.out.bam",
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Solo.out",
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Log.final.out",
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Log.out",
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Log.progress.out",
+                        "/b4/a10fe2c8497160a04e25e58348dcac/versions.yml",
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.SJ.out.tab"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.STARSOLO.STAR_GENOMEGENERATE_5",
@@ -168,11 +168,11 @@
                     "id": "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.MTX_TO_SEURAT_8",
                     "children": [],
                     "inputFiles": [
-                        "Sample_X.Solo.out"
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.Solo.out"
                     ],
                     "outputFiles": [
-                        "Sample_X_matrix.rds",
-                        "versions.yml"
+                        "/fa00207e5792e4a4e9ff6d39349b41/Sample_X/Sample_X_matrix.rds",
+                        "/0c/fa00207e5792e4a4e9ff6d39349b41/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.STARSOLO.STAR_ALIGN_6"
@@ -185,15 +185,15 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.CONCAT_H5AD_13"
                     ],
                     "inputFiles": [
-                        "Sample_X.Solo.out",
-                        "star"
+                        "/34/70728da3904d6e998a35b67037b43b/Sample_X.Solo.out",
+                        "/39/87cc00e7b6777b129afd5249a721e0/star"
                     ],
                     "outputFiles": [
-                        "Sample_X_matrix.h5ad",
-                        "barcodes.tsv",
-                        "features.tsv",
-                        "matrix.mtx",
-                        "versions.yml"
+                        "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/Sample_X_matrix.h5ad",
+                        "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/barcodes.tsv",
+                        "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/features.tsv",
+                        "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/matrix.mtx",
+                        "/80/88cdbaa494a09ba62447cf2a82c8fe/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.STARSOLO.STAR_ALIGN_6",
@@ -205,11 +205,11 @@
                     "id": "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.MTX_TO_SEURAT_11",
                     "children": [],
                     "inputFiles": [
-                        "Sample_Y.Solo.out"
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Solo.out"
                     ],
                     "outputFiles": [
-                        "Sample_Y_matrix.rds",
-                        "versions.yml"
+                        "/4227fbef4ddaefca8ecbae2f807c13/Sample_Y/Sample_Y_matrix.rds",
+                        "/77/4227fbef4ddaefca8ecbae2f807c13/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.STARSOLO.STAR_ALIGN_7"
@@ -222,15 +222,15 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.CONCAT_H5AD_13"
                     ],
                     "inputFiles": [
-                        "Sample_Y.Solo.out",
-                        "star"
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Solo.out",
+                        "/39/87cc00e7b6777b129afd5249a721e0/star"
                     ],
                     "outputFiles": [
-                        "Sample_Y_matrix.h5ad",
-                        "barcodes.tsv",
-                        "features.tsv",
-                        "matrix.mtx",
-                        "versions.yml"
+                        "/3f90605073080dd6f79265cdfac8f1/Sample_Y/Sample_Y_matrix.h5ad",
+                        "/3f90605073080dd6f79265cdfac8f1/Sample_Y/barcodes.tsv",
+                        "/3f90605073080dd6f79265cdfac8f1/Sample_Y/features.tsv",
+                        "/3f90605073080dd6f79265cdfac8f1/Sample_Y/matrix.mtx",
+                        "/6e/3f90605073080dd6f79265cdfac8f1/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.STARSOLO.STAR_ALIGN_7",
@@ -244,12 +244,12 @@
                         "NFCORE_SCRNASEQ.SCRNASEQ.MULTIQC_14"
                     ],
                     "inputFiles": [
-                        "collated_versions.yml"
+                        "/5d/57f6ea0be4d7dc405f65b8f307aecd/collated_versions.yml"
                     ],
                     "outputFiles": [
-                        "software_versions.yml",
-                        "software_versions_mqc.yml",
-                        "versions.yml"
+                        "/f8/9b326a7a0f87d149fdcb6ca0d4092e/software_versions.yml",
+                        "/f8/9b326a7a0f87d149fdcb6ca0d4092e/software_versions_mqc.yml",
+                        "/f8/9b326a7a0f87d149fdcb6ca0d4092e/versions.yml"
                     ],
                     "parents": []
                 },
@@ -258,12 +258,12 @@
                     "id": "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.CONCAT_H5AD_13",
                     "children": [],
                     "inputFiles": [
-                        "Sample_X_matrix.h5ad",
-                        "Sample_Y_matrix.h5ad",
-                        "samplesheet-2-0.csv"
+                        "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/Sample_X_matrix.h5ad",
+                        "/3f90605073080dd6f79265cdfac8f1/Sample_Y/Sample_Y_matrix.h5ad",
+                        "/nf-core/test-datasets/raw/scrnaseq/samplesheet-2-0.csv"
                     ],
                     "outputFiles": [
-                        "combined_matrix.h5ad"
+                        "/4b/83d885f127330f384a135643a15721/combined_matrix.h5ad"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.MTX_CONVERSION.MTX_TO_H5AD_9",
@@ -275,23 +275,23 @@
                     "id": "NFCORE_SCRNASEQ.SCRNASEQ.MULTIQC_14",
                     "children": [],
                     "inputFiles": [
-                        "methods_description_mqc.yaml",
-                        "workflow_summary_mqc.yaml",
-                        "Sample_X_1_fastqc.zip",
-                        "Sample_X_2_fastqc.zip",
-                        "Sample_Y_1_fastqc.zip",
-                        "Sample_Y_2_fastqc.zip",
-                        "Sample_Y_3_fastqc.zip",
-                        "Sample_Y_4_fastqc.zip",
-                        "Sample_Y.Log.final.out",
-                        "software_versions_mqc.yml",
-                        "multiqc_config.yml"
+                        "/84/5dfbcc8a230526d4d8863173658d45/methods_description_mqc.yaml",
+                        "/eb/c26f145981db3f7cf2d52d68d758d0/workflow_summary_mqc.yaml",
+                        "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_1_fastqc.zip",
+                        "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_2_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_1_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_2_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_3_fastqc.zip",
+                        "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_4_fastqc.zip",
+                        "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Log.final.out",
+                        "/f8/9b326a7a0f87d149fdcb6ca0d4092e/software_versions_mqc.yml",
+                        "/scrnaseq/assets/multiqc_config.yml"
                     ],
                     "outputFiles": [
-                        "multiqc_report.html",
-                        "multiqc_data",
-                        "multiqc_plots",
-                        "versions.yml"
+                        "/89/f99c10e23e999efb6270da0381217d/multiqc_report.html",
+                        "/89/f99c10e23e999efb6270da0381217d/multiqc_data",
+                        "/89/f99c10e23e999efb6270da0381217d/multiqc_plots",
+                        "/89/f99c10e23e999efb6270da0381217d/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SCRNASEQ.SCRNASEQ.FASTQC_CHECK.FASTQC_3",
@@ -303,224 +303,284 @@
             ],
             "files": [
                 {
-                    "id": "samplesheet-2-0.csv",
+                    "id": "/nf-core/test-datasets/raw/scrnaseq/samplesheet-2-0.csv",
                     "sizeInBytes": 854
                 },
                 {
-                    "id": "samplesheet.valid.csv",
+                    "id": "/11/8233f4bf9453431be241ff4a240c4a/samplesheet.valid.csv",
                     "sizeInBytes": 860
                 },
                 {
-                    "id": "versions.yml",
+                    "id": "/11/8233f4bf9453431be241ff4a240c4a/versions.yml",
                     "sizeInBytes": 76
                 },
                 {
-                    "id": "GRCm38.p6.genome.chr19.fa",
+                    "id": "/nf-core/test-datasets/raw/scrnaseq/reference/GRCm38.p6.genome.chr19.fa",
                     "sizeInBytes": 62455433
                 },
                 {
-                    "id": "gencode.vM19.annotation.chr19.gtf",
+                    "id": "/nf-core/test-datasets/raw/scrnaseq/reference/gencode.vM19.annotation.chr19.gtf",
                     "sizeInBytes": 20994920
                 },
                 {
-                    "id": "GRCm38.p6.genome.chr19_genes.gtf",
+                    "id": "/6f/9c8353cf67bf1c1c3a2063ab01feee/GRCm38.p6.genome.chr19_genes.gtf",
                     "sizeInBytes": 20994920
                 },
                 {
-                    "id": "star",
+                    "id": "/6f/9c8353cf67bf1c1c3a2063ab01feee/versions.yml",
+                    "sizeInBytes": 62
+                },
+                {
+                    "id": "/39/87cc00e7b6777b129afd5249a721e0/star",
                     "sizeInBytes": 656330974
                 },
                 {
-                    "id": "Sample_X_S1_L001_R1_001.fastq.gz",
+                    "id": "/39/87cc00e7b6777b129afd5249a721e0/versions.yml",
+                    "sizeInBytes": 112
+                },
+                {
+                    "id": "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_X_S1_L001_R1_001.fastq.gz",
                     "sizeInBytes": 1727503
                 },
                 {
-                    "id": "Sample_X_S1_L001_R2_001.fastq.gz",
+                    "id": "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_X_S1_L001_R2_001.fastq.gz",
                     "sizeInBytes": 4259756
                 },
                 {
-                    "id": "Sample_X_1_fastqc.html",
+                    "id": "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_1_fastqc.html",
                     "sizeInBytes": 494553
                 },
                 {
-                    "id": "Sample_X_2_fastqc.html",
+                    "id": "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_2_fastqc.html",
                     "sizeInBytes": 599715
                 },
                 {
-                    "id": "Sample_X_1_fastqc.zip",
+                    "id": "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_1_fastqc.zip",
                     "sizeInBytes": 307494
                 },
                 {
-                    "id": "Sample_X_2_fastqc.zip",
+                    "id": "/cb/ba1676bb9477ce934fb901ca805a28/Sample_X_2_fastqc.zip",
                     "sizeInBytes": 347596
                 },
                 {
-                    "id": "Sample_Y_S1_L001_R1_001.fastq.gz",
+                    "id": "/cb/ba1676bb9477ce934fb901ca805a28/versions.yml",
+                    "sizeInBytes": 67
+                },
+                {
+                    "id": "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L001_R1_001.fastq.gz",
                     "sizeInBytes": 1727503
                 },
                 {
-                    "id": "Sample_Y_S1_L001_R2_001.fastq.gz",
+                    "id": "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L001_R2_001.fastq.gz",
                     "sizeInBytes": 4259756
                 },
                 {
-                    "id": "Sample_Y_S1_L002_R1_001.fastq.gz",
+                    "id": "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L002_R1_001.fastq.gz",
                     "sizeInBytes": 737653
                 },
                 {
-                    "id": "Sample_Y_S1_L002_R2_001.fastq.gz",
+                    "id": "/nf-core/test-datasets/scrnaseq/testdata/cellranger/Sample_Y_S1_L002_R2_001.fastq.gz",
                     "sizeInBytes": 1981608
                 },
                 {
-                    "id": "Sample_Y_1_fastqc.html",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_1_fastqc.html",
                     "sizeInBytes": 494553
                 },
                 {
-                    "id": "Sample_Y_2_fastqc.html",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_2_fastqc.html",
                     "sizeInBytes": 599715
                 },
                 {
-                    "id": "Sample_Y_3_fastqc.html",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_3_fastqc.html",
                     "sizeInBytes": 496207
                 },
                 {
-                    "id": "Sample_Y_4_fastqc.html",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_4_fastqc.html",
                     "sizeInBytes": 595808
                 },
                 {
-                    "id": "Sample_Y_1_fastqc.zip",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_1_fastqc.zip",
                     "sizeInBytes": 307496
                 },
                 {
-                    "id": "Sample_Y_2_fastqc.zip",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_2_fastqc.zip",
                     "sizeInBytes": 347598
                 },
                 {
-                    "id": "Sample_Y_3_fastqc.zip",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_3_fastqc.zip",
                     "sizeInBytes": 310419
                 },
                 {
-                    "id": "Sample_Y_4_fastqc.zip",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/Sample_Y_4_fastqc.zip",
                     "sizeInBytes": 365294
                 },
                 {
-                    "id": "10x_V2_barcode_whitelist.txt.gz",
+                    "id": "/87/3e985bf93f62b7c53d20e4043ba52c/versions.yml",
+                    "sizeInBytes": 67
+                },
+                {
+                    "id": "/assets/whitelist/10x_V2_barcode_whitelist.txt.gz",
                     "sizeInBytes": 2238617
                 },
                 {
-                    "id": "Sample_X.Aligned.sortedByCoord.out.bam",
+                    "id": "/34/70728da3904d6e998a35b67037b43b/Sample_X.Aligned.sortedByCoord.out.bam",
                     "sizeInBytes": 923543
                 },
                 {
-                    "id": "Sample_X.Solo.out",
+                    "id": "/34/70728da3904d6e998a35b67037b43b/Sample_X.Solo.out",
                     "sizeInBytes": 2334256
                 },
                 {
-                    "id": "Sample_X.Log.final.out",
+                    "id": "/34/70728da3904d6e998a35b67037b43b/Sample_X.Log.final.out",
                     "sizeInBytes": 1995
                 },
                 {
-                    "id": "Sample_X.Log.out",
+                    "id": "/34/70728da3904d6e998a35b67037b43b/Sample_X.Log.out",
                     "sizeInBytes": 11325
                 },
                 {
-                    "id": "Sample_X.Log.progress.out",
+                    "id": "/34/70728da3904d6e998a35b67037b43b/Sample_X.Log.progress.out",
                     "sizeInBytes": 801
                 },
                 {
-                    "id": "Sample_X.SJ.out.tab",
+                    "id": "/34/70728da3904d6e998a35b67037b43b/versions.yml",
+                    "sizeInBytes": 66
+                },
+                {
+                    "id": "/34/70728da3904d6e998a35b67037b43b/Sample_X.SJ.out.tab",
                     "sizeInBytes": 10069
                 },
                 {
-                    "id": "Sample_Y.Aligned.sortedByCoord.out.bam",
+                    "id": "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Aligned.sortedByCoord.out.bam",
                     "sizeInBytes": 1143152
                 },
                 {
-                    "id": "Sample_Y.Solo.out",
+                    "id": "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Solo.out",
                     "sizeInBytes": 2343561
                 },
                 {
-                    "id": "Sample_Y.Log.final.out",
+                    "id": "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Log.final.out",
                     "sizeInBytes": 1996
                 },
                 {
-                    "id": "Sample_Y.Log.out",
+                    "id": "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Log.out",
                     "sizeInBytes": 12391
                 },
                 {
-                    "id": "Sample_Y.Log.progress.out",
+                    "id": "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.Log.progress.out",
                     "sizeInBytes": 801
                 },
                 {
-                    "id": "Sample_Y.SJ.out.tab",
+                    "id": "/b4/a10fe2c8497160a04e25e58348dcac/versions.yml",
+                    "sizeInBytes": 66
+                },
+                {
+                    "id": "/b4/a10fe2c8497160a04e25e58348dcac/Sample_Y.SJ.out.tab",
                     "sizeInBytes": 11499
                 },
                 {
-                    "id": "Sample_X_matrix.rds",
+                    "id": "/fa00207e5792e4a4e9ff6d39349b41/Sample_X/Sample_X_matrix.rds",
                     "sizeInBytes": 157440
                 },
                 {
-                    "id": "Sample_X_matrix.h5ad",
+                    "id": "/0c/fa00207e5792e4a4e9ff6d39349b41/versions.yml",
+                    "sizeInBytes": 31
+                },
+                {
+                    "id": "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/Sample_X_matrix.h5ad",
                     "sizeInBytes": 259571
                 },
                 {
-                    "id": "barcodes.tsv",
+                    "id": "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/barcodes.tsv",
                     "sizeInBytes": 67949
                 },
                 {
-                    "id": "features.tsv",
+                    "id": "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/features.tsv",
                     "sizeInBytes": 31754
                 },
                 {
-                    "id": "matrix.mtx",
+                    "id": "/88cdbaa494a09ba62447cf2a82c8fe/Sample_X/matrix.mtx",
                     "sizeInBytes": 70885
                 },
                 {
-                    "id": "Sample_Y_matrix.rds",
+                    "id": "/80/88cdbaa494a09ba62447cf2a82c8fe/versions.yml",
+                    "sizeInBytes": 1404
+                },
+                {
+                    "id": "/4227fbef4ddaefca8ecbae2f807c13/Sample_Y/Sample_Y_matrix.rds",
                     "sizeInBytes": 177750
                 },
                 {
-                    "id": "Sample_Y_matrix.h5ad",
+                    "id": "/77/4227fbef4ddaefca8ecbae2f807c13/versions.yml",
+                    "sizeInBytes": 31
+                },
+                {
+                    "id": "/3f90605073080dd6f79265cdfac8f1/Sample_Y/Sample_Y_matrix.h5ad",
                     "sizeInBytes": 287373
                 },
                 {
-                    "id": "collated_versions.yml",
+                    "id": "/3f90605073080dd6f79265cdfac8f1/Sample_Y/barcodes.tsv",
+                    "sizeInBytes": 79475
+                },
+                {
+                    "id": "/3f90605073080dd6f79265cdfac8f1/Sample_Y/features.tsv",
+                    "sizeInBytes": 31754
+                },
+                {
+                    "id": "/3f90605073080dd6f79265cdfac8f1/Sample_Y/matrix.mtx",
+                    "sizeInBytes": 78908
+                },
+                {
+                    "id": "/6e/3f90605073080dd6f79265cdfac8f1/versions.yml",
+                    "sizeInBytes": 1404
+                },
+                {
+                    "id": "/5d/57f6ea0be4d7dc405f65b8f307aecd/collated_versions.yml",
                     "sizeInBytes": 454
                 },
                 {
-                    "id": "software_versions.yml",
+                    "id": "/f8/9b326a7a0f87d149fdcb6ca0d4092e/software_versions.yml",
                     "sizeInBytes": 273
                 },
                 {
-                    "id": "software_versions_mqc.yml",
+                    "id": "/f8/9b326a7a0f87d149fdcb6ca0d4092e/software_versions_mqc.yml",
                     "sizeInBytes": 1942
                 },
                 {
-                    "id": "combined_matrix.h5ad",
+                    "id": "/f8/9b326a7a0f87d149fdcb6ca0d4092e/versions.yml",
+                    "sizeInBytes": 85
+                },
+                {
+                    "id": "/4b/83d885f127330f384a135643a15721/combined_matrix.h5ad",
                     "sizeInBytes": 594550
                 },
                 {
-                    "id": "methods_description_mqc.yaml",
+                    "id": "/84/5dfbcc8a230526d4d8863173658d45/methods_description_mqc.yaml",
                     "sizeInBytes": 3950
                 },
                 {
-                    "id": "workflow_summary_mqc.yaml",
+                    "id": "/eb/c26f145981db3f7cf2d52d68d758d0/workflow_summary_mqc.yaml",
                     "sizeInBytes": 2879
                 },
                 {
-                    "id": "multiqc_config.yml",
+                    "id": "/scrnaseq/assets/multiqc_config.yml",
                     "sizeInBytes": 490
                 },
                 {
-                    "id": "multiqc_report.html",
+                    "id": "/89/f99c10e23e999efb6270da0381217d/multiqc_report.html",
                     "sizeInBytes": 1213029
                 },
                 {
-                    "id": "multiqc_data",
+                    "id": "/89/f99c10e23e999efb6270da0381217d/multiqc_data",
                     "sizeInBytes": 343050
                 },
                 {
-                    "id": "multiqc_plots",
+                    "id": "/89/f99c10e23e999efb6270da0381217d/multiqc_plots",
                     "sizeInBytes": 791522
+                },
+                {
+                    "id": "/89/f99c10e23e999efb6270da0381217d/versions.yml",
+                    "sizeInBytes": 54
                 }
             ]
         },

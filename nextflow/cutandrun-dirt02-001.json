@@ -11,15 +11,13 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.INPUT_CHECK.SAMPLESHEET_CHECK",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.INPUT_CHECK.SAMPLESHEET_CHECK_4",
-                    "children": [
-                        "NFCORE_CUTANDRUN.CUTANDRUN.CUSTOM_DUMPSOFTWAREVERSIONS_119"
-                    ],
+                    "children": [],
                     "inputFiles": [
-                        "test-GSE145187-small.csv"
+                        "/nf-core/test-datasets/cutandrun/samplesheet_2_0/test-GSE145187-small.csv"
                     ],
                     "outputFiles": [
-                        "samplesheet.valid.csv",
-                        "versions.yml"
+                        "/12/4edf49da23e81ce59f077574f0fedf/samplesheet.valid.csv",
+                        "/12/4edf49da23e81ce59f077574f0fedf/versions.yml"
                     ],
                     "parents": []
                 },
@@ -33,8 +31,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "hg38-chr20-genes.bed",
-                        "versions.yml"
+                        "/45/951c8bb66a3f8021e275dc2fadbd83/hg38-chr20-genes.bed",
+                        "/45/951c8bb66a3f8021e275dc2fadbd83/versions.yml"
                     ],
                     "parents": []
                 },
@@ -44,8 +42,8 @@
                     "children": [],
                     "inputFiles": [],
                     "outputFiles": [
-                        "hg38-chr20-genes.gtf",
-                        "versions.yml"
+                        "/5b/09f01af5ba18c2e3fbaa925cd06d98/hg38-chr20-genes.gtf",
+                        "/5b/09f01af5ba18c2e3fbaa925cd06d98/versions.yml"
                     ],
                     "parents": []
                 },
@@ -59,8 +57,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "e_coli_U00096_3.fa",
-                        "versions.yml"
+                        "/4d/53b1737dc16ff3cea67ceba70ef2eb/e_coli_U00096_3.fa",
+                        "/4d/53b1737dc16ff3cea67ceba70ef2eb/versions.yml"
                     ],
                     "parents": []
                 },
@@ -73,8 +71,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "e_coli_U00096_3",
-                        "versions.yml"
+                        "/2b/945929a0b97de9baf855822ad905e0/e_coli_U00096_3",
+                        "/2b/945929a0b97de9baf855822ad905e0/versions.yml"
                     ],
                     "parents": []
                 },
@@ -98,8 +96,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "hg38-chr20.fa",
-                        "versions.yml"
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/versions.yml"
                     ],
                     "parents": []
                 },
@@ -110,11 +108,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TABIX_BGZIPTABIX_16"
                     ],
                     "inputFiles": [
-                        "hg38-chr20-genes.bed"
+                        "/45/951c8bb66a3f8021e275dc2fadbd83/hg38-chr20-genes.bed"
                     ],
                     "outputFiles": [
-                        "hg38-chr20-genes.sorted.bed",
-                        "versions.yml"
+                        "/4d/bae99117ab83446454e0d2c51a888f/hg38-chr20-genes.sorted.bed",
+                        "/4d/bae99117ab83446454e0d2c51a888f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_BED_6"
@@ -129,8 +127,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "hg38-chr20-bowtie2",
-                        "versions.yml"
+                        "/55/ec83c713882f63f7790d4b460266ec/hg38-chr20-bowtie2",
+                        "/55/ec83c713882f63f7790d4b460266ec/versions.yml"
                     ],
                     "parents": []
                 },
@@ -141,15 +139,15 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_rep1_r1.fastq.gz",
-                        "h3k27me3_rep1_r2.fastq.gz"
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/h3k27me3_rep1_r1.fastq.gz",
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/h3k27me3_rep1_r2.fastq.gz"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1_1_fastqc.html",
-                        "h3k27me3_R1_2_fastqc.html",
-                        "h3k27me3_R1_1_fastqc.zip",
-                        "h3k27me3_R1_2_fastqc.zip",
-                        "versions.yml"
+                        "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_1_fastqc.html",
+                        "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_2_fastqc.html",
+                        "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_1_fastqc.zip",
+                        "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_2_fastqc.zip",
+                        "/ce/6559bb8b6c0313bcf533265eb8b0a2/versions.yml"
                     ],
                     "parents": []
                 },
@@ -160,15 +158,15 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "igg_rep1_r1.fastq.gz",
-                        "igg_rep1_r2.fastq.gz"
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/igg_rep1_r1.fastq.gz",
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/igg_rep1_r2.fastq.gz"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1_1_fastqc.html",
-                        "igg_ctrl_R1_2_fastqc.html",
-                        "igg_ctrl_R1_1_fastqc.zip",
-                        "igg_ctrl_R1_2_fastqc.zip",
-                        "versions.yml"
+                        "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_1_fastqc.html",
+                        "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_2_fastqc.html",
+                        "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_1_fastqc.zip",
+                        "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_2_fastqc.zip",
+                        "/e0/d0d9eabab3206577abb8d3ac6532a3/versions.yml"
                     ],
                     "parents": []
                 },
@@ -181,19 +179,19 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "igg_rep1_r1.fastq.gz",
-                        "igg_rep1_r2.fastq.gz"
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/igg_rep1_r1.fastq.gz",
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/igg_rep1_r2.fastq.gz"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1_1.trimmed.fastq.gz",
-                        "igg_ctrl_R1_2.trimmed.fastq.gz",
-                        "igg_ctrl_R1_1.fastq.gz_trimming_report.txt",
-                        "igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
-                        "versions.yml",
-                        "igg_ctrl_R1_1.trimmed_fastqc.html",
-                        "igg_ctrl_R1_2.trimmed_fastqc.html",
-                        "igg_ctrl_R1_1.trimmed_fastqc.zip",
-                        "igg_ctrl_R1_2.trimmed_fastqc.zip"
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed.fastq.gz",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed.fastq.gz",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.fastq.gz_trimming_report.txt",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/versions.yml",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed_fastqc.html",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed_fastqc.html",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed_fastqc.zip",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed_fastqc.zip"
                     ],
                     "parents": []
                 },
@@ -206,19 +204,19 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_rep1_r1.fastq.gz",
-                        "h3k27me3_rep1_r2.fastq.gz"
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/h3k27me3_rep1_r1.fastq.gz",
+                        "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/h3k27me3_rep1_r2.fastq.gz"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1_1.trimmed.fastq.gz",
-                        "h3k27me3_R1_2.trimmed.fastq.gz",
-                        "h3k27me3_R1_1.fastq.gz_trimming_report.txt",
-                        "h3k27me3_R1_2.fastq.gz_trimming_report.txt",
-                        "versions.yml",
-                        "h3k27me3_R1_1.trimmed_fastqc.html",
-                        "h3k27me3_R1_2.trimmed_fastqc.html",
-                        "h3k27me3_R1_1.trimmed_fastqc.zip",
-                        "h3k27me3_R1_2.trimmed_fastqc.zip"
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed.fastq.gz",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed.fastq.gz",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.fastq.gz_trimming_report.txt",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.fastq.gz_trimming_report.txt",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/versions.yml",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed_fastqc.html",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed_fastqc.html",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed_fastqc.zip",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed_fastqc.zip"
                     ],
                     "parents": []
                 },
@@ -227,12 +225,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SPIKEIN_CHROMSIZES_13",
                     "children": [],
                     "inputFiles": [
-                        "e_coli_U00096_3.fa"
+                        "/4d/53b1737dc16ff3cea67ceba70ef2eb/e_coli_U00096_3.fa"
                     ],
                     "outputFiles": [
-                        "e_coli_U00096_3.fa.sizes",
-                        "e_coli_U00096_3.fa.fai",
-                        "versions.yml"
+                        "/89/dc79eb9ab88b2f3f1e94c67452b146/e_coli_U00096_3.fa.sizes",
+                        "/89/dc79eb9ab88b2f3f1e94c67452b146/e_coli_U00096_3.fa.fai",
+                        "/89/dc79eb9ab88b2f3f1e94c67452b146/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_SPIKEIN_FASTA_1"
@@ -245,22 +243,18 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_AWK_21",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT_35",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT_48",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_103",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_103"
                     ],
                     "inputFiles": [
-                        "hg38-chr20.fa"
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "hg38-chr20.fa.sizes",
-                        "hg38-chr20.fa.fai",
-                        "versions.yml"
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.fai",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
@@ -269,13 +263,18 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX_15",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
+                    ],
                     "inputFiles": [
-                        "hg38-chr20.fa"
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "hg38-chr20.fa.fai",
-                        "versions.yml"
+                        "/e9/aa1427749f224e63797c5a6e382867/hg38-chr20.fa.fai",
+                        "/e9/aa1427749f224e63797c5a6e382867/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5"
@@ -288,12 +287,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
                     ],
                     "inputFiles": [
-                        "hg38-chr20-genes.sorted.bed"
+                        "/4d/bae99117ab83446454e0d2c51a888f/hg38-chr20-genes.sorted.bed"
                     ],
                     "outputFiles": [
-                        "hg38-chr20-genes.bed.gz",
-                        "hg38-chr20-genes.bed.gz.tbi",
-                        "versions.yml"
+                        "/18/8bca81e762cf41eb068d3b66651124/hg38-chr20-genes.bed.gz",
+                        "/18/8bca81e762cf41eb068d3b66651124/hg38-chr20-genes.bed.gz.tbi",
+                        "/18/8bca81e762cf41eb068d3b66651124/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.ANNOTATION_BEDTOOLS_SORT_12"
@@ -308,14 +307,14 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1_1.trimmed.fastq.gz",
-                        "igg_ctrl_R1_2.trimmed.fastq.gz",
-                        "hg38-chr20-bowtie2"
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed.fastq.gz",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed.fastq.gz",
+                        "/55/ec83c713882f63f7790d4b460266ec/hg38-chr20-bowtie2"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.bam",
-                        "igg_ctrl_R1.bowtie2.log",
-                        "versions.yml"
+                        "/ee/4de954a3216db0899c90242e147877/igg_ctrl_R1.bam",
+                        "/ee/4de954a3216db0899c90242e147877/igg_ctrl_R1.bowtie2.log",
+                        "/ee/4de954a3216db0899c90242e147877/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_11",
@@ -331,14 +330,14 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1_1.trimmed.fastq.gz",
-                        "igg_ctrl_R1_2.trimmed.fastq.gz",
-                        "e_coli_U00096_3"
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed.fastq.gz",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed.fastq.gz",
+                        "/2b/945929a0b97de9baf855822ad905e0/e_coli_U00096_3"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.spikein.bam",
-                        "igg_ctrl_R1.spikein.bowtie2.log",
-                        "versions.yml"
+                        "/9f/e467c4613159d45c1b684259b27b31/igg_ctrl_R1.spikein.bam",
+                        "/9f/e467c4613159d45c1b684259b27b31/igg_ctrl_R1.spikein.bowtie2.log",
+                        "/9f/e467c4613159d45c1b684259b27b31/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_11",
@@ -354,14 +353,14 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1_1.trimmed.fastq.gz",
-                        "h3k27me3_R1_2.trimmed.fastq.gz",
-                        "e_coli_U00096_3"
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed.fastq.gz",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed.fastq.gz",
+                        "/2b/945929a0b97de9baf855822ad905e0/e_coli_U00096_3"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.spikein.bam",
-                        "h3k27me3_R1.spikein.bowtie2.log",
-                        "versions.yml"
+                        "/14/87895692955ae8a0c7a8b6fe7fb8db/h3k27me3_R1.spikein.bam",
+                        "/14/87895692955ae8a0c7a8b6fe7fb8db/h3k27me3_R1.spikein.bowtie2.log",
+                        "/14/87895692955ae8a0c7a8b6fe7fb8db/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_9",
@@ -377,14 +376,14 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1_1.trimmed.fastq.gz",
-                        "h3k27me3_R1_2.trimmed.fastq.gz",
-                        "hg38-chr20-bowtie2"
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed.fastq.gz",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed.fastq.gz",
+                        "/55/ec83c713882f63f7790d4b460266ec/hg38-chr20-bowtie2"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.bam",
-                        "h3k27me3_R1.bowtie2.log",
-                        "versions.yml"
+                        "/d9/0b57a840d437f789fc2363d5fd93ec/h3k27me3_R1.bam",
+                        "/d9/0b57a840d437f789fc2363d5fd93ec/h3k27me3_R1.bowtie2.log",
+                        "/d9/0b57a840d437f789fc2363d5fd93ec/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FASTQC_TRIMGALORE.TRIMGALORE_9",
@@ -398,11 +397,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_INTERSECT_30"
                     ],
                     "inputFiles": [
-                        "hg38-chr20.fa.sizes"
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes"
                     ],
                     "outputFiles": [
-                        "chromsizes.awk.bed",
-                        "versions.yml"
+                        "/81/203ba97af421f72f654401e2404972/chromsizes.awk.bed",
+                        "/81/203ba97af421f72f654401e2404972/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
@@ -413,12 +412,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_TARGET_META.AWK_SCRIPT_23",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.bowtie2.log",
-                        "bt2_report_to_csv.awk"
+                        "/ee/4de954a3216db0899c90242e147877/igg_ctrl_R1.bowtie2.log",
+                        "/cutandrun/bin/bt2_report_to_csv.awk"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1_meta_bt2_target.awk.txt",
-                        "versions.yml"
+                        "/0e/bff25483eaf6e31b8a916366a1677b/igg_ctrl_R1_meta_bt2_target.awk.txt",
+                        "/0e/bff25483eaf6e31b8a916366a1677b/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18"
@@ -435,11 +434,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_49"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.bam"
+                        "/ee/4de954a3216db0899c90242e147877/igg_ctrl_R1.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.sorted.bam",
-                        "versions.yml"
+                        "/36/74a2af3dc16e98cf3657b022ff673c/igg_ctrl_R1.target.sorted.bam",
+                        "/36/74a2af3dc16e98cf3657b022ff673c/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_18"
@@ -450,12 +449,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_SPIKEIN_META.AWK_SCRIPT_25",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.spikein.bowtie2.log",
-                        "bt2_report_to_csv.awk"
+                        "/9f/e467c4613159d45c1b684259b27b31/igg_ctrl_R1.spikein.bowtie2.log",
+                        "/cutandrun/bin/bt2_report_to_csv.awk"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1_meta_bt2_spikein.awk.txt",
-                        "versions.yml"
+                        "/b7/e700eebbdae455d74e53d0787aea2b/igg_ctrl_R1_meta_bt2_spikein.awk.txt",
+                        "/b7/e700eebbdae455d74e53d0787aea2b/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17"
@@ -471,11 +470,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.spikein.bam"
+                        "/9f/e467c4613159d45c1b684259b27b31/igg_ctrl_R1.spikein.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.spikein.sorted.bam",
-                        "versions.yml"
+                        "/79/15fc0b6634b0573c43cb1720f3a9d6/igg_ctrl_R1.spikein.sorted.bam",
+                        "/79/15fc0b6634b0573c43cb1720f3a9d6/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17"
@@ -491,11 +490,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_39"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.spikein.bam"
+                        "/14/87895692955ae8a0c7a8b6fe7fb8db/h3k27me3_R1.spikein.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.spikein.sorted.bam",
-                        "versions.yml"
+                        "/a2/2a134b7b1bb48d1daf5e906fc1e601/h3k27me3_R1.spikein.sorted.bam",
+                        "/a2/2a134b7b1bb48d1daf5e906fc1e601/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19"
@@ -506,12 +505,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_SPIKEIN_META.AWK_SCRIPT_27",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.spikein.bowtie2.log",
-                        "bt2_report_to_csv.awk"
+                        "/14/87895692955ae8a0c7a8b6fe7fb8db/h3k27me3_R1.spikein.bowtie2.log",
+                        "/cutandrun/bin/bt2_report_to_csv.awk"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1_meta_bt2_spikein.awk.txt",
-                        "versions.yml"
+                        "/b3/9db5950da1b6b34c62972f0ab5d163/h3k27me3_R1_meta_bt2_spikein.awk.txt",
+                        "/b3/9db5950da1b6b34c62972f0ab5d163/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19"
@@ -528,11 +527,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_50"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.bam"
+                        "/d9/0b57a840d437f789fc2363d5fd93ec/h3k27me3_R1.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.sorted.bam",
-                        "versions.yml"
+                        "/50/db755f5cea1d62d9139309f96dba78/h3k27me3_R1.target.sorted.bam",
+                        "/50/db755f5cea1d62d9139309f96dba78/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20"
@@ -543,12 +542,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_BT2_TARGET_META.AWK_SCRIPT_29",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.bowtie2.log",
-                        "bt2_report_to_csv.awk"
+                        "/d9/0b57a840d437f789fc2363d5fd93ec/h3k27me3_R1.bowtie2.log",
+                        "/cutandrun/bin/bt2_report_to_csv.awk"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1_meta_bt2_target.awk.txt",
-                        "versions.yml"
+                        "/a5/a37d3be6852318caa90ee229ef2ebc/h3k27me3_R1_meta_bt2_target.awk.txt",
+                        "/a5/a37d3be6852318caa90ee229ef2ebc/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20"
@@ -561,12 +560,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT_35"
                     ],
                     "inputFiles": [
-                        "hg38-blacklist.bed",
-                        "chromsizes.awk.bed"
+                        "/assets/blacklists/hg38-blacklist.bed",
+                        "/81/203ba97af421f72f654401e2404972/chromsizes.awk.bed"
                     ],
                     "outputFiles": [
-                        "blacklist.filtered.bed",
-                        "versions.yml"
+                        "/dc/cdc764d98682fa62464da9926701fa/blacklist.filtered.bed",
+                        "/dc/cdc764d98682fa62464da9926701fa/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_AWK_21"
@@ -581,11 +580,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_42"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.sorted.bam"
+                        "/36/74a2af3dc16e98cf3657b022ff673c/igg_ctrl_R1.target.sorted.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.sorted.bam.bai",
-                        "versions.yml"
+                        "/64/327a46d9fb33467c525ceb91ba7145/igg_ctrl_R1.target.sorted.bam.bai",
+                        "/64/327a46d9fb33467c525ceb91ba7145/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22"
@@ -600,11 +599,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.spikein.sorted.bam"
+                        "/79/15fc0b6634b0573c43cb1720f3a9d6/igg_ctrl_R1.spikein.sorted.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.spikein.sorted.bam.bai",
-                        "versions.yml"
+                        "/a2/d1a226492d3105388ce1f6a80f225f/igg_ctrl_R1.spikein.sorted.bam.bai",
+                        "/a2/d1a226492d3105388ce1f6a80f225f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24"
@@ -619,11 +618,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_39"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.spikein.sorted.bam"
+                        "/a2/2a134b7b1bb48d1daf5e906fc1e601/h3k27me3_R1.spikein.sorted.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.spikein.sorted.bam.bai",
-                        "versions.yml"
+                        "/cb/a8df121b6005c8a1108c1b46e614b8/h3k27me3_R1.spikein.sorted.bam.bai",
+                        "/cb/a8df121b6005c8a1108c1b46e614b8/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26"
@@ -638,11 +637,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_45"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.sorted.bam"
+                        "/50/db755f5cea1d62d9139309f96dba78/h3k27me3_R1.target.sorted.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.sorted.bam.bai",
-                        "versions.yml"
+                        "/e1/faf256fabc08c72db7fa98741a88ef/h3k27me3_R1.target.sorted.bam.bai",
+                        "/e1/faf256fabc08c72db7fa98741a88ef/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28"
@@ -655,12 +654,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_COMPLEMENT_48"
                     ],
                     "inputFiles": [
-                        "blacklist.filtered.bed",
-                        "hg38-chr20.fa.sizes"
+                        "/dc/cdc764d98682fa62464da9926701fa/blacklist.filtered.bed",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes"
                     ],
                     "outputFiles": [
-                        "blacklist.sorted.bed",
-                        "versions.yml"
+                        "/92/0589279fd86fb9ebd5d5fad0b26ac8/blacklist.sorted.bed",
+                        "/92/0589279fd86fb9ebd5d5fad0b26ac8/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_INTERSECT_30",
@@ -670,16 +669,14 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_37",
-                    "children": [
-                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
-                    ],
+                    "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.spikein.sorted.bam",
-                        "igg_ctrl_R1.spikein.sorted.bam.bai"
+                        "/79/15fc0b6634b0573c43cb1720f3a9d6/igg_ctrl_R1.spikein.sorted.bam",
+                        "/a2/d1a226492d3105388ce1f6a80f225f/igg_ctrl_R1.spikein.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.idxstats",
-                        "versions.yml"
+                        "/dc/1c26bf0baf3b6af117769fd8f70725/igg_ctrl_R1.idxstats",
+                        "/dc/1c26bf0baf3b6af117769fd8f70725/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
@@ -689,17 +686,15 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_38",
-                    "children": [
-                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
-                    ],
+                    "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.spikein.sorted.bam",
-                        "igg_ctrl_R1.spikein.sorted.bam.bai",
-                        "e_coli_U00096_3.fa"
+                        "/79/15fc0b6634b0573c43cb1720f3a9d6/igg_ctrl_R1.spikein.sorted.bam",
+                        "/a2/d1a226492d3105388ce1f6a80f225f/igg_ctrl_R1.spikein.sorted.bam.bai",
+                        "/4d/53b1737dc16ff3cea67ceba70ef2eb/e_coli_U00096_3.fa"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.stats",
-                        "versions.yml"
+                        "/0f/65699cc9917a13a5fc7cb1dd098204/igg_ctrl_R1.stats",
+                        "/0f/65699cc9917a13a5fc7cb1dd098204/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
@@ -712,13 +707,13 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_41",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.spikein.sorted.bam",
-                        "h3k27me3_R1.spikein.sorted.bam.bai",
-                        "e_coli_U00096_3.fa"
+                        "/a2/2a134b7b1bb48d1daf5e906fc1e601/h3k27me3_R1.spikein.sorted.bam",
+                        "/cb/a8df121b6005c8a1108c1b46e614b8/h3k27me3_R1.spikein.sorted.bam.bai",
+                        "/4d/53b1737dc16ff3cea67ceba70ef2eb/e_coli_U00096_3.fa"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.stats",
-                        "versions.yml"
+                        "/e6/01ffd59d569f208c2cef8d034f862a/h3k27me3_R1.stats",
+                        "/e6/01ffd59d569f208c2cef8d034f862a/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
@@ -729,16 +724,14 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36",
-                    "children": [
-                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
-                    ],
+                    "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.spikein.sorted.bam",
-                        "igg_ctrl_R1.spikein.sorted.bam.bai"
+                        "/79/15fc0b6634b0573c43cb1720f3a9d6/igg_ctrl_R1.spikein.sorted.bam",
+                        "/a2/d1a226492d3105388ce1f6a80f225f/igg_ctrl_R1.spikein.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.flagstat",
-                        "versions.yml"
+                        "/28/0c019958ecb14b29bd1bb798cb0eff/igg_ctrl_R1.flagstat",
+                        "/28/0c019958ecb14b29bd1bb798cb0eff/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_24",
@@ -750,12 +743,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_40",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.spikein.sorted.bam",
-                        "h3k27me3_R1.spikein.sorted.bam.bai"
+                        "/a2/2a134b7b1bb48d1daf5e906fc1e601/h3k27me3_R1.spikein.sorted.bam",
+                        "/cb/a8df121b6005c8a1108c1b46e614b8/h3k27me3_R1.spikein.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.idxstats",
-                        "versions.yml"
+                        "/42/547518c60968ae6fab6ef192d1a0ac/h3k27me3_R1.idxstats",
+                        "/42/547518c60968ae6fab6ef192d1a0ac/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
@@ -767,12 +760,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_39",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.spikein.sorted.bam",
-                        "h3k27me3_R1.spikein.sorted.bam.bai"
+                        "/a2/2a134b7b1bb48d1daf5e906fc1e601/h3k27me3_R1.spikein.sorted.bam",
+                        "/cb/a8df121b6005c8a1108c1b46e614b8/h3k27me3_R1.spikein.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.flagstat",
-                        "versions.yml"
+                        "/5a/ae746e0a209ebd07607aa31938e26c/h3k27me3_R1.flagstat",
+                        "/5a/ae746e0a209ebd07607aa31938e26c/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.SAMTOOLS_SORT_26",
@@ -784,12 +777,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_43",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.sorted.bam",
-                        "igg_ctrl_R1.target.sorted.bam.bai"
+                        "/36/74a2af3dc16e98cf3657b022ff673c/igg_ctrl_R1.target.sorted.bam",
+                        "/64/327a46d9fb33467c525ceb91ba7145/igg_ctrl_R1.target.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.idxstats",
-                        "versions.yml"
+                        "/2b/67e5901ccfa60c89c926151914cbdc/igg_ctrl_R1.idxstats",
+                        "/2b/67e5901ccfa60c89c926151914cbdc/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
@@ -801,12 +794,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_46",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.sorted.bam",
-                        "h3k27me3_R1.target.sorted.bam.bai"
+                        "/50/db755f5cea1d62d9139309f96dba78/h3k27me3_R1.target.sorted.bam",
+                        "/e1/faf256fabc08c72db7fa98741a88ef/h3k27me3_R1.target.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.idxstats",
-                        "versions.yml"
+                        "/94/c05cf1174fb29467fabeeec5cce748/h3k27me3_R1.idxstats",
+                        "/94/c05cf1174fb29467fabeeec5cce748/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
@@ -818,13 +811,13 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_47",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.sorted.bam",
-                        "h3k27me3_R1.target.sorted.bam.bai",
-                        "hg38-chr20.fa"
+                        "/50/db755f5cea1d62d9139309f96dba78/h3k27me3_R1.target.sorted.bam",
+                        "/e1/faf256fabc08c72db7fa98741a88ef/h3k27me3_R1.target.sorted.bam.bai",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.stats",
-                        "versions.yml"
+                        "/2c/1c8fff2cd6a08df4f740a5a0283664/h3k27me3_R1.stats",
+                        "/2c/1c8fff2cd6a08df4f740a5a0283664/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
@@ -837,13 +830,13 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_44",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.sorted.bam",
-                        "igg_ctrl_R1.target.sorted.bam.bai",
-                        "hg38-chr20.fa"
+                        "/36/74a2af3dc16e98cf3657b022ff673c/igg_ctrl_R1.target.sorted.bam",
+                        "/64/327a46d9fb33467c525ceb91ba7145/igg_ctrl_R1.target.sorted.bam.bai",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.stats",
-                        "versions.yml"
+                        "/6a/c055eecb4d64fd961d8cd6e356185b/igg_ctrl_R1.stats",
+                        "/6a/c055eecb4d64fd961d8cd6e356185b/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
@@ -856,12 +849,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_45",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.sorted.bam",
-                        "h3k27me3_R1.target.sorted.bam.bai"
+                        "/50/db755f5cea1d62d9139309f96dba78/h3k27me3_R1.target.sorted.bam",
+                        "/e1/faf256fabc08c72db7fa98741a88ef/h3k27me3_R1.target.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.flagstat",
-                        "versions.yml"
+                        "/eb/94c53ee132d7c560e35df638bddc00/h3k27me3_R1.flagstat",
+                        "/eb/94c53ee132d7c560e35df638bddc00/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
@@ -873,12 +866,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_42",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.sorted.bam",
-                        "igg_ctrl_R1.target.sorted.bam.bai"
+                        "/36/74a2af3dc16e98cf3657b022ff673c/igg_ctrl_R1.target.sorted.bam",
+                        "/64/327a46d9fb33467c525ceb91ba7145/igg_ctrl_R1.target.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.flagstat",
-                        "versions.yml"
+                        "/0b/2328f7f0a16a8d8b9e135aea25dd32/igg_ctrl_R1.flagstat",
+                        "/0b/2328f7f0a16a8d8b9e135aea25dd32/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
@@ -893,12 +886,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_49"
                     ],
                     "inputFiles": [
-                        "blacklist.sorted.bed",
-                        "hg38-chr20.fa.sizes"
+                        "/92/0589279fd86fb9ebd5d5fad0b26ac8/blacklist.sorted.bed",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes"
                     ],
                     "outputFiles": [
-                        "blacklist.bed",
-                        "versions.yml"
+                        "/d4/99875193a77c4341ca99f7c632caf2/blacklist.bed",
+                        "/d4/99875193a77c4341ca99f7c632caf2/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.BLACKLIST_BEDTOOLS_SORT_35",
@@ -912,12 +905,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.sorted.bam",
-                        "blacklist.bed"
+                        "/50/db755f5cea1d62d9139309f96dba78/h3k27me3_R1.target.sorted.bam",
+                        "/d4/99875193a77c4341ca99f7c632caf2/blacklist.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.filtered.bam",
-                        "versions.yml"
+                        "/b0/bdadc117012487bd7553575ee970c4/h3k27me3_R1.target.filtered.bam",
+                        "/b0/bdadc117012487bd7553575ee970c4/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_28",
@@ -931,12 +924,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.sorted.bam",
-                        "blacklist.bed"
+                        "/36/74a2af3dc16e98cf3657b022ff673c/igg_ctrl_R1.target.sorted.bam",
+                        "/d4/99875193a77c4341ca99f7c632caf2/blacklist.bed"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.filtered.bam",
-                        "versions.yml"
+                        "/61/4feba49b5fb482ed143404ca2cf001/igg_ctrl_R1.target.filtered.bam",
+                        "/61/4feba49b5fb482ed143404ca2cf001/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_22",
@@ -955,11 +948,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_61"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.filtered.bam"
+                        "/b0/bdadc117012487bd7553575ee970c4/h3k27me3_R1.target.filtered.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam",
-                        "versions.yml"
+                        "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam",
+                        "/59/e9f135642e794bfa6711bf979506a1/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_50"
@@ -977,11 +970,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_64"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.filtered.bam"
+                        "/61/4feba49b5fb482ed143404ca2cf001/igg_ctrl_R1.target.filtered.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam",
-                        "versions.yml"
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam",
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_VIEW_49"
@@ -996,19 +989,19 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam",
-                        "hg38-chr20.fa",
-                        "hg38-chr20.fa.fai"
+                        "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa",
+                        "/e9/aa1427749f224e63797c5a6e382867/hg38-chr20.fa.fai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.markdup.bam",
-                        "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
-                        "versions.yml"
+                        "/93/14c88f3b2f06439d7f8b9e6d019b4b/h3k27me3_R1.target.markdup.bam",
+                        "/93/14c88f3b2f06439d7f8b9e6d019b4b/h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
+                        "/93/14c88f3b2f06439d7f8b9e6d019b4b/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX_15"
                     ]
                 },
                 {
@@ -1016,11 +1009,11 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PRESEQ_LCEXTRAP_54",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam"
+                        "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.command.log",
-                        "versions.yml"
+                        "/8e/c99fca4ac049b4297ef2bd09f3f728/h3k27me3_R1.command.log",
+                        "/8e/c99fca4ac049b4297ef2bd09f3f728/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51"
@@ -1035,11 +1028,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_61"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam"
+                        "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam.bai",
-                        "versions.yml"
+                        "/1f/d97c2e913cf22bd6d078008c05e490/h3k27me3_R1.target.filtered.sorted.bam.bai",
+                        "/1f/d97c2e913cf22bd6d078008c05e490/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51"
@@ -1054,11 +1047,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_64"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam"
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam.bai",
-                        "versions.yml"
+                        "/fc/f5d5f2423f27ac2dc3c7dcee001dba/igg_ctrl_R1.target.filtered.sorted.bam.bai",
+                        "/fc/f5d5f2423f27ac2dc3c7dcee001dba/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52"
@@ -1069,11 +1062,11 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PRESEQ_LCEXTRAP_57",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam"
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.command.log",
-                        "versions.yml"
+                        "/bd/0f4e47f55ff9aa155be749dfa36cb5/igg_ctrl_R1.command.log",
+                        "/bd/0f4e47f55ff9aa155be749dfa36cb5/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52"
@@ -1088,19 +1081,19 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam",
-                        "hg38-chr20.fa",
-                        "hg38-chr20.fa.fai"
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa",
+                        "/e9/aa1427749f224e63797c5a6e382867/hg38-chr20.fa.fai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.markdup.bam",
-                        "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
-                        "versions.yml"
+                        "/fb/9da11bf4c0ddc37533baac4adac229/igg_ctrl_R1.target.markdup.bam",
+                        "/fb/9da11bf4c0ddc37533baac4adac229/igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
+                        "/fb/9da11bf4c0ddc37533baac4adac229/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX_15"
                     ]
                 },
                 {
@@ -1108,11 +1101,11 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_PICARD_DUP_META.AWK_60",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt"
+                        "/93/14c88f3b2f06439d7f8b9e6d019b4b/h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1_meta_picard_dups.awk.txt",
-                        "versions.yml"
+                        "/ee/652ac732b0a7815c24e5f2854c228d/h3k27me3_R1_meta_picard_dups.awk.txt",
+                        "/ee/652ac732b0a7815c24e5f2854c228d/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55"
@@ -1133,11 +1126,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.bam"
+                        "/93/14c88f3b2f06439d7f8b9e6d019b4b/h3k27me3_R1.target.markdup.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "versions.yml"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/42/dde65ab0cfd8c25493d88d360ec606/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55"
@@ -1148,12 +1141,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_63",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam",
-                        "h3k27me3_R1.target.filtered.sorted.bam.bai"
+                        "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam",
+                        "/1f/d97c2e913cf22bd6d078008c05e490/h3k27me3_R1.target.filtered.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.filtered.idxstats",
-                        "versions.yml"
+                        "/f1/2afc572a5ce4e3d5dde7b700fd64ac/h3k27me3_R1.target.filtered.idxstats",
+                        "/f1/2afc572a5ce4e3d5dde7b700fd64ac/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
@@ -1165,13 +1158,13 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_62",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam",
-                        "h3k27me3_R1.target.filtered.sorted.bam.bai",
-                        "hg38-chr20.fa"
+                        "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam",
+                        "/1f/d97c2e913cf22bd6d078008c05e490/h3k27me3_R1.target.filtered.sorted.bam.bai",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.filtered.stats",
-                        "versions.yml"
+                        "/eb/af70b850ac69c389935d05c9b8dfc1/h3k27me3_R1.target.filtered.stats",
+                        "/eb/af70b850ac69c389935d05c9b8dfc1/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
@@ -1184,12 +1177,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_61",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.filtered.sorted.bam",
-                        "h3k27me3_R1.target.filtered.sorted.bam.bai"
+                        "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam",
+                        "/1f/d97c2e913cf22bd6d078008c05e490/h3k27me3_R1.target.filtered.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.filtered.flagstat",
-                        "versions.yml"
+                        "/a1/5fef150a7e0d7689699dd08ee593df/h3k27me3_R1.target.filtered.flagstat",
+                        "/a1/5fef150a7e0d7689699dd08ee593df/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_51",
@@ -1201,12 +1194,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_66",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam",
-                        "igg_ctrl_R1.target.filtered.sorted.bam.bai"
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam",
+                        "/fc/f5d5f2423f27ac2dc3c7dcee001dba/igg_ctrl_R1.target.filtered.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.filtered.idxstats",
-                        "versions.yml"
+                        "/7f/6eb7bfb1734a1049b0a28a54d0d4df/igg_ctrl_R1.target.filtered.idxstats",
+                        "/7f/6eb7bfb1734a1049b0a28a54d0d4df/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
@@ -1218,12 +1211,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_65",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam",
-                        "igg_ctrl_R1.target.filtered.sorted.bam.bai"
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam",
+                        "/fc/f5d5f2423f27ac2dc3c7dcee001dba/igg_ctrl_R1.target.filtered.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.filtered.flagstat",
-                        "versions.yml"
+                        "/5a/509c975da46b7cb6d8fbd7e030b73b/igg_ctrl_R1.target.filtered.flagstat",
+                        "/5a/509c975da46b7cb6d8fbd7e030b73b/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
@@ -1235,13 +1228,13 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_64",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.filtered.sorted.bam",
-                        "igg_ctrl_R1.target.filtered.sorted.bam.bai",
-                        "hg38-chr20.fa"
+                        "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam",
+                        "/fc/f5d5f2423f27ac2dc3c7dcee001dba/igg_ctrl_R1.target.filtered.sorted.bam.bai",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.filtered.stats",
-                        "versions.yml"
+                        "/76/d322e9550084d58a6851ae59a859eb/igg_ctrl_R1.target.filtered.stats",
+                        "/76/d322e9550084d58a6851ae59a859eb/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.FILTER_READS.SAMTOOLS_SORT_52",
@@ -1254,11 +1247,11 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_PICARD_DUP_META.AWK_68",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt"
+                        "/fb/9da11bf4c0ddc37533baac4adac229/igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1_meta_picard_dups.awk.txt",
-                        "versions.yml"
+                        "/74/f334a4e15704dc7887d640fd25c4f1/igg_ctrl_R1_meta_picard_dups.awk.txt",
+                        "/74/f334a4e15704dc7887d640fd25c4f1/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58"
@@ -1275,11 +1268,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_84"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.markdup.bam"
+                        "/fb/9da11bf4c0ddc37533baac4adac229/igg_ctrl_R1.target.markdup.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.markdup.sorted.bam",
-                        "versions.yml"
+                        "/d6/02ff3ff97e09e1d8f0028eeb5752a0/igg_ctrl_R1.target.markdup.sorted.bam",
+                        "/d6/02ff3ff97e09e1d8f0028eeb5752a0/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58"
@@ -1297,11 +1290,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                        "versions.yml"
+                        "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai",
+                        "/13/d96d62e56d14613ed11ac9a3174c61/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59"
@@ -1314,12 +1307,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_76"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "dummy_file.txt"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/cutandrun/assets/dummy_file.txt"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.bedGraph",
-                        "versions.yml"
+                        "/89/065b011e12136a3fb264c0f1f46feb/h3k27me3_R1.bedGraph",
+                        "/89/065b011e12136a3fb264c0f1f46feb/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59"
@@ -1332,11 +1325,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.BEDTOOLS_BAMTOBED_77"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.sortedbyname.bam",
-                        "versions.yml"
+                        "/4d/1054af9403dd375cdfdf0f7df75903/h3k27me3_R1.sortedbyname.bam",
+                        "/4d/1054af9403dd375cdfdf0f7df75903/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59"
@@ -1349,19 +1342,19 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.markdup.sorted.bam",
-                        "hg38-chr20.fa",
-                        "hg38-chr20.fa.fai"
+                        "/d6/02ff3ff97e09e1d8f0028eeb5752a0/igg_ctrl_R1.target.markdup.sorted.bam",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa",
+                        "/e9/aa1427749f224e63797c5a6e382867/hg38-chr20.fa.fai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.dedup.bam",
-                        "igg_ctrl_R1.target.dedup.MarkDuplicates.metrics.txt",
-                        "versions.yml"
+                        "/bd/ead884cf2241a785f8aa0452a3bf8b/igg_ctrl_R1.target.dedup.bam",
+                        "/bd/ead884cf2241a785f8aa0452a3bf8b/igg_ctrl_R1.target.dedup.MarkDuplicates.metrics.txt",
+                        "/bd/ead884cf2241a785f8aa0452a3bf8b/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14"
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX_15"
                     ]
                 },
                 {
@@ -1373,11 +1366,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_84"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.markdup.sorted.bam"
+                        "/d6/02ff3ff97e09e1d8f0028eeb5752a0/igg_ctrl_R1.target.markdup.sorted.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.markdup.sorted.bam.bai",
-                        "versions.yml"
+                        "/cc/c86bc96e7148975231d8537be28557/igg_ctrl_R1.target.markdup.sorted.bam.bai",
+                        "/cc/c86bc96e7148975231d8537be28557/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67"
@@ -1390,12 +1383,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.FRAG_LEN_HIST_97"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "h3k27me3_R1.target.markdup.sorted.bam.bai"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.frags.len.txt",
-                        "versions.yml"
+                        "/d6/fb24b1dd22e7c18fa75d3df9870902/h3k27me3_R1.frags.len.txt",
+                        "/d6/fb24b1dd22e7c18fa75d3df9870902/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
@@ -1409,14 +1402,14 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "h3k27me3_R1.target.markdup.sorted.bam.bai"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.plotFingerprint.pdf",
-                        "h3k27me3_R1.plotFingerprint.raw.txt",
-                        "h3k27me3_R1.plotFingerprint.qcmetrics.txt",
-                        "versions.yml"
+                        "/d3/05ff0d30e25983c6ac7d9edf054065/h3k27me3_R1.plotFingerprint.pdf",
+                        "/d3/05ff0d30e25983c6ac7d9edf054065/h3k27me3_R1.plotFingerprint.raw.txt",
+                        "/d3/05ff0d30e25983c6ac7d9edf054065/h3k27me3_R1.plotFingerprint.qcmetrics.txt",
+                        "/d3/05ff0d30e25983c6ac7d9edf054065/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
@@ -1430,11 +1423,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.bedGraph"
+                        "/89/065b011e12136a3fb264c0f1f46feb/h3k27me3_R1.bedGraph"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.sorted.bedGraph",
-                        "versions.yml"
+                        "/ce/3de08a300462b7793d3d5823986a50/h3k27me3_R1.sorted.bedGraph",
+                        "/ce/3de08a300462b7793d3d5823986a50/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_70"
@@ -1447,11 +1440,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.AWK_86"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.sortedbyname.bam"
+                        "/4d/1054af9403dd375cdfdf0f7df75903/h3k27me3_R1.sortedbyname.bam"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.bed",
-                        "versions.yml"
+                        "/87/5bf41c58484dc052b87c5f831f73e3/h3k27me3_R1.bed",
+                        "/87/5bf41c58484dc052b87c5f831f73e3/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.SAMTOOLS_SORT_71"
@@ -1470,11 +1463,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_94"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.dedup.bam"
+                        "/bd/ead884cf2241a785f8aa0452a3bf8b/igg_ctrl_R1.target.dedup.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam",
-                        "versions.yml"
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                        "/13/972ad01e44514647432f43d1449fd0/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.PICARD_MARKDUPLICATES_73"
@@ -1485,13 +1478,13 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_80",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                        "hg38-chr20.fa"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.stats",
-                        "versions.yml"
+                        "/d5/828708e923788ff46efd3cbc723df6/h3k27me3_R1.stats",
+                        "/d5/828708e923788ff46efd3cbc723df6/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
@@ -1504,12 +1497,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_83",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.markdup.sorted.bam",
-                        "igg_ctrl_R1.target.markdup.sorted.bam.bai"
+                        "/d6/02ff3ff97e09e1d8f0028eeb5752a0/igg_ctrl_R1.target.markdup.sorted.bam",
+                        "/cc/c86bc96e7148975231d8537be28557/igg_ctrl_R1.target.markdup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.idxstats",
-                        "versions.yml"
+                        "/ae/089229679def637d780b7577d7c972/igg_ctrl_R1.idxstats",
+                        "/ae/089229679def637d780b7577d7c972/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
@@ -1521,13 +1514,13 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_82",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.markdup.sorted.bam",
-                        "igg_ctrl_R1.target.markdup.sorted.bam.bai",
-                        "hg38-chr20.fa"
+                        "/d6/02ff3ff97e09e1d8f0028eeb5752a0/igg_ctrl_R1.target.markdup.sorted.bam",
+                        "/cc/c86bc96e7148975231d8537be28557/igg_ctrl_R1.target.markdup.sorted.bam.bai",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.stats",
-                        "versions.yml"
+                        "/3e/9c6ef3df6614f1df41e2c392e9c36f/igg_ctrl_R1.stats",
+                        "/3e/9c6ef3df6614f1df41e2c392e9c36f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
@@ -1540,12 +1533,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_81",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "h3k27me3_R1.target.markdup.sorted.bam.bai"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.flagstat",
-                        "versions.yml"
+                        "/83/ab389811e713b88470b0530802135c/h3k27me3_R1.flagstat",
+                        "/83/ab389811e713b88470b0530802135c/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
@@ -1557,12 +1550,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_79",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "h3k27me3_R1.target.markdup.sorted.bam.bai"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.idxstats",
-                        "versions.yml"
+                        "/cd/405379525287c25d38ccf624359a7f/h3k27me3_R1.idxstats",
+                        "/cd/405379525287c25d38ccf624359a7f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
@@ -1574,12 +1567,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_84",
                     "children": [],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.markdup.sorted.bam",
-                        "igg_ctrl_R1.target.markdup.sorted.bam.bai"
+                        "/d6/02ff3ff97e09e1d8f0028eeb5752a0/igg_ctrl_R1.target.markdup.sorted.bam",
+                        "/cc/c86bc96e7148975231d8537be28557/igg_ctrl_R1.target.markdup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.flagstat",
-                        "versions.yml"
+                        "/06/154207a723bb23633cc7585a06b2b8/igg_ctrl_R1.flagstat",
+                        "/06/154207a723bb23633cc7585a06b2b8/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_67",
@@ -1594,12 +1587,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.sorted.bedGraph",
-                        "hg38-chr20.fa.sizes"
+                        "/ce/3de08a300462b7793d3d5823986a50/h3k27me3_R1.sorted.bedGraph",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.clipped.bedGraph",
-                        "versions.yml"
+                        "/ad/dee32fea3c98b87f6979b025d53786/h3k27me3_R1.clipped.bedGraph",
+                        "/ad/dee32fea3c98b87f6979b025d53786/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_76",
@@ -1613,11 +1606,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.CUT_90"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.bed"
+                        "/87/5bf41c58484dc052b87c5f831f73e3/h3k27me3_R1.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.filt.awk.bed",
-                        "versions.yml"
+                        "/06/86fb250afdb523ab6a20abca535dd9/h3k27me3_R1.filt.awk.bed",
+                        "/06/86fb250afdb523ab6a20abca535dd9/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.BEDTOOLS_BAMTOBED_77"
@@ -1630,12 +1623,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_91"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam",
-                        "dummy_file.txt"
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                        "/cutandrun/assets/dummy_file.txt"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.bedGraph",
-                        "versions.yml"
+                        "/76/d4e477298149773936523fd91c54b6/igg_ctrl_R1.bedGraph",
+                        "/76/d4e477298149773936523fd91c54b6/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78"
@@ -1652,11 +1645,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_94"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam"
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                        "versions.yml"
+                        "/d7/17135002e2c087c32f237d4a1292db/igg_ctrl_R1.target.dedup.sorted.bam.bai",
+                        "/d7/17135002e2c087c32f237d4a1292db/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78"
@@ -1672,12 +1665,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS_113"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.clipped.bedGraph",
-                        "hg38-chr20.fa.sizes"
+                        "/ad/dee32fea3c98b87f6979b025d53786/h3k27me3_R1.clipped.bedGraph",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.bigWig",
-                        "versions.yml"
+                        "/2a/031ce49deb834c7edfed9484199c45/h3k27me3_R1.bigWig",
+                        "/2a/031ce49deb834c7edfed9484199c45/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85",
@@ -1689,11 +1682,11 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.CUT_90",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.filt.awk.bed"
+                        "/06/86fb250afdb523ab6a20abca535dd9/h3k27me3_R1.filt.awk.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.frags.cut.bed",
-                        "versions.yml"
+                        "/2e/5383b8a1b2049f5d94e7c84ef5fea8/h3k27me3_R1.frags.cut.bed",
+                        "/2e/5383b8a1b2049f5d94e7c84ef5fea8/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.EXTRACT_FRAGMENTS.AWK_86"
@@ -1706,11 +1699,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.bedGraph"
+                        "/76/d4e477298149773936523fd91c54b6/igg_ctrl_R1.bedGraph"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.sorted.bedGraph",
-                        "versions.yml"
+                        "/3c/699ea49774ae6e0bb5cb1cf631a9b7/igg_ctrl_R1.sorted.bedGraph",
+                        "/3c/699ea49774ae6e0bb5cb1cf631a9b7/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_GENOMECOV_88"
@@ -1719,14 +1712,16 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_95",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam",
-                        "igg_ctrl_R1.target.dedup.sorted.bam.bai"
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                        "/d7/17135002e2c087c32f237d4a1292db/igg_ctrl_R1.target.dedup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.idxstats",
-                        "versions.yml"
+                        "/f6/095fd4d2f31b2eeed28ce7e3be6af3/igg_ctrl_R1.idxstats",
+                        "/f6/095fd4d2f31b2eeed28ce7e3be6af3/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
@@ -1740,14 +1735,14 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam",
-                        "igg_ctrl_R1.target.dedup.sorted.bam.bai"
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                        "/d7/17135002e2c087c32f237d4a1292db/igg_ctrl_R1.target.dedup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.plotFingerprint.pdf",
-                        "igg_ctrl_R1.plotFingerprint.raw.txt",
-                        "igg_ctrl_R1.plotFingerprint.qcmetrics.txt",
-                        "versions.yml"
+                        "/74/e13fc995741a2dc4bad172088bcfa7/igg_ctrl_R1.plotFingerprint.pdf",
+                        "/74/e13fc995741a2dc4bad172088bcfa7/igg_ctrl_R1.plotFingerprint.raw.txt",
+                        "/74/e13fc995741a2dc4bad172088bcfa7/igg_ctrl_R1.plotFingerprint.qcmetrics.txt",
+                        "/74/e13fc995741a2dc4bad172088bcfa7/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
@@ -1757,14 +1752,16 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_93",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam",
-                        "igg_ctrl_R1.target.dedup.sorted.bam.bai"
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                        "/d7/17135002e2c087c32f237d4a1292db/igg_ctrl_R1.target.dedup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.flagstat",
-                        "versions.yml"
+                        "/3d/7e88e25644ecf1fb6fb760120ff860/igg_ctrl_R1.flagstat",
+                        "/3d/7e88e25644ecf1fb6fb760120ff860/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
@@ -1779,14 +1776,14 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTCORRELATION_101"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.target.markdup.sorted.bam",
-                        "igg_ctrl_R1.target.dedup.sorted.bam",
-                        "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                        "igg_ctrl_R1.target.dedup.sorted.bam.bai"
+                        "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                        "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai",
+                        "/d7/17135002e2c087c32f237d4a1292db/igg_ctrl_R1.target.dedup.sorted.bam.bai"
                     ],
                     "outputFiles": [
-                        "all_bam.bamSummary.npz",
-                        "versions.yml"
+                        "/7d/840f3fc43ae3fa4a58151e660d08f7/all_bam.bamSummary.npz",
+                        "/7d/840f3fc43ae3fa4a58151e660d08f7/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_59",
@@ -1798,15 +1795,17 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_94",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
+                    ],
                     "inputFiles": [
-                        "igg_ctrl_R1.target.dedup.sorted.bam",
-                        "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                        "hg38-chr20.fa"
+                        "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                        "/d7/17135002e2c087c32f237d4a1292db/igg_ctrl_R1.target.dedup.sorted.bam.bai",
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.stats",
-                        "versions.yml"
+                        "/c0/fee0eceef6d47aa7b7b1303fd1d501/igg_ctrl_R1.stats",
+                        "/c0/fee0eceef6d47aa7b7b1303fd1d501/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.SAMTOOLS_SORT_78",
@@ -1821,12 +1820,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.frags.len.txt",
-                        "frag_len_header.txt"
+                        "/d6/fb24b1dd22e7c18fa75d3df9870902/h3k27me3_R1.frags.len.txt",
+                        "/assets/multiqc/frag_len_header.txt"
                     ],
                     "outputFiles": [
-                        "frag_len_mqc.yml",
-                        "versions.yml"
+                        "/2b/5c01b6c61d9ce66b2aaba9bce5b0c4/frag_len_mqc.yml",
+                        "/2b/5c01b6c61d9ce66b2aaba9bce5b0c4/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.SAMTOOLS_CUSTOMVIEW_74"
@@ -1836,17 +1835,16 @@
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98",
                     "children": [
-                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_102",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_PEAKS_115"
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_102"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.bigWig",
-                        "hg38-chr20-genes.bed"
+                        "/2a/031ce49deb834c7edfed9484199c45/h3k27me3_R1.bigWig",
+                        "/45/951c8bb66a3f8021e275dc2fadbd83/hg38-chr20-genes.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.computeMatrix.mat.gz",
-                        "h3k27me3_R1.computeMatrix.vals.mat.tab",
-                        "versions.yml"
+                        "/45/13963b29d756ee7961d747df966f95/h3k27me3_R1.computeMatrix.mat.gz",
+                        "/45/13963b29d756ee7961d747df966f95/h3k27me3_R1.computeMatrix.vals.mat.tab",
+                        "/45/13963b29d756ee7961d747df966f95/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
@@ -1861,12 +1859,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.sorted.bedGraph",
-                        "hg38-chr20.fa.sizes"
+                        "/3c/699ea49774ae6e0bb5cb1cf631a9b7/igg_ctrl_R1.sorted.bedGraph",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.clipped.bedGraph",
-                        "versions.yml"
+                        "/d2/0cfd3c5476a845b230332d8baa6db5/igg_ctrl_R1.clipped.bedGraph",
+                        "/d2/0cfd3c5476a845b230332d8baa6db5/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.BEDTOOLS_SORT_91",
@@ -1880,12 +1878,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "all_bam.bamSummary.npz"
+                        "/7d/840f3fc43ae3fa4a58151e660d08f7/all_bam.bamSummary.npz"
                     ],
                     "outputFiles": [
-                        "all_target_bams.plotPCA.pdf",
-                        "all_target_bams.plotPCA.tab",
-                        "versions.yml"
+                        "/26/837e659a68fc626440f17b1d93d197/all_target_bams.plotPCA.pdf",
+                        "/26/837e659a68fc626440f17b1d93d197/all_target_bams.plotPCA.tab",
+                        "/26/837e659a68fc626440f17b1d93d197/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
@@ -1898,12 +1896,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "all_bam.bamSummary.npz"
+                        "/7d/840f3fc43ae3fa4a58151e660d08f7/all_bam.bamSummary.npz"
                     ],
                     "outputFiles": [
-                        "all_target_bams.plotCorrelation.pdf",
-                        "all_target_bams.plotCorrelation.mat.tab",
-                        "versions.yml"
+                        "/e9/0a15d4405711a12c9901d43b81b607/all_target_bams.plotCorrelation.pdf",
+                        "/e9/0a15d4405711a12c9901d43b81b607/all_target_bams.plotCorrelation.mat.tab",
+                        "/e9/0a15d4405711a12c9901d43b81b607/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_MULTIBAMSUMMARY_96"
@@ -1914,12 +1912,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_102",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.computeMatrix.mat.gz"
+                        "/45/13963b29d756ee7961d747df966f95/h3k27me3_R1.computeMatrix.mat.gz"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.plotHeatmap.pdf",
-                        "h3k27me3_R1.plotHeatmap.mat.tab",
-                        "versions.yml"
+                        "/8c/6c2eec7ed0c972bdff75e0e0e86f7f/h3k27me3_R1.plotHeatmap.pdf",
+                        "/8c/6c2eec7ed0c972bdff75e0e0e86f7f/h3k27me3_R1.plotHeatmap.mat.tab",
+                        "/8c/6c2eec7ed0c972bdff75e0e0e86f7f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98"
@@ -1932,12 +1930,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109"
                     ],
                     "inputFiles": [
-                        "igg_ctrl_R1.clipped.bedGraph",
-                        "hg38-chr20.fa.sizes"
+                        "/d2/0cfd3c5476a845b230332d8baa6db5/igg_ctrl_R1.clipped.bedGraph",
+                        "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes"
                     ],
                     "outputFiles": [
-                        "igg_ctrl_R1.bigWig",
-                        "versions.yml"
+                        "/1b/f8b029353feacef8f76dd57c8da75d/igg_ctrl_R1.bigWig",
+                        "/1b/f8b029353feacef8f76dd57c8da75d/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_99",
@@ -1953,12 +1951,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PRIMARY_PEAK_COUNTS_106"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.clipped.bedGraph",
-                        "igg_ctrl_R1.clipped.bedGraph"
+                        "/ad/dee32fea3c98b87f6979b025d53786/h3k27me3_R1.clipped.bedGraph",
+                        "/d2/0cfd3c5476a845b230332d8baa6db5/igg_ctrl_R1.clipped.bedGraph"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.seacr.peaks.stringent.bed",
-                        "versions.yml"
+                        "/94/f8ecc9eec53ee8dff48e9ef4da03b1/h3k27me3_R1.seacr.peaks.stringent.bed",
+                        "/94/f8ecc9eec53ee8dff48e9ef4da03b1/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDCLIP_85",
@@ -1972,13 +1970,13 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_ALL_110"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.bigWig",
-                        "hg38-chr20-genes.bed"
+                        "/2a/031ce49deb834c7edfed9484199c45/h3k27me3_R1.bigWig",
+                        "/45/951c8bb66a3f8021e275dc2fadbd83/hg38-chr20-genes.bed"
                     ],
                     "outputFiles": [
-                        "all_genes.computeMatrix.mat.gz",
-                        "all_genes.computeMatrix.vals.mat.tab",
-                        "versions.yml"
+                        "/3e/b6df170a9f51d17d1c6266cebea56f/all_genes.computeMatrix.mat.gz",
+                        "/3e/b6df170a9f51d17d1c6266cebea56f/all_genes.computeMatrix.vals.mat.tab",
+                        "/3e/b6df170a9f51d17d1c6266cebea56f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
@@ -1993,11 +1991,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CUT_CALC_REPROD_111"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.seacr.peaks.stringent.bed"
+                        "/94/f8ecc9eec53ee8dff48e9ef4da03b1/h3k27me3_R1.seacr.peaks.stringent.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.awk.bed",
-                        "versions.yml"
+                        "/6c/d6281f0c7d7b02fd443b76ce57b076/h3k27me3_R1.awk.bed",
+                        "/6c/d6281f0c7d7b02fd443b76ce57b076/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
@@ -2010,11 +2008,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS_113"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.seacr.peaks.stringent.bed"
+                        "/94/f8ecc9eec53ee8dff48e9ef4da03b1/h3k27me3_R1.seacr.peaks.stringent.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.max_signal.awk.txt",
-                        "versions.yml"
+                        "/2f/47011b31148aeae61880beafe470eb/h3k27me3_R1.max_signal.awk.txt",
+                        "/2f/47011b31148aeae61880beafe470eb/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
@@ -2027,12 +2025,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.seacr.peaks.stringent.bed",
-                        "peak_counts_header.txt"
+                        "/94/f8ecc9eec53ee8dff48e9ef4da03b1/h3k27me3_R1.seacr.peaks.stringent.bed",
+                        "/assets/multiqc/peak_counts_header.txt"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1_mqc.tsv",
-                        "versions.yml"
+                        "/6b/d6804c13d20c34e0f0e29921760ae3/h3k27me3_R1_mqc.tsv",
+                        "/6b/d6804c13d20c34e0f0e29921760ae3/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.SEACR_CALLPEAK_IGG_104"
@@ -2043,30 +2041,30 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.IGV_SESSION_109",
                     "children": [],
                     "inputFiles": [
-                        "hg38-chr20.fa",
-                        "hg38-chr20.fa.fai",
-                        "hg38-chr20-genes.bed.gz",
-                        "hg38-chr20-genes.bed.gz.tbi",
-                        "h3k27me3_R1.bigWig",
-                        "igg_ctrl_R1.bigWig"
+                        "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa",
+                        "/e9/aa1427749f224e63797c5a6e382867/hg38-chr20.fa.fai",
+                        "/18/8bca81e762cf41eb068d3b66651124/hg38-chr20-genes.bed.gz",
+                        "/18/8bca81e762cf41eb068d3b66651124/hg38-chr20-genes.bed.gz.tbi",
+                        "/2a/031ce49deb834c7edfed9484199c45/h3k27me3_R1.bigWig",
+                        "/1b/f8b029353feacef8f76dd57c8da75d/igg_ctrl_R1.bigWig"
                     ],
                     "outputFiles": [
-                        "exp_files.txt",
-                        "gff.igv.txt",
-                        "gtf.igv.txt",
-                        "h3k27me3_R1.bigWig",
-                        "hg38-chr20-genes.bed.gz",
-                        "hg38-chr20-genes.bed.gz.tbi",
-                        "hg38-chr20.fa",
-                        "hg38-chr20.fa.fai",
-                        "igg_ctrl_R1.bigWig",
-                        "igv_files.txt",
-                        "igv_session.xml",
-                        "versions.yml"
+                        "/3d/c65819966bf95f399ee83c64fd481d/exp_files.txt",
+                        "/3d/c65819966bf95f399ee83c64fd481d/gff.igv.txt",
+                        "/3d/c65819966bf95f399ee83c64fd481d/gtf.igv.txt",
+                        "/3d/c65819966bf95f399ee83c64fd481d/h3k27me3_R1.bigWig",
+                        "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20-genes.bed.gz",
+                        "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20-genes.bed.gz.tbi",
+                        "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20.fa",
+                        "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20.fa.fai",
+                        "/3d/c65819966bf95f399ee83c64fd481d/igg_ctrl_R1.bigWig",
+                        "/3d/c65819966bf95f399ee83c64fd481d/igv_files.txt",
+                        "/3d/c65819966bf95f399ee83c64fd481d/igv_session.xml",
+                        "/3d/c65819966bf95f399ee83c64fd481d/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.GUNZIP_FASTA_5",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TARGET_CHROMSIZES_14",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.SAMTOOLS_FAIDX_15",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_GENOME.TABIX_BGZIPTABIX_16",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_103"
@@ -2077,12 +2075,12 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_GENE_ALL_110",
                     "children": [],
                     "inputFiles": [
-                        "all_genes.computeMatrix.mat.gz"
+                        "/3e/b6df170a9f51d17d1c6266cebea56f/all_genes.computeMatrix.mat.gz"
                     ],
                     "outputFiles": [
-                        "all_genes.plotHeatmap.pdf",
-                        "all_genes.plotHeatmap.mat.tab",
-                        "versions.yml"
+                        "/6e/32399ae062aed6d3095b76723e00e8/all_genes.plotHeatmap.pdf",
+                        "/6e/32399ae062aed6d3095b76723e00e8/all_genes.plotHeatmap.mat.tab",
+                        "/6e/32399ae062aed6d3095b76723e00e8/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_ALL_105"
@@ -2095,11 +2093,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE_114"
                     ],
                     "inputFiles": [
-                        "h3k27me3_R1.awk.bed"
+                        "/6c/d6281f0c7d7b02fd443b76ce57b076/h3k27me3_R1.awk.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3.sort.bed",
-                        "versions.yml"
+                        "/3c/a9d3ac39f1ded42aa61dc85584b8ce/h3k27me3.sort.bed",
+                        "/3c/a9d3ac39f1ded42aa61dc85584b8ce/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.AWK_NAME_PEAK_BED_107"
@@ -2110,11 +2108,11 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CUT_CALC_REPROD_111",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.awk.bed"
+                        "/6c/d6281f0c7d7b02fd443b76ce57b076/h3k27me3_R1.awk.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.repro.cut.bed",
-                        "versions.yml"
+                        "/90/42062043c3f4ac074f955b89e6009f/h3k27me3_R1.repro.cut.bed",
+                        "/90/42062043c3f4ac074f955b89e6009f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.AWK_NAME_PEAK_BED_107"
@@ -2123,15 +2121,17 @@
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS_113",
-                    "children": [],
+                    "children": [
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_PEAKS_115"
+                    ],
                     "inputFiles": [
-                        "h3k27me3_R1.bigWig",
-                        "h3k27me3_R1.max_signal.awk.txt"
+                        "/2a/031ce49deb834c7edfed9484199c45/h3k27me3_R1.bigWig",
+                        "/2f/47011b31148aeae61880beafe470eb/h3k27me3_R1.max_signal.awk.txt"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.computeMatrix.mat.gz",
-                        "h3k27me3_R1.computeMatrix.vals.mat.tab",
-                        "versions.yml"
+                        "/cf/93cdcb9add289c35f7503aa020ae66/h3k27me3_R1.computeMatrix.mat.gz",
+                        "/cf/93cdcb9add289c35f7503aa020ae66/h3k27me3_R1.computeMatrix.vals.mat.tab",
+                        "/cf/93cdcb9add289c35f7503aa020ae66/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.PREPARE_PEAKCALLING.UCSC_BEDGRAPHTOBIGWIG_89",
@@ -2146,11 +2146,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PLOT_CONSENSUS_PEAKS_117"
                     ],
                     "inputFiles": [
-                        "h3k27me3.sort.bed"
+                        "/3c/a9d3ac39f1ded42aa61dc85584b8ce/h3k27me3.sort.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3.consensus.peak_counts.bed",
-                        "versions.yml"
+                        "/3b/f51915d748ac5c7f3620f8be7ade56/h3k27me3.consensus.peak_counts.bed",
+                        "/3b/f51915d748ac5c7f3620f8be7ade56/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.SORT_112"
@@ -2161,15 +2161,15 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_PLOTHEATMAP_PEAKS_115",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3_R1.computeMatrix.mat.gz"
+                        "/cf/93cdcb9add289c35f7503aa020ae66/h3k27me3_R1.computeMatrix.mat.gz"
                     ],
                     "outputFiles": [
-                        "h3k27me3_R1.plotHeatmap.pdf",
-                        "h3k27me3_R1.plotHeatmap.mat.tab",
-                        "versions.yml"
+                        "/2c/48856e111fbe01e75f627796d8ffcd/h3k27me3_R1.plotHeatmap.pdf",
+                        "/2c/48856e111fbe01e75f627796d8ffcd/h3k27me3_R1.plotHeatmap.mat.tab",
+                        "/2c/48856e111fbe01e75f627796d8ffcd/versions.yml"
                     ],
                     "parents": [
-                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_GENE_98"
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_COMPUTEMATRIX_PEAKS_113"
                     ]
                 },
                 {
@@ -2179,11 +2179,11 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.CONSENSUS_PEAK_COUNTS_118"
                     ],
                     "inputFiles": [
-                        "h3k27me3.consensus.peak_counts.bed"
+                        "/3b/f51915d748ac5c7f3620f8be7ade56/h3k27me3.consensus.peak_counts.bed"
                     ],
                     "outputFiles": [
-                        "h3k27me3.consensus.peaks.awk.bed",
-                        "versions.yml"
+                        "/f6/79d0c6791aeac728a533ca6ec70090/h3k27me3.consensus.peaks.awk.bed",
+                        "/f6/79d0c6791aeac728a533ca6ec70090/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE_114"
@@ -2194,10 +2194,10 @@
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.PEAK_QC.PLOT_CONSENSUS_PEAKS_117",
                     "children": [],
                     "inputFiles": [
-                        "h3k27me3.consensus.peak_counts.bed"
+                        "/3b/f51915d748ac5c7f3620f8be7ade56/h3k27me3.consensus.peak_counts.bed"
                     ],
                     "outputFiles": [
-                        "versions.yml"
+                        "/06/dc33f351835175bde78cf3f53e0187/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.BEDTOOLS_MERGE_114"
@@ -2210,12 +2210,12 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "h3k27me3.consensus.peaks.awk.bed",
-                        "peak_counts_consensus_header.txt"
+                        "/f6/79d0c6791aeac728a533ca6ec70090/h3k27me3.consensus.peaks.awk.bed",
+                        "/assets/multiqc/peak_counts_consensus_header.txt"
                     ],
                     "outputFiles": [
-                        "h3k27me3_mqc.tsv",
-                        "versions.yml"
+                        "/9d/f9d23d1e1377e50c3031a336c14e16/h3k27me3_mqc.tsv",
+                        "/9d/f9d23d1e1377e50c3031a336c14e16/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.CONSENSUS_PEAKS.AWK_116"
@@ -2228,61 +2228,59 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120"
                     ],
                     "inputFiles": [
-                        "versions.yml"
+                        "/e9/041263a329c76f534c90018ad96ec1/versions.yml"
                     ],
                     "outputFiles": [
-                        "software_versions.yml",
-                        "software_versions_mqc.yml",
-                        "software_versions_unique_mqc.yml",
-                        "local_versions.yml"
+                        "/09/fdfeea790fbb47ae390542e5461bac/software_versions.yml",
+                        "/09/fdfeea790fbb47ae390542e5461bac/software_versions_mqc.yml",
+                        "/09/fdfeea790fbb47ae390542e5461bac/software_versions_unique_mqc.yml",
+                        "/09/fdfeea790fbb47ae390542e5461bac/local_versions.yml"
                     ],
-                    "parents": [
-                        "NFCORE_CUTANDRUN.CUTANDRUN.INPUT_CHECK.SAMPLESHEET_CHECK_4"
-                    ]
+                    "parents": []
                 },
                 {
                     "name": "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC",
                     "id": "NFCORE_CUTANDRUN.CUTANDRUN.MULTIQC_120",
                     "children": [],
                     "inputFiles": [
-                        "multiqc_config.yml",
-                        "software_versions_mqc.yml",
-                        "software_versions_unique_mqc.yml",
-                        "workflow_summary_mqc.yml",
-                        "h3k27me3_R1_1_fastqc.zip",
-                        "h3k27me3_R1_2_fastqc.zip",
-                        "igg_ctrl_R1_1_fastqc.zip",
-                        "igg_ctrl_R1_2_fastqc.zip",
-                        "igg_ctrl_R1_1.trimmed_fastqc.zip",
-                        "igg_ctrl_R1_2.trimmed_fastqc.zip",
-                        "h3k27me3_R1_1.trimmed_fastqc.zip",
-                        "h3k27me3_R1_2.trimmed_fastqc.zip",
-                        "igg_ctrl_R1_1.fastq.gz_trimming_report.txt",
-                        "igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
-                        "h3k27me3_R1_1.fastq.gz_trimming_report.txt",
-                        "h3k27me3_R1_2.fastq.gz_trimming_report.txt",
-                        "igg_ctrl_R1.bowtie2.log",
-                        "h3k27me3_R1.bowtie2.log",
-                        "igg_ctrl_R1.spikein.bowtie2.log",
-                        "h3k27me3_R1.spikein.bowtie2.log",
-                        "igg_ctrl_R1.stats",
-                        "igg_ctrl_R1.flagstat",
-                        "igg_ctrl_R1.idxstats",
-                        "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
-                        "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
-                        "all_target_bams.plotCorrelation.mat.tab",
-                        "all_target_bams.plotPCA.tab",
-                        "h3k27me3_R1.plotFingerprint.raw.txt",
-                        "igg_ctrl_R1.plotFingerprint.raw.txt",
-                        "h3k27me3_R1_mqc.tsv",
-                        "h3k27me3_mqc.tsv",
-                        "frag_len_mqc.yml"
+                        "/cutandrun/assets/multiqc_config.yml",
+                        "/09/fdfeea790fbb47ae390542e5461bac/software_versions_mqc.yml",
+                        "/09/fdfeea790fbb47ae390542e5461bac/software_versions_unique_mqc.yml",
+                        "/fd/ec484455a61b434540419a34fdeb8b/workflow_summary_mqc.yml",
+                        "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_1_fastqc.zip",
+                        "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_2_fastqc.zip",
+                        "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_1_fastqc.zip",
+                        "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_2_fastqc.zip",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed_fastqc.zip",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed_fastqc.zip",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed_fastqc.zip",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed_fastqc.zip",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.fastq.gz_trimming_report.txt",
+                        "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.fastq.gz_trimming_report.txt",
+                        "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.fastq.gz_trimming_report.txt",
+                        "/ee/4de954a3216db0899c90242e147877/igg_ctrl_R1.bowtie2.log",
+                        "/d9/0b57a840d437f789fc2363d5fd93ec/h3k27me3_R1.bowtie2.log",
+                        "/9f/e467c4613159d45c1b684259b27b31/igg_ctrl_R1.spikein.bowtie2.log",
+                        "/14/87895692955ae8a0c7a8b6fe7fb8db/h3k27me3_R1.spikein.bowtie2.log",
+                        "/c0/fee0eceef6d47aa7b7b1303fd1d501/igg_ctrl_R1.stats",
+                        "/3d/7e88e25644ecf1fb6fb760120ff860/igg_ctrl_R1.flagstat",
+                        "/f6/095fd4d2f31b2eeed28ce7e3be6af3/igg_ctrl_R1.idxstats",
+                        "/93/14c88f3b2f06439d7f8b9e6d019b4b/h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
+                        "/fb/9da11bf4c0ddc37533baac4adac229/igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
+                        "/e9/0a15d4405711a12c9901d43b81b607/all_target_bams.plotCorrelation.mat.tab",
+                        "/26/837e659a68fc626440f17b1d93d197/all_target_bams.plotPCA.tab",
+                        "/d3/05ff0d30e25983c6ac7d9edf054065/h3k27me3_R1.plotFingerprint.raw.txt",
+                        "/74/e13fc995741a2dc4bad172088bcfa7/igg_ctrl_R1.plotFingerprint.raw.txt",
+                        "/6b/d6804c13d20c34e0f0e29921760ae3/h3k27me3_R1_mqc.tsv",
+                        "/9d/f9d23d1e1377e50c3031a336c14e16/h3k27me3_mqc.tsv",
+                        "/2b/5c01b6c61d9ce66b2aaba9bce5b0c4/frag_len_mqc.yml"
                     ],
                     "outputFiles": [
-                        "multiqc_report.html",
-                        "multiqc_data",
-                        "multiqc_plots",
-                        "versions.yml"
+                        "/76/16aa87b869bf6a052b07433f4991f1/multiqc_report.html",
+                        "/76/16aa87b869bf6a052b07433f4991f1/multiqc_data",
+                        "/76/16aa87b869bf6a052b07433f4991f1/multiqc_plots",
+                        "/76/16aa87b869bf6a052b07433f4991f1/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_CUTANDRUN.CUTANDRUN.CUSTOM_DUMPSOFTWAREVERSIONS_119",
@@ -2294,9 +2292,9 @@
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_TARGET_ALIGN_20",
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_17",
                         "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BOWTIE2_SPIKEIN_ALIGN_19",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_38",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_36",
-                        "NFCORE_CUTANDRUN.CUTANDRUN.ALIGN_BOWTIE2.BAM_SORT_STATS_SAMTOOLS_SPIKEIN.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_37",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_STATS_94",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_FLAGSTAT_93",
+                        "NFCORE_CUTANDRUN.CUTANDRUN.DEDUPLICATE_PICARD.BAM_SORT_STATS_SAMTOOLS.BAM_STATS_SAMTOOLS.SAMTOOLS_IDXSTATS_95",
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_55",
                         "NFCORE_CUTANDRUN.CUTANDRUN.MARK_DUPLICATES_PICARD.PICARD_MARKDUPLICATES_58",
                         "NFCORE_CUTANDRUN.CUTANDRUN.DEEPTOOLS_QC.DEEPTOOLS_PLOTCORRELATION_101",
@@ -2311,660 +2309,1240 @@
             ],
             "files": [
                 {
-                    "id": "test-GSE145187-small.csv",
+                    "id": "/nf-core/test-datasets/cutandrun/samplesheet_2_0/test-GSE145187-small.csv",
                     "sizeInBytes": 529
                 },
                 {
-                    "id": "samplesheet.valid.csv",
+                    "id": "/12/4edf49da23e81ce59f077574f0fedf/samplesheet.valid.csv",
                     "sizeInBytes": 593
                 },
                 {
-                    "id": "versions.yml",
+                    "id": "/12/4edf49da23e81ce59f077574f0fedf/versions.yml",
                     "sizeInBytes": 78
                 },
                 {
-                    "id": "hg38-chr20-genes.bed",
+                    "id": "/45/951c8bb66a3f8021e275dc2fadbd83/hg38-chr20-genes.bed",
                     "sizeInBytes": 356196
                 },
                 {
-                    "id": "hg38-chr20-genes.gtf",
+                    "id": "/45/951c8bb66a3f8021e275dc2fadbd83/versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "/5b/09f01af5ba18c2e3fbaa925cd06d98/hg38-chr20-genes.gtf",
                     "sizeInBytes": 5894389
                 },
                 {
-                    "id": "e_coli_U00096_3.fa",
+                    "id": "/5b/09f01af5ba18c2e3fbaa925cd06d98/versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "/4d/53b1737dc16ff3cea67ceba70ef2eb/e_coli_U00096_3.fa",
                     "sizeInBytes": 4708032
                 },
                 {
-                    "id": "e_coli_U00096_3",
+                    "id": "/4d/53b1737dc16ff3cea67ceba70ef2eb/versions.yml",
+                    "sizeInBytes": 83
+                },
+                {
+                    "id": "/2b/945929a0b97de9baf855822ad905e0/e_coli_U00096_3",
                     "sizeInBytes": 14964864
                 },
                 {
-                    "id": "hg38-chr20.fa",
+                    "id": "/2b/945929a0b97de9baf855822ad905e0/versions.yml",
+                    "sizeInBytes": 81
+                },
+                {
+                    "id": "/6e/03e22ea0b580721f5ebe65e3571095/hg38-chr20.fa",
                     "sizeInBytes": 65518244
                 },
                 {
-                    "id": "hg38-chr20-genes.sorted.bed",
+                    "id": "/6e/03e22ea0b580721f5ebe65e3571095/versions.yml",
+                    "sizeInBytes": 75
+                },
+                {
+                    "id": "/4d/bae99117ab83446454e0d2c51a888f/hg38-chr20-genes.sorted.bed",
                     "sizeInBytes": 356196
                 },
                 {
-                    "id": "hg38-chr20-bowtie2",
-                    "sizeInBytes": 98979713
-                },
-                {
-                    "id": "h3k27me3_rep1_r1.fastq.gz",
-                    "sizeInBytes": 220233
-                },
-                {
-                    "id": "h3k27me3_rep1_r2.fastq.gz",
-                    "sizeInBytes": 228428
-                },
-                {
-                    "id": "h3k27me3_R1_1_fastqc.html",
-                    "sizeInBytes": 511488
-                },
-                {
-                    "id": "h3k27me3_R1_2_fastqc.html",
-                    "sizeInBytes": 517135
-                },
-                {
-                    "id": "h3k27me3_R1_1_fastqc.zip",
-                    "sizeInBytes": 346119
-                },
-                {
-                    "id": "h3k27me3_R1_2_fastqc.zip",
-                    "sizeInBytes": 350913
-                },
-                {
-                    "id": "igg_rep1_r1.fastq.gz",
-                    "sizeInBytes": 230684
-                },
-                {
-                    "id": "igg_rep1_r2.fastq.gz",
-                    "sizeInBytes": 233738
-                },
-                {
-                    "id": "igg_ctrl_R1_1_fastqc.html",
-                    "sizeInBytes": 517491
-                },
-                {
-                    "id": "igg_ctrl_R1_2_fastqc.html",
-                    "sizeInBytes": 516342
-                },
-                {
-                    "id": "igg_ctrl_R1_1_fastqc.zip",
-                    "sizeInBytes": 344197
-                },
-                {
-                    "id": "igg_ctrl_R1_2_fastqc.zip",
-                    "sizeInBytes": 347036
-                },
-                {
-                    "id": "igg_ctrl_R1_1.trimmed.fastq.gz",
-                    "sizeInBytes": 203940
-                },
-                {
-                    "id": "igg_ctrl_R1_2.trimmed.fastq.gz",
-                    "sizeInBytes": 208055
-                },
-                {
-                    "id": "igg_ctrl_R1_1.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 2015
-                },
-                {
-                    "id": "igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 2186
-                },
-                {
-                    "id": "igg_ctrl_R1_1.trimmed_fastqc.html",
-                    "sizeInBytes": 513873
-                },
-                {
-                    "id": "igg_ctrl_R1_2.trimmed_fastqc.html",
-                    "sizeInBytes": 512424
-                },
-                {
-                    "id": "igg_ctrl_R1_1.trimmed_fastqc.zip",
-                    "sizeInBytes": 364129
-                },
-                {
-                    "id": "igg_ctrl_R1_2.trimmed_fastqc.zip",
-                    "sizeInBytes": 358651
-                },
-                {
-                    "id": "h3k27me3_R1_1.trimmed.fastq.gz",
-                    "sizeInBytes": 200049
-                },
-                {
-                    "id": "h3k27me3_R1_2.trimmed.fastq.gz",
-                    "sizeInBytes": 207942
-                },
-                {
-                    "id": "h3k27me3_R1_1.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 1988
-                },
-                {
-                    "id": "h3k27me3_R1_2.fastq.gz_trimming_report.txt",
-                    "sizeInBytes": 2204
-                },
-                {
-                    "id": "h3k27me3_R1_1.trimmed_fastqc.html",
-                    "sizeInBytes": 513149
-                },
-                {
-                    "id": "h3k27me3_R1_2.trimmed_fastqc.html",
-                    "sizeInBytes": 507249
-                },
-                {
-                    "id": "h3k27me3_R1_1.trimmed_fastqc.zip",
-                    "sizeInBytes": 365978
-                },
-                {
-                    "id": "h3k27me3_R1_2.trimmed_fastqc.zip",
-                    "sizeInBytes": 358638
-                },
-                {
-                    "id": "e_coli_U00096_3.fa.sizes",
-                    "sizeInBytes": 17
-                },
-                {
-                    "id": "e_coli_U00096_3.fa.fai",
-                    "sizeInBytes": 26
-                },
-                {
-                    "id": "hg38-chr20.fa.sizes",
-                    "sizeInBytes": 15
-                },
-                {
-                    "id": "hg38-chr20.fa.fai",
-                    "sizeInBytes": 23
-                },
-                {
-                    "id": "hg38-chr20-genes.bed.gz",
-                    "sizeInBytes": 90088
-                },
-                {
-                    "id": "hg38-chr20-genes.bed.gz.tbi",
-                    "sizeInBytes": 3024
-                },
-                {
-                    "id": "igg_ctrl_R1.bam",
-                    "sizeInBytes": 397246
-                },
-                {
-                    "id": "igg_ctrl_R1.bowtie2.log",
-                    "sizeInBytes": 236
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.bam",
-                    "sizeInBytes": 395735
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.bowtie2.log",
-                    "sizeInBytes": 234
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.bam",
-                    "sizeInBytes": 368298
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.bowtie2.log",
-                    "sizeInBytes": 233
-                },
-                {
-                    "id": "h3k27me3_R1.bam",
-                    "sizeInBytes": 395584
-                },
-                {
-                    "id": "h3k27me3_R1.bowtie2.log",
-                    "sizeInBytes": 236
-                },
-                {
-                    "id": "chromsizes.awk.bed",
-                    "sizeInBytes": 17
-                },
-                {
-                    "id": "bt2_report_to_csv.awk",
-                    "sizeInBytes": 1202
-                },
-                {
-                    "id": "igg_ctrl_R1_meta_bt2_target.awk.txt",
-                    "sizeInBytes": 97
-                },
-                {
-                    "id": "igg_ctrl_R1.target.sorted.bam",
-                    "sizeInBytes": 386856
-                },
-                {
-                    "id": "igg_ctrl_R1_meta_bt2_spikein.awk.txt",
-                    "sizeInBytes": 95
-                },
-                {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam",
-                    "sizeInBytes": 385870
-                },
-                {
-                    "id": "h3k27me3_R1.spikein.sorted.bam",
-                    "sizeInBytes": 368331
-                },
-                {
-                    "id": "h3k27me3_R1_meta_bt2_spikein.awk.txt",
+                    "id": "/4d/bae99117ab83446454e0d2c51a888f/versions.yml",
                     "sizeInBytes": 91
                 },
                 {
-                    "id": "h3k27me3_R1.target.sorted.bam",
-                    "sizeInBytes": 382225
+                    "id": "/55/ec83c713882f63f7790d4b460266ec/hg38-chr20-bowtie2",
+                    "sizeInBytes": 98979713
                 },
                 {
-                    "id": "h3k27me3_R1_meta_bt2_target.awk.txt",
-                    "sizeInBytes": 97
+                    "id": "/55/ec83c713882f63f7790d4b460266ec/versions.yml",
+                    "sizeInBytes": 80
                 },
                 {
-                    "id": "hg38-blacklist.bed",
-                    "sizeInBytes": 901
+                    "id": "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/h3k27me3_rep1_r1.fastq.gz",
+                    "sizeInBytes": 220233
                 },
                 {
-                    "id": "blacklist.filtered.bed",
-                    "sizeInBytes": 144
+                    "id": "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/h3k27me3_rep1_r2.fastq.gz",
+                    "sizeInBytes": 228428
                 },
                 {
-                    "id": "igg_ctrl_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 37672
+                    "id": "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_1_fastqc.html",
+                    "sizeInBytes": 511488
                 },
                 {
-                    "id": "igg_ctrl_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 6312
+                    "id": "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_2_fastqc.html",
+                    "sizeInBytes": 517135
                 },
                 {
-                    "id": "h3k27me3_R1.spikein.sorted.bam.bai",
-                    "sizeInBytes": 24
+                    "id": "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_1_fastqc.zip",
+                    "sizeInBytes": 346119
                 },
                 {
-                    "id": "h3k27me3_R1.target.sorted.bam.bai",
-                    "sizeInBytes": 39464
+                    "id": "/ce/6559bb8b6c0313bcf533265eb8b0a2/h3k27me3_R1_2_fastqc.zip",
+                    "sizeInBytes": 350913
                 },
                 {
-                    "id": "blacklist.sorted.bed",
-                    "sizeInBytes": 144
+                    "id": "/ce/6559bb8b6c0313bcf533265eb8b0a2/versions.yml",
+                    "sizeInBytes": 74
                 },
                 {
-                    "id": "igg_ctrl_R1.idxstats",
-                    "sizeInBytes": 35
+                    "id": "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/igg_rep1_r1.fastq.gz",
+                    "sizeInBytes": 230684
                 },
                 {
-                    "id": "igg_ctrl_R1.stats",
-                    "sizeInBytes": 25401
+                    "id": "/nf-core/test-datasets/cutandrun/testdata/GSE145187_10000/igg_rep1_r2.fastq.gz",
+                    "sizeInBytes": 233738
                 },
                 {
-                    "id": "h3k27me3_R1.stats",
-                    "sizeInBytes": 16085
+                    "id": "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_1_fastqc.html",
+                    "sizeInBytes": 517491
                 },
                 {
-                    "id": "igg_ctrl_R1.flagstat",
-                    "sizeInBytes": 477
+                    "id": "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_2_fastqc.html",
+                    "sizeInBytes": 516342
                 },
                 {
-                    "id": "h3k27me3_R1.idxstats",
-                    "sizeInBytes": 33
+                    "id": "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_1_fastqc.zip",
+                    "sizeInBytes": 344197
                 },
                 {
-                    "id": "h3k27me3_R1.flagstat",
-                    "sizeInBytes": 469
+                    "id": "/e0/d0d9eabab3206577abb8d3ac6532a3/igg_ctrl_R1_2_fastqc.zip",
+                    "sizeInBytes": 347036
                 },
                 {
-                    "id": "blacklist.bed",
-                    "sizeInBytes": 137
+                    "id": "/e0/d0d9eabab3206577abb8d3ac6532a3/versions.yml",
+                    "sizeInBytes": 74
                 },
                 {
-                    "id": "h3k27me3_R1.target.filtered.bam",
-                    "sizeInBytes": 23181
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed.fastq.gz",
+                    "sizeInBytes": 203940
                 },
                 {
-                    "id": "igg_ctrl_R1.target.filtered.bam",
-                    "sizeInBytes": 13709
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed.fastq.gz",
+                    "sizeInBytes": 208055
                 },
                 {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 23043
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2015
                 },
                 {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam",
-                    "sizeInBytes": 13642
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2186
                 },
                 {
-                    "id": "h3k27me3_R1.target.markdup.bam",
-                    "sizeInBytes": 24861
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/versions.yml",
+                    "sizeInBytes": 102
                 },
                 {
-                    "id": "h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
-                    "sizeInBytes": 1917
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed_fastqc.html",
+                    "sizeInBytes": 513873
                 },
                 {
-                    "id": "h3k27me3_R1.command.log",
-                    "sizeInBytes": 811
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed_fastqc.html",
+                    "sizeInBytes": 512424
                 },
                 {
-                    "id": "h3k27me3_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 37832
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_1.trimmed_fastqc.zip",
+                    "sizeInBytes": 364129
                 },
                 {
-                    "id": "igg_ctrl_R1.target.filtered.sorted.bam.bai",
-                    "sizeInBytes": 35336
+                    "id": "/7f/39dc5a9dfef09c47ed4fb9da01a5a5/igg_ctrl_R1_2.trimmed_fastqc.zip",
+                    "sizeInBytes": 358651
                 },
                 {
-                    "id": "igg_ctrl_R1.command.log",
-                    "sizeInBytes": 340
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed.fastq.gz",
+                    "sizeInBytes": 200049
                 },
                 {
-                    "id": "igg_ctrl_R1.target.markdup.bam",
-                    "sizeInBytes": 15105
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed.fastq.gz",
+                    "sizeInBytes": 207942
                 },
                 {
-                    "id": "igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
-                    "sizeInBytes": 3792
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 1988
                 },
                 {
-                    "id": "h3k27me3_R1_meta_picard_dups.awk.txt",
-                    "sizeInBytes": 251
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.fastq.gz_trimming_report.txt",
+                    "sizeInBytes": 2204
                 },
                 {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 23870
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/versions.yml",
+                    "sizeInBytes": 102
                 },
                 {
-                    "id": "h3k27me3_R1.target.filtered.idxstats",
-                    "sizeInBytes": 29
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed_fastqc.html",
+                    "sizeInBytes": 513149
                 },
                 {
-                    "id": "h3k27me3_R1.target.filtered.stats",
-                    "sizeInBytes": 25858
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed_fastqc.html",
+                    "sizeInBytes": 507249
                 },
                 {
-                    "id": "h3k27me3_R1.target.filtered.flagstat",
-                    "sizeInBytes": 475
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_1.trimmed_fastqc.zip",
+                    "sizeInBytes": 365978
                 },
                 {
-                    "id": "igg_ctrl_R1.target.filtered.idxstats",
-                    "sizeInBytes": 29
+                    "id": "/6d/f79b65df8b6c4b437306beb04bebfe/h3k27me3_R1_2.trimmed_fastqc.zip",
+                    "sizeInBytes": 358638
                 },
                 {
-                    "id": "igg_ctrl_R1.target.filtered.flagstat",
-                    "sizeInBytes": 475
+                    "id": "/89/dc79eb9ab88b2f3f1e94c67452b146/e_coli_U00096_3.fa.sizes",
+                    "sizeInBytes": 17
                 },
                 {
-                    "id": "igg_ctrl_R1.target.filtered.stats",
-                    "sizeInBytes": 26128
+                    "id": "/89/dc79eb9ab88b2f3f1e94c67452b146/e_coli_U00096_3.fa.fai",
+                    "sizeInBytes": 26
                 },
                 {
-                    "id": "igg_ctrl_R1_meta_picard_dups.awk.txt",
-                    "sizeInBytes": 262
+                    "id": "/89/dc79eb9ab88b2f3f1e94c67452b146/versions.yml",
+                    "sizeInBytes": 91
                 },
                 {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam",
-                    "sizeInBytes": 14451
+                    "id": "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.sizes",
+                    "sizeInBytes": 15
                 },
                 {
-                    "id": "h3k27me3_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 37832
+                    "id": "/74/e8bee473d477570a6c5687c6f9b7f4/hg38-chr20.fa.fai",
+                    "sizeInBytes": 23
                 },
                 {
-                    "id": "dummy_file.txt",
-                    "sizeInBytes": 0
+                    "id": "/74/e8bee473d477570a6c5687c6f9b7f4/versions.yml",
+                    "sizeInBytes": 90
                 },
                 {
-                    "id": "h3k27me3_R1.bedGraph",
-                    "sizeInBytes": 8124
+                    "id": "/e9/aa1427749f224e63797c5a6e382867/hg38-chr20.fa.fai",
+                    "sizeInBytes": 23
                 },
                 {
-                    "id": "h3k27me3_R1.sortedbyname.bam",
-                    "sizeInBytes": 23799
+                    "id": "/e9/aa1427749f224e63797c5a6e382867/versions.yml",
+                    "sizeInBytes": 82
                 },
                 {
-                    "id": "igg_ctrl_R1.target.dedup.bam",
-                    "sizeInBytes": 15071
+                    "id": "/18/8bca81e762cf41eb068d3b66651124/hg38-chr20-genes.bed.gz",
+                    "sizeInBytes": 90088
                 },
                 {
-                    "id": "igg_ctrl_R1.target.dedup.MarkDuplicates.metrics.txt",
-                    "sizeInBytes": 3786
+                    "id": "/18/8bca81e762cf41eb068d3b66651124/hg38-chr20-genes.bed.gz.tbi",
+                    "sizeInBytes": 3024
                 },
                 {
-                    "id": "igg_ctrl_R1.target.markdup.sorted.bam.bai",
-                    "sizeInBytes": 35336
+                    "id": "/18/8bca81e762cf41eb068d3b66651124/versions.yml",
+                    "sizeInBytes": 78
                 },
                 {
-                    "id": "h3k27me3_R1.frags.len.txt",
-                    "sizeInBytes": 1147
+                    "id": "/ee/4de954a3216db0899c90242e147877/igg_ctrl_R1.bam",
+                    "sizeInBytes": 397246
                 },
                 {
-                    "id": "h3k27me3_R1.plotFingerprint.pdf",
-                    "sizeInBytes": 383184
+                    "id": "/ee/4de954a3216db0899c90242e147877/igg_ctrl_R1.bowtie2.log",
+                    "sizeInBytes": 236
                 },
                 {
-                    "id": "h3k27me3_R1.plotFingerprint.raw.txt",
-                    "sizeInBytes": 5411
-                },
-                {
-                    "id": "h3k27me3_R1.plotFingerprint.qcmetrics.txt",
-                    "sizeInBytes": 296
-                },
-                {
-                    "id": "h3k27me3_R1.sorted.bedGraph",
-                    "sizeInBytes": 8124
-                },
-                {
-                    "id": "h3k27me3_R1.bed",
-                    "sizeInBytes": 22933
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam",
-                    "sizeInBytes": 14437
-                },
-                {
-                    "id": "h3k27me3_R1.clipped.bedGraph",
-                    "sizeInBytes": 8124
-                },
-                {
-                    "id": "h3k27me3_R1.filt.awk.bed",
-                    "sizeInBytes": 22933
-                },
-                {
-                    "id": "igg_ctrl_R1.bedGraph",
-                    "sizeInBytes": 5494
-                },
-                {
-                    "id": "igg_ctrl_R1.target.dedup.sorted.bam.bai",
-                    "sizeInBytes": 35336
-                },
-                {
-                    "id": "h3k27me3_R1.bigWig",
-                    "sizeInBytes": 35126
-                },
-                {
-                    "id": "h3k27me3_R1.frags.cut.bed",
-                    "sizeInBytes": 7350
-                },
-                {
-                    "id": "igg_ctrl_R1.sorted.bedGraph",
-                    "sizeInBytes": 5494
-                },
-                {
-                    "id": "igg_ctrl_R1.plotFingerprint.pdf",
-                    "sizeInBytes": 383187
-                },
-                {
-                    "id": "igg_ctrl_R1.plotFingerprint.raw.txt",
-                    "sizeInBytes": 3155
-                },
-                {
-                    "id": "igg_ctrl_R1.plotFingerprint.qcmetrics.txt",
-                    "sizeInBytes": 292
-                },
-                {
-                    "id": "all_bam.bamSummary.npz",
-                    "sizeInBytes": 4203
-                },
-                {
-                    "id": "frag_len_header.txt",
-                    "sizeInBytes": 263
-                },
-                {
-                    "id": "frag_len_mqc.yml",
-                    "sizeInBytes": 2029
-                },
-                {
-                    "id": "h3k27me3_R1.computeMatrix.mat.gz",
-                    "sizeInBytes": 13804
-                },
-                {
-                    "id": "h3k27me3_R1.computeMatrix.vals.mat.tab",
-                    "sizeInBytes": 584652
-                },
-                {
-                    "id": "igg_ctrl_R1.clipped.bedGraph",
-                    "sizeInBytes": 5494
-                },
-                {
-                    "id": "all_target_bams.plotPCA.pdf",
-                    "sizeInBytes": 384813
-                },
-                {
-                    "id": "all_target_bams.plotPCA.tab",
-                    "sizeInBytes": 189
-                },
-                {
-                    "id": "all_target_bams.plotCorrelation.pdf",
-                    "sizeInBytes": 383349
-                },
-                {
-                    "id": "all_target_bams.plotCorrelation.mat.tab",
-                    "sizeInBytes": 123
-                },
-                {
-                    "id": "h3k27me3_R1.plotHeatmap.pdf",
-                    "sizeInBytes": 397068
-                },
-                {
-                    "id": "h3k27me3_R1.plotHeatmap.mat.tab",
-                    "sizeInBytes": 14058
-                },
-                {
-                    "id": "igg_ctrl_R1.bigWig",
-                    "sizeInBytes": 34136
-                },
-                {
-                    "id": "h3k27me3_R1.seacr.peaks.stringent.bed",
-                    "sizeInBytes": 270
-                },
-                {
-                    "id": "all_genes.computeMatrix.mat.gz",
-                    "sizeInBytes": 13802
-                },
-                {
-                    "id": "all_genes.computeMatrix.vals.mat.tab",
-                    "sizeInBytes": 584652
-                },
-                {
-                    "id": "h3k27me3_R1.awk.bed",
-                    "sizeInBytes": 460
-                },
-                {
-                    "id": "h3k27me3_R1.max_signal.awk.txt",
+                    "id": "/ee/4de954a3216db0899c90242e147877/versions.yml",
                     "sizeInBytes": 120
                 },
                 {
-                    "id": "peak_counts_header.txt",
-                    "sizeInBytes": 455
+                    "id": "/9f/e467c4613159d45c1b684259b27b31/igg_ctrl_R1.spikein.bam",
+                    "sizeInBytes": 395735
                 },
                 {
-                    "id": "h3k27me3_R1_mqc.tsv",
-                    "sizeInBytes": 468
+                    "id": "/9f/e467c4613159d45c1b684259b27b31/igg_ctrl_R1.spikein.bowtie2.log",
+                    "sizeInBytes": 234
                 },
                 {
-                    "id": "exp_files.txt",
-                    "sizeInBytes": 58
+                    "id": "/9f/e467c4613159d45c1b684259b27b31/versions.yml",
+                    "sizeInBytes": 121
                 },
                 {
-                    "id": "gff.igv.txt",
-                    "sizeInBytes": 0
+                    "id": "/14/87895692955ae8a0c7a8b6fe7fb8db/h3k27me3_R1.spikein.bam",
+                    "sizeInBytes": 368298
                 },
                 {
-                    "id": "gtf.igv.txt",
-                    "sizeInBytes": 0
+                    "id": "/14/87895692955ae8a0c7a8b6fe7fb8db/h3k27me3_R1.spikein.bowtie2.log",
+                    "sizeInBytes": 233
                 },
                 {
-                    "id": "igv_files.txt",
-                    "sizeInBytes": 58
+                    "id": "/14/87895692955ae8a0c7a8b6fe7fb8db/versions.yml",
+                    "sizeInBytes": 121
                 },
                 {
-                    "id": "igv_session.xml",
-                    "sizeInBytes": 1603
+                    "id": "/d9/0b57a840d437f789fc2363d5fd93ec/h3k27me3_R1.bam",
+                    "sizeInBytes": 395584
                 },
                 {
-                    "id": "all_genes.plotHeatmap.pdf",
-                    "sizeInBytes": 397068
+                    "id": "/d9/0b57a840d437f789fc2363d5fd93ec/h3k27me3_R1.bowtie2.log",
+                    "sizeInBytes": 236
                 },
                 {
-                    "id": "all_genes.plotHeatmap.mat.tab",
-                    "sizeInBytes": 14056
+                    "id": "/d9/0b57a840d437f789fc2363d5fd93ec/versions.yml",
+                    "sizeInBytes": 120
                 },
                 {
-                    "id": "h3k27me3.sort.bed",
-                    "sizeInBytes": 460
+                    "id": "/81/203ba97af421f72f654401e2404972/chromsizes.awk.bed",
+                    "sizeInBytes": 17
                 },
                 {
-                    "id": "h3k27me3_R1.repro.cut.bed",
-                    "sizeInBytes": 240
+                    "id": "/81/203ba97af421f72f654401e2404972/versions.yml",
+                    "sizeInBytes": 74
                 },
                 {
-                    "id": "h3k27me3.consensus.peak_counts.bed",
-                    "sizeInBytes": 560
+                    "id": "/cutandrun/bin/bt2_report_to_csv.awk",
+                    "sizeInBytes": 1202
                 },
                 {
-                    "id": "h3k27me3.consensus.peaks.awk.bed",
-                    "sizeInBytes": 560
+                    "id": "/0e/bff25483eaf6e31b8a916366a1677b/igg_ctrl_R1_meta_bt2_target.awk.txt",
+                    "sizeInBytes": 97
                 },
                 {
-                    "id": "peak_counts_consensus_header.txt",
-                    "sizeInBytes": 464
+                    "id": "/0e/bff25483eaf6e31b8a916366a1677b/versions.yml",
+                    "sizeInBytes": 80
                 },
                 {
-                    "id": "h3k27me3_mqc.tsv",
+                    "id": "/36/74a2af3dc16e98cf3657b022ff673c/igg_ctrl_R1.target.sorted.bam",
+                    "sizeInBytes": 386856
+                },
+                {
+                    "id": "/36/74a2af3dc16e98cf3657b022ff673c/versions.yml",
+                    "sizeInBytes": 104
+                },
+                {
+                    "id": "/b7/e700eebbdae455d74e53d0787aea2b/igg_ctrl_R1_meta_bt2_spikein.awk.txt",
+                    "sizeInBytes": 95
+                },
+                {
+                    "id": "/b7/e700eebbdae455d74e53d0787aea2b/versions.yml",
+                    "sizeInBytes": 81
+                },
+                {
+                    "id": "/79/15fc0b6634b0573c43cb1720f3a9d6/igg_ctrl_R1.spikein.sorted.bam",
+                    "sizeInBytes": 385870
+                },
+                {
+                    "id": "/79/15fc0b6634b0573c43cb1720f3a9d6/versions.yml",
+                    "sizeInBytes": 112
+                },
+                {
+                    "id": "/a2/2a134b7b1bb48d1daf5e906fc1e601/h3k27me3_R1.spikein.sorted.bam",
+                    "sizeInBytes": 368331
+                },
+                {
+                    "id": "/a2/2a134b7b1bb48d1daf5e906fc1e601/versions.yml",
+                    "sizeInBytes": 112
+                },
+                {
+                    "id": "/b3/9db5950da1b6b34c62972f0ab5d163/h3k27me3_R1_meta_bt2_spikein.awk.txt",
+                    "sizeInBytes": 91
+                },
+                {
+                    "id": "/b3/9db5950da1b6b34c62972f0ab5d163/versions.yml",
+                    "sizeInBytes": 81
+                },
+                {
+                    "id": "/50/db755f5cea1d62d9139309f96dba78/h3k27me3_R1.target.sorted.bam",
+                    "sizeInBytes": 382225
+                },
+                {
+                    "id": "/50/db755f5cea1d62d9139309f96dba78/versions.yml",
+                    "sizeInBytes": 104
+                },
+                {
+                    "id": "/a5/a37d3be6852318caa90ee229ef2ebc/h3k27me3_R1_meta_bt2_target.awk.txt",
+                    "sizeInBytes": 97
+                },
+                {
+                    "id": "/a5/a37d3be6852318caa90ee229ef2ebc/versions.yml",
+                    "sizeInBytes": 80
+                },
+                {
+                    "id": "/assets/blacklists/hg38-blacklist.bed",
+                    "sizeInBytes": 901
+                },
+                {
+                    "id": "/dc/cdc764d98682fa62464da9926701fa/blacklist.filtered.bed",
+                    "sizeInBytes": 144
+                },
+                {
+                    "id": "/dc/cdc764d98682fa62464da9926701fa/versions.yml",
+                    "sizeInBytes": 95
+                },
+                {
+                    "id": "/64/327a46d9fb33467c525ceb91ba7145/igg_ctrl_R1.target.sorted.bam.bai",
+                    "sizeInBytes": 37672
+                },
+                {
+                    "id": "/64/327a46d9fb33467c525ceb91ba7145/versions.yml",
+                    "sizeInBytes": 105
+                },
+                {
+                    "id": "/a2/d1a226492d3105388ce1f6a80f225f/igg_ctrl_R1.spikein.sorted.bam.bai",
+                    "sizeInBytes": 6312
+                },
+                {
+                    "id": "/a2/d1a226492d3105388ce1f6a80f225f/versions.yml",
+                    "sizeInBytes": 113
+                },
+                {
+                    "id": "/cb/a8df121b6005c8a1108c1b46e614b8/h3k27me3_R1.spikein.sorted.bam.bai",
+                    "sizeInBytes": 24
+                },
+                {
+                    "id": "/cb/a8df121b6005c8a1108c1b46e614b8/versions.yml",
+                    "sizeInBytes": 113
+                },
+                {
+                    "id": "/e1/faf256fabc08c72db7fa98741a88ef/h3k27me3_R1.target.sorted.bam.bai",
+                    "sizeInBytes": 39464
+                },
+                {
+                    "id": "/e1/faf256fabc08c72db7fa98741a88ef/versions.yml",
+                    "sizeInBytes": 105
+                },
+                {
+                    "id": "/92/0589279fd86fb9ebd5d5fad0b26ac8/blacklist.sorted.bed",
+                    "sizeInBytes": 144
+                },
+                {
+                    "id": "/92/0589279fd86fb9ebd5d5fad0b26ac8/versions.yml",
+                    "sizeInBytes": 90
+                },
+                {
+                    "id": "/dc/1c26bf0baf3b6af117769fd8f70725/igg_ctrl_R1.idxstats",
+                    "sizeInBytes": 35
+                },
+                {
+                    "id": "/dc/1c26bf0baf3b6af117769fd8f70725/versions.yml",
+                    "sizeInBytes": 135
+                },
+                {
+                    "id": "/0f/65699cc9917a13a5fc7cb1dd098204/igg_ctrl_R1.stats",
+                    "sizeInBytes": 25401
+                },
+                {
+                    "id": "/0f/65699cc9917a13a5fc7cb1dd098204/versions.yml",
+                    "sizeInBytes": 132
+                },
+                {
+                    "id": "/e6/01ffd59d569f208c2cef8d034f862a/h3k27me3_R1.stats",
+                    "sizeInBytes": 16085
+                },
+                {
+                    "id": "/e6/01ffd59d569f208c2cef8d034f862a/versions.yml",
+                    "sizeInBytes": 132
+                },
+                {
+                    "id": "/28/0c019958ecb14b29bd1bb798cb0eff/igg_ctrl_R1.flagstat",
                     "sizeInBytes": 477
                 },
                 {
-                    "id": "software_versions.yml",
-                    "sizeInBytes": 5832
+                    "id": "/28/0c019958ecb14b29bd1bb798cb0eff/versions.yml",
+                    "sizeInBytes": 135
                 },
                 {
-                    "id": "software_versions_mqc.yml",
-                    "sizeInBytes": 15733
+                    "id": "/42/547518c60968ae6fab6ef192d1a0ac/h3k27me3_R1.idxstats",
+                    "sizeInBytes": 33
                 },
                 {
-                    "id": "software_versions_unique_mqc.yml",
-                    "sizeInBytes": 3875
+                    "id": "/42/547518c60968ae6fab6ef192d1a0ac/versions.yml",
+                    "sizeInBytes": 135
                 },
                 {
-                    "id": "local_versions.yml",
+                    "id": "/5a/ae746e0a209ebd07607aa31938e26c/h3k27me3_R1.flagstat",
+                    "sizeInBytes": 469
+                },
+                {
+                    "id": "/5a/ae746e0a209ebd07607aa31938e26c/versions.yml",
+                    "sizeInBytes": 135
+                },
+                {
+                    "id": "/2b/67e5901ccfa60c89c926151914cbdc/igg_ctrl_R1.idxstats",
+                    "sizeInBytes": 33
+                },
+                {
+                    "id": "/2b/67e5901ccfa60c89c926151914cbdc/versions.yml",
+                    "sizeInBytes": 127
+                },
+                {
+                    "id": "/94/c05cf1174fb29467fabeeec5cce748/h3k27me3_R1.idxstats",
+                    "sizeInBytes": 33
+                },
+                {
+                    "id": "/94/c05cf1174fb29467fabeeec5cce748/versions.yml",
+                    "sizeInBytes": 127
+                },
+                {
+                    "id": "/2c/1c8fff2cd6a08df4f740a5a0283664/h3k27me3_R1.stats",
+                    "sizeInBytes": 27709
+                },
+                {
+                    "id": "/2c/1c8fff2cd6a08df4f740a5a0283664/versions.yml",
+                    "sizeInBytes": 124
+                },
+                {
+                    "id": "/6a/c055eecb4d64fd961d8cd6e356185b/igg_ctrl_R1.stats",
+                    "sizeInBytes": 28125
+                },
+                {
+                    "id": "/6a/c055eecb4d64fd961d8cd6e356185b/versions.yml",
+                    "sizeInBytes": 124
+                },
+                {
+                    "id": "/eb/94c53ee132d7c560e35df638bddc00/h3k27me3_R1.flagstat",
+                    "sizeInBytes": 477
+                },
+                {
+                    "id": "/eb/94c53ee132d7c560e35df638bddc00/versions.yml",
+                    "sizeInBytes": 127
+                },
+                {
+                    "id": "/0b/2328f7f0a16a8d8b9e135aea25dd32/igg_ctrl_R1.flagstat",
+                    "sizeInBytes": 477
+                },
+                {
+                    "id": "/0b/2328f7f0a16a8d8b9e135aea25dd32/versions.yml",
+                    "sizeInBytes": 127
+                },
+                {
+                    "id": "/d4/99875193a77c4341ca99f7c632caf2/blacklist.bed",
+                    "sizeInBytes": 137
+                },
+                {
+                    "id": "/d4/99875193a77c4341ca99f7c632caf2/versions.yml",
+                    "sizeInBytes": 96
+                },
+                {
+                    "id": "/b0/bdadc117012487bd7553575ee970c4/h3k27me3_R1.target.filtered.bam",
+                    "sizeInBytes": 23181
+                },
+                {
+                    "id": "/b0/bdadc117012487bd7553575ee970c4/versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "/61/4feba49b5fb482ed143404ca2cf001/igg_ctrl_R1.target.filtered.bam",
+                    "sizeInBytes": 13709
+                },
+                {
+                    "id": "/61/4feba49b5fb482ed143404ca2cf001/versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "/59/e9f135642e794bfa6711bf979506a1/h3k27me3_R1.target.filtered.sorted.bam",
+                    "sizeInBytes": 23043
+                },
+                {
+                    "id": "/59/e9f135642e794bfa6711bf979506a1/versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "/20/b6e3470f391e34490f8cd6ca5f1176/igg_ctrl_R1.target.filtered.sorted.bam",
+                    "sizeInBytes": 13642
+                },
+                {
+                    "id": "/20/b6e3470f391e34490f8cd6ca5f1176/versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "/93/14c88f3b2f06439d7f8b9e6d019b4b/h3k27me3_R1.target.markdup.bam",
+                    "sizeInBytes": 24861
+                },
+                {
+                    "id": "/93/14c88f3b2f06439d7f8b9e6d019b4b/h3k27me3_R1.target.markdup.MarkDuplicates.metrics.txt",
+                    "sizeInBytes": 1917
+                },
+                {
+                    "id": "/93/14c88f3b2f06439d7f8b9e6d019b4b/versions.yml",
+                    "sizeInBytes": 103
+                },
+                {
+                    "id": "/8e/c99fca4ac049b4297ef2bd09f3f728/h3k27me3_R1.command.log",
+                    "sizeInBytes": 811
+                },
+                {
+                    "id": "/8e/c99fca4ac049b4297ef2bd09f3f728/versions.yml",
+                    "sizeInBytes": 65
+                },
+                {
+                    "id": "/1f/d97c2e913cf22bd6d078008c05e490/h3k27me3_R1.target.filtered.sorted.bam.bai",
+                    "sizeInBytes": 37832
+                },
+                {
+                    "id": "/1f/d97c2e913cf22bd6d078008c05e490/versions.yml",
+                    "sizeInBytes": 80
+                },
+                {
+                    "id": "/fc/f5d5f2423f27ac2dc3c7dcee001dba/igg_ctrl_R1.target.filtered.sorted.bam.bai",
+                    "sizeInBytes": 35336
+                },
+                {
+                    "id": "/fc/f5d5f2423f27ac2dc3c7dcee001dba/versions.yml",
+                    "sizeInBytes": 80
+                },
+                {
+                    "id": "/bd/0f4e47f55ff9aa155be749dfa36cb5/igg_ctrl_R1.command.log",
+                    "sizeInBytes": 340
+                },
+                {
+                    "id": "/bd/0f4e47f55ff9aa155be749dfa36cb5/versions.yml",
+                    "sizeInBytes": 65
+                },
+                {
+                    "id": "/fb/9da11bf4c0ddc37533baac4adac229/igg_ctrl_R1.target.markdup.bam",
+                    "sizeInBytes": 15105
+                },
+                {
+                    "id": "/fb/9da11bf4c0ddc37533baac4adac229/igg_ctrl_R1.target.markdup.MarkDuplicates.metrics.txt",
+                    "sizeInBytes": 3792
+                },
+                {
+                    "id": "/fb/9da11bf4c0ddc37533baac4adac229/versions.yml",
+                    "sizeInBytes": 103
+                },
+                {
+                    "id": "/ee/652ac732b0a7815c24e5f2854c228d/h3k27me3_R1_meta_picard_dups.awk.txt",
+                    "sizeInBytes": 251
+                },
+                {
+                    "id": "/ee/652ac732b0a7815c24e5f2854c228d/versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "/42/dde65ab0cfd8c25493d88d360ec606/h3k27me3_R1.target.markdup.sorted.bam",
+                    "sizeInBytes": 23870
+                },
+                {
+                    "id": "/42/dde65ab0cfd8c25493d88d360ec606/versions.yml",
+                    "sizeInBytes": 113
+                },
+                {
+                    "id": "/f1/2afc572a5ce4e3d5dde7b700fd64ac/h3k27me3_R1.target.filtered.idxstats",
+                    "sizeInBytes": 29
+                },
+                {
+                    "id": "/f1/2afc572a5ce4e3d5dde7b700fd64ac/versions.yml",
+                    "sizeInBytes": 102
+                },
+                {
+                    "id": "/eb/af70b850ac69c389935d05c9b8dfc1/h3k27me3_R1.target.filtered.stats",
+                    "sizeInBytes": 25858
+                },
+                {
+                    "id": "/eb/af70b850ac69c389935d05c9b8dfc1/versions.yml",
+                    "sizeInBytes": 99
+                },
+                {
+                    "id": "/a1/5fef150a7e0d7689699dd08ee593df/h3k27me3_R1.target.filtered.flagstat",
+                    "sizeInBytes": 475
+                },
+                {
+                    "id": "/a1/5fef150a7e0d7689699dd08ee593df/versions.yml",
+                    "sizeInBytes": 102
+                },
+                {
+                    "id": "/7f/6eb7bfb1734a1049b0a28a54d0d4df/igg_ctrl_R1.target.filtered.idxstats",
+                    "sizeInBytes": 29
+                },
+                {
+                    "id": "/7f/6eb7bfb1734a1049b0a28a54d0d4df/versions.yml",
+                    "sizeInBytes": 102
+                },
+                {
+                    "id": "/5a/509c975da46b7cb6d8fbd7e030b73b/igg_ctrl_R1.target.filtered.flagstat",
+                    "sizeInBytes": 475
+                },
+                {
+                    "id": "/5a/509c975da46b7cb6d8fbd7e030b73b/versions.yml",
+                    "sizeInBytes": 102
+                },
+                {
+                    "id": "/76/d322e9550084d58a6851ae59a859eb/igg_ctrl_R1.target.filtered.stats",
+                    "sizeInBytes": 26128
+                },
+                {
+                    "id": "/76/d322e9550084d58a6851ae59a859eb/versions.yml",
+                    "sizeInBytes": 99
+                },
+                {
+                    "id": "/74/f334a4e15704dc7887d640fd25c4f1/igg_ctrl_R1_meta_picard_dups.awk.txt",
+                    "sizeInBytes": 262
+                },
+                {
+                    "id": "/74/f334a4e15704dc7887d640fd25c4f1/versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "/d6/02ff3ff97e09e1d8f0028eeb5752a0/igg_ctrl_R1.target.markdup.sorted.bam",
+                    "sizeInBytes": 14451
+                },
+                {
+                    "id": "/d6/02ff3ff97e09e1d8f0028eeb5752a0/versions.yml",
+                    "sizeInBytes": 113
+                },
+                {
+                    "id": "/13/d96d62e56d14613ed11ac9a3174c61/h3k27me3_R1.target.markdup.sorted.bam.bai",
+                    "sizeInBytes": 37832
+                },
+                {
+                    "id": "/13/d96d62e56d14613ed11ac9a3174c61/versions.yml",
+                    "sizeInBytes": 114
+                },
+                {
+                    "id": "/cutandrun/assets/dummy_file.txt",
+                    "sizeInBytes": 0
+                },
+                {
+                    "id": "/89/065b011e12136a3fb264c0f1f46feb/h3k27me3_R1.bedGraph",
+                    "sizeInBytes": 8124
+                },
+                {
+                    "id": "/89/065b011e12136a3fb264c0f1f46feb/versions.yml",
+                    "sizeInBytes": 90
+                },
+                {
+                    "id": "/4d/1054af9403dd375cdfdf0f7df75903/h3k27me3_R1.sortedbyname.bam",
+                    "sizeInBytes": 23799
+                },
+                {
+                    "id": "/4d/1054af9403dd375cdfdf0f7df75903/versions.yml",
+                    "sizeInBytes": 84
+                },
+                {
+                    "id": "/bd/ead884cf2241a785f8aa0452a3bf8b/igg_ctrl_R1.target.dedup.bam",
+                    "sizeInBytes": 15071
+                },
+                {
+                    "id": "/bd/ead884cf2241a785f8aa0452a3bf8b/igg_ctrl_R1.target.dedup.MarkDuplicates.metrics.txt",
+                    "sizeInBytes": 3786
+                },
+                {
+                    "id": "/bd/ead884cf2241a785f8aa0452a3bf8b/versions.yml",
+                    "sizeInBytes": 99
+                },
+                {
+                    "id": "/cc/c86bc96e7148975231d8537be28557/igg_ctrl_R1.target.markdup.sorted.bam.bai",
+                    "sizeInBytes": 35336
+                },
+                {
+                    "id": "/cc/c86bc96e7148975231d8537be28557/versions.yml",
+                    "sizeInBytes": 114
+                },
+                {
+                    "id": "/d6/fb24b1dd22e7c18fa75d3df9870902/h3k27me3_R1.frags.len.txt",
+                    "sizeInBytes": 1147
+                },
+                {
+                    "id": "/d6/fb24b1dd22e7c18fa75d3df9870902/versions.yml",
+                    "sizeInBytes": 72
+                },
+                {
+                    "id": "/d3/05ff0d30e25983c6ac7d9edf054065/h3k27me3_R1.plotFingerprint.pdf",
+                    "sizeInBytes": 383184
+                },
+                {
+                    "id": "/d3/05ff0d30e25983c6ac7d9edf054065/h3k27me3_R1.plotFingerprint.raw.txt",
+                    "sizeInBytes": 5411
+                },
+                {
+                    "id": "/d3/05ff0d30e25983c6ac7d9edf054065/h3k27me3_R1.plotFingerprint.qcmetrics.txt",
+                    "sizeInBytes": 296
+                },
+                {
+                    "id": "/d3/05ff0d30e25983c6ac7d9edf054065/versions.yml",
+                    "sizeInBytes": 90
+                },
+                {
+                    "id": "/ce/3de08a300462b7793d3d5823986a50/h3k27me3_R1.sorted.bedGraph",
+                    "sizeInBytes": 8124
+                },
+                {
+                    "id": "/ce/3de08a300462b7793d3d5823986a50/versions.yml",
+                    "sizeInBytes": 85
+                },
+                {
+                    "id": "/87/5bf41c58484dc052b87c5f831f73e3/h3k27me3_R1.bed",
+                    "sizeInBytes": 22933
+                },
+                {
+                    "id": "/87/5bf41c58484dc052b87c5f831f73e3/versions.yml",
                     "sizeInBytes": 87
                 },
                 {
-                    "id": "multiqc_config.yml",
+                    "id": "/13/972ad01e44514647432f43d1449fd0/igg_ctrl_R1.target.dedup.sorted.bam",
+                    "sizeInBytes": 14437
+                },
+                {
+                    "id": "/13/972ad01e44514647432f43d1449fd0/versions.yml",
+                    "sizeInBytes": 109
+                },
+                {
+                    "id": "/d5/828708e923788ff46efd3cbc723df6/h3k27me3_R1.stats",
+                    "sizeInBytes": 25857
+                },
+                {
+                    "id": "/d5/828708e923788ff46efd3cbc723df6/versions.yml",
+                    "sizeInBytes": 133
+                },
+                {
+                    "id": "/ae/089229679def637d780b7577d7c972/igg_ctrl_R1.idxstats",
+                    "sizeInBytes": 29
+                },
+                {
+                    "id": "/ae/089229679def637d780b7577d7c972/versions.yml",
+                    "sizeInBytes": 136
+                },
+                {
+                    "id": "/3e/9c6ef3df6614f1df41e2c392e9c36f/igg_ctrl_R1.stats",
+                    "sizeInBytes": 26128
+                },
+                {
+                    "id": "/3e/9c6ef3df6614f1df41e2c392e9c36f/versions.yml",
+                    "sizeInBytes": 133
+                },
+                {
+                    "id": "/83/ab389811e713b88470b0530802135c/h3k27me3_R1.flagstat",
+                    "sizeInBytes": 475
+                },
+                {
+                    "id": "/83/ab389811e713b88470b0530802135c/versions.yml",
+                    "sizeInBytes": 136
+                },
+                {
+                    "id": "/cd/405379525287c25d38ccf624359a7f/h3k27me3_R1.idxstats",
+                    "sizeInBytes": 29
+                },
+                {
+                    "id": "/cd/405379525287c25d38ccf624359a7f/versions.yml",
+                    "sizeInBytes": 136
+                },
+                {
+                    "id": "/06/154207a723bb23633cc7585a06b2b8/igg_ctrl_R1.flagstat",
+                    "sizeInBytes": 475
+                },
+                {
+                    "id": "/06/154207a723bb23633cc7585a06b2b8/versions.yml",
+                    "sizeInBytes": 136
+                },
+                {
+                    "id": "/ad/dee32fea3c98b87f6979b025d53786/h3k27me3_R1.clipped.bedGraph",
+                    "sizeInBytes": 8124
+                },
+                {
+                    "id": "/ad/dee32fea3c98b87f6979b025d53786/versions.yml",
+                    "sizeInBytes": 77
+                },
+                {
+                    "id": "/06/86fb250afdb523ab6a20abca535dd9/h3k27me3_R1.filt.awk.bed",
+                    "sizeInBytes": 22933
+                },
+                {
+                    "id": "/06/86fb250afdb523ab6a20abca535dd9/versions.yml",
+                    "sizeInBytes": 67
+                },
+                {
+                    "id": "/76/d4e477298149773936523fd91c54b6/igg_ctrl_R1.bedGraph",
+                    "sizeInBytes": 5494
+                },
+                {
+                    "id": "/76/d4e477298149773936523fd91c54b6/versions.yml",
+                    "sizeInBytes": 90
+                },
+                {
+                    "id": "/d7/17135002e2c087c32f237d4a1292db/igg_ctrl_R1.target.dedup.sorted.bam.bai",
+                    "sizeInBytes": 35336
+                },
+                {
+                    "id": "/d7/17135002e2c087c32f237d4a1292db/versions.yml",
+                    "sizeInBytes": 110
+                },
+                {
+                    "id": "/2a/031ce49deb834c7edfed9484199c45/h3k27me3_R1.bigWig",
+                    "sizeInBytes": 35126
+                },
+                {
+                    "id": "/2a/031ce49deb834c7edfed9484199c45/versions.yml",
+                    "sizeInBytes": 86
+                },
+                {
+                    "id": "/2e/5383b8a1b2049f5d94e7c84ef5fea8/h3k27me3_R1.frags.cut.bed",
+                    "sizeInBytes": 7350
+                },
+                {
+                    "id": "/2e/5383b8a1b2049f5d94e7c84ef5fea8/versions.yml",
+                    "sizeInBytes": 66
+                },
+                {
+                    "id": "/3c/699ea49774ae6e0bb5cb1cf631a9b7/igg_ctrl_R1.sorted.bedGraph",
+                    "sizeInBytes": 5494
+                },
+                {
+                    "id": "/3c/699ea49774ae6e0bb5cb1cf631a9b7/versions.yml",
+                    "sizeInBytes": 85
+                },
+                {
+                    "id": "/f6/095fd4d2f31b2eeed28ce7e3be6af3/igg_ctrl_R1.idxstats",
+                    "sizeInBytes": 29
+                },
+                {
+                    "id": "/f6/095fd4d2f31b2eeed28ce7e3be6af3/versions.yml",
+                    "sizeInBytes": 132
+                },
+                {
+                    "id": "/74/e13fc995741a2dc4bad172088bcfa7/igg_ctrl_R1.plotFingerprint.pdf",
+                    "sizeInBytes": 383187
+                },
+                {
+                    "id": "/74/e13fc995741a2dc4bad172088bcfa7/igg_ctrl_R1.plotFingerprint.raw.txt",
+                    "sizeInBytes": 3155
+                },
+                {
+                    "id": "/74/e13fc995741a2dc4bad172088bcfa7/igg_ctrl_R1.plotFingerprint.qcmetrics.txt",
+                    "sizeInBytes": 292
+                },
+                {
+                    "id": "/74/e13fc995741a2dc4bad172088bcfa7/versions.yml",
+                    "sizeInBytes": 90
+                },
+                {
+                    "id": "/3d/7e88e25644ecf1fb6fb760120ff860/igg_ctrl_R1.flagstat",
+                    "sizeInBytes": 475
+                },
+                {
+                    "id": "/3d/7e88e25644ecf1fb6fb760120ff860/versions.yml",
+                    "sizeInBytes": 132
+                },
+                {
+                    "id": "/7d/840f3fc43ae3fa4a58151e660d08f7/all_bam.bamSummary.npz",
+                    "sizeInBytes": 4203
+                },
+                {
+                    "id": "/7d/840f3fc43ae3fa4a58151e660d08f7/versions.yml",
+                    "sizeInBytes": 90
+                },
+                {
+                    "id": "/c0/fee0eceef6d47aa7b7b1303fd1d501/igg_ctrl_R1.stats",
+                    "sizeInBytes": 26133
+                },
+                {
+                    "id": "/c0/fee0eceef6d47aa7b7b1303fd1d501/versions.yml",
+                    "sizeInBytes": 129
+                },
+                {
+                    "id": "/assets/multiqc/frag_len_header.txt",
+                    "sizeInBytes": 263
+                },
+                {
+                    "id": "/2b/5c01b6c61d9ce66b2aaba9bce5b0c4/frag_len_mqc.yml",
+                    "sizeInBytes": 2029
+                },
+                {
+                    "id": "/2b/5c01b6c61d9ce66b2aaba9bce5b0c4/versions.yml",
+                    "sizeInBytes": 119
+                },
+                {
+                    "id": "/45/13963b29d756ee7961d747df966f95/h3k27me3_R1.computeMatrix.mat.gz",
+                    "sizeInBytes": 13804
+                },
+                {
+                    "id": "/45/13963b29d756ee7961d747df966f95/h3k27me3_R1.computeMatrix.vals.mat.tab",
+                    "sizeInBytes": 584652
+                },
+                {
+                    "id": "/45/13963b29d756ee7961d747df966f95/versions.yml",
+                    "sizeInBytes": 80
+                },
+                {
+                    "id": "/d2/0cfd3c5476a845b230332d8baa6db5/igg_ctrl_R1.clipped.bedGraph",
+                    "sizeInBytes": 5494
+                },
+                {
+                    "id": "/d2/0cfd3c5476a845b230332d8baa6db5/versions.yml",
+                    "sizeInBytes": 77
+                },
+                {
+                    "id": "/26/837e659a68fc626440f17b1d93d197/all_target_bams.plotPCA.pdf",
+                    "sizeInBytes": 384813
+                },
+                {
+                    "id": "/26/837e659a68fc626440f17b1d93d197/all_target_bams.plotPCA.tab",
+                    "sizeInBytes": 189
+                },
+                {
+                    "id": "/26/837e659a68fc626440f17b1d93d197/versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "/e9/0a15d4405711a12c9901d43b81b607/all_target_bams.plotCorrelation.pdf",
+                    "sizeInBytes": 383349
+                },
+                {
+                    "id": "/e9/0a15d4405711a12c9901d43b81b607/all_target_bams.plotCorrelation.mat.tab",
+                    "sizeInBytes": 123
+                },
+                {
+                    "id": "/e9/0a15d4405711a12c9901d43b81b607/versions.yml",
+                    "sizeInBytes": 90
+                },
+                {
+                    "id": "/8c/6c2eec7ed0c972bdff75e0e0e86f7f/h3k27me3_R1.plotHeatmap.pdf",
+                    "sizeInBytes": 397068
+                },
+                {
+                    "id": "/8c/6c2eec7ed0c972bdff75e0e0e86f7f/h3k27me3_R1.plotHeatmap.mat.tab",
+                    "sizeInBytes": 14058
+                },
+                {
+                    "id": "/8c/6c2eec7ed0c972bdff75e0e0e86f7f/versions.yml",
+                    "sizeInBytes": 78
+                },
+                {
+                    "id": "/1b/f8b029353feacef8f76dd57c8da75d/igg_ctrl_R1.bigWig",
+                    "sizeInBytes": 34136
+                },
+                {
+                    "id": "/1b/f8b029353feacef8f76dd57c8da75d/versions.yml",
+                    "sizeInBytes": 86
+                },
+                {
+                    "id": "/94/f8ecc9eec53ee8dff48e9ef4da03b1/h3k27me3_R1.seacr.peaks.stringent.bed",
+                    "sizeInBytes": 270
+                },
+                {
+                    "id": "/94/f8ecc9eec53ee8dff48e9ef4da03b1/versions.yml",
+                    "sizeInBytes": 103
+                },
+                {
+                    "id": "/3e/b6df170a9f51d17d1c6266cebea56f/all_genes.computeMatrix.mat.gz",
+                    "sizeInBytes": 13802
+                },
+                {
+                    "id": "/3e/b6df170a9f51d17d1c6266cebea56f/all_genes.computeMatrix.vals.mat.tab",
+                    "sizeInBytes": 584652
+                },
+                {
+                    "id": "/3e/b6df170a9f51d17d1c6266cebea56f/versions.yml",
+                    "sizeInBytes": 84
+                },
+                {
+                    "id": "/6c/d6281f0c7d7b02fd443b76ce57b076/h3k27me3_R1.awk.bed",
+                    "sizeInBytes": 460
+                },
+                {
+                    "id": "/6c/d6281f0c7d7b02fd443b76ce57b076/versions.yml",
+                    "sizeInBytes": 63
+                },
+                {
+                    "id": "/2f/47011b31148aeae61880beafe470eb/h3k27me3_R1.max_signal.awk.txt",
+                    "sizeInBytes": 120
+                },
+                {
+                    "id": "/2f/47011b31148aeae61880beafe470eb/versions.yml",
+                    "sizeInBytes": 65
+                },
+                {
+                    "id": "/assets/multiqc/peak_counts_header.txt",
+                    "sizeInBytes": 455
+                },
+                {
+                    "id": "/6b/d6804c13d20c34e0f0e29921760ae3/h3k27me3_R1_mqc.tsv",
+                    "sizeInBytes": 468
+                },
+                {
+                    "id": "/6b/d6804c13d20c34e0f0e29921760ae3/versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/exp_files.txt",
+                    "sizeInBytes": 58
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/gff.igv.txt",
+                    "sizeInBytes": 0
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/gtf.igv.txt",
+                    "sizeInBytes": 0
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/h3k27me3_R1.bigWig",
+                    "sizeInBytes": 35126
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20-genes.bed.gz",
+                    "sizeInBytes": 90088
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20-genes.bed.gz.tbi",
+                    "sizeInBytes": 3024
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20.fa",
+                    "sizeInBytes": 65518244
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/hg38-chr20.fa.fai",
+                    "sizeInBytes": 23
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/igg_ctrl_R1.bigWig",
+                    "sizeInBytes": 34136
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/igv_files.txt",
+                    "sizeInBytes": 58
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/igv_session.xml",
+                    "sizeInBytes": 1603
+                },
+                {
+                    "id": "/3d/c65819966bf95f399ee83c64fd481d/versions.yml",
+                    "sizeInBytes": 85
+                },
+                {
+                    "id": "/6e/32399ae062aed6d3095b76723e00e8/all_genes.plotHeatmap.pdf",
+                    "sizeInBytes": 397068
+                },
+                {
+                    "id": "/6e/32399ae062aed6d3095b76723e00e8/all_genes.plotHeatmap.mat.tab",
+                    "sizeInBytes": 14056
+                },
+                {
+                    "id": "/6e/32399ae062aed6d3095b76723e00e8/versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "/3c/a9d3ac39f1ded42aa61dc85584b8ce/h3k27me3.sort.bed",
+                    "sizeInBytes": 460
+                },
+                {
+                    "id": "/3c/a9d3ac39f1ded42aa61dc85584b8ce/versions.yml",
+                    "sizeInBytes": 66
+                },
+                {
+                    "id": "/90/42062043c3f4ac074f955b89e6009f/h3k27me3_R1.repro.cut.bed",
+                    "sizeInBytes": 240
+                },
+                {
+                    "id": "/90/42062043c3f4ac074f955b89e6009f/versions.yml",
+                    "sizeInBytes": 68
+                },
+                {
+                    "id": "/cf/93cdcb9add289c35f7503aa020ae66/h3k27me3_R1.computeMatrix.mat.gz",
+                    "sizeInBytes": 616
+                },
+                {
+                    "id": "/cf/93cdcb9add289c35f7503aa020ae66/h3k27me3_R1.computeMatrix.vals.mat.tab",
+                    "sizeInBytes": 13347
+                },
+                {
+                    "id": "/cf/93cdcb9add289c35f7503aa020ae66/versions.yml",
+                    "sizeInBytes": 81
+                },
+                {
+                    "id": "/3b/f51915d748ac5c7f3620f8be7ade56/h3k27me3.consensus.peak_counts.bed",
+                    "sizeInBytes": 560
+                },
+                {
+                    "id": "/3b/f51915d748ac5c7f3620f8be7ade56/versions.yml",
+                    "sizeInBytes": 82
+                },
+                {
+                    "id": "/2c/48856e111fbe01e75f627796d8ffcd/h3k27me3_R1.plotHeatmap.pdf",
+                    "sizeInBytes": 390765
+                },
+                {
+                    "id": "/2c/48856e111fbe01e75f627796d8ffcd/h3k27me3_R1.plotHeatmap.mat.tab",
+                    "sizeInBytes": 628
+                },
+                {
+                    "id": "/2c/48856e111fbe01e75f627796d8ffcd/versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "/f6/79d0c6791aeac728a533ca6ec70090/h3k27me3.consensus.peaks.awk.bed",
+                    "sizeInBytes": 560
+                },
+                {
+                    "id": "/f6/79d0c6791aeac728a533ca6ec70090/versions.yml",
+                    "sizeInBytes": 65
+                },
+                {
+                    "id": "/06/dc33f351835175bde78cf3f53e0187/versions.yml",
+                    "sizeInBytes": 135
+                },
+                {
+                    "id": "/assets/multiqc/peak_counts_consensus_header.txt",
+                    "sizeInBytes": 464
+                },
+                {
+                    "id": "/9d/f9d23d1e1377e50c3031a336c14e16/h3k27me3_mqc.tsv",
+                    "sizeInBytes": 477
+                },
+                {
+                    "id": "/9d/f9d23d1e1377e50c3031a336c14e16/versions.yml",
+                    "sizeInBytes": 81
+                },
+                {
+                    "id": "/e9/041263a329c76f534c90018ad96ec1/versions.yml",
+                    "sizeInBytes": 7791
+                },
+                {
+                    "id": "/09/fdfeea790fbb47ae390542e5461bac/software_versions.yml",
+                    "sizeInBytes": 5832
+                },
+                {
+                    "id": "/09/fdfeea790fbb47ae390542e5461bac/software_versions_mqc.yml",
+                    "sizeInBytes": 15733
+                },
+                {
+                    "id": "/09/fdfeea790fbb47ae390542e5461bac/software_versions_unique_mqc.yml",
+                    "sizeInBytes": 3875
+                },
+                {
+                    "id": "/09/fdfeea790fbb47ae390542e5461bac/local_versions.yml",
+                    "sizeInBytes": 87
+                },
+                {
+                    "id": "/cutandrun/assets/multiqc_config.yml",
                     "sizeInBytes": 3442
                 },
                 {
-                    "id": "workflow_summary_mqc.yml",
+                    "id": "/fd/ec484455a61b434540419a34fdeb8b/workflow_summary_mqc.yml",
                     "sizeInBytes": 3347
                 },
                 {
-                    "id": "multiqc_report.html",
+                    "id": "/76/16aa87b869bf6a052b07433f4991f1/multiqc_report.html",
                     "sizeInBytes": 1325549
                 },
                 {
-                    "id": "multiqc_data",
+                    "id": "/76/16aa87b869bf6a052b07433f4991f1/multiqc_data",
                     "sizeInBytes": 507460
                 },
                 {
-                    "id": "multiqc_plots",
+                    "id": "/76/16aa87b869bf6a052b07433f4991f1/multiqc_plots",
                     "sizeInBytes": 2476100
+                },
+                {
+                    "id": "/76/16aa87b869bf6a052b07433f4991f1/versions.yml",
+                    "sizeInBytes": 56
                 }
             ]
         },

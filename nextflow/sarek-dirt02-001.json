@@ -16,11 +16,11 @@
                         "NFCORE_SAREK.SAREK.BAM_APPLYBQSR.GATK4_APPLYBQSR_24"
                     ],
                     "inputFiles": [
-                        "genome.fasta"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta"
                     ],
                     "outputFiles": [
-                        "genome.dict",
-                        "versions.yml"
+                        "/c7/fffe3aa55aea5327ee863512d16a8c/genome.dict",
+                        "/c7/fffe3aa55aea5327ee863512d16a8c/versions.yml"
                     ],
                     "parents": []
                 },
@@ -31,11 +31,11 @@
                         "NFCORE_SAREK.SAREK.FASTQ_ALIGN_BWAMEM_MEM2_DRAGMAP.BWAMEM1_MEM_14"
                     ],
                     "inputFiles": [
-                        "genome.fasta"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta"
                     ],
                     "outputFiles": [
-                        "bwa",
-                        "versions.yml"
+                        "/23/b30127ac6112c96ba1201b711e2bae/bwa",
+                        "/23/b30127ac6112c96ba1201b711e2bae/versions.yml"
                     ],
                     "parents": []
                 },
@@ -49,11 +49,11 @@
                         "NFCORE_SAREK.SAREK.BAM_VARIANT_CALLING_GERMLINE_ALL.BAM_VARIANT_CALLING_SINGLE_STRELKA.STRELKA_SINGLE_29"
                     ],
                     "inputFiles": [
-                        "genome.fasta"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta"
                     ],
                     "outputFiles": [
-                        "genome.fasta.fai",
-                        "versions.yml"
+                        "/22/6faae149041906e9687df3b54bc96e/genome.fasta.fai",
+                        "/22/6faae149041906e9687df3b54bc96e/versions.yml"
                     ],
                     "parents": []
                 },
@@ -64,11 +64,11 @@
                         "NFCORE_SAREK.SAREK.BAM_BASERECALIBRATOR.GATK4_BASERECALIBRATOR_23"
                     ],
                     "inputFiles": [
-                        "mills_and_1000G.indels.vcf.gz"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/vcf/mills_and_1000G.indels.vcf.gz"
                     ],
                     "outputFiles": [
-                        "mills_and_1000G.indels.vcf.gz.tbi",
-                        "versions.yml"
+                        "/ff/5265e7baec78fd1367e00bcd23e3f5/mills_and_1000G.indels.vcf.gz.tbi",
+                        "/ff/5265e7baec78fd1367e00bcd23e3f5/versions.yml"
                     ],
                     "parents": []
                 },
@@ -81,11 +81,11 @@
                         "NFCORE_SAREK.SAREK.VCF_QC_BCFTOOLS_VCFTOOLS.VCFTOOLS_SUMMARY_30"
                     ],
                     "inputFiles": [
-                        "genome.interval_list"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.interval_list"
                     ],
                     "outputFiles": [
-                        "genome.bed",
-                        "versions.yml"
+                        "/e0/3cdf465c17c414675c3b4b4e01ade2/genome.bed",
+                        "/e0/3cdf465c17c414675c3b4b4e01ade2/versions.yml"
                     ],
                     "parents": []
                 },
@@ -98,11 +98,11 @@
                         "NFCORE_SAREK.SAREK.BAM_APPLYBQSR.GATK4_APPLYBQSR_24"
                     ],
                     "inputFiles": [
-                        "genome.interval_list"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.interval_list"
                     ],
                     "outputFiles": [
-                        "chr22_1-40001.bed",
-                        "versions.yml"
+                        "/e4/0a09c8403c22f0388251708b23a25e/chr22_1-40001.bed",
+                        "/e4/0a09c8403c22f0388251708b23a25e/versions.yml"
                     ],
                     "parents": []
                 },
@@ -113,11 +113,11 @@
                         "NFCORE_SAREK.SAREK.BAM_BASERECALIBRATOR.GATK4_BASERECALIBRATOR_23"
                     ],
                     "inputFiles": [
-                        "dbsnp_146.hg38.vcf.gz"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/vcf/dbsnp_146.hg38.vcf.gz"
                     ],
                     "outputFiles": [
-                        "dbsnp_146.hg38.vcf.gz.tbi",
-                        "versions.yml"
+                        "/b5/68f7f32ec735378ef695396c1303ba/dbsnp_146.hg38.vcf.gz.tbi",
+                        "/b5/68f7f32ec735378ef695396c1303ba/versions.yml"
                     ],
                     "parents": []
                 },
@@ -128,15 +128,15 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test_1.fastq.gz",
-                        "test_2.fastq.gz"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/illumina/fastq/test_1.fastq.gz",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/illumina/fastq/test_2.fastq.gz"
                     ],
                     "outputFiles": [
-                        "test-test_L1_test_1_fastqc.html",
-                        "test-test_L1_test_2_fastqc.html",
-                        "test-test_L1_test_1_fastqc.zip",
-                        "test-test_L1_test_2_fastqc.zip",
-                        "versions.yml"
+                        "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_1_fastqc.html",
+                        "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_2_fastqc.html",
+                        "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_1_fastqc.zip",
+                        "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_2_fastqc.zip",
+                        "/aa/ed88648b57be3f0196e69fa3e7996f/versions.yml"
                     ],
                     "parents": []
                 },
@@ -147,13 +147,13 @@
                         "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18"
                     ],
                     "inputFiles": [
-                        "test_1.fastq.gz",
-                        "test_2.fastq.gz",
-                        "bwa"
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/illumina/fastq/test_1.fastq.gz",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/illumina/fastq/test_2.fastq.gz",
+                        "/23/b30127ac6112c96ba1201b711e2bae/bwa"
                     ],
                     "outputFiles": [
-                        "test.sorted.bam",
-                        "versions.yml"
+                        "/d7/7993bc2cef3243b81bf426e358b1d6/test.sorted.bam",
+                        "/d7/7993bc2cef3243b81bf426e358b1d6/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.PREPARE_GENOME.BWAMEM1_INDEX_6"
@@ -166,12 +166,12 @@
                         "NFCORE_SAREK.SAREK.BAM_VARIANT_CALLING_GERMLINE_ALL.BAM_VARIANT_CALLING_SINGLE_STRELKA.STRELKA_SINGLE_29"
                     ],
                     "inputFiles": [
-                        "chr22_1-40001.bed"
+                        "/e4/0a09c8403c22f0388251708b23a25e/chr22_1-40001.bed"
                     ],
                     "outputFiles": [
-                        "chr22_1-40001.bed.gz",
-                        "chr22_1-40001.bed.gz.tbi",
-                        "versions.yml"
+                        "/07/6c1777387768a23c3dced135bc84d1/chr22_1-40001.bed.gz",
+                        "/07/6c1777387768a23c3dced135bc84d1/chr22_1-40001.bed.gz.tbi",
+                        "/07/6c1777387768a23c3dced135bc84d1/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.PREPARE_INTERVALS.CREATE_INTERVALS_BED_5"
@@ -189,15 +189,15 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.sorted.bam",
-                        "genome.fasta",
-                        "genome.fasta.fai"
+                        "/d7/7993bc2cef3243b81bf426e358b1d6/test.sorted.bam",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta",
+                        "/22/6faae149041906e9687df3b54bc96e/genome.fasta.fai"
                     ],
                     "outputFiles": [
-                        "test.md.cram",
-                        "test.md.cram.crai",
-                        "test.md.cram.metrics",
-                        "versions.yml"
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram",
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram.crai",
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram.metrics",
+                        "/49/a0a348931ee86adced192d3d932180/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.FASTQ_ALIGN_BWAMEM_MEM2_DRAGMAP.BWAMEM1_MEM_14",
@@ -207,13 +207,18 @@
                 {
                     "name": "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.INDEX_MARKDUPLICATES",
                     "id": "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.INDEX_MARKDUPLICATES_19",
-                    "children": [],
+                    "children": [
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.CRAM_QC_MOSDEPTH_SAMTOOLS.MOSDEPTH_21",
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.CRAM_QC_MOSDEPTH_SAMTOOLS.SAMTOOLS_STATS_20",
+                        "NFCORE_SAREK.SAREK.BAM_BASERECALIBRATOR.GATK4_BASERECALIBRATOR_23",
+                        "NFCORE_SAREK.SAREK.BAM_APPLYBQSR.GATK4_APPLYBQSR_24"
+                    ],
                     "inputFiles": [
-                        "test.md.cram"
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram"
                     ],
                     "outputFiles": [
-                        "test.md.cram.crai",
-                        "versions.yml"
+                        "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/test.md.cram.crai",
+                        "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18"
@@ -226,20 +231,21 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.md.cram",
-                        "test.md.cram.crai",
-                        "genome.fasta"
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram",
+                        "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/test.md.cram.crai",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta"
                     ],
                     "outputFiles": [
-                        "test.md.mosdepth.global.dist.txt",
-                        "test.md.mosdepth.summary.txt",
-                        "test.md.mosdepth.region.dist.txt",
-                        "test.md.regions.bed.gz",
-                        "test.md.regions.bed.gz.csi",
-                        "versions.yml"
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.global.dist.txt",
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.summary.txt",
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.region.dist.txt",
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.regions.bed.gz",
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.regions.bed.gz.csi",
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/versions.yml"
                     ],
                     "parents": [
-                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18"
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18",
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.INDEX_MARKDUPLICATES_19"
                     ]
                 },
                 {
@@ -249,16 +255,17 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.md.cram",
-                        "test.md.cram.crai",
-                        "genome.fasta"
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram",
+                        "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/test.md.cram.crai",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta"
                     ],
                     "outputFiles": [
-                        "test.md.cram.stats",
-                        "versions.yml"
+                        "/8c/15c5e0f0aefb204d45065e98980f2b/test.md.cram.stats",
+                        "/8c/15c5e0f0aefb204d45065e98980f2b/versions.yml"
                     ],
                     "parents": [
-                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18"
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18",
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.INDEX_MARKDUPLICATES_19"
                     ]
                 },
                 {
@@ -269,23 +276,24 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.md.cram",
-                        "test.md.cram.crai",
-                        "chr22_1-40001.bed",
-                        "genome.fasta",
-                        "genome.fasta.fai",
-                        "genome.dict",
-                        "dbsnp_146.hg38.vcf.gz",
-                        "mills_and_1000G.indels.vcf.gz",
-                        "dbsnp_146.hg38.vcf.gz.tbi",
-                        "mills_and_1000G.indels.vcf.gz.tbi"
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram",
+                        "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/test.md.cram.crai",
+                        "/e4/0a09c8403c22f0388251708b23a25e/chr22_1-40001.bed",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta",
+                        "/22/6faae149041906e9687df3b54bc96e/genome.fasta.fai",
+                        "/c7/fffe3aa55aea5327ee863512d16a8c/genome.dict",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/vcf/dbsnp_146.hg38.vcf.gz",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/vcf/mills_and_1000G.indels.vcf.gz",
+                        "/b5/68f7f32ec735378ef695396c1303ba/dbsnp_146.hg38.vcf.gz.tbi",
+                        "/ff/5265e7baec78fd1367e00bcd23e3f5/mills_and_1000G.indels.vcf.gz.tbi"
                     ],
                     "outputFiles": [
-                        "test.recal.table",
-                        "versions.yml"
+                        "/6d/af9b1caa02c85b02641b93d40c746a/test.recal.table",
+                        "/6d/af9b1caa02c85b02641b93d40c746a/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18",
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.INDEX_MARKDUPLICATES_19",
                         "NFCORE_SAREK.SAREK.PREPARE_INTERVALS.CREATE_INTERVALS_BED_5",
                         "NFCORE_SAREK.SAREK.PREPARE_GENOME.SAMTOOLS_FAIDX_9",
                         "NFCORE_SAREK.SAREK.PREPARE_GENOME.GATK4_CREATESEQUENCEDICTIONARY_8",
@@ -303,20 +311,21 @@
                         "NFCORE_SAREK.SAREK.CRAM_QC_RECAL.SAMTOOLS_STATS_28"
                     ],
                     "inputFiles": [
-                        "test.md.cram",
-                        "test.md.cram.crai",
-                        "test.recal.table",
-                        "chr22_1-40001.bed",
-                        "genome.fasta",
-                        "genome.fasta.fai",
-                        "genome.dict"
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram",
+                        "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/test.md.cram.crai",
+                        "/6d/af9b1caa02c85b02641b93d40c746a/test.recal.table",
+                        "/e4/0a09c8403c22f0388251708b23a25e/chr22_1-40001.bed",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta",
+                        "/22/6faae149041906e9687df3b54bc96e/genome.fasta.fai",
+                        "/c7/fffe3aa55aea5327ee863512d16a8c/genome.dict"
                     ],
                     "outputFiles": [
-                        "test.recal.cram",
-                        "versions.yml"
+                        "/63/445abea905ae1242b0ec0ce15f3dd7/test.recal.cram",
+                        "/63/445abea905ae1242b0ec0ce15f3dd7/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.GATK4_MARKDUPLICATES_18",
+                        "NFCORE_SAREK.SAREK.BAM_MARKDUPLICATES.INDEX_MARKDUPLICATES_19",
                         "NFCORE_SAREK.SAREK.BAM_BASERECALIBRATOR.GATK4_BASERECALIBRATOR_23",
                         "NFCORE_SAREK.SAREK.PREPARE_INTERVALS.CREATE_INTERVALS_BED_5",
                         "NFCORE_SAREK.SAREK.PREPARE_GENOME.SAMTOOLS_FAIDX_9",
@@ -332,11 +341,11 @@
                         "NFCORE_SAREK.SAREK.CRAM_QC_RECAL.SAMTOOLS_STATS_28"
                     ],
                     "inputFiles": [
-                        "test.recal.cram"
+                        "/63/445abea905ae1242b0ec0ce15f3dd7/test.recal.cram"
                     ],
                     "outputFiles": [
-                        "test.recal.cram.crai",
-                        "versions.yml"
+                        "/37/741818f8f8d33c64d68b0ce374e284/test.recal.cram.crai",
+                        "/37/741818f8f8d33c64d68b0ce374e284/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_APPLYBQSR.GATK4_APPLYBQSR_24"
@@ -349,17 +358,17 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.recal.cram",
-                        "test.recal.cram.crai",
-                        "genome.fasta"
+                        "/63/445abea905ae1242b0ec0ce15f3dd7/test.recal.cram",
+                        "/37/741818f8f8d33c64d68b0ce374e284/test.recal.cram.crai",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta"
                     ],
                     "outputFiles": [
-                        "test.recal.mosdepth.global.dist.txt",
-                        "test.recal.mosdepth.summary.txt",
-                        "test.recal.mosdepth.region.dist.txt",
-                        "test.recal.regions.bed.gz",
-                        "test.recal.regions.bed.gz.csi",
-                        "versions.yml"
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.global.dist.txt",
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.summary.txt",
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.region.dist.txt",
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.regions.bed.gz",
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.regions.bed.gz.csi",
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_APPLYBQSR.GATK4_APPLYBQSR_24",
@@ -376,19 +385,19 @@
                         "NFCORE_SAREK.SAREK.VCF_QC_BCFTOOLS_VCFTOOLS.VCFTOOLS_SUMMARY_30"
                     ],
                     "inputFiles": [
-                        "test.recal.cram",
-                        "test.recal.cram.crai",
-                        "chr22_1-40001.bed.gz",
-                        "chr22_1-40001.bed.gz.tbi",
-                        "genome.fasta",
-                        "genome.fasta.fai"
+                        "/63/445abea905ae1242b0ec0ce15f3dd7/test.recal.cram",
+                        "/37/741818f8f8d33c64d68b0ce374e284/test.recal.cram.crai",
+                        "/07/6c1777387768a23c3dced135bc84d1/chr22_1-40001.bed.gz",
+                        "/07/6c1777387768a23c3dced135bc84d1/chr22_1-40001.bed.gz.tbi",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta",
+                        "/22/6faae149041906e9687df3b54bc96e/genome.fasta.fai"
                     ],
                     "outputFiles": [
-                        "test.strelka.variants.vcf.gz",
-                        "test.strelka.variants.vcf.gz.tbi",
-                        "test.strelka.genome.vcf.gz",
-                        "test.strelka.genome.vcf.gz.tbi",
-                        "versions.yml"
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz",
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz.tbi",
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.genome.vcf.gz",
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.genome.vcf.gz.tbi",
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_APPLYBQSR.GATK4_APPLYBQSR_24",
@@ -404,13 +413,13 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.recal.cram",
-                        "test.recal.cram.crai",
-                        "genome.fasta"
+                        "/63/445abea905ae1242b0ec0ce15f3dd7/test.recal.cram",
+                        "/37/741818f8f8d33c64d68b0ce374e284/test.recal.cram.crai",
+                        "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta"
                     ],
                     "outputFiles": [
-                        "test.recal.cram.stats",
-                        "versions.yml"
+                        "/4a/89a7a5d5726aade58235f74ee5b43e/test.recal.cram.stats",
+                        "/4a/89a7a5d5726aade58235f74ee5b43e/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_APPLYBQSR.GATK4_APPLYBQSR_24",
@@ -424,11 +433,11 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.strelka.variants.vcf.gz"
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz"
                     ],
                     "outputFiles": [
-                        "test.strelka.variants.bcftools_stats.txt",
-                        "versions.yml"
+                        "/e6/7df0bde2b93a0699dd0f0e1176b153/test.strelka.variants.bcftools_stats.txt",
+                        "/e6/7df0bde2b93a0699dd0f0e1176b153/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_VARIANT_CALLING_GERMLINE_ALL.BAM_VARIANT_CALLING_SINGLE_STRELKA.STRELKA_SINGLE_29"
@@ -441,12 +450,12 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.strelka.variants.vcf.gz",
-                        "genome.bed"
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz",
+                        "/e0/3cdf465c17c414675c3b4b4e01ade2/genome.bed"
                     ],
                     "outputFiles": [
-                        "test.strelka.variants.TsTv.count",
-                        "versions.yml"
+                        "/e8/c1dd5ec3aa54d120a7b3adb4d2954a/test.strelka.variants.TsTv.count",
+                        "/e8/c1dd5ec3aa54d120a7b3adb4d2954a/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_VARIANT_CALLING_GERMLINE_ALL.BAM_VARIANT_CALLING_SINGLE_STRELKA.STRELKA_SINGLE_29",
@@ -460,12 +469,12 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.strelka.variants.vcf.gz",
-                        "genome.bed"
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz",
+                        "/e0/3cdf465c17c414675c3b4b4e01ade2/genome.bed"
                     ],
                     "outputFiles": [
-                        "test.strelka.variants.TsTv.qual",
-                        "versions.yml"
+                        "/ef/01f8490e1bcda218c8196f96d94515/test.strelka.variants.TsTv.qual",
+                        "/ef/01f8490e1bcda218c8196f96d94515/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_VARIANT_CALLING_GERMLINE_ALL.BAM_VARIANT_CALLING_SINGLE_STRELKA.STRELKA_SINGLE_29",
@@ -479,12 +488,12 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "test.strelka.variants.vcf.gz",
-                        "genome.bed"
+                        "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz",
+                        "/e0/3cdf465c17c414675c3b4b4e01ade2/genome.bed"
                     ],
                     "outputFiles": [
-                        "test.strelka.variants.FILTER.summary",
-                        "versions.yml"
+                        "/18/264a7f3ff25558f36395be124ab32f/test.strelka.variants.FILTER.summary",
+                        "/18/264a7f3ff25558f36395be124ab32f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.BAM_VARIANT_CALLING_GERMLINE_ALL.BAM_VARIANT_CALLING_SINGLE_STRELKA.STRELKA_SINGLE_29",
@@ -498,12 +507,12 @@
                         "NFCORE_SAREK.SAREK.MULTIQC_35"
                     ],
                     "inputFiles": [
-                        "collated_versions.yml"
+                        "/64/a30bbef8b421303803b84ab9070263/collated_versions.yml"
                     ],
                     "outputFiles": [
-                        "software_versions.yml",
-                        "software_versions_mqc.yml",
-                        "versions.yml"
+                        "/f4/1b259656e5fe9f667d5268ada632da/software_versions.yml",
+                        "/f4/1b259656e5fe9f667d5268ada632da/software_versions_mqc.yml",
+                        "/f4/1b259656e5fe9f667d5268ada632da/versions.yml"
                     ],
                     "parents": []
                 },
@@ -512,30 +521,30 @@
                     "id": "NFCORE_SAREK.SAREK.MULTIQC_35",
                     "children": [],
                     "inputFiles": [
-                        "methods_description_mqc.yaml",
-                        "workflow_summary_mqc.yaml",
-                        "test-test_L1_test_1_fastqc.zip",
-                        "test-test_L1_test_2_fastqc.zip",
-                        "test.md.cram.metrics",
-                        "test.md.mosdepth.global.dist.txt",
-                        "test.md.mosdepth.region.dist.txt",
-                        "test.md.cram.stats",
-                        "test.recal.table",
-                        "test.recal.mosdepth.global.dist.txt",
-                        "test.recal.mosdepth.region.dist.txt",
-                        "test.recal.cram.stats",
-                        "test.strelka.variants.bcftools_stats.txt",
-                        "test.strelka.variants.TsTv.count",
-                        "test.strelka.variants.TsTv.qual",
-                        "test.strelka.variants.FILTER.summary",
-                        "software_versions_mqc.yml",
-                        "multiqc_config.yml"
+                        "/77/269a87f67a3793184f22e617db9ac0/methods_description_mqc.yaml",
+                        "/f2/6f0818d7bd12f82271c0354cbeca64/workflow_summary_mqc.yaml",
+                        "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_1_fastqc.zip",
+                        "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_2_fastqc.zip",
+                        "/49/a0a348931ee86adced192d3d932180/test.md.cram.metrics",
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.global.dist.txt",
+                        "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.region.dist.txt",
+                        "/8c/15c5e0f0aefb204d45065e98980f2b/test.md.cram.stats",
+                        "/6d/af9b1caa02c85b02641b93d40c746a/test.recal.table",
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.global.dist.txt",
+                        "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.region.dist.txt",
+                        "/4a/89a7a5d5726aade58235f74ee5b43e/test.recal.cram.stats",
+                        "/e6/7df0bde2b93a0699dd0f0e1176b153/test.strelka.variants.bcftools_stats.txt",
+                        "/e8/c1dd5ec3aa54d120a7b3adb4d2954a/test.strelka.variants.TsTv.count",
+                        "/ef/01f8490e1bcda218c8196f96d94515/test.strelka.variants.TsTv.qual",
+                        "/18/264a7f3ff25558f36395be124ab32f/test.strelka.variants.FILTER.summary",
+                        "/f4/1b259656e5fe9f667d5268ada632da/software_versions_mqc.yml",
+                        "/sarek/assets/multiqc_config.yml"
                     ],
                     "outputFiles": [
-                        "multiqc_report.html",
-                        "multiqc_data",
-                        "multiqc_plots",
-                        "versions.yml"
+                        "/ef/5d4b305416f111da8e7d4fcbcf66bf/multiqc_report.html",
+                        "/ef/5d4b305416f111da8e7d4fcbcf66bf/multiqc_data",
+                        "/ef/5d4b305416f111da8e7d4fcbcf66bf/multiqc_plots",
+                        "/ef/5d4b305416f111da8e7d4fcbcf66bf/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_SAREK.SAREK.FASTQC_12",
@@ -555,228 +564,332 @@
             ],
             "files": [
                 {
-                    "id": "genome.fasta",
+                    "id": "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.fasta",
                     "sizeInBytes": 40675
                 },
                 {
-                    "id": "genome.dict",
+                    "id": "/c7/fffe3aa55aea5327ee863512d16a8c/genome.dict",
                     "sizeInBytes": 85
                 },
                 {
-                    "id": "versions.yml",
+                    "id": "/c7/fffe3aa55aea5327ee863512d16a8c/versions.yml",
                     "sizeInBytes": 87
                 },
                 {
-                    "id": "bwa",
+                    "id": "/23/b30127ac6112c96ba1201b711e2bae/bwa",
                     "sizeInBytes": 70212
                 },
                 {
-                    "id": "genome.fasta.fai",
+                    "id": "/23/b30127ac6112c96ba1201b711e2bae/versions.yml",
+                    "sizeInBytes": 74
+                },
+                {
+                    "id": "/22/6faae149041906e9687df3b54bc96e/genome.fasta.fai",
                     "sizeInBytes": 20
                 },
                 {
-                    "id": "mills_and_1000G.indels.vcf.gz",
+                    "id": "/22/6faae149041906e9687df3b54bc96e/versions.yml",
+                    "sizeInBytes": 74
+                },
+                {
+                    "id": "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/vcf/mills_and_1000G.indels.vcf.gz",
                     "sizeInBytes": 4133
                 },
                 {
-                    "id": "mills_and_1000G.indels.vcf.gz.tbi",
+                    "id": "/ff/5265e7baec78fd1367e00bcd23e3f5/mills_and_1000G.indels.vcf.gz.tbi",
                     "sizeInBytes": 132
                 },
                 {
-                    "id": "genome.interval_list",
+                    "id": "/ff/5265e7baec78fd1367e00bcd23e3f5/versions.yml",
+                    "sizeInBytes": 72
+                },
+                {
+                    "id": "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/genome.interval_list",
                     "sizeInBytes": 197
                 },
                 {
-                    "id": "genome.bed",
+                    "id": "/e0/3cdf465c17c414675c3b4b4e01ade2/genome.bed",
                     "sizeInBytes": 22
                 },
                 {
-                    "id": "chr22_1-40001.bed",
+                    "id": "/e0/3cdf465c17c414675c3b4b4e01ade2/versions.yml",
+                    "sizeInBytes": 83
+                },
+                {
+                    "id": "/e4/0a09c8403c22f0388251708b23a25e/chr22_1-40001.bed",
                     "sizeInBytes": 14
                 },
                 {
-                    "id": "dbsnp_146.hg38.vcf.gz",
+                    "id": "/e4/0a09c8403c22f0388251708b23a25e/versions.yml",
+                    "sizeInBytes": 77
+                },
+                {
+                    "id": "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/genome/vcf/dbsnp_146.hg38.vcf.gz",
                     "sizeInBytes": 54037
                 },
                 {
-                    "id": "dbsnp_146.hg38.vcf.gz.tbi",
+                    "id": "/b5/68f7f32ec735378ef695396c1303ba/dbsnp_146.hg38.vcf.gz.tbi",
                     "sizeInBytes": 137
                 },
                 {
-                    "id": "test_1.fastq.gz",
+                    "id": "/b5/68f7f32ec735378ef695396c1303ba/versions.yml",
+                    "sizeInBytes": 65
+                },
+                {
+                    "id": "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/illumina/fastq/test_1.fastq.gz",
                     "sizeInBytes": 16013759
                 },
                 {
-                    "id": "test_2.fastq.gz",
+                    "id": "/nf-core/test-datasets/modules/data/genomics/homo_sapiens/illumina/fastq/test_2.fastq.gz",
                     "sizeInBytes": 16698858
                 },
                 {
-                    "id": "test-test_L1_test_1_fastqc.html",
+                    "id": "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_1_fastqc.html",
                     "sizeInBytes": 600187
                 },
                 {
-                    "id": "test-test_L1_test_2_fastqc.html",
+                    "id": "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_2_fastqc.html",
                     "sizeInBytes": 583377
                 },
                 {
-                    "id": "test-test_L1_test_1_fastqc.zip",
+                    "id": "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_1_fastqc.zip",
                     "sizeInBytes": 333966
                 },
                 {
-                    "id": "test-test_L1_test_2_fastqc.zip",
+                    "id": "/aa/ed88648b57be3f0196e69fa3e7996f/test-test_L1_test_2_fastqc.zip",
                     "sizeInBytes": 308677
                 },
                 {
-                    "id": "test.sorted.bam",
+                    "id": "/aa/ed88648b57be3f0196e69fa3e7996f/versions.yml",
+                    "sizeInBytes": 48
+                },
+                {
+                    "id": "/d7/7993bc2cef3243b81bf426e358b1d6/test.sorted.bam",
                     "sizeInBytes": 34370487
                 },
                 {
-                    "id": "chr22_1-40001.bed.gz",
+                    "id": "/d7/7993bc2cef3243b81bf426e358b1d6/versions.yml",
+                    "sizeInBytes": 111
+                },
+                {
+                    "id": "/07/6c1777387768a23c3dced135bc84d1/chr22_1-40001.bed.gz",
                     "sizeInBytes": 73
                 },
                 {
-                    "id": "chr22_1-40001.bed.gz.tbi",
+                    "id": "/07/6c1777387768a23c3dced135bc84d1/chr22_1-40001.bed.gz.tbi",
                     "sizeInBytes": 107
                 },
                 {
-                    "id": "test.md.cram",
+                    "id": "/07/6c1777387768a23c3dced135bc84d1/versions.yml",
+                    "sizeInBytes": 88
+                },
+                {
+                    "id": "/49/a0a348931ee86adced192d3d932180/test.md.cram",
                     "sizeInBytes": 22930382
                 },
                 {
-                    "id": "test.md.cram.crai",
+                    "id": "/49/a0a348931ee86adced192d3d932180/test.md.cram.crai",
                     "sizeInBytes": 495
                 },
                 {
-                    "id": "test.md.cram.metrics",
+                    "id": "/49/a0a348931ee86adced192d3d932180/test.md.cram.metrics",
                     "sizeInBytes": 1821
                 },
                 {
-                    "id": "test.md.mosdepth.global.dist.txt",
+                    "id": "/49/a0a348931ee86adced192d3d932180/versions.yml",
+                    "sizeInBytes": 103
+                },
+                {
+                    "id": "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/test.md.cram.crai",
+                    "sizeInBytes": 495
+                },
+                {
+                    "id": "/91/b39c44cdf1b31aaad46c3aaa1d7ad6/versions.yml",
+                    "sizeInBytes": 84
+                },
+                {
+                    "id": "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.global.dist.txt",
                     "sizeInBytes": 5840
                 },
                 {
-                    "id": "test.md.mosdepth.summary.txt",
+                    "id": "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.summary.txt",
                     "sizeInBytes": 166
                 },
                 {
-                    "id": "test.md.mosdepth.region.dist.txt",
+                    "id": "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.mosdepth.region.dist.txt",
                     "sizeInBytes": 1996
                 },
                 {
-                    "id": "test.md.regions.bed.gz",
+                    "id": "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.regions.bed.gz",
                     "sizeInBytes": 534
                 },
                 {
-                    "id": "test.md.regions.bed.gz.csi",
+                    "id": "/61/19ee3410afc9eecb99ef09cdfd368b/test.md.regions.bed.gz.csi",
                     "sizeInBytes": 106
                 },
                 {
-                    "id": "test.md.cram.stats",
+                    "id": "/61/19ee3410afc9eecb99ef09cdfd368b/versions.yml",
+                    "sizeInBytes": 96
+                },
+                {
+                    "id": "/8c/15c5e0f0aefb204d45065e98980f2b/test.md.cram.stats",
                     "sizeInBytes": 182809
                 },
                 {
-                    "id": "test.recal.table",
+                    "id": "/8c/15c5e0f0aefb204d45065e98980f2b/versions.yml",
+                    "sizeInBytes": 104
+                },
+                {
+                    "id": "/6d/af9b1caa02c85b02641b93d40c746a/test.recal.table",
                     "sizeInBytes": 160277
                 },
                 {
-                    "id": "test.recal.cram",
+                    "id": "/6d/af9b1caa02c85b02641b93d40c746a/versions.yml",
+                    "sizeInBytes": 85
+                },
+                {
+                    "id": "/63/445abea905ae1242b0ec0ce15f3dd7/test.recal.cram",
                     "sizeInBytes": 1182666
                 },
                 {
-                    "id": "test.recal.cram.crai",
+                    "id": "/63/445abea905ae1242b0ec0ce15f3dd7/versions.yml",
+                    "sizeInBytes": 71
+                },
+                {
+                    "id": "/37/741818f8f8d33c64d68b0ce374e284/test.recal.cram.crai",
                     "sizeInBytes": 66
                 },
                 {
-                    "id": "test.recal.mosdepth.global.dist.txt",
+                    "id": "/37/741818f8f8d33c64d68b0ce374e284/versions.yml",
+                    "sizeInBytes": 95
+                },
+                {
+                    "id": "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.global.dist.txt",
                     "sizeInBytes": 5840
                 },
                 {
-                    "id": "test.recal.mosdepth.summary.txt",
+                    "id": "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.summary.txt",
                     "sizeInBytes": 166
                 },
                 {
-                    "id": "test.recal.mosdepth.region.dist.txt",
+                    "id": "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.mosdepth.region.dist.txt",
                     "sizeInBytes": 1996
                 },
                 {
-                    "id": "test.recal.regions.bed.gz",
+                    "id": "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.regions.bed.gz",
                     "sizeInBytes": 534
                 },
                 {
-                    "id": "test.recal.regions.bed.gz.csi",
+                    "id": "/e0/e8ad2aa5310222ae4de64d4790fa65/test.recal.regions.bed.gz.csi",
                     "sizeInBytes": 106
                 },
                 {
-                    "id": "test.strelka.variants.vcf.gz",
+                    "id": "/e0/e8ad2aa5310222ae4de64d4790fa65/versions.yml",
+                    "sizeInBytes": 65
+                },
+                {
+                    "id": "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz",
                     "sizeInBytes": 2180
                 },
                 {
-                    "id": "test.strelka.variants.vcf.gz.tbi",
+                    "id": "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.variants.vcf.gz.tbi",
                     "sizeInBytes": 132
                 },
                 {
-                    "id": "test.strelka.genome.vcf.gz",
+                    "id": "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.genome.vcf.gz",
                     "sizeInBytes": 4027
                 },
                 {
-                    "id": "test.strelka.genome.vcf.gz.tbi",
+                    "id": "/ab/d4480c82d4e82ee97500b16b514ee6/test.strelka.genome.vcf.gz.tbi",
                     "sizeInBytes": 114
                 },
                 {
-                    "id": "test.recal.cram.stats",
+                    "id": "/ab/d4480c82d4e82ee97500b16b514ee6/versions.yml",
+                    "sizeInBytes": 125
+                },
+                {
+                    "id": "/4a/89a7a5d5726aade58235f74ee5b43e/test.recal.cram.stats",
                     "sizeInBytes": 173721
                 },
                 {
-                    "id": "test.strelka.variants.bcftools_stats.txt",
+                    "id": "/4a/89a7a5d5726aade58235f74ee5b43e/versions.yml",
+                    "sizeInBytes": 73
+                },
+                {
+                    "id": "/e6/7df0bde2b93a0699dd0f0e1176b153/test.strelka.variants.bcftools_stats.txt",
                     "sizeInBytes": 2842
                 },
                 {
-                    "id": "test.strelka.variants.TsTv.count",
+                    "id": "/e6/7df0bde2b93a0699dd0f0e1176b153/versions.yml",
+                    "sizeInBytes": 81
+                },
+                {
+                    "id": "/e8/c1dd5ec3aa54d120a7b3adb4d2954a/test.strelka.variants.TsTv.count",
                     "sizeInBytes": 55
                 },
                 {
-                    "id": "test.strelka.variants.TsTv.qual",
+                    "id": "/e8/c1dd5ec3aa54d120a7b3adb4d2954a/versions.yml",
+                    "sizeInBytes": 88
+                },
+                {
+                    "id": "/ef/01f8490e1bcda218c8196f96d94515/test.strelka.variants.TsTv.qual",
                     "sizeInBytes": 155
                 },
                 {
-                    "id": "test.strelka.variants.FILTER.summary",
+                    "id": "/ef/01f8490e1bcda218c8196f96d94515/versions.yml",
+                    "sizeInBytes": 87
+                },
+                {
+                    "id": "/18/264a7f3ff25558f36395be124ab32f/test.strelka.variants.FILTER.summary",
                     "sizeInBytes": 172
                 },
                 {
-                    "id": "collated_versions.yml",
+                    "id": "/18/264a7f3ff25558f36395be124ab32f/versions.yml",
+                    "sizeInBytes": 85
+                },
+                {
+                    "id": "/64/a30bbef8b421303803b84ab9070263/collated_versions.yml",
                     "sizeInBytes": 1849
                 },
                 {
-                    "id": "software_versions.yml",
+                    "id": "/f4/1b259656e5fe9f667d5268ada632da/software_versions.yml",
                     "sizeInBytes": 878
                 },
                 {
-                    "id": "software_versions_mqc.yml",
+                    "id": "/f4/1b259656e5fe9f667d5268ada632da/software_versions_mqc.yml",
                     "sizeInBytes": 4421
                 },
                 {
-                    "id": "methods_description_mqc.yaml",
+                    "id": "/f4/1b259656e5fe9f667d5268ada632da/versions.yml",
+                    "sizeInBytes": 79
+                },
+                {
+                    "id": "/77/269a87f67a3793184f22e617db9ac0/methods_description_mqc.yaml",
                     "sizeInBytes": 4104
                 },
                 {
-                    "id": "workflow_summary_mqc.yaml",
+                    "id": "/f2/6f0818d7bd12f82271c0354cbeca64/workflow_summary_mqc.yaml",
                     "sizeInBytes": 3660
                 },
                 {
-                    "id": "multiqc_config.yml",
+                    "id": "/sarek/assets/multiqc_config.yml",
                     "sizeInBytes": 1761
                 },
                 {
-                    "id": "multiqc_report.html",
+                    "id": "/ef/5d4b305416f111da8e7d4fcbcf66bf/multiqc_report.html",
                     "sizeInBytes": 1257510
                 },
                 {
-                    "id": "multiqc_data",
+                    "id": "/ef/5d4b305416f111da8e7d4fcbcf66bf/multiqc_data",
                     "sizeInBytes": 713401
                 },
                 {
-                    "id": "multiqc_plots",
+                    "id": "/ef/5d4b305416f111da8e7d4fcbcf66bf/multiqc_plots",
                     "sizeInBytes": 1605744
+                },
+                {
+                    "id": "/ef/5d4b305416f111da8e7d4fcbcf66bf/versions.yml",
+                    "sizeInBytes": 48
                 }
             ]
         },

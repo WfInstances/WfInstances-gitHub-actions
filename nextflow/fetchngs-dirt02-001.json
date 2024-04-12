@@ -16,8 +16,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "ERR1160846.runinfo.tsv",
-                        "versions.yml"
+                        "/73/632374ef333ede37bfdd1ce1ee4a76/ERR1160846.runinfo.tsv",
+                        "/73/632374ef333ede37bfdd1ce1ee4a76/versions.yml"
                     ],
                     "parents": []
                 },
@@ -29,8 +29,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRR14593545.runinfo.tsv",
-                        "versions.yml"
+                        "/f5/2f3ad09ab5c25f44134fb5fe5ce383/SRR14593545.runinfo.tsv",
+                        "/f5/2f3ad09ab5c25f44134fb5fe5ce383/versions.yml"
                     ],
                     "parents": []
                 },
@@ -47,8 +47,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "user-settings.mkfg",
-                        "versions.yml"
+                        "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg",
+                        "/62/c0f1cde4e81e15795b96f3749428ba/versions.yml"
                     ],
                     "parents": []
                 },
@@ -60,8 +60,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "DRR028935.runinfo.tsv",
-                        "versions.yml"
+                        "/a3/a95ef879741d0772bdfe7806b1afbc/DRR028935.runinfo.tsv",
+                        "/a3/a95ef879741d0772bdfe7806b1afbc/versions.yml"
                     ],
                     "parents": []
                 },
@@ -73,8 +73,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRR9984183.runinfo.tsv",
-                        "versions.yml"
+                        "/cc/07e69e7b3513ce422f09905e4e810c/SRR9984183.runinfo.tsv",
+                        "/cc/07e69e7b3513ce422f09905e4e810c/versions.yml"
                     ],
                     "parents": []
                 },
@@ -86,8 +86,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "ERR1109373.runinfo.tsv",
-                        "versions.yml"
+                        "/57/2e9e778ed7effce72b1af3a870bea6/ERR1109373.runinfo.tsv",
+                        "/57/2e9e778ed7effce72b1af3a870bea6/versions.yml"
                     ],
                     "parents": []
                 },
@@ -99,8 +99,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "DRR026872.runinfo.tsv",
-                        "versions.yml"
+                        "/4c/a2220aa84722879906b2501043f4b4/DRR026872.runinfo.tsv",
+                        "/4c/a2220aa84722879906b2501043f4b4/versions.yml"
                     ],
                     "parents": []
                 },
@@ -112,8 +112,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRR13191702.runinfo.tsv",
-                        "versions.yml"
+                        "/0e/ee314897b92d2095423baf424428b9/SRR13191702.runinfo.tsv",
+                        "/0e/ee314897b92d2095423baf424428b9/versions.yml"
                     ],
                     "parents": []
                 },
@@ -125,8 +125,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRR14709033.runinfo.tsv",
-                        "versions.yml"
+                        "/1a/bfc20d052e638a9f332b7f696618ae/SRR14709033.runinfo.tsv",
+                        "/1a/bfc20d052e638a9f332b7f696618ae/versions.yml"
                     ],
                     "parents": []
                 },
@@ -138,8 +138,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRR12848126.runinfo.tsv",
-                        "versions.yml"
+                        "/cb/09005363218a16925987febe95c1b1/SRR12848126.runinfo.tsv",
+                        "/cb/09005363218a16925987febe95c1b1/versions.yml"
                     ],
                     "parents": []
                 },
@@ -148,11 +148,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_11",
                     "children": [],
                     "inputFiles": [
-                        "ERR1160846.runinfo.tsv"
+                        "/73/632374ef333ede37bfdd1ce1ee4a76/ERR1160846.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "ERR1160846.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/47/912e21cc050a6f402a82dbfa57e0e8/ERR1160846.runinfo_ftp.tsv",
+                        "/47/912e21cc050a6f402a82dbfa57e0e8/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_4"
@@ -163,11 +163,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_12",
                     "children": [],
                     "inputFiles": [
-                        "SRR14593545.runinfo.tsv"
+                        "/f5/2f3ad09ab5c25f44134fb5fe5ce383/SRR14593545.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "SRR14593545.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/de/922084d2387e728fd731529438ff98/SRR14593545.runinfo_ftp.tsv",
+                        "/de/922084d2387e728fd731529438ff98/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_9"
@@ -178,11 +178,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_13",
                     "children": [],
                     "inputFiles": [
-                        "DRR028935.runinfo.tsv"
+                        "/a3/a95ef879741d0772bdfe7806b1afbc/DRR028935.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "DRR028935.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/9b/c26da539d331447c4a8d14d0784daf/DRR028935.runinfo_ftp.tsv",
+                        "/9b/c26da539d331447c4a8d14d0784daf/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_6"
@@ -193,11 +193,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_14",
                     "children": [],
                     "inputFiles": [
-                        "SRR9984183.runinfo.tsv"
+                        "/cc/07e69e7b3513ce422f09905e4e810c/SRR9984183.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "SRR9984183.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/94/1af3e9241514b985f16c1150f004ac/SRR9984183.runinfo_ftp.tsv",
+                        "/94/1af3e9241514b985f16c1150f004ac/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_2"
@@ -208,11 +208,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_15",
                     "children": [],
                     "inputFiles": [
-                        "ERR1109373.runinfo.tsv"
+                        "/57/2e9e778ed7effce72b1af3a870bea6/ERR1109373.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "ERR1109373.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/f3/6cbbbb7097f59f07407af2a626cced/ERR1109373.runinfo_ftp.tsv",
+                        "/f3/6cbbbb7097f59f07407af2a626cced/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_5"
@@ -223,11 +223,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_16",
                     "children": [],
                     "inputFiles": [
-                        "DRR026872.runinfo.tsv"
+                        "/4c/a2220aa84722879906b2501043f4b4/DRR026872.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "DRR026872.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/2f/0223b5527b255dd36400cd75a59f2a/DRR026872.runinfo_ftp.tsv",
+                        "/2f/0223b5527b255dd36400cd75a59f2a/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_7"
@@ -238,11 +238,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_17",
                     "children": [],
                     "inputFiles": [
-                        "SRR13191702.runinfo.tsv"
+                        "/0e/ee314897b92d2095423baf424428b9/SRR13191702.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "SRR13191702.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/15/5db8ded50994d67eb89f7eeaeb1a80/SRR13191702.runinfo_ftp.tsv",
+                        "/15/5db8ded50994d67eb89f7eeaeb1a80/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_3"
@@ -253,11 +253,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_18",
                     "children": [],
                     "inputFiles": [
-                        "SRR14709033.runinfo.tsv"
+                        "/1a/bfc20d052e638a9f332b7f696618ae/SRR14709033.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "SRR14709033.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/a7/6171417b989c7a29e75f8dff74eaf3/SRR14709033.runinfo_ftp.tsv",
+                        "/a7/6171417b989c7a29e75f8dff74eaf3/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_10"
@@ -268,11 +268,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.SRA_RUNINFO_TO_FTP_19",
                     "children": [],
                     "inputFiles": [
-                        "SRR12848126.runinfo.tsv"
+                        "/cb/09005363218a16925987febe95c1b1/SRR12848126.runinfo.tsv"
                     ],
                     "outputFiles": [
-                        "SRR12848126.runinfo_ftp.tsv",
-                        "versions.yml"
+                        "/cb/32926084f10b9fa2b4417ed1096e9e/SRR12848126.runinfo_ftp.tsv",
+                        "/cb/32926084f10b9fa2b4417ed1096e9e/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_IDS_TO_RUNINFO_8"
@@ -284,9 +284,9 @@
                     "children": [],
                     "inputFiles": [],
                     "outputFiles": [
-                        "ERX1234253_ERR1160846.fastq.gz",
-                        "ERX1234253_ERR1160846.fastq.gz.md5",
-                        "versions.yml"
+                        "/a5/d59864f17f16ee67e67817f4da7be6/ERX1234253_ERR1160846.fastq.gz",
+                        "/a5/d59864f17f16ee67e67817f4da7be6/ERX1234253_ERR1160846.fastq.gz.md5",
+                        "/a5/d59864f17f16ee67e67817f4da7be6/versions.yml"
                     ],
                     "parents": []
                 },
@@ -297,11 +297,11 @@
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_FASTERQDUMP_30"
                     ],
                     "inputFiles": [
-                        "user-settings.mkfg"
+                        "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg"
                     ],
                     "outputFiles": [
-                        "SRR14593545",
-                        "versions.yml"
+                        "/ad/e7b8553c66dbe16dd12d6011fa258b/SRR14593545",
+                        "/ad/e7b8553c66dbe16dd12d6011fa258b/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.CUSTOM_SRATOOLSNCBISETTINGS_1"
@@ -313,11 +313,11 @@
                     "children": [],
                     "inputFiles": [],
                     "outputFiles": [
-                        "DRX026011_DRR028935_1.fastq.gz",
-                        "DRX026011_DRR028935_2.fastq.gz",
-                        "DRX026011_DRR028935_1.fastq.gz.md5",
-                        "DRX026011_DRR028935_2.fastq.gz.md5",
-                        "versions.yml"
+                        "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_1.fastq.gz",
+                        "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_2.fastq.gz",
+                        "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_1.fastq.gz.md5",
+                        "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_2.fastq.gz.md5",
+                        "/0f/6b0784f640e98841a1c680c6b90f19/versions.yml"
                     ],
                     "parents": []
                 },
@@ -327,9 +327,9 @@
                     "children": [],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRX6725035_SRR9984183.fastq.gz",
-                        "SRX6725035_SRR9984183.fastq.gz.md5",
-                        "versions.yml"
+                        "/db/d451dd264440cc775bca14b253a14d/SRX6725035_SRR9984183.fastq.gz",
+                        "/db/d451dd264440cc775bca14b253a14d/SRX6725035_SRR9984183.fastq.gz.md5",
+                        "/db/d451dd264440cc775bca14b253a14d/versions.yml"
                     ],
                     "parents": []
                 },
@@ -339,11 +339,11 @@
                     "children": [],
                     "inputFiles": [],
                     "outputFiles": [
-                        "ERX1188904_ERR1109373_1.fastq.gz",
-                        "ERX1188904_ERR1109373_2.fastq.gz",
-                        "ERX1188904_ERR1109373_1.fastq.gz.md5",
-                        "ERX1188904_ERR1109373_2.fastq.gz.md5",
-                        "versions.yml"
+                        "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_1.fastq.gz",
+                        "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_2.fastq.gz",
+                        "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_1.fastq.gz.md5",
+                        "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_2.fastq.gz.md5",
+                        "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/versions.yml"
                     ],
                     "parents": []
                 },
@@ -353,9 +353,9 @@
                     "children": [],
                     "inputFiles": [],
                     "outputFiles": [
-                        "DRX024467_DRR026872.fastq.gz",
-                        "DRX024467_DRR026872.fastq.gz.md5",
-                        "versions.yml"
+                        "/c4/390db13fc6e7b0f7d55e7597dfe377/DRX024467_DRR026872.fastq.gz",
+                        "/c4/390db13fc6e7b0f7d55e7597dfe377/DRX024467_DRR026872.fastq.gz.md5",
+                        "/c4/390db13fc6e7b0f7d55e7597dfe377/versions.yml"
                     ],
                     "parents": []
                 },
@@ -365,11 +365,11 @@
                     "children": [],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRX9626017_SRR13191702_1.fastq.gz",
-                        "SRX9626017_SRR13191702_2.fastq.gz",
-                        "SRX9626017_SRR13191702_1.fastq.gz.md5",
-                        "SRX9626017_SRR13191702_2.fastq.gz.md5",
-                        "versions.yml"
+                        "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_1.fastq.gz",
+                        "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_2.fastq.gz",
+                        "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_1.fastq.gz.md5",
+                        "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_2.fastq.gz.md5",
+                        "/7c/9f2c63da2e11ba12a9fc25fb55880a/versions.yml"
                     ],
                     "parents": []
                 },
@@ -380,11 +380,11 @@
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_FASTERQDUMP_36"
                     ],
                     "inputFiles": [
-                        "user-settings.mkfg"
+                        "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg"
                     ],
                     "outputFiles": [
-                        "SRR14709033",
-                        "versions.yml"
+                        "/5d/79882c116d531dd682b3947cd1ab6a/SRR14709033",
+                        "/5d/79882c116d531dd682b3947cd1ab6a/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.CUSTOM_SRATOOLSNCBISETTINGS_1"
@@ -397,11 +397,11 @@
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_FASTERQDUMP_37"
                     ],
                     "inputFiles": [
-                        "user-settings.mkfg"
+                        "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg"
                     ],
                     "outputFiles": [
-                        "SRR12848126",
-                        "versions.yml"
+                        "/7a/9225690e4279d6eb3c2d41d70f438c/SRR12848126",
+                        "/7a/9225690e4279d6eb3c2d41d70f438c/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.CUSTOM_SRATOOLSNCBISETTINGS_1"
@@ -415,8 +415,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "ERX1234253_ERR1160846.samplesheet.csv",
-                        "ERX1234253_ERR1160846.mappings.csv"
+                        "/21/569a8de33abe3551b41dac6272cb19/ERX1234253_ERR1160846.samplesheet.csv",
+                        "/21/569a8de33abe3551b41dac6272cb19/ERX1234253_ERR1160846.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -425,13 +425,13 @@
                     "id": "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_FASTERQDUMP_30",
                     "children": [],
                     "inputFiles": [
-                        "SRR14593545",
-                        "user-settings.mkfg"
+                        "/ad/e7b8553c66dbe16dd12d6011fa258b/SRR14593545",
+                        "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg"
                     ],
                     "outputFiles": [
-                        "SRX10940790_SRR14593545_1.fastq.gz",
-                        "SRX10940790_SRR14593545_2.fastq.gz",
-                        "versions.yml"
+                        "/fc/738fc1eab1c480b51b8763ab39a5ac/SRX10940790_SRR14593545_1.fastq.gz",
+                        "/fc/738fc1eab1c480b51b8763ab39a5ac/SRX10940790_SRR14593545_2.fastq.gz",
+                        "/fc/738fc1eab1c480b51b8763ab39a5ac/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_PREFETCH_21",
@@ -446,8 +446,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "DRX026011_DRR028935.samplesheet.csv",
-                        "DRX026011_DRR028935.mappings.csv"
+                        "/1f/20dba4d617147bf140964cb043e19d/DRX026011_DRR028935.samplesheet.csv",
+                        "/1f/20dba4d617147bf140964cb043e19d/DRX026011_DRR028935.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -459,8 +459,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRX6725035_SRR9984183.samplesheet.csv",
-                        "SRX6725035_SRR9984183.mappings.csv"
+                        "/b3/6fc3f7d7a881a220540cbef18ead83/SRX6725035_SRR9984183.samplesheet.csv",
+                        "/b3/6fc3f7d7a881a220540cbef18ead83/SRX6725035_SRR9984183.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -472,8 +472,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "ERX1188904_ERR1109373.samplesheet.csv",
-                        "ERX1188904_ERR1109373.mappings.csv"
+                        "/c0/9fb06129eb281e755cbae3c82a7591/ERX1188904_ERR1109373.samplesheet.csv",
+                        "/c0/9fb06129eb281e755cbae3c82a7591/ERX1188904_ERR1109373.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -485,8 +485,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "DRX024467_DRR026872.samplesheet.csv",
-                        "DRX024467_DRR026872.mappings.csv"
+                        "/8f/840e1f854883c82d1f5871d16010f3/DRX024467_DRR026872.samplesheet.csv",
+                        "/8f/840e1f854883c82d1f5871d16010f3/DRX024467_DRR026872.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -498,8 +498,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRX9626017_SRR13191702.samplesheet.csv",
-                        "SRX9626017_SRR13191702.mappings.csv"
+                        "/dd/2b1317e3db7eb5806599fd75b6d5f1/SRX9626017_SRR13191702.samplesheet.csv",
+                        "/dd/2b1317e3db7eb5806599fd75b6d5f1/SRX9626017_SRR13191702.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -508,12 +508,12 @@
                     "id": "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_FASTERQDUMP_36",
                     "children": [],
                     "inputFiles": [
-                        "SRR14709033",
-                        "user-settings.mkfg"
+                        "/5d/79882c116d531dd682b3947cd1ab6a/SRR14709033",
+                        "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg"
                     ],
                     "outputFiles": [
-                        "SRX11047067_SRR14709033.fastq.gz",
-                        "versions.yml"
+                        "/f3/1ceb88b37ce40b4c9e87e814198a4f/SRX11047067_SRR14709033.fastq.gz",
+                        "/f3/1ceb88b37ce40b4c9e87e814198a4f/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_PREFETCH_27",
@@ -525,13 +525,13 @@
                     "id": "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_FASTERQDUMP_37",
                     "children": [],
                     "inputFiles": [
-                        "SRR12848126",
-                        "user-settings.mkfg"
+                        "/7a/9225690e4279d6eb3c2d41d70f438c/SRR12848126",
+                        "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg"
                     ],
                     "outputFiles": [
-                        "SRX9315476_SRR12848126_1.fastq.gz",
-                        "SRX9315476_SRR12848126_2.fastq.gz",
-                        "versions.yml"
+                        "/1f/cea7077b28cfcd74530f5aa590ed49/SRX9315476_SRR12848126_1.fastq.gz",
+                        "/1f/cea7077b28cfcd74530f5aa590ed49/SRX9315476_SRR12848126_2.fastq.gz",
+                        "/1f/cea7077b28cfcd74530f5aa590ed49/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.FASTQ_DOWNLOAD_PREFETCH_FASTERQDUMP_SRATOOLS.SRATOOLS_PREFETCH_28",
@@ -546,8 +546,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRX10940790_SRR14593545.samplesheet.csv",
-                        "SRX10940790_SRR14593545.mappings.csv"
+                        "/0e/3f00277e1a94043189897a8f514168/SRX10940790_SRR14593545.samplesheet.csv",
+                        "/0e/3f00277e1a94043189897a8f514168/SRX10940790_SRR14593545.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -559,8 +559,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRX11047067_SRR14709033.samplesheet.csv",
-                        "SRX11047067_SRR14709033.mappings.csv"
+                        "/39/ebfd9c15f8bf73be8c667dd98e4f99/SRX11047067_SRR14709033.samplesheet.csv",
+                        "/39/ebfd9c15f8bf73be8c667dd98e4f99/SRX11047067_SRR14709033.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -572,8 +572,8 @@
                     ],
                     "inputFiles": [],
                     "outputFiles": [
-                        "SRX9315476_SRR12848126.samplesheet.csv",
-                        "SRX9315476_SRR12848126.mappings.csv"
+                        "/07/30cbfc3c8641a13705d4df4601c2cd/SRX9315476_SRR12848126.samplesheet.csv",
+                        "/07/30cbfc3c8641a13705d4df4601c2cd/SRX9315476_SRR12848126.mappings.csv"
                     ],
                     "parents": []
                 },
@@ -584,29 +584,29 @@
                         "NFCORE_FETCHNGS.SRA.MULTIQC_MAPPINGS_CONFIG_42"
                     ],
                     "inputFiles": [
-                        "ERX1234253_ERR1160846.samplesheet.csv",
-                        "DRX026011_DRR028935.samplesheet.csv",
-                        "SRX6725035_SRR9984183.samplesheet.csv",
-                        "ERX1188904_ERR1109373.samplesheet.csv",
-                        "DRX024467_DRR026872.samplesheet.csv",
-                        "SRX9626017_SRR13191702.samplesheet.csv",
-                        "SRX10940790_SRR14593545.samplesheet.csv",
-                        "SRX11047067_SRR14709033.samplesheet.csv",
-                        "SRX9315476_SRR12848126.samplesheet.csv",
-                        "ERX1234253_ERR1160846.mappings.csv",
-                        "DRX026011_DRR028935.mappings.csv",
-                        "SRX6725035_SRR9984183.mappings.csv",
-                        "ERX1188904_ERR1109373.mappings.csv",
-                        "DRX024467_DRR026872.mappings.csv",
-                        "SRX9626017_SRR13191702.mappings.csv",
-                        "SRX10940790_SRR14593545.mappings.csv",
-                        "SRX11047067_SRR14709033.mappings.csv",
-                        "SRX9315476_SRR12848126.mappings.csv"
+                        "/21/569a8de33abe3551b41dac6272cb19/ERX1234253_ERR1160846.samplesheet.csv",
+                        "/1f/20dba4d617147bf140964cb043e19d/DRX026011_DRR028935.samplesheet.csv",
+                        "/b3/6fc3f7d7a881a220540cbef18ead83/SRX6725035_SRR9984183.samplesheet.csv",
+                        "/c0/9fb06129eb281e755cbae3c82a7591/ERX1188904_ERR1109373.samplesheet.csv",
+                        "/8f/840e1f854883c82d1f5871d16010f3/DRX024467_DRR026872.samplesheet.csv",
+                        "/dd/2b1317e3db7eb5806599fd75b6d5f1/SRX9626017_SRR13191702.samplesheet.csv",
+                        "/0e/3f00277e1a94043189897a8f514168/SRX10940790_SRR14593545.samplesheet.csv",
+                        "/39/ebfd9c15f8bf73be8c667dd98e4f99/SRX11047067_SRR14709033.samplesheet.csv",
+                        "/07/30cbfc3c8641a13705d4df4601c2cd/SRX9315476_SRR12848126.samplesheet.csv",
+                        "/21/569a8de33abe3551b41dac6272cb19/ERX1234253_ERR1160846.mappings.csv",
+                        "/1f/20dba4d617147bf140964cb043e19d/DRX026011_DRR028935.mappings.csv",
+                        "/b3/6fc3f7d7a881a220540cbef18ead83/SRX6725035_SRR9984183.mappings.csv",
+                        "/c0/9fb06129eb281e755cbae3c82a7591/ERX1188904_ERR1109373.mappings.csv",
+                        "/8f/840e1f854883c82d1f5871d16010f3/DRX024467_DRR026872.mappings.csv",
+                        "/dd/2b1317e3db7eb5806599fd75b6d5f1/SRX9626017_SRR13191702.mappings.csv",
+                        "/0e/3f00277e1a94043189897a8f514168/SRX10940790_SRR14593545.mappings.csv",
+                        "/39/ebfd9c15f8bf73be8c667dd98e4f99/SRX11047067_SRR14709033.mappings.csv",
+                        "/07/30cbfc3c8641a13705d4df4601c2cd/SRX9315476_SRR12848126.mappings.csv"
                     ],
                     "outputFiles": [
-                        "samplesheet.csv",
-                        "id_mappings.csv",
-                        "versions.yml"
+                        "/a7/5aec5ec3a4e338e3a6535f9632b391/samplesheet.csv",
+                        "/a7/5aec5ec3a4e338e3a6535f9632b391/id_mappings.csv",
+                        "/a7/5aec5ec3a4e338e3a6535f9632b391/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_TO_SAMPLESHEET_29",
@@ -625,11 +625,11 @@
                     "id": "NFCORE_FETCHNGS.SRA.MULTIQC_MAPPINGS_CONFIG_42",
                     "children": [],
                     "inputFiles": [
-                        "id_mappings.csv"
+                        "/a7/5aec5ec3a4e338e3a6535f9632b391/id_mappings.csv"
                     ],
                     "outputFiles": [
-                        "multiqc_config.yml",
-                        "versions.yml"
+                        "/31/391d6511b98dc35998ed92b960ae1d/multiqc_config.yml",
+                        "/31/391d6511b98dc35998ed92b960ae1d/versions.yml"
                     ],
                     "parents": [
                         "NFCORE_FETCHNGS.SRA.SRA_MERGE_SAMPLESHEET_41"
@@ -640,296 +640,428 @@
                     "id": "NFCORE_FETCHNGS.SRA.CUSTOM_DUMPSOFTWAREVERSIONS_43",
                     "children": [],
                     "inputFiles": [
-                        "collated_versions.yml"
+                        "/3d/9e32b785a6f750aee25a0c0cb90124/collated_versions.yml"
                     ],
                     "outputFiles": [
-                        "software_versions.yml",
-                        "software_versions_mqc.yml",
-                        "versions.yml"
+                        "/79/e4f4dabe3b14e0a5cef97ed17e71a8/software_versions.yml",
+                        "/79/e4f4dabe3b14e0a5cef97ed17e71a8/software_versions_mqc.yml",
+                        "/79/e4f4dabe3b14e0a5cef97ed17e71a8/versions.yml"
                     ],
                     "parents": []
                 }
             ],
             "files": [
                 {
-                    "id": "ERR1160846.runinfo.tsv",
+                    "id": "/73/632374ef333ede37bfdd1ce1ee4a76/ERR1160846.runinfo.tsv",
                     "sizeInBytes": 1299
                 },
                 {
-                    "id": "versions.yml",
+                    "id": "/73/632374ef333ede37bfdd1ce1ee4a76/versions.yml",
                     "sizeInBytes": 60
                 },
                 {
-                    "id": "SRR14593545.runinfo.tsv",
+                    "id": "/f5/2f3ad09ab5c25f44134fb5fe5ce383/SRR14593545.runinfo.tsv",
                     "sizeInBytes": 1062
                 },
                 {
-                    "id": "user-settings.mkfg",
+                    "id": "/f5/2f3ad09ab5c25f44134fb5fe5ce383/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/62/c0f1cde4e81e15795b96f3749428ba/user-settings.mkfg",
                     "sizeInBytes": 98
                 },
                 {
-                    "id": "DRR028935.runinfo.tsv",
+                    "id": "/62/c0f1cde4e81e15795b96f3749428ba/versions.yml",
+                    "sizeInBytes": 117
+                },
+                {
+                    "id": "/a3/a95ef879741d0772bdfe7806b1afbc/DRR028935.runinfo.tsv",
                     "sizeInBytes": 1670
                 },
                 {
-                    "id": "SRR9984183.runinfo.tsv",
+                    "id": "/a3/a95ef879741d0772bdfe7806b1afbc/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/cc/07e69e7b3513ce422f09905e4e810c/SRR9984183.runinfo.tsv",
                     "sizeInBytes": 1605
                 },
                 {
-                    "id": "ERR1109373.runinfo.tsv",
+                    "id": "/cc/07e69e7b3513ce422f09905e4e810c/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/57/2e9e778ed7effce72b1af3a870bea6/ERR1109373.runinfo.tsv",
                     "sizeInBytes": 1967
                 },
                 {
-                    "id": "DRR026872.runinfo.tsv",
+                    "id": "/57/2e9e778ed7effce72b1af3a870bea6/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/4c/a2220aa84722879906b2501043f4b4/DRR026872.runinfo.tsv",
                     "sizeInBytes": 1343
                 },
                 {
-                    "id": "SRR13191702.runinfo.tsv",
+                    "id": "/4c/a2220aa84722879906b2501043f4b4/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/0e/ee314897b92d2095423baf424428b9/SRR13191702.runinfo.tsv",
                     "sizeInBytes": 1848
                 },
                 {
-                    "id": "SRR14709033.runinfo.tsv",
+                    "id": "/0e/ee314897b92d2095423baf424428b9/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/1a/bfc20d052e638a9f332b7f696618ae/SRR14709033.runinfo.tsv",
                     "sizeInBytes": 1036
                 },
                 {
-                    "id": "SRR12848126.runinfo.tsv",
+                    "id": "/1a/bfc20d052e638a9f332b7f696618ae/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/cb/09005363218a16925987febe95c1b1/SRR12848126.runinfo.tsv",
                     "sizeInBytes": 1172
                 },
                 {
-                    "id": "ERR1160846.runinfo_ftp.tsv",
+                    "id": "/cb/09005363218a16925987febe95c1b1/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/47/912e21cc050a6f402a82dbfa57e0e8/ERR1160846.runinfo_ftp.tsv",
                     "sizeInBytes": 1474
                 },
                 {
-                    "id": "SRR14593545.runinfo_ftp.tsv",
+                    "id": "/47/912e21cc050a6f402a82dbfa57e0e8/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/de/922084d2387e728fd731529438ff98/SRR14593545.runinfo_ftp.tsv",
                     "sizeInBytes": 1138
                 },
                 {
-                    "id": "DRR028935.runinfo_ftp.tsv",
+                    "id": "/de/922084d2387e728fd731529438ff98/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/9b/c26da539d331447c4a8d14d0784daf/DRR028935.runinfo_ftp.tsv",
                     "sizeInBytes": 1938
                 },
                 {
-                    "id": "SRR9984183.runinfo_ftp.tsv",
+                    "id": "/9b/c26da539d331447c4a8d14d0784daf/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/94/1af3e9241514b985f16c1150f004ac/SRR9984183.runinfo_ftp.tsv",
                     "sizeInBytes": 1780
                 },
                 {
-                    "id": "ERR1109373.runinfo_ftp.tsv",
+                    "id": "/94/1af3e9241514b985f16c1150f004ac/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/f3/6cbbbb7097f59f07407af2a626cced/ERR1109373.runinfo_ftp.tsv",
                     "sizeInBytes": 2249
                 },
                 {
-                    "id": "DRR026872.runinfo_ftp.tsv",
+                    "id": "/f3/6cbbbb7097f59f07407af2a626cced/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/2f/0223b5527b255dd36400cd75a59f2a/DRR026872.runinfo_ftp.tsv",
                     "sizeInBytes": 1510
                 },
                 {
-                    "id": "SRR13191702.runinfo_ftp.tsv",
+                    "id": "/2f/0223b5527b255dd36400cd75a59f2a/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/15/5db8ded50994d67eb89f7eeaeb1a80/SRR13191702.runinfo_ftp.tsv",
                     "sizeInBytes": 2135
                 },
                 {
-                    "id": "SRR14709033.runinfo_ftp.tsv",
+                    "id": "/15/5db8ded50994d67eb89f7eeaeb1a80/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/a7/6171417b989c7a29e75f8dff74eaf3/SRR14709033.runinfo_ftp.tsv",
                     "sizeInBytes": 1111
                 },
                 {
-                    "id": "SRR12848126.runinfo_ftp.tsv",
+                    "id": "/a7/6171417b989c7a29e75f8dff74eaf3/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/cb/32926084f10b9fa2b4417ed1096e9e/SRR12848126.runinfo_ftp.tsv",
                     "sizeInBytes": 1247
                 },
                 {
-                    "id": "ERX1234253_ERR1160846.fastq.gz",
+                    "id": "/cb/32926084f10b9fa2b4417ed1096e9e/versions.yml",
+                    "sizeInBytes": 60
+                },
+                {
+                    "id": "/a5/d59864f17f16ee67e67817f4da7be6/ERX1234253_ERR1160846.fastq.gz",
                     "sizeInBytes": 18077
                 },
                 {
-                    "id": "ERX1234253_ERR1160846.fastq.gz.md5",
+                    "id": "/a5/d59864f17f16ee67e67817f4da7be6/ERX1234253_ERR1160846.fastq.gz.md5",
                     "sizeInBytes": 65
                 },
                 {
-                    "id": "SRR14593545",
+                    "id": "/a5/d59864f17f16ee67e67817f4da7be6/versions.yml",
+                    "sizeInBytes": 54
+                },
+                {
+                    "id": "/ad/e7b8553c66dbe16dd12d6011fa258b/SRR14593545",
                     "sizeInBytes": 52650
                 },
                 {
-                    "id": "DRX026011_DRR028935_1.fastq.gz",
+                    "id": "/ad/e7b8553c66dbe16dd12d6011fa258b/versions.yml",
+                    "sizeInBytes": 107
+                },
+                {
+                    "id": "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_1.fastq.gz",
                     "sizeInBytes": 60275
                 },
                 {
-                    "id": "DRX026011_DRR028935_2.fastq.gz",
+                    "id": "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_2.fastq.gz",
                     "sizeInBytes": 61610
                 },
                 {
-                    "id": "DRX026011_DRR028935_1.fastq.gz.md5",
+                    "id": "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_1.fastq.gz.md5",
                     "sizeInBytes": 65
                 },
                 {
-                    "id": "DRX026011_DRR028935_2.fastq.gz.md5",
+                    "id": "/0f/6b0784f640e98841a1c680c6b90f19/DRX026011_DRR028935_2.fastq.gz.md5",
                     "sizeInBytes": 65
                 },
                 {
-                    "id": "SRX6725035_SRR9984183.fastq.gz",
+                    "id": "/0f/6b0784f640e98841a1c680c6b90f19/versions.yml",
+                    "sizeInBytes": 54
+                },
+                {
+                    "id": "/db/d451dd264440cc775bca14b253a14d/SRX6725035_SRR9984183.fastq.gz",
                     "sizeInBytes": 605358
                 },
                 {
-                    "id": "SRX6725035_SRR9984183.fastq.gz.md5",
+                    "id": "/db/d451dd264440cc775bca14b253a14d/SRX6725035_SRR9984183.fastq.gz.md5",
                     "sizeInBytes": 65
                 },
                 {
-                    "id": "ERX1188904_ERR1109373_1.fastq.gz",
+                    "id": "/db/d451dd264440cc775bca14b253a14d/versions.yml",
+                    "sizeInBytes": 54
+                },
+                {
+                    "id": "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_1.fastq.gz",
                     "sizeInBytes": 8151
                 },
                 {
-                    "id": "ERX1188904_ERR1109373_2.fastq.gz",
+                    "id": "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_2.fastq.gz",
                     "sizeInBytes": 8118
                 },
                 {
-                    "id": "ERX1188904_ERR1109373_1.fastq.gz.md5",
+                    "id": "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_1.fastq.gz.md5",
                     "sizeInBytes": 67
                 },
                 {
-                    "id": "ERX1188904_ERR1109373_2.fastq.gz.md5",
+                    "id": "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/ERX1188904_ERR1109373_2.fastq.gz.md5",
                     "sizeInBytes": 67
                 },
                 {
-                    "id": "DRX024467_DRR026872.fastq.gz",
+                    "id": "/b9/ef21c5eb1ba49bb0a0d22b9ef68654/versions.yml",
+                    "sizeInBytes": 54
+                },
+                {
+                    "id": "/c4/390db13fc6e7b0f7d55e7597dfe377/DRX024467_DRR026872.fastq.gz",
                     "sizeInBytes": 38447
                 },
                 {
-                    "id": "DRX024467_DRR026872.fastq.gz.md5",
+                    "id": "/c4/390db13fc6e7b0f7d55e7597dfe377/DRX024467_DRR026872.fastq.gz.md5",
                     "sizeInBytes": 63
                 },
                 {
-                    "id": "SRX9626017_SRR13191702_1.fastq.gz",
+                    "id": "/c4/390db13fc6e7b0f7d55e7597dfe377/versions.yml",
+                    "sizeInBytes": 54
+                },
+                {
+                    "id": "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_1.fastq.gz",
                     "sizeInBytes": 15420
                 },
                 {
-                    "id": "SRX9626017_SRR13191702_2.fastq.gz",
+                    "id": "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_2.fastq.gz",
                     "sizeInBytes": 16324
                 },
                 {
-                    "id": "SRX9626017_SRR13191702_1.fastq.gz.md5",
+                    "id": "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_1.fastq.gz.md5",
                     "sizeInBytes": 68
                 },
                 {
-                    "id": "SRX9626017_SRR13191702_2.fastq.gz.md5",
+                    "id": "/7c/9f2c63da2e11ba12a9fc25fb55880a/SRX9626017_SRR13191702_2.fastq.gz.md5",
                     "sizeInBytes": 68
                 },
                 {
-                    "id": "SRR14709033",
+                    "id": "/7c/9f2c63da2e11ba12a9fc25fb55880a/versions.yml",
+                    "sizeInBytes": 54
+                },
+                {
+                    "id": "/5d/79882c116d531dd682b3947cd1ab6a/SRR14709033",
                     "sizeInBytes": 50128
                 },
                 {
-                    "id": "SRR12848126",
+                    "id": "/5d/79882c116d531dd682b3947cd1ab6a/versions.yml",
+                    "sizeInBytes": 107
+                },
+                {
+                    "id": "/7a/9225690e4279d6eb3c2d41d70f438c/SRR12848126",
                     "sizeInBytes": 39610306
                 },
                 {
-                    "id": "ERX1234253_ERR1160846.samplesheet.csv",
+                    "id": "/7a/9225690e4279d6eb3c2d41d70f438c/versions.yml",
+                    "sizeInBytes": 107
+                },
+                {
+                    "id": "/21/569a8de33abe3551b41dac6272cb19/ERX1234253_ERR1160846.samplesheet.csv",
                     "sizeInBytes": 1535
                 },
                 {
-                    "id": "ERX1234253_ERR1160846.mappings.csv",
+                    "id": "/21/569a8de33abe3551b41dac6272cb19/ERX1234253_ERR1160846.mappings.csv",
                     "sizeInBytes": 546
                 },
                 {
-                    "id": "SRX10940790_SRR14593545_1.fastq.gz",
+                    "id": "/fc/738fc1eab1c480b51b8763ab39a5ac/SRX10940790_SRR14593545_1.fastq.gz",
                     "sizeInBytes": 459
                 },
                 {
-                    "id": "SRX10940790_SRR14593545_2.fastq.gz",
+                    "id": "/fc/738fc1eab1c480b51b8763ab39a5ac/SRX10940790_SRR14593545_2.fastq.gz",
                     "sizeInBytes": 473
                 },
                 {
-                    "id": "DRX026011_DRR028935.samplesheet.csv",
+                    "id": "/fc/738fc1eab1c480b51b8763ab39a5ac/versions.yml",
+                    "sizeInBytes": 124
+                },
+                {
+                    "id": "/1f/20dba4d617147bf140964cb043e19d/DRX026011_DRR028935.samplesheet.csv",
                     "sizeInBytes": 1960
                 },
                 {
-                    "id": "DRX026011_DRR028935.mappings.csv",
+                    "id": "/1f/20dba4d617147bf140964cb043e19d/DRX026011_DRR028935.mappings.csv",
                     "sizeInBytes": 638
                 },
                 {
-                    "id": "SRX6725035_SRR9984183.samplesheet.csv",
+                    "id": "/b3/6fc3f7d7a881a220540cbef18ead83/SRX6725035_SRR9984183.samplesheet.csv",
                     "sizeInBytes": 1841
                 },
                 {
-                    "id": "SRX6725035_SRR9984183.mappings.csv",
+                    "id": "/b3/6fc3f7d7a881a220540cbef18ead83/SRX6725035_SRR9984183.mappings.csv",
                     "sizeInBytes": 729
                 },
                 {
-                    "id": "ERX1188904_ERR1109373.samplesheet.csv",
+                    "id": "/c0/9fb06129eb281e755cbae3c82a7591/ERX1188904_ERR1109373.samplesheet.csv",
                     "sizeInBytes": 2262
                 },
                 {
-                    "id": "ERX1188904_ERR1109373.mappings.csv",
+                    "id": "/c0/9fb06129eb281e755cbae3c82a7591/ERX1188904_ERR1109373.mappings.csv",
                     "sizeInBytes": 548
                 },
                 {
-                    "id": "DRX024467_DRR026872.samplesheet.csv",
+                    "id": "/8f/840e1f854883c82d1f5871d16010f3/DRX024467_DRR026872.samplesheet.csv",
                     "sizeInBytes": 1576
                 },
                 {
-                    "id": "DRX024467_DRR026872.mappings.csv",
+                    "id": "/8f/840e1f854883c82d1f5871d16010f3/DRX024467_DRR026872.mappings.csv",
                     "sizeInBytes": 585
                 },
                 {
-                    "id": "SRX9626017_SRR13191702.samplesheet.csv",
+                    "id": "/dd/2b1317e3db7eb5806599fd75b6d5f1/SRX9626017_SRR13191702.samplesheet.csv",
                     "sizeInBytes": 2145
                 },
                 {
-                    "id": "SRX9626017_SRR13191702.mappings.csv",
+                    "id": "/dd/2b1317e3db7eb5806599fd75b6d5f1/SRX9626017_SRR13191702.mappings.csv",
                     "sizeInBytes": 746
                 },
                 {
-                    "id": "SRX11047067_SRR14709033.fastq.gz",
+                    "id": "/f3/1ceb88b37ce40b4c9e87e814198a4f/SRX11047067_SRR14709033.fastq.gz",
                     "sizeInBytes": 150
                 },
                 {
-                    "id": "SRX9315476_SRR12848126_1.fastq.gz",
+                    "id": "/f3/1ceb88b37ce40b4c9e87e814198a4f/versions.yml",
+                    "sizeInBytes": 124
+                },
+                {
+                    "id": "/1f/cea7077b28cfcd74530f5aa590ed49/SRX9315476_SRR12848126_1.fastq.gz",
                     "sizeInBytes": 123467
                 },
                 {
-                    "id": "SRX9315476_SRR12848126_2.fastq.gz",
+                    "id": "/1f/cea7077b28cfcd74530f5aa590ed49/SRX9315476_SRR12848126_2.fastq.gz",
                     "sizeInBytes": 131539
                 },
                 {
-                    "id": "SRX10940790_SRR14593545.samplesheet.csv",
+                    "id": "/1f/cea7077b28cfcd74530f5aa590ed49/versions.yml",
+                    "sizeInBytes": 124
+                },
+                {
+                    "id": "/0e/3f00277e1a94043189897a8f514168/SRX10940790_SRR14593545.samplesheet.csv",
                     "sizeInBytes": 1362
                 },
                 {
-                    "id": "SRX10940790_SRR14593545.mappings.csv",
+                    "id": "/0e/3f00277e1a94043189897a8f514168/SRX10940790_SRR14593545.mappings.csv",
                     "sizeInBytes": 551
                 },
                 {
-                    "id": "SRX11047067_SRR14709033.samplesheet.csv",
+                    "id": "/39/ebfd9c15f8bf73be8c667dd98e4f99/SRX11047067_SRR14709033.samplesheet.csv",
                     "sizeInBytes": 1275
                 },
                 {
-                    "id": "SRX11047067_SRR14709033.mappings.csv",
+                    "id": "/39/ebfd9c15f8bf73be8c667dd98e4f99/SRX11047067_SRR14709033.mappings.csv",
                     "sizeInBytes": 471
                 },
                 {
-                    "id": "SRX9315476_SRR12848126.samplesheet.csv",
+                    "id": "/07/30cbfc3c8641a13705d4df4601c2cd/SRX9315476_SRR12848126.samplesheet.csv",
                     "sizeInBytes": 1469
                 },
                 {
-                    "id": "SRX9315476_SRR12848126.mappings.csv",
+                    "id": "/07/30cbfc3c8641a13705d4df4601c2cd/SRX9315476_SRR12848126.mappings.csv",
                     "sizeInBytes": 588
                 },
                 {
-                    "id": "samplesheet.csv",
+                    "id": "/a7/5aec5ec3a4e338e3a6535f9632b391/samplesheet.csv",
                     "sizeInBytes": 10594
                 },
                 {
-                    "id": "id_mappings.csv",
+                    "id": "/a7/5aec5ec3a4e338e3a6535f9632b391/id_mappings.csv",
                     "sizeInBytes": 3955
                 },
                 {
-                    "id": "multiqc_config.yml",
+                    "id": "/a7/5aec5ec3a4e338e3a6535f9632b391/versions.yml",
+                    "sizeInBytes": 58
+                },
+                {
+                    "id": "/31/391d6511b98dc35998ed92b960ae1d/multiqc_config.yml",
                     "sizeInBytes": 4172
                 },
                 {
-                    "id": "collated_versions.yml",
+                    "id": "/31/391d6511b98dc35998ed92b960ae1d/versions.yml",
+                    "sizeInBytes": 65
+                },
+                {
+                    "id": "/3d/9e32b785a6f750aee25a0c0cb90124/collated_versions.yml",
                     "sizeInBytes": 414
                 },
                 {
-                    "id": "software_versions.yml",
+                    "id": "/79/e4f4dabe3b14e0a5cef97ed17e71a8/software_versions.yml",
                     "sizeInBytes": 343
                 },
                 {
-                    "id": "software_versions_mqc.yml",
+                    "id": "/79/e4f4dabe3b14e0a5cef97ed17e71a8/software_versions_mqc.yml",
                     "sizeInBytes": 2047
+                },
+                {
+                    "id": "/79/e4f4dabe3b14e0a5cef97ed17e71a8/versions.yml",
+                    "sizeInBytes": 80
                 }
             ]
         },
