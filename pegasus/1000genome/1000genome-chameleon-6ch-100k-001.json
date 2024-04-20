@@ -3593,7 +3593,9 @@
                     },
                     "avgCPU": 82.2454,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000002",
@@ -3610,7 +3612,9 @@
                     },
                     "avgCPU": 84.2612,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000003",
@@ -3627,7 +3631,9 @@
                     },
                     "avgCPU": 89.9968,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000004",
@@ -3644,7 +3650,9 @@
                     },
                     "avgCPU": 79.0326,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000005",
@@ -3661,7 +3669,9 @@
                     },
                     "avgCPU": 81.9477,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000006",
@@ -3678,7 +3688,9 @@
                     },
                     "avgCPU": 79.1103,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000007",
@@ -3695,7 +3707,9 @@
                     },
                     "avgCPU": 82.0745,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000008",
@@ -3712,7 +3726,9 @@
                     },
                     "avgCPU": 91.8781,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000009",
@@ -3729,7 +3745,9 @@
                     },
                     "avgCPU": 92.2993,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000010",
@@ -3746,7 +3764,9 @@
                     },
                     "avgCPU": 169.362,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_merge_ID0000011",
@@ -3769,7 +3789,9 @@
                     },
                     "avgCPU": 103.1614,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "sifting_ID0000012",
@@ -3783,7 +3805,9 @@
                     },
                     "avgCPU": 104.0303,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000013",
@@ -3800,7 +3824,9 @@
                     },
                     "avgCPU": 88.7622,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000014",
@@ -3817,7 +3843,9 @@
                     },
                     "avgCPU": 85.8214,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000015",
@@ -3834,7 +3862,9 @@
                     },
                     "avgCPU": 95.9302,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000016",
@@ -3851,7 +3881,9 @@
                     },
                     "avgCPU": 91.4335,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000017",
@@ -3868,7 +3900,9 @@
                     },
                     "avgCPU": 81.8683,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000018",
@@ -3885,7 +3919,9 @@
                     },
                     "avgCPU": 89.0585,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000019",
@@ -3902,7 +3938,9 @@
                     },
                     "avgCPU": 82.1402,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000020",
@@ -3919,7 +3957,9 @@
                     },
                     "avgCPU": 81.0623,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000021",
@@ -3936,7 +3976,9 @@
                     },
                     "avgCPU": 82.5119,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000022",
@@ -3953,7 +3995,9 @@
                     },
                     "avgCPU": 82.2976,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_merge_ID0000023",
@@ -3976,7 +4020,9 @@
                     },
                     "avgCPU": 105.4742,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "sifting_ID0000024",
@@ -3990,7 +4036,9 @@
                     },
                     "avgCPU": 109.432,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000025",
@@ -4007,7 +4055,9 @@
                     },
                     "avgCPU": 167.7069,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000026",
@@ -4024,7 +4074,9 @@
                     },
                     "avgCPU": 169.0542,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000027",
@@ -4041,7 +4093,9 @@
                     },
                     "avgCPU": 169.442,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000028",
@@ -4058,7 +4112,9 @@
                     },
                     "avgCPU": 168.8834,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000029",
@@ -4075,7 +4131,9 @@
                     },
                     "avgCPU": 167.0534,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000030",
@@ -4092,7 +4150,9 @@
                     },
                     "avgCPU": 167.0531,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000031",
@@ -4109,7 +4169,9 @@
                     },
                     "avgCPU": 164.3361,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000032",
@@ -4126,7 +4188,9 @@
                     },
                     "avgCPU": 164.7509,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000033",
@@ -4143,7 +4207,9 @@
                     },
                     "avgCPU": 164.4907,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000034",
@@ -4160,7 +4226,9 @@
                     },
                     "avgCPU": 165.121,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_merge_ID0000035",
@@ -4183,7 +4251,9 @@
                     },
                     "avgCPU": 108.0915,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "sifting_ID0000036",
@@ -4197,7 +4267,9 @@
                     },
                     "avgCPU": 6.116,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000037",
@@ -4214,7 +4286,9 @@
                     },
                     "avgCPU": 120.7493,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000038",
@@ -4231,7 +4305,9 @@
                     },
                     "avgCPU": 125.9488,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000039",
@@ -4248,7 +4324,9 @@
                     },
                     "avgCPU": 123.1649,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000040",
@@ -4265,7 +4343,9 @@
                     },
                     "avgCPU": 103.3181,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000041",
@@ -4282,7 +4362,9 @@
                     },
                     "avgCPU": 101.4794,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000042",
@@ -4299,7 +4381,9 @@
                     },
                     "avgCPU": 97.1346,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000043",
@@ -4316,7 +4400,9 @@
                     },
                     "avgCPU": 102.9722,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000044",
@@ -4333,7 +4419,9 @@
                     },
                     "avgCPU": 105.4433,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000045",
@@ -4350,7 +4438,9 @@
                     },
                     "avgCPU": 115.3388,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000046",
@@ -4367,7 +4457,9 @@
                     },
                     "avgCPU": 102.8493,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_merge_ID0000047",
@@ -4390,7 +4482,9 @@
                     },
                     "avgCPU": 101.0538,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "sifting_ID0000048",
@@ -4404,7 +4498,9 @@
                     },
                     "avgCPU": 13.9894,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000049",
@@ -4421,7 +4517,9 @@
                     },
                     "avgCPU": 81.9981,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000050",
@@ -4438,7 +4536,9 @@
                     },
                     "avgCPU": 168.783,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000051",
@@ -4455,7 +4555,9 @@
                     },
                     "avgCPU": 92.5454,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000052",
@@ -4472,7 +4574,9 @@
                     },
                     "avgCPU": 172.868,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000053",
@@ -4489,7 +4593,9 @@
                     },
                     "avgCPU": 169.1967,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000054",
@@ -4506,7 +4612,9 @@
                     },
                     "avgCPU": 169.3167,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000055",
@@ -4523,7 +4631,9 @@
                     },
                     "avgCPU": 82.3125,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000056",
@@ -4540,7 +4650,9 @@
                     },
                     "avgCPU": 83.5406,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000057",
@@ -4557,7 +4669,9 @@
                     },
                     "avgCPU": 87.1319,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000058",
@@ -4574,7 +4688,9 @@
                     },
                     "avgCPU": 90.2365,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_merge_ID0000059",
@@ -4597,7 +4713,9 @@
                     },
                     "avgCPU": 103.5862,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "sifting_ID0000060",
@@ -4611,7 +4729,9 @@
                     },
                     "avgCPU": 24.2355,
                     "priority": 20,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000061",
@@ -4628,7 +4748,9 @@
                     },
                     "avgCPU": 89.5273,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000062",
@@ -4645,7 +4767,9 @@
                     },
                     "avgCPU": 91.172,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000063",
@@ -4662,7 +4786,9 @@
                     },
                     "avgCPU": 96.8564,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000064",
@@ -4679,7 +4805,9 @@
                     },
                     "avgCPU": 94.077,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000065",
@@ -4696,7 +4824,9 @@
                     },
                     "avgCPU": 99.8525,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000066",
@@ -4713,7 +4843,9 @@
                     },
                     "avgCPU": 100.1086,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000067",
@@ -4730,7 +4862,9 @@
                     },
                     "avgCPU": 90.1565,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000068",
@@ -4747,7 +4881,9 @@
                     },
                     "avgCPU": 91.6411,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000069",
@@ -4764,7 +4900,9 @@
                     },
                     "avgCPU": 94.5302,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_ID0000070",
@@ -4781,7 +4919,9 @@
                     },
                     "avgCPU": 120.7666,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "individuals_merge_ID0000071",
@@ -4804,7 +4944,9 @@
                     },
                     "avgCPU": 99.9925,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "sifting_ID0000072",
@@ -4818,7 +4960,9 @@
                     },
                     "avgCPU": 12.7944,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000073",
@@ -4834,7 +4978,9 @@
                     },
                     "avgCPU": 92.9162,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000074",
@@ -4850,7 +4996,9 @@
                     },
                     "avgCPU": 77.0039,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000075",
@@ -4866,7 +5014,9 @@
                     },
                     "avgCPU": 70.059,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000076",
@@ -4882,7 +5032,9 @@
                     },
                     "avgCPU": 78.114,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000077",
@@ -4898,7 +5050,9 @@
                     },
                     "avgCPU": 79.9495,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000078",
@@ -4914,7 +5068,9 @@
                     },
                     "avgCPU": 90.3285,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000079",
@@ -4930,7 +5086,9 @@
                     },
                     "avgCPU": 99.187,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000080",
@@ -4946,7 +5104,9 @@
                     },
                     "avgCPU": 78.358,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000081",
@@ -4962,7 +5122,9 @@
                     },
                     "avgCPU": 52.9487,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000082",
@@ -4978,7 +5140,9 @@
                     },
                     "avgCPU": 75.3009,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000083",
@@ -4994,7 +5158,9 @@
                     },
                     "avgCPU": 98.9587,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000084",
@@ -5010,7 +5176,9 @@
                     },
                     "avgCPU": 75.8578,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000085",
@@ -5026,7 +5194,9 @@
                     },
                     "avgCPU": 49.0801,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000086",
@@ -5042,7 +5212,9 @@
                     },
                     "avgCPU": 76.2438,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000087",
@@ -5058,7 +5230,9 @@
                     },
                     "avgCPU": 79.0087,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000088",
@@ -5074,7 +5248,9 @@
                     },
                     "avgCPU": 68.9125,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000089",
@@ -5090,7 +5266,9 @@
                     },
                     "avgCPU": 69.6774,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000090",
@@ -5106,7 +5284,9 @@
                     },
                     "avgCPU": 71.6759,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000091",
@@ -5122,7 +5302,9 @@
                     },
                     "avgCPU": 47.0118,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000092",
@@ -5138,7 +5320,9 @@
                     },
                     "avgCPU": 70.8032,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000093",
@@ -5154,7 +5338,9 @@
                     },
                     "avgCPU": 66.4745,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000094",
@@ -5170,7 +5356,9 @@
                     },
                     "avgCPU": 73.2702,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000095",
@@ -5186,7 +5374,9 @@
                     },
                     "avgCPU": 56.3744,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000096",
@@ -5202,7 +5392,9 @@
                     },
                     "avgCPU": 71.2068,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000097",
@@ -5218,7 +5410,9 @@
                     },
                     "avgCPU": 78.2051,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000098",
@@ -5234,7 +5428,9 @@
                     },
                     "avgCPU": 69.762,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000099",
@@ -5250,7 +5446,9 @@
                     },
                     "avgCPU": 71.3612,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000100",
@@ -5266,7 +5464,9 @@
                     },
                     "avgCPU": 68.9221,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000101",
@@ -5282,7 +5482,9 @@
                     },
                     "avgCPU": 97.6649,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000102",
@@ -5298,7 +5500,9 @@
                     },
                     "avgCPU": 88.3762,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000103",
@@ -5314,7 +5518,9 @@
                     },
                     "avgCPU": 88.9771,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000104",
@@ -5330,7 +5536,9 @@
                     },
                     "avgCPU": 88.5923,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000105",
@@ -5346,7 +5554,9 @@
                     },
                     "avgCPU": 98.7655,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000106",
@@ -5362,7 +5572,9 @@
                     },
                     "avgCPU": 99.3704,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000107",
@@ -5378,7 +5590,9 @@
                     },
                     "avgCPU": 92.9712,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000108",
@@ -5394,7 +5608,9 @@
                     },
                     "avgCPU": 99.5353,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000109",
@@ -5410,7 +5626,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000110",
@@ -5426,7 +5644,9 @@
                     },
                     "avgCPU": 97.9693,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000111",
@@ -5442,7 +5662,9 @@
                     },
                     "avgCPU": 92.1722,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000112",
@@ -5458,7 +5680,9 @@
                     },
                     "avgCPU": 98.6849,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000113",
@@ -5474,7 +5698,9 @@
                     },
                     "avgCPU": 95.9624,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000114",
@@ -5490,7 +5716,9 @@
                     },
                     "avgCPU": 88.7178,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000115",
@@ -5506,7 +5734,9 @@
                     },
                     "avgCPU": 70.1808,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000116",
@@ -5522,7 +5752,9 @@
                     },
                     "avgCPU": 61.6416,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000117",
@@ -5538,7 +5770,9 @@
                     },
                     "avgCPU": 51.917,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000118",
@@ -5554,7 +5788,9 @@
                     },
                     "avgCPU": 61.8289,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000119",
@@ -5570,7 +5806,9 @@
                     },
                     "avgCPU": 98.8912,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000120",
@@ -5586,7 +5824,9 @@
                     },
                     "avgCPU": 65.0385,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000121",
@@ -5602,7 +5842,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000122",
@@ -5618,7 +5860,9 @@
                     },
                     "avgCPU": 62.9231,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000123",
@@ -5634,7 +5878,9 @@
                     },
                     "avgCPU": 56.8202,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000124",
@@ -5650,7 +5896,9 @@
                     },
                     "avgCPU": 70.3324,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000125",
@@ -5666,7 +5914,9 @@
                     },
                     "avgCPU": 79.6802,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000126",
@@ -5682,7 +5932,9 @@
                     },
                     "avgCPU": 66.2138,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000127",
@@ -5698,7 +5950,9 @@
                     },
                     "avgCPU": 74.2117,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000128",
@@ -5714,7 +5968,9 @@
                     },
                     "avgCPU": 61.8589,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000129",
@@ -5730,7 +5986,9 @@
                     },
                     "avgCPU": 45.9107,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000130",
@@ -5746,7 +6004,9 @@
                     },
                     "avgCPU": 89.5089,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000131",
@@ -5762,7 +6022,9 @@
                     },
                     "avgCPU": 70.0718,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000132",
@@ -5778,7 +6040,9 @@
                     },
                     "avgCPU": 90.1321,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000133",
@@ -5794,7 +6058,9 @@
                     },
                     "avgCPU": 92.5199,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000134",
@@ -5810,7 +6076,9 @@
                     },
                     "avgCPU": 90.1408,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000135",
@@ -5826,7 +6094,9 @@
                     },
                     "avgCPU": 97.1465,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000136",
@@ -5842,7 +6112,9 @@
                     },
                     "avgCPU": 89.5713,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000137",
@@ -5858,7 +6130,9 @@
                     },
                     "avgCPU": 52.0908,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000138",
@@ -5874,7 +6148,9 @@
                     },
                     "avgCPU": 89.7679,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000139",
@@ -5890,7 +6166,9 @@
                     },
                     "avgCPU": 56.2299,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000140",
@@ -5906,7 +6184,9 @@
                     },
                     "avgCPU": 90.5237,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000141",
@@ -5922,7 +6202,9 @@
                     },
                     "avgCPU": 65.069,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000142",
@@ -5938,7 +6220,9 @@
                     },
                     "avgCPU": 88.9715,
                     "priority": 40,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000143",
@@ -5954,7 +6238,9 @@
                     },
                     "avgCPU": 43.8219,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000144",
@@ -5970,7 +6256,9 @@
                     },
                     "avgCPU": 62.1646,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000145",
@@ -5986,7 +6274,9 @@
                     },
                     "avgCPU": 93.6728,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000146",
@@ -6002,7 +6292,9 @@
                     },
                     "avgCPU": 62.5223,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000147",
@@ -6018,7 +6310,9 @@
                     },
                     "avgCPU": 34.3588,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000148",
@@ -6034,7 +6328,9 @@
                     },
                     "avgCPU": 63.0626,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000149",
@@ -6050,7 +6346,9 @@
                     },
                     "avgCPU": 62.6718,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000150",
@@ -6066,7 +6364,9 @@
                     },
                     "avgCPU": 61.822,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000151",
@@ -6082,7 +6382,9 @@
                     },
                     "avgCPU": 44.6404,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000152",
@@ -6098,7 +6400,9 @@
                     },
                     "avgCPU": 65.059,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000153",
@@ -6114,7 +6418,9 @@
                     },
                     "avgCPU": 86.1629,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000154",
@@ -6130,7 +6436,9 @@
                     },
                     "avgCPU": 63.3984,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mutation_overlap_ID0000155",
@@ -6146,7 +6454,9 @@
                     },
                     "avgCPU": 58.3495,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "frequency_ID0000156",
@@ -6162,7 +6472,9 @@
                     },
                     "avgCPU": 65.4446,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 }
             ],
             "machines": [

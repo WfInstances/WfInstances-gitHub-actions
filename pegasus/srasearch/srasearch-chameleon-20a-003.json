@@ -1253,7 +1253,9 @@
                     "avgCPU": 3.7928,
                     "memoryInBytes": 94672000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000002",
@@ -1268,7 +1270,9 @@
                     "avgCPU": 2.6599,
                     "memoryInBytes": 185756000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000003",
@@ -1282,7 +1286,9 @@
                     "avgCPU": 92.4668,
                     "memoryInBytes": 27340000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000004",
@@ -1297,7 +1303,9 @@
                     "avgCPU": 42.0403,
                     "memoryInBytes": 323728000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000005",
@@ -1311,7 +1319,9 @@
                     "avgCPU": 117.987,
                     "memoryInBytes": 27372000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000006",
@@ -1326,7 +1336,9 @@
                     "avgCPU": 2.7431,
                     "memoryInBytes": 146668000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000007",
@@ -1340,7 +1352,9 @@
                     "avgCPU": 107.9867,
                     "memoryInBytes": 25476000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000008",
@@ -1355,7 +1369,9 @@
                     "avgCPU": 1.9407,
                     "memoryInBytes": 247180000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000009",
@@ -1369,7 +1385,9 @@
                     "avgCPU": 111.849,
                     "memoryInBytes": 27288000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000010",
@@ -1384,7 +1402,9 @@
                     "avgCPU": 1.307,
                     "memoryInBytes": 396100000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000011",
@@ -1398,7 +1418,9 @@
                     "avgCPU": 123.8717,
                     "memoryInBytes": 26992000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000012",
@@ -1413,7 +1435,9 @@
                     "avgCPU": 2.014,
                     "memoryInBytes": 402848000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000013",
@@ -1427,7 +1451,9 @@
                     "avgCPU": 110.4473,
                     "memoryInBytes": 27076000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000014",
@@ -1442,7 +1468,9 @@
                     "avgCPU": 1.3999,
                     "memoryInBytes": 268640000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000015",
@@ -1456,7 +1484,9 @@
                     "avgCPU": 123.0937,
                     "memoryInBytes": 25528000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000016",
@@ -1471,7 +1501,9 @@
                     "avgCPU": 1.53,
                     "memoryInBytes": 325080000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000017",
@@ -1485,7 +1517,9 @@
                     "avgCPU": 121.6498,
                     "memoryInBytes": 27384000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000018",
@@ -1500,7 +1534,9 @@
                     "avgCPU": 1.1979,
                     "memoryInBytes": 235592000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000019",
@@ -1514,7 +1550,9 @@
                     "avgCPU": 128.7476,
                     "memoryInBytes": 25476000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000020",
@@ -1529,7 +1567,9 @@
                     "avgCPU": 3.1439,
                     "memoryInBytes": 293192000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000021",
@@ -1543,7 +1583,9 @@
                     "avgCPU": 115.7159,
                     "memoryInBytes": 25480000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000022",
@@ -1558,7 +1600,9 @@
                     "avgCPU": 3.3237,
                     "memoryInBytes": 325032000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000023",
@@ -1572,7 +1616,9 @@
                     "avgCPU": 124.1185,
                     "memoryInBytes": 27068000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000024",
@@ -1587,7 +1633,9 @@
                     "avgCPU": 30.8869,
                     "memoryInBytes": 397188000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000025",
@@ -1601,7 +1649,9 @@
                     "avgCPU": 122.6132,
                     "memoryInBytes": 27184000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000026",
@@ -1616,7 +1666,9 @@
                     "avgCPU": 2.2813,
                     "memoryInBytes": 314612000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000027",
@@ -1630,7 +1682,9 @@
                     "avgCPU": 114.7696,
                     "memoryInBytes": 27032000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000028",
@@ -1645,7 +1699,9 @@
                     "avgCPU": 2.0104,
                     "memoryInBytes": 397504000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000029",
@@ -1659,7 +1715,9 @@
                     "avgCPU": 127.1552,
                     "memoryInBytes": 27248000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000030",
@@ -1674,7 +1732,9 @@
                     "avgCPU": 1.5992,
                     "memoryInBytes": 324680000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000031",
@@ -1688,7 +1748,9 @@
                     "avgCPU": 127.9515,
                     "memoryInBytes": 27384000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000032",
@@ -1703,7 +1765,9 @@
                     "avgCPU": 1.2932,
                     "memoryInBytes": 324732000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000033",
@@ -1717,7 +1781,9 @@
                     "avgCPU": 125.503,
                     "memoryInBytes": 25572000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000034",
@@ -1732,7 +1798,9 @@
                     "avgCPU": 35.4229,
                     "memoryInBytes": 185112000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000035",
@@ -1746,7 +1814,9 @@
                     "avgCPU": 111.4248,
                     "memoryInBytes": 25340000,
                     "priority": 30,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000036",
@@ -1761,7 +1831,9 @@
                     "avgCPU": 2.7341,
                     "memoryInBytes": 326012000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000037",
@@ -1775,7 +1847,9 @@
                     "avgCPU": 124.6954,
                     "memoryInBytes": 26936000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000038",
@@ -1790,7 +1864,9 @@
                     "avgCPU": 1.3551,
                     "memoryInBytes": 316224000,
                     "priority": 20,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000039",
@@ -1804,7 +1880,9 @@
                     "avgCPU": 119.2475,
                     "memoryInBytes": 27120000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "fasterq-dump_ID0000040",
@@ -1819,7 +1897,9 @@
                     "avgCPU": 2.8683,
                     "memoryInBytes": 324656000,
                     "priority": 20,
-                    "machine": "worker-3"
+                    "machines": [
+                        "worker-3"
+                    ]
                 },
                 {
                     "id": "bowtie2_ID0000041",
@@ -1833,7 +1913,9 @@
                     "avgCPU": 129.3716,
                     "memoryInBytes": 25476000,
                     "priority": 30,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 },
                 {
                     "id": "merge_ID0000042",
@@ -1887,7 +1969,9 @@
                     "avgCPU": 115.9836,
                     "memoryInBytes": 3660000,
                     "priority": 40,
-                    "machine": "worker-2"
+                    "machines": [
+                        "worker-2"
+                    ]
                 }
             ],
             "machines": [

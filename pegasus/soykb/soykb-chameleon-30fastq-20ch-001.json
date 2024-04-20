@@ -16981,7 +16981,9 @@
                     },
                     "avgCPU": 3.7236,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000002",
@@ -17001,7 +17003,9 @@
                     },
                     "avgCPU": 6.7578,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000003",
@@ -17021,7 +17025,9 @@
                     },
                     "avgCPU": 6.6667,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000004",
@@ -17047,7 +17053,9 @@
                     },
                     "avgCPU": 5.0867,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000005",
@@ -17069,7 +17077,9 @@
                     },
                     "avgCPU": 138.7446,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000006",
@@ -17091,7 +17101,9 @@
                     },
                     "avgCPU": 7.2327,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000007",
@@ -17119,7 +17131,9 @@
                     },
                     "avgCPU": 49.5498,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000008",
@@ -17147,7 +17161,9 @@
                     },
                     "avgCPU": 44.1701,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000009",
@@ -17175,7 +17191,9 @@
                     },
                     "avgCPU": 40.4518,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000010",
@@ -17203,7 +17221,9 @@
                     },
                     "avgCPU": 40.2764,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000011",
@@ -17231,7 +17251,9 @@
                     },
                     "avgCPU": 38.4811,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000012",
@@ -17259,7 +17281,9 @@
                     },
                     "avgCPU": 41.4224,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000013",
@@ -17287,7 +17311,9 @@
                     },
                     "avgCPU": 41.5194,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000014",
@@ -17315,7 +17341,9 @@
                     },
                     "avgCPU": 40.7598,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000015",
@@ -17343,7 +17371,9 @@
                     },
                     "avgCPU": 40.0841,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000016",
@@ -17371,7 +17401,9 @@
                     },
                     "avgCPU": 38.3256,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000017",
@@ -17399,7 +17431,9 @@
                     },
                     "avgCPU": 34.481,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000018",
@@ -17427,7 +17461,9 @@
                     },
                     "avgCPU": 33.2553,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000019",
@@ -17455,7 +17491,9 @@
                     },
                     "avgCPU": 37.2569,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000020",
@@ -17483,7 +17521,9 @@
                     },
                     "avgCPU": 43.1719,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000021",
@@ -17511,7 +17551,9 @@
                     },
                     "avgCPU": 43.6615,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000022",
@@ -17539,7 +17581,9 @@
                     },
                     "avgCPU": 33.1846,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000023",
@@ -17567,7 +17611,9 @@
                     },
                     "avgCPU": 32.263,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000024",
@@ -17595,7 +17641,9 @@
                     },
                     "avgCPU": 49.962,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000025",
@@ -17623,7 +17671,9 @@
                     },
                     "avgCPU": 46.9733,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000026",
@@ -17651,7 +17701,9 @@
                     },
                     "avgCPU": 39.0106,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000027",
@@ -17670,7 +17722,9 @@
                     },
                     "avgCPU": 5.3024,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000028",
@@ -17690,7 +17744,9 @@
                     },
                     "avgCPU": 5.53,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000029",
@@ -17710,7 +17766,9 @@
                     },
                     "avgCPU": 7.0776,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000030",
@@ -17736,7 +17794,9 @@
                     },
                     "avgCPU": 8.1292,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000031",
@@ -17758,7 +17818,9 @@
                     },
                     "avgCPU": 153.4689,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000032",
@@ -17780,7 +17842,9 @@
                     },
                     "avgCPU": 5.4471,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000033",
@@ -17808,7 +17872,9 @@
                     },
                     "avgCPU": 68.5452,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000034",
@@ -17836,7 +17902,9 @@
                     },
                     "avgCPU": 71.2203,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000035",
@@ -17864,7 +17932,9 @@
                     },
                     "avgCPU": 47.3571,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000036",
@@ -17892,7 +17962,9 @@
                     },
                     "avgCPU": 50.2792,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000037",
@@ -17920,7 +17992,9 @@
                     },
                     "avgCPU": 48.7219,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000038",
@@ -17948,7 +18022,9 @@
                     },
                     "avgCPU": 52.2986,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000039",
@@ -17976,7 +18052,9 @@
                     },
                     "avgCPU": 51.0945,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000040",
@@ -18004,7 +18082,9 @@
                     },
                     "avgCPU": 35.3502,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000041",
@@ -18032,7 +18112,9 @@
                     },
                     "avgCPU": 36.0791,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000042",
@@ -18060,7 +18142,9 @@
                     },
                     "avgCPU": 41.3643,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000043",
@@ -18088,7 +18172,9 @@
                     },
                     "avgCPU": 31.0239,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000044",
@@ -18116,7 +18202,9 @@
                     },
                     "avgCPU": 45.0881,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000045",
@@ -18144,7 +18232,9 @@
                     },
                     "avgCPU": 52.9784,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000046",
@@ -18172,7 +18262,9 @@
                     },
                     "avgCPU": 38.2592,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000047",
@@ -18200,7 +18292,9 @@
                     },
                     "avgCPU": 49.8991,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000048",
@@ -18228,7 +18322,9 @@
                     },
                     "avgCPU": 31.8258,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000049",
@@ -18256,7 +18352,9 @@
                     },
                     "avgCPU": 32.4484,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000050",
@@ -18284,7 +18382,9 @@
                     },
                     "avgCPU": 53.2025,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000051",
@@ -18312,7 +18412,9 @@
                     },
                     "avgCPU": 50.1315,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000052",
@@ -18340,7 +18442,9 @@
                     },
                     "avgCPU": 48.8636,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000053",
@@ -18359,7 +18463,9 @@
                     },
                     "avgCPU": 5.4382,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000054",
@@ -18379,7 +18485,9 @@
                     },
                     "avgCPU": 5.4191,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000055",
@@ -18399,7 +18507,9 @@
                     },
                     "avgCPU": 8.1995,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000056",
@@ -18425,7 +18535,9 @@
                     },
                     "avgCPU": 6.3339,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000057",
@@ -18447,7 +18559,9 @@
                     },
                     "avgCPU": 156.1544,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000058",
@@ -18469,7 +18583,9 @@
                     },
                     "avgCPU": 5.0275,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000059",
@@ -18497,7 +18613,9 @@
                     },
                     "avgCPU": 68.7638,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000060",
@@ -18525,7 +18643,9 @@
                     },
                     "avgCPU": 43.6348,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000061",
@@ -18553,7 +18673,9 @@
                     },
                     "avgCPU": 48.2797,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000062",
@@ -18581,7 +18703,9 @@
                     },
                     "avgCPU": 60.1941,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000063",
@@ -18609,7 +18733,9 @@
                     },
                     "avgCPU": 57.4989,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000064",
@@ -18637,7 +18763,9 @@
                     },
                     "avgCPU": 58.5227,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000065",
@@ -18665,7 +18793,9 @@
                     },
                     "avgCPU": 53.9345,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000066",
@@ -18693,7 +18823,9 @@
                     },
                     "avgCPU": 62.9317,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000067",
@@ -18721,7 +18853,9 @@
                     },
                     "avgCPU": 60.2049,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000068",
@@ -18749,7 +18883,9 @@
                     },
                     "avgCPU": 57.3493,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000069",
@@ -18777,7 +18913,9 @@
                     },
                     "avgCPU": 60.0191,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000070",
@@ -18805,7 +18943,9 @@
                     },
                     "avgCPU": 57.373,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000071",
@@ -18833,7 +18973,9 @@
                     },
                     "avgCPU": 56.5845,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000072",
@@ -18861,7 +19003,9 @@
                     },
                     "avgCPU": 61.1516,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000073",
@@ -18889,7 +19033,9 @@
                     },
                     "avgCPU": 117.6669,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000074",
@@ -18917,7 +19063,9 @@
                     },
                     "avgCPU": 50.1024,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000075",
@@ -18945,7 +19093,9 @@
                     },
                     "avgCPU": 115.3613,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000076",
@@ -18973,7 +19123,9 @@
                     },
                     "avgCPU": 112.0823,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000077",
@@ -19001,7 +19153,9 @@
                     },
                     "avgCPU": 110.4878,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000078",
@@ -19029,7 +19183,9 @@
                     },
                     "avgCPU": 112.0207,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000079",
@@ -19048,7 +19204,9 @@
                     },
                     "avgCPU": 5.0173,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000080",
@@ -19068,7 +19226,9 @@
                     },
                     "avgCPU": 6.1406,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000081",
@@ -19088,7 +19248,9 @@
                     },
                     "avgCPU": 6.3348,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000082",
@@ -19114,7 +19276,9 @@
                     },
                     "avgCPU": 5.2992,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000083",
@@ -19136,7 +19300,9 @@
                     },
                     "avgCPU": 157.6743,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000084",
@@ -19158,7 +19324,9 @@
                     },
                     "avgCPU": 5.1253,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000085",
@@ -19186,7 +19354,9 @@
                     },
                     "avgCPU": 93.3296,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000086",
@@ -19214,7 +19384,9 @@
                     },
                     "avgCPU": 77.2049,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000087",
@@ -19242,7 +19414,9 @@
                     },
                     "avgCPU": 100.4737,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000088",
@@ -19270,7 +19444,9 @@
                     },
                     "avgCPU": 88.8701,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000089",
@@ -19298,7 +19474,9 @@
                     },
                     "avgCPU": 87.8206,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000090",
@@ -19326,7 +19504,9 @@
                     },
                     "avgCPU": 110.1076,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000091",
@@ -19354,7 +19534,9 @@
                     },
                     "avgCPU": 114.9838,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000092",
@@ -19382,7 +19564,9 @@
                     },
                     "avgCPU": 114.8657,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000093",
@@ -19410,7 +19594,9 @@
                     },
                     "avgCPU": 88.8344,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000094",
@@ -19438,7 +19624,9 @@
                     },
                     "avgCPU": 94.1287,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000095",
@@ -19466,7 +19654,9 @@
                     },
                     "avgCPU": 42.2177,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000096",
@@ -19494,7 +19684,9 @@
                     },
                     "avgCPU": 44.3307,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000097",
@@ -19522,7 +19714,9 @@
                     },
                     "avgCPU": 51.1311,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000098",
@@ -19550,7 +19744,9 @@
                     },
                     "avgCPU": 52.5222,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000099",
@@ -19578,7 +19774,9 @@
                     },
                     "avgCPU": 51.0006,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000100",
@@ -19606,7 +19804,9 @@
                     },
                     "avgCPU": 124.9967,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000101",
@@ -19634,7 +19834,9 @@
                     },
                     "avgCPU": 83.7104,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000102",
@@ -19662,7 +19864,9 @@
                     },
                     "avgCPU": 100.8766,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000103",
@@ -19690,7 +19894,9 @@
                     },
                     "avgCPU": 67.9865,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000104",
@@ -19718,7 +19924,9 @@
                     },
                     "avgCPU": 73.7506,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000105",
@@ -19737,7 +19945,9 @@
                     },
                     "avgCPU": 4.7372,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000106",
@@ -19757,7 +19967,9 @@
                     },
                     "avgCPU": 5.5414,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000107",
@@ -19777,7 +19989,9 @@
                     },
                     "avgCPU": 7.2273,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000108",
@@ -19803,7 +20017,9 @@
                     },
                     "avgCPU": 6.8721,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000109",
@@ -19825,7 +20041,9 @@
                     },
                     "avgCPU": 140.9026,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000110",
@@ -19847,7 +20065,9 @@
                     },
                     "avgCPU": 6.3734,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000111",
@@ -19875,7 +20095,9 @@
                     },
                     "avgCPU": 65.677,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000112",
@@ -19903,7 +20125,9 @@
                     },
                     "avgCPU": 52.0178,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000113",
@@ -19931,7 +20155,9 @@
                     },
                     "avgCPU": 54.024,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000114",
@@ -19959,7 +20185,9 @@
                     },
                     "avgCPU": 61.039,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000115",
@@ -19987,7 +20215,9 @@
                     },
                     "avgCPU": 60.3958,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000116",
@@ -20015,7 +20245,9 @@
                     },
                     "avgCPU": 56.9808,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000117",
@@ -20043,7 +20275,9 @@
                     },
                     "avgCPU": 55.0227,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000118",
@@ -20071,7 +20305,9 @@
                     },
                     "avgCPU": 82.3478,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000119",
@@ -20099,7 +20335,9 @@
                     },
                     "avgCPU": 86.9133,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000120",
@@ -20127,7 +20365,9 @@
                     },
                     "avgCPU": 65.2463,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000121",
@@ -20155,7 +20395,9 @@
                     },
                     "avgCPU": 73.7842,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000122",
@@ -20183,7 +20425,9 @@
                     },
                     "avgCPU": 80.808,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000123",
@@ -20211,7 +20455,9 @@
                     },
                     "avgCPU": 68.9341,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000124",
@@ -20239,7 +20485,9 @@
                     },
                     "avgCPU": 79.2362,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000125",
@@ -20267,7 +20515,9 @@
                     },
                     "avgCPU": 51.009,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000126",
@@ -20295,7 +20545,9 @@
                     },
                     "avgCPU": 53.5003,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000127",
@@ -20323,7 +20575,9 @@
                     },
                     "avgCPU": 42.0505,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000128",
@@ -20351,7 +20605,9 @@
                     },
                     "avgCPU": 50.7291,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000129",
@@ -20379,7 +20635,9 @@
                     },
                     "avgCPU": 59.1801,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000130",
@@ -20407,7 +20665,9 @@
                     },
                     "avgCPU": 85.6436,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000131",
@@ -20426,7 +20686,9 @@
                     },
                     "avgCPU": 5.086,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000132",
@@ -20446,7 +20708,9 @@
                     },
                     "avgCPU": 5.7093,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000133",
@@ -20466,7 +20730,9 @@
                     },
                     "avgCPU": 6.6297,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000134",
@@ -20492,7 +20758,9 @@
                     },
                     "avgCPU": 5.3888,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000135",
@@ -20514,7 +20782,9 @@
                     },
                     "avgCPU": 148.1123,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000136",
@@ -20536,7 +20806,9 @@
                     },
                     "avgCPU": 5.1621,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000137",
@@ -20564,7 +20836,9 @@
                     },
                     "avgCPU": 51.9182,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000138",
@@ -20592,7 +20866,9 @@
                     },
                     "avgCPU": 41.2077,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000139",
@@ -20620,7 +20896,9 @@
                     },
                     "avgCPU": 41.0126,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000140",
@@ -20648,7 +20926,9 @@
                     },
                     "avgCPU": 40.2046,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000141",
@@ -20676,7 +20956,9 @@
                     },
                     "avgCPU": 40.9428,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000142",
@@ -20704,7 +20986,9 @@
                     },
                     "avgCPU": 43.3476,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000143",
@@ -20732,7 +21016,9 @@
                     },
                     "avgCPU": 37.915,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000144",
@@ -20760,7 +21046,9 @@
                     },
                     "avgCPU": 42.1843,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000145",
@@ -20788,7 +21076,9 @@
                     },
                     "avgCPU": 39.9481,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000146",
@@ -20816,7 +21106,9 @@
                     },
                     "avgCPU": 41.5441,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000147",
@@ -20844,7 +21136,9 @@
                     },
                     "avgCPU": 35.1535,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000148",
@@ -20872,7 +21166,9 @@
                     },
                     "avgCPU": 33.9306,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000149",
@@ -20900,7 +21196,9 @@
                     },
                     "avgCPU": 111.8042,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000150",
@@ -20928,7 +21226,9 @@
                     },
                     "avgCPU": 43.8176,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000151",
@@ -20956,7 +21256,9 @@
                     },
                     "avgCPU": 47.4076,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000152",
@@ -20984,7 +21286,9 @@
                     },
                     "avgCPU": 39.8077,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000153",
@@ -21012,7 +21316,9 @@
                     },
                     "avgCPU": 39.5798,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000154",
@@ -21040,7 +21346,9 @@
                     },
                     "avgCPU": 66.3079,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000155",
@@ -21068,7 +21376,9 @@
                     },
                     "avgCPU": 64.5483,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000156",
@@ -21096,7 +21406,9 @@
                     },
                     "avgCPU": 45.9071,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000157",
@@ -21115,7 +21427,9 @@
                     },
                     "avgCPU": 5.3837,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000158",
@@ -21135,7 +21449,9 @@
                     },
                     "avgCPU": 5.3321,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000159",
@@ -21155,7 +21471,9 @@
                     },
                     "avgCPU": 6.2561,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000160",
@@ -21181,7 +21499,9 @@
                     },
                     "avgCPU": 5.3773,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000161",
@@ -21203,7 +21523,9 @@
                     },
                     "avgCPU": 151.1674,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000162",
@@ -21225,7 +21547,9 @@
                     },
                     "avgCPU": 4.9993,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000163",
@@ -21253,7 +21577,9 @@
                     },
                     "avgCPU": 110.7508,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000164",
@@ -21281,7 +21607,9 @@
                     },
                     "avgCPU": 74.609,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000165",
@@ -21309,7 +21637,9 @@
                     },
                     "avgCPU": 35.81,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000166",
@@ -21337,7 +21667,9 @@
                     },
                     "avgCPU": 38.9875,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000167",
@@ -21365,7 +21697,9 @@
                     },
                     "avgCPU": 43.6923,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000168",
@@ -21393,7 +21727,9 @@
                     },
                     "avgCPU": 36.4213,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000169",
@@ -21421,7 +21757,9 @@
                     },
                     "avgCPU": 98.1674,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000170",
@@ -21449,7 +21787,9 @@
                     },
                     "avgCPU": 33.0747,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000171",
@@ -21477,7 +21817,9 @@
                     },
                     "avgCPU": 36.6038,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000172",
@@ -21505,7 +21847,9 @@
                     },
                     "avgCPU": 41.4187,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000173",
@@ -21533,7 +21877,9 @@
                     },
                     "avgCPU": 31.2129,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000174",
@@ -21561,7 +21907,9 @@
                     },
                     "avgCPU": 34.5302,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000175",
@@ -21589,7 +21937,9 @@
                     },
                     "avgCPU": 37.7356,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000176",
@@ -21617,7 +21967,9 @@
                     },
                     "avgCPU": 37.7062,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000177",
@@ -21645,7 +21997,9 @@
                     },
                     "avgCPU": 40.2,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000178",
@@ -21673,7 +22027,9 @@
                     },
                     "avgCPU": 31.7959,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000179",
@@ -21701,7 +22057,9 @@
                     },
                     "avgCPU": 39.8544,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000180",
@@ -21729,7 +22087,9 @@
                     },
                     "avgCPU": 101.9116,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000181",
@@ -21757,7 +22117,9 @@
                     },
                     "avgCPU": 84.7027,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000182",
@@ -21785,7 +22147,9 @@
                     },
                     "avgCPU": 82.4932,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000183",
@@ -21804,7 +22168,9 @@
                     },
                     "avgCPU": 5.3361,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000184",
@@ -21824,7 +22190,9 @@
                     },
                     "avgCPU": 5.4789,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000185",
@@ -21844,7 +22212,9 @@
                     },
                     "avgCPU": 6.2599,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000186",
@@ -21870,7 +22240,9 @@
                     },
                     "avgCPU": 5.0075,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000187",
@@ -21892,7 +22264,9 @@
                     },
                     "avgCPU": 149.2926,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000188",
@@ -21914,7 +22288,9 @@
                     },
                     "avgCPU": 5.3714,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000189",
@@ -21942,7 +22318,9 @@
                     },
                     "avgCPU": 42.211,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000190",
@@ -21970,7 +22348,9 @@
                     },
                     "avgCPU": 35.957,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000191",
@@ -21998,7 +22378,9 @@
                     },
                     "avgCPU": 31.2865,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000192",
@@ -22026,7 +22408,9 @@
                     },
                     "avgCPU": 39.6747,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000193",
@@ -22054,7 +22438,9 @@
                     },
                     "avgCPU": 33.5305,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000194",
@@ -22082,7 +22468,9 @@
                     },
                     "avgCPU": 35.547,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000195",
@@ -22110,7 +22498,9 @@
                     },
                     "avgCPU": 36.1328,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000196",
@@ -22138,7 +22528,9 @@
                     },
                     "avgCPU": 35.7955,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000197",
@@ -22166,7 +22558,9 @@
                     },
                     "avgCPU": 35.7036,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000198",
@@ -22194,7 +22588,9 @@
                     },
                     "avgCPU": 37.724,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000199",
@@ -22222,7 +22618,9 @@
                     },
                     "avgCPU": 30.7505,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000200",
@@ -22250,7 +22648,9 @@
                     },
                     "avgCPU": 30.657,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000201",
@@ -22278,7 +22678,9 @@
                     },
                     "avgCPU": 31.6605,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000202",
@@ -22306,7 +22708,9 @@
                     },
                     "avgCPU": 94.7502,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000203",
@@ -22334,7 +22738,9 @@
                     },
                     "avgCPU": 39.4924,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000204",
@@ -22362,7 +22768,9 @@
                     },
                     "avgCPU": 105.7521,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000205",
@@ -22390,7 +22798,9 @@
                     },
                     "avgCPU": 88.5398,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000206",
@@ -22418,7 +22828,9 @@
                     },
                     "avgCPU": 42.0027,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000207",
@@ -22446,7 +22858,9 @@
                     },
                     "avgCPU": 36.9089,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000208",
@@ -22474,7 +22888,9 @@
                     },
                     "avgCPU": 38.2093,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000209",
@@ -22493,7 +22909,9 @@
                     },
                     "avgCPU": 4.7659,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000210",
@@ -22513,7 +22931,9 @@
                     },
                     "avgCPU": 6.4413,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000211",
@@ -22533,7 +22953,9 @@
                     },
                     "avgCPU": 7.5955,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000212",
@@ -22559,7 +22981,9 @@
                     },
                     "avgCPU": 6.2438,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000213",
@@ -22581,7 +23005,9 @@
                     },
                     "avgCPU": 139.5901,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000214",
@@ -22603,7 +23029,9 @@
                     },
                     "avgCPU": 7.4396,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000215",
@@ -22631,7 +23059,9 @@
                     },
                     "avgCPU": 34.3232,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000216",
@@ -22659,7 +23089,9 @@
                     },
                     "avgCPU": 27.9419,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000217",
@@ -22687,7 +23119,9 @@
                     },
                     "avgCPU": 66.7796,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000218",
@@ -22715,7 +23149,9 @@
                     },
                     "avgCPU": 67.6233,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000219",
@@ -22743,7 +23179,9 @@
                     },
                     "avgCPU": 26.3197,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000220",
@@ -22771,7 +23209,9 @@
                     },
                     "avgCPU": 29.7866,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000221",
@@ -22799,7 +23239,9 @@
                     },
                     "avgCPU": 26.984,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000222",
@@ -22827,7 +23269,9 @@
                     },
                     "avgCPU": 26.7785,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000223",
@@ -22855,7 +23299,9 @@
                     },
                     "avgCPU": 29.3409,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000224",
@@ -22883,7 +23329,9 @@
                     },
                     "avgCPU": 29.4331,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000225",
@@ -22911,7 +23359,9 @@
                     },
                     "avgCPU": 24.977,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000226",
@@ -22939,7 +23389,9 @@
                     },
                     "avgCPU": 24.4908,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000227",
@@ -22967,7 +23419,9 @@
                     },
                     "avgCPU": 28.1337,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000228",
@@ -22995,7 +23449,9 @@
                     },
                     "avgCPU": 27.8292,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000229",
@@ -23023,7 +23479,9 @@
                     },
                     "avgCPU": 29.7252,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000230",
@@ -23051,7 +23509,9 @@
                     },
                     "avgCPU": 36.951,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000231",
@@ -23079,7 +23539,9 @@
                     },
                     "avgCPU": 35.8909,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000232",
@@ -23107,7 +23569,9 @@
                     },
                     "avgCPU": 46.4485,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000233",
@@ -23135,7 +23599,9 @@
                     },
                     "avgCPU": 41.6138,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000234",
@@ -23163,7 +23629,9 @@
                     },
                     "avgCPU": 37.3938,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000235",
@@ -23182,7 +23650,9 @@
                     },
                     "avgCPU": 5.2333,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000236",
@@ -23202,7 +23672,9 @@
                     },
                     "avgCPU": 4.4711,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000237",
@@ -23222,7 +23694,9 @@
                     },
                     "avgCPU": 5.8566,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000238",
@@ -23248,7 +23722,9 @@
                     },
                     "avgCPU": 7.9611,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000239",
@@ -23270,7 +23746,9 @@
                     },
                     "avgCPU": 179.3227,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000240",
@@ -23292,7 +23770,9 @@
                     },
                     "avgCPU": 4.9545,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000241",
@@ -23320,7 +23800,9 @@
                     },
                     "avgCPU": 96.6543,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000242",
@@ -23348,7 +23830,9 @@
                     },
                     "avgCPU": 52.4593,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000243",
@@ -23376,7 +23860,9 @@
                     },
                     "avgCPU": 49.0415,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000244",
@@ -23404,7 +23890,9 @@
                     },
                     "avgCPU": 65.4615,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000245",
@@ -23432,7 +23920,9 @@
                     },
                     "avgCPU": 48.0714,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000246",
@@ -23460,7 +23950,9 @@
                     },
                     "avgCPU": 104.0916,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000247",
@@ -23488,7 +23980,9 @@
                     },
                     "avgCPU": 102.4394,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000248",
@@ -23516,7 +24010,9 @@
                     },
                     "avgCPU": 90.3106,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000249",
@@ -23544,7 +24040,9 @@
                     },
                     "avgCPU": 108.1856,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000250",
@@ -23572,7 +24070,9 @@
                     },
                     "avgCPU": 67.2466,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000251",
@@ -23600,7 +24100,9 @@
                     },
                     "avgCPU": 50.2035,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000252",
@@ -23628,7 +24130,9 @@
                     },
                     "avgCPU": 52.0159,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000253",
@@ -23656,7 +24160,9 @@
                     },
                     "avgCPU": 64.2545,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000254",
@@ -23684,7 +24190,9 @@
                     },
                     "avgCPU": 68.0842,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000255",
@@ -23712,7 +24220,9 @@
                     },
                     "avgCPU": 59.8301,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000256",
@@ -23740,7 +24250,9 @@
                     },
                     "avgCPU": 55.1409,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000257",
@@ -23768,7 +24280,9 @@
                     },
                     "avgCPU": 53.6785,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000258",
@@ -23796,7 +24310,9 @@
                     },
                     "avgCPU": 58.057,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000259",
@@ -23824,7 +24340,9 @@
                     },
                     "avgCPU": 52.0736,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000260",
@@ -23852,7 +24370,9 @@
                     },
                     "avgCPU": 67.3606,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000261",
@@ -23871,7 +24391,9 @@
                     },
                     "avgCPU": 4.0916,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000262",
@@ -23891,7 +24413,9 @@
                     },
                     "avgCPU": 6.7371,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000263",
@@ -23911,7 +24435,9 @@
                     },
                     "avgCPU": 6.9553,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000264",
@@ -23937,7 +24463,9 @@
                     },
                     "avgCPU": 5.9864,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000265",
@@ -23959,7 +24487,9 @@
                     },
                     "avgCPU": 143.6334,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000266",
@@ -23981,7 +24511,9 @@
                     },
                     "avgCPU": 5.3986,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000267",
@@ -24009,7 +24541,9 @@
                     },
                     "avgCPU": 79.0131,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000268",
@@ -24037,7 +24571,9 @@
                     },
                     "avgCPU": 91.8608,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000269",
@@ -24065,7 +24601,9 @@
                     },
                     "avgCPU": 59.3875,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000270",
@@ -24093,7 +24631,9 @@
                     },
                     "avgCPU": 65.207,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000271",
@@ -24121,7 +24661,9 @@
                     },
                     "avgCPU": 66.8154,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000272",
@@ -24149,7 +24691,9 @@
                     },
                     "avgCPU": 94.9333,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000273",
@@ -24177,7 +24721,9 @@
                     },
                     "avgCPU": 68.0394,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000274",
@@ -24205,7 +24751,9 @@
                     },
                     "avgCPU": 65.842,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000275",
@@ -24233,7 +24781,9 @@
                     },
                     "avgCPU": 97.9987,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000276",
@@ -24261,7 +24811,9 @@
                     },
                     "avgCPU": 118.7936,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000277",
@@ -24289,7 +24841,9 @@
                     },
                     "avgCPU": 103.6508,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000278",
@@ -24317,7 +24871,9 @@
                     },
                     "avgCPU": 94.8732,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000279",
@@ -24345,7 +24901,9 @@
                     },
                     "avgCPU": 67.1311,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000280",
@@ -24373,7 +24931,9 @@
                     },
                     "avgCPU": 58.5319,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000281",
@@ -24401,7 +24961,9 @@
                     },
                     "avgCPU": 60.4705,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000282",
@@ -24429,7 +24991,9 @@
                     },
                     "avgCPU": 61.864,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000283",
@@ -24457,7 +25021,9 @@
                     },
                     "avgCPU": 63.3781,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000284",
@@ -24485,7 +25051,9 @@
                     },
                     "avgCPU": 69.3663,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000285",
@@ -24513,7 +25081,9 @@
                     },
                     "avgCPU": 70.9507,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000286",
@@ -24541,7 +25111,9 @@
                     },
                     "avgCPU": 67.953,
                     "priority": 80,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000287",
@@ -24560,7 +25132,9 @@
                     },
                     "avgCPU": 4.3908,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000288",
@@ -24580,7 +25154,9 @@
                     },
                     "avgCPU": 6.5449,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000289",
@@ -24600,7 +25176,9 @@
                     },
                     "avgCPU": 6.472,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000290",
@@ -24626,7 +25204,9 @@
                     },
                     "avgCPU": 5.7021,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000291",
@@ -24648,7 +25228,9 @@
                     },
                     "avgCPU": 139.0286,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000292",
@@ -24670,7 +25252,9 @@
                     },
                     "avgCPU": 7.6806,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000293",
@@ -24698,7 +25282,9 @@
                     },
                     "avgCPU": 35.9467,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000294",
@@ -24726,7 +25312,9 @@
                     },
                     "avgCPU": 26.9185,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000295",
@@ -24754,7 +25342,9 @@
                     },
                     "avgCPU": 26.4022,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000296",
@@ -24782,7 +25372,9 @@
                     },
                     "avgCPU": 28.1279,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000297",
@@ -24810,7 +25402,9 @@
                     },
                     "avgCPU": 28.9959,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000298",
@@ -24838,7 +25432,9 @@
                     },
                     "avgCPU": 28.6707,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000299",
@@ -24866,7 +25462,9 @@
                     },
                     "avgCPU": 26.4851,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000300",
@@ -24894,7 +25492,9 @@
                     },
                     "avgCPU": 26.5737,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000301",
@@ -24922,7 +25522,9 @@
                     },
                     "avgCPU": 60.3653,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000302",
@@ -24950,7 +25552,9 @@
                     },
                     "avgCPU": 25.8886,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000303",
@@ -24978,7 +25582,9 @@
                     },
                     "avgCPU": 53.8921,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000304",
@@ -25006,7 +25612,9 @@
                     },
                     "avgCPU": 54.3442,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000305",
@@ -25034,7 +25642,9 @@
                     },
                     "avgCPU": 28.1341,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000306",
@@ -25062,7 +25672,9 @@
                     },
                     "avgCPU": 26.3751,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000307",
@@ -25090,7 +25702,9 @@
                     },
                     "avgCPU": 28.8261,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000308",
@@ -25118,7 +25732,9 @@
                     },
                     "avgCPU": 24.851,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000309",
@@ -25146,7 +25762,9 @@
                     },
                     "avgCPU": 23.2029,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000310",
@@ -25174,7 +25792,9 @@
                     },
                     "avgCPU": 30.6897,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000311",
@@ -25202,7 +25822,9 @@
                     },
                     "avgCPU": 28.1421,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000312",
@@ -25230,7 +25852,9 @@
                     },
                     "avgCPU": 29.3906,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000313",
@@ -25249,7 +25873,9 @@
                     },
                     "avgCPU": 5.2659,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000314",
@@ -25269,7 +25895,9 @@
                     },
                     "avgCPU": 5.553,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000315",
@@ -25289,7 +25917,9 @@
                     },
                     "avgCPU": 7.1375,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000316",
@@ -25315,7 +25945,9 @@
                     },
                     "avgCPU": 7.7784,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000317",
@@ -25337,7 +25969,9 @@
                     },
                     "avgCPU": 164.678,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000318",
@@ -25359,7 +25993,9 @@
                     },
                     "avgCPU": 4.7965,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000319",
@@ -25387,7 +26023,9 @@
                     },
                     "avgCPU": 106.4148,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000320",
@@ -25415,7 +26053,9 @@
                     },
                     "avgCPU": 79.4452,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000321",
@@ -25443,7 +26083,9 @@
                     },
                     "avgCPU": 79.4636,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000322",
@@ -25471,7 +26113,9 @@
                     },
                     "avgCPU": 76.9373,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000323",
@@ -25499,7 +26143,9 @@
                     },
                     "avgCPU": 59.4751,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000324",
@@ -25527,7 +26173,9 @@
                     },
                     "avgCPU": 69.3351,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000325",
@@ -25555,7 +26203,9 @@
                     },
                     "avgCPU": 64.4427,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000326",
@@ -25583,7 +26233,9 @@
                     },
                     "avgCPU": 62.4543,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000327",
@@ -25611,7 +26263,9 @@
                     },
                     "avgCPU": 77.2568,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000328",
@@ -25639,7 +26293,9 @@
                     },
                     "avgCPU": 85.003,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000329",
@@ -25667,7 +26323,9 @@
                     },
                     "avgCPU": 67.1852,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000330",
@@ -25695,7 +26353,9 @@
                     },
                     "avgCPU": 110.2109,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000331",
@@ -25723,7 +26383,9 @@
                     },
                     "avgCPU": 118.0122,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000332",
@@ -25751,7 +26413,9 @@
                     },
                     "avgCPU": 101.8604,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000333",
@@ -25779,7 +26443,9 @@
                     },
                     "avgCPU": 110.7705,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000334",
@@ -25807,7 +26473,9 @@
                     },
                     "avgCPU": 104.7629,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000335",
@@ -25835,7 +26503,9 @@
                     },
                     "avgCPU": 112.5036,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000336",
@@ -25863,7 +26533,9 @@
                     },
                     "avgCPU": 81.8551,
                     "priority": 80,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000337",
@@ -25891,7 +26563,9 @@
                     },
                     "avgCPU": 103.0155,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000338",
@@ -25919,7 +26593,9 @@
                     },
                     "avgCPU": 115.0748,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000339",
@@ -25938,7 +26614,9 @@
                     },
                     "avgCPU": 5.1805,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000340",
@@ -25958,7 +26636,9 @@
                     },
                     "avgCPU": 5.3632,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000341",
@@ -25978,7 +26658,9 @@
                     },
                     "avgCPU": 5.7211,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000342",
@@ -26004,7 +26686,9 @@
                     },
                     "avgCPU": 5.5692,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000343",
@@ -26026,7 +26710,9 @@
                     },
                     "avgCPU": 155.7859,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000344",
@@ -26048,7 +26734,9 @@
                     },
                     "avgCPU": 4.9305,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000345",
@@ -26076,7 +26764,9 @@
                     },
                     "avgCPU": 100.6628,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000346",
@@ -26104,7 +26794,9 @@
                     },
                     "avgCPU": 94.9487,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000347",
@@ -26132,7 +26824,9 @@
                     },
                     "avgCPU": 79.3759,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000348",
@@ -26160,7 +26854,9 @@
                     },
                     "avgCPU": 76.2885,
                     "priority": 80,
-                    "machine": "compute-6"
+                    "machines": [
+                        "compute-6"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000349",
@@ -26188,7 +26884,9 @@
                     },
                     "avgCPU": 85.1526,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000350",
@@ -26216,7 +26914,9 @@
                     },
                     "avgCPU": 94.3026,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000351",
@@ -26244,7 +26944,9 @@
                     },
                     "avgCPU": 92.8403,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000352",
@@ -26272,7 +26974,9 @@
                     },
                     "avgCPU": 115.0559,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000353",
@@ -26300,7 +27004,9 @@
                     },
                     "avgCPU": 112.8057,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000354",
@@ -26328,7 +27034,9 @@
                     },
                     "avgCPU": 98.1319,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000355",
@@ -26356,7 +27064,9 @@
                     },
                     "avgCPU": 103.6716,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000356",
@@ -26384,7 +27094,9 @@
                     },
                     "avgCPU": 83.3705,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000357",
@@ -26412,7 +27124,9 @@
                     },
                     "avgCPU": 84.5981,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000358",
@@ -26440,7 +27154,9 @@
                     },
                     "avgCPU": 73.8022,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000359",
@@ -26468,7 +27184,9 @@
                     },
                     "avgCPU": 93.4747,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000360",
@@ -26496,7 +27214,9 @@
                     },
                     "avgCPU": 61.8742,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000361",
@@ -26524,7 +27244,9 @@
                     },
                     "avgCPU": 61.6774,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000362",
@@ -26552,7 +27274,9 @@
                     },
                     "avgCPU": 72.563,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000363",
@@ -26580,7 +27304,9 @@
                     },
                     "avgCPU": 73.4754,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000364",
@@ -26608,7 +27334,9 @@
                     },
                     "avgCPU": 80.0767,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "alignment_to_reference_ID0000365",
@@ -26627,7 +27355,9 @@
                     },
                     "avgCPU": 3.6657,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sort_sam_ID0000366",
@@ -26647,7 +27377,9 @@
                     },
                     "avgCPU": 10.0666,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "dedup_ID0000367",
@@ -26667,7 +27399,9 @@
                     },
                     "avgCPU": 6.0863,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "add_replace_ID0000368",
@@ -26693,7 +27427,9 @@
                     },
                     "avgCPU": 4.7534,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "realign_target_creator_ID0000369",
@@ -26715,7 +27451,9 @@
                     },
                     "avgCPU": 138.5636,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "indel_realign_ID0000370",
@@ -26737,7 +27475,9 @@
                     },
                     "avgCPU": 7.711,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000371",
@@ -26765,7 +27505,9 @@
                     },
                     "avgCPU": 67.7061,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000372",
@@ -26793,7 +27535,9 @@
                     },
                     "avgCPU": 53.6824,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000373",
@@ -26821,7 +27565,9 @@
                     },
                     "avgCPU": 57.8062,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000374",
@@ -26849,7 +27595,9 @@
                     },
                     "avgCPU": 32.19,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000375",
@@ -26877,7 +27625,9 @@
                     },
                     "avgCPU": 28.2882,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000376",
@@ -26905,7 +27655,9 @@
                     },
                     "avgCPU": 56.3288,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000377",
@@ -26933,7 +27685,9 @@
                     },
                     "avgCPU": 29.8242,
                     "priority": 80,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000378",
@@ -26961,7 +27715,9 @@
                     },
                     "avgCPU": 55.6171,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000379",
@@ -26989,7 +27745,9 @@
                     },
                     "avgCPU": 63.1683,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000380",
@@ -27017,7 +27775,9 @@
                     },
                     "avgCPU": 59.4393,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000381",
@@ -27045,7 +27805,9 @@
                     },
                     "avgCPU": 51.5024,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000382",
@@ -27073,7 +27835,9 @@
                     },
                     "avgCPU": 53.9884,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000383",
@@ -27101,7 +27865,9 @@
                     },
                     "avgCPU": 51.8569,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000384",
@@ -27129,7 +27895,9 @@
                     },
                     "avgCPU": 56.6128,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000385",
@@ -27157,7 +27925,9 @@
                     },
                     "avgCPU": 59.9656,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000386",
@@ -27185,7 +27955,9 @@
                     },
                     "avgCPU": 51.5815,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000387",
@@ -27213,7 +27985,9 @@
                     },
                     "avgCPU": 49.4466,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000388",
@@ -27241,7 +28015,9 @@
                     },
                     "avgCPU": 62.2695,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000389",
@@ -27269,7 +28045,9 @@
                     },
                     "avgCPU": 56.8512,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "haplotype_caller_ID0000390",
@@ -27297,7 +28075,9 @@
                     },
                     "avgCPU": 57.1593,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "merge_gcvf_ID0000391",
@@ -27317,7 +28097,9 @@
                     },
                     "avgCPU": 99.5493,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000392",
@@ -27367,7 +28149,9 @@
                     },
                     "avgCPU": 82.064,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000393",
@@ -27417,7 +28201,9 @@
                     },
                     "avgCPU": 70.1937,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000394",
@@ -27467,7 +28253,9 @@
                     },
                     "avgCPU": 69.6809,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000395",
@@ -27517,7 +28305,9 @@
                     },
                     "avgCPU": 71.0318,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000396",
@@ -27567,7 +28357,9 @@
                     },
                     "avgCPU": 69.9187,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000397",
@@ -27617,7 +28409,9 @@
                     },
                     "avgCPU": 70.9825,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000398",
@@ -27667,7 +28461,9 @@
                     },
                     "avgCPU": 70.5897,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000399",
@@ -27717,7 +28513,9 @@
                     },
                     "avgCPU": 73.9553,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000400",
@@ -27767,7 +28565,9 @@
                     },
                     "avgCPU": 79.3949,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000401",
@@ -27817,7 +28617,9 @@
                     },
                     "avgCPU": 71.4681,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000402",
@@ -27867,7 +28669,9 @@
                     },
                     "avgCPU": 65.3347,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000403",
@@ -27917,7 +28721,9 @@
                     },
                     "avgCPU": 77.1877,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000404",
@@ -27967,7 +28773,9 @@
                     },
                     "avgCPU": 78.8477,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000405",
@@ -28017,7 +28825,9 @@
                     },
                     "avgCPU": 81.0264,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000406",
@@ -28067,7 +28877,9 @@
                     },
                     "avgCPU": 69.5536,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000407",
@@ -28117,7 +28929,9 @@
                     },
                     "avgCPU": 77.0525,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000408",
@@ -28167,7 +28981,9 @@
                     },
                     "avgCPU": 67.4196,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000409",
@@ -28217,7 +29033,9 @@
                     },
                     "avgCPU": 74.1869,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000410",
@@ -28267,7 +29085,9 @@
                     },
                     "avgCPU": 69.2504,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "genotype_gvcfs_ID0000411",
@@ -28317,7 +29137,9 @@
                     },
                     "avgCPU": 71.1553,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "combine_variants_ID0000412",
@@ -28377,7 +29199,9 @@
                     },
                     "avgCPU": 13.9612,
                     "priority": 100,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "select_variants_snp_ID0000413",
@@ -28401,7 +29225,9 @@
                     },
                     "avgCPU": 54.1487,
                     "priority": 110,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filtering_snp_ID0000414",
@@ -28425,7 +29251,9 @@
                     },
                     "avgCPU": 15.3804,
                     "priority": 120,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "select_variants_indel_ID0000415",
@@ -28449,7 +29277,9 @@
                     },
                     "avgCPU": 56.7579,
                     "priority": 110,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filtering_indel_ID0000416",
@@ -28473,7 +29303,9 @@
                     },
                     "avgCPU": 12.8026,
                     "priority": 120,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 }
             ],
             "machines": [

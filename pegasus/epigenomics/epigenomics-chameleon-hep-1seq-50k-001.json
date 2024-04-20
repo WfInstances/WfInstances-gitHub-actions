@@ -1765,7 +1765,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_1_ID0000002",
@@ -1779,7 +1781,9 @@
                     },
                     "avgCPU": 61.8762,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_10_ID0000003",
@@ -1793,7 +1797,9 @@
                     },
                     "avgCPU": 12.3484,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_11_ID0000004",
@@ -1807,7 +1813,9 @@
                     },
                     "avgCPU": 47.0209,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_12_ID0000005",
@@ -1821,7 +1829,9 @@
                     },
                     "avgCPU": 11.9077,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_13_ID0000006",
@@ -1835,7 +1845,9 @@
                     },
                     "avgCPU": 13.1335,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_14_ID0000007",
@@ -1849,7 +1861,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_15_ID0000008",
@@ -1863,7 +1877,9 @@
                     },
                     "avgCPU": 8.5859,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_16_ID0000009",
@@ -1877,7 +1893,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_17_ID0000010",
@@ -1891,7 +1909,9 @@
                     },
                     "avgCPU": 12.9607,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_2_ID0000011",
@@ -1905,7 +1925,9 @@
                     },
                     "avgCPU": 9.1975,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_3_ID0000012",
@@ -1919,7 +1941,9 @@
                     },
                     "avgCPU": 35.3919,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_4_ID0000013",
@@ -1933,7 +1957,9 @@
                     },
                     "avgCPU": 80.8901,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_5_ID0000014",
@@ -1947,7 +1973,9 @@
                     },
                     "avgCPU": 11.6065,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_6_ID0000015",
@@ -1961,7 +1989,9 @@
                     },
                     "avgCPU": 45.9752,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_7_ID0000016",
@@ -1975,7 +2005,9 @@
                     },
                     "avgCPU": 19.8413,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_8_ID0000017",
@@ -1989,7 +2021,9 @@
                     },
                     "avgCPU": 91.0714,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_HEP2_MSP1_Digests_s_1_sequence_9_ID0000018",
@@ -2003,7 +2037,9 @@
                     },
                     "avgCPU": 32.8524,
                     "priority": 50,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fastqSplit_fastqSplit_HEP2_MSP1_Digests_s_1_sequence_ID0000019",
@@ -2017,7 +2053,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_1_ID0000020",
@@ -2030,7 +2068,9 @@
                     },
                     "avgCPU": 3.2021,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_10_ID0000021",
@@ -2043,7 +2083,9 @@
                     },
                     "avgCPU": 2.6345,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_11_ID0000022",
@@ -2056,7 +2098,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_12_ID0000023",
@@ -2069,7 +2113,9 @@
                     },
                     "avgCPU": 99.7347,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_13_ID0000024",
@@ -2082,7 +2128,9 @@
                     },
                     "avgCPU": 54.3262,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_14_ID0000025",
@@ -2095,7 +2143,9 @@
                     },
                     "avgCPU": 4.0263,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_15_ID0000026",
@@ -2108,7 +2158,9 @@
                     },
                     "avgCPU": 4.0542,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_16_ID0000027",
@@ -2121,7 +2173,9 @@
                     },
                     "avgCPU": 3.8957,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_17_ID0000028",
@@ -2134,7 +2188,9 @@
                     },
                     "avgCPU": 4.6845,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_2_ID0000029",
@@ -2147,7 +2203,9 @@
                     },
                     "avgCPU": 3.1766,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_3_ID0000030",
@@ -2160,7 +2218,9 @@
                     },
                     "avgCPU": 3.1137,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_4_ID0000031",
@@ -2173,7 +2233,9 @@
                     },
                     "avgCPU": 2.7261,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_5_ID0000032",
@@ -2186,7 +2248,9 @@
                     },
                     "avgCPU": 3.2957,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_6_ID0000033",
@@ -2199,7 +2263,9 @@
                     },
                     "avgCPU": 3.2529,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_7_ID0000034",
@@ -2212,7 +2278,9 @@
                     },
                     "avgCPU": 2.9725,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_8_ID0000035",
@@ -2225,7 +2293,9 @@
                     },
                     "avgCPU": 3.0451,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_HEP2_MSP1_Digests_s_1_sequence_9_ID0000036",
@@ -2238,7 +2308,9 @@
                     },
                     "avgCPU": 2.8276,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "mapMerge_mapMerge_HEP2_MSP1_Digests_ID0000037",
@@ -2252,7 +2324,9 @@
                     },
                     "avgCPU": 97.4597,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "mapMerge_mapMerge_HEP2_MSP1_Digests_s_1_sequence_ID0000038",
@@ -2282,7 +2356,9 @@
                     },
                     "avgCPU": 98.4472,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_1_ID0000039",
@@ -2303,7 +2379,9 @@
                     },
                     "avgCPU": 100.0018,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_10_ID0000040",
@@ -2324,7 +2402,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_11_ID0000041",
@@ -2345,7 +2425,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_12_ID0000042",
@@ -2366,7 +2448,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_13_ID0000043",
@@ -2387,7 +2471,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_14_ID0000044",
@@ -2408,7 +2494,9 @@
                     },
                     "avgCPU": 99.9261,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_15_ID0000045",
@@ -2429,7 +2517,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_16_ID0000046",
@@ -2450,7 +2540,9 @@
                     },
                     "avgCPU": 99.8428,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_17_ID0000047",
@@ -2471,7 +2563,9 @@
                     },
                     "avgCPU": 99.3359,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_2_ID0000048",
@@ -2492,7 +2586,9 @@
                     },
                     "avgCPU": 100.0017,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_3_ID0000049",
@@ -2513,7 +2609,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_4_ID0000050",
@@ -2534,7 +2632,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_5_ID0000051",
@@ -2555,7 +2655,9 @@
                     },
                     "avgCPU": 100.0018,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_6_ID0000052",
@@ -2576,7 +2678,9 @@
                     },
                     "avgCPU": 99.4676,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_7_ID0000053",
@@ -2597,7 +2701,9 @@
                     },
                     "avgCPU": 100.0024,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_8_ID0000054",
@@ -2618,7 +2724,9 @@
                     },
                     "avgCPU": 98.0433,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "map_map_HEP2_MSP1_Digests_s_1_sequence_9_ID0000055",
@@ -2639,7 +2747,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "pileup_pileup_ID0000056",
@@ -2657,7 +2767,9 @@
                     },
                     "avgCPU": 191.7464,
                     "priority": 100,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_1_ID0000057",
@@ -2671,7 +2783,9 @@
                     },
                     "avgCPU": 0.8063,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_10_ID0000058",
@@ -2685,7 +2799,9 @@
                     },
                     "avgCPU": 0.8626,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_11_ID0000059",
@@ -2699,7 +2815,9 @@
                     },
                     "avgCPU": 1.2989,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_12_ID0000060",
@@ -2713,7 +2831,9 @@
                     },
                     "avgCPU": 1.3593,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_13_ID0000061",
@@ -2727,7 +2847,9 @@
                     },
                     "avgCPU": 1.0349,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_14_ID0000062",
@@ -2741,7 +2863,9 @@
                     },
                     "avgCPU": 7.1094,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_15_ID0000063",
@@ -2755,7 +2879,9 @@
                     },
                     "avgCPU": 82.3529,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_16_ID0000064",
@@ -2769,7 +2895,9 @@
                     },
                     "avgCPU": 11.3506,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_17_ID0000065",
@@ -2783,7 +2911,9 @@
                     },
                     "avgCPU": 25.098,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_2_ID0000066",
@@ -2797,7 +2927,9 @@
                     },
                     "avgCPU": 3.2097,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_3_ID0000067",
@@ -2811,7 +2943,9 @@
                     },
                     "avgCPU": 0.9975,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_4_ID0000068",
@@ -2825,7 +2959,9 @@
                     },
                     "avgCPU": 0.8767,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_5_ID0000069",
@@ -2839,7 +2975,9 @@
                     },
                     "avgCPU": 0.783,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_6_ID0000070",
@@ -2853,7 +2991,9 @@
                     },
                     "avgCPU": 7.2139,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_7_ID0000071",
@@ -2867,7 +3007,9 @@
                     },
                     "avgCPU": 0.7515,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_8_ID0000072",
@@ -2881,7 +3023,9 @@
                     },
                     "avgCPU": 7.7612,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_HEP2_MSP1_Digests_s_1_sequence_9_ID0000073",
@@ -2895,7 +3039,9 @@
                     },
                     "avgCPU": 7.228,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 }
             ],
             "machines": [

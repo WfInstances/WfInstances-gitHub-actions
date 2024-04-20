@@ -9234,7 +9234,9 @@
                     "avgCPU": 99.6347,
                     "memoryInBytes": 14888000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000002",
@@ -9251,7 +9253,9 @@
                     "avgCPU": 98.8595,
                     "memoryInBytes": 14628000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000003",
@@ -9268,7 +9272,9 @@
                     "avgCPU": 94.3263,
                     "memoryInBytes": 14652000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000004",
@@ -9285,7 +9291,9 @@
                     "avgCPU": 91.5466,
                     "memoryInBytes": 14752000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000005",
@@ -9302,7 +9310,9 @@
                     "avgCPU": 96.6889,
                     "memoryInBytes": 14740000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000006",
@@ -9319,7 +9329,9 @@
                     "avgCPU": 97.6925,
                     "memoryInBytes": 14860000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000007",
@@ -9336,7 +9348,9 @@
                     "avgCPU": 98.5325,
                     "memoryInBytes": 14756000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000008",
@@ -9353,7 +9367,9 @@
                     "avgCPU": 95.3316,
                     "memoryInBytes": 14980000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000009",
@@ -9370,7 +9386,9 @@
                     "avgCPU": 99.9932,
                     "memoryInBytes": 14780000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000010",
@@ -9387,7 +9405,9 @@
                     "avgCPU": 99.8279,
                     "memoryInBytes": 14812000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000011",
@@ -9404,7 +9424,9 @@
                     "avgCPU": 98.6537,
                     "memoryInBytes": 14816000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000012",
@@ -9421,7 +9443,9 @@
                     "avgCPU": 99.9937,
                     "memoryInBytes": 14800000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000013",
@@ -9438,7 +9462,9 @@
                     "avgCPU": 90.1621,
                     "memoryInBytes": 14788000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000014",
@@ -9455,7 +9481,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 14884000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000015",
@@ -9472,7 +9500,9 @@
                     "avgCPU": 99.9939,
                     "memoryInBytes": 14976000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000016",
@@ -9489,7 +9519,9 @@
                     "avgCPU": 99.9936,
                     "memoryInBytes": 14832000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000017",
@@ -9509,7 +9541,9 @@
                     "avgCPU": 4.5045,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000018",
@@ -9529,7 +9563,9 @@
                     "avgCPU": 10.0,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000019",
@@ -9549,7 +9585,9 @@
                     "avgCPU": 5.4348,
                     "memoryInBytes": 2936000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000020",
@@ -9569,7 +9607,9 @@
                     "avgCPU": 0.6477,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000021",
@@ -9589,7 +9629,9 @@
                     "avgCPU": 6.8966,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000022",
@@ -9609,7 +9651,9 @@
                     "avgCPU": 2.4272,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000023",
@@ -9629,7 +9673,9 @@
                     "avgCPU": 1.1331,
                     "memoryInBytes": 2936000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000024",
@@ -9649,7 +9695,9 @@
                     "avgCPU": 6.4935,
                     "memoryInBytes": 2836000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000025",
@@ -9669,7 +9717,9 @@
                     "avgCPU": 7.2464,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000026",
@@ -9689,7 +9739,9 @@
                     "avgCPU": 6.1538,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000027",
@@ -9709,7 +9761,9 @@
                     "avgCPU": 11.5385,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000028",
@@ -9729,7 +9783,9 @@
                     "avgCPU": 2.0661,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000029",
@@ -9749,7 +9805,9 @@
                     "avgCPU": 3.6585,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000030",
@@ -9769,7 +9827,9 @@
                     "avgCPU": 8.5714,
                     "memoryInBytes": 2884000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000031",
@@ -9789,7 +9849,9 @@
                     "avgCPU": 5.4348,
                     "memoryInBytes": 2936000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000032",
@@ -9809,7 +9871,9 @@
                     "avgCPU": 4.9505,
                     "memoryInBytes": 2860000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000033",
@@ -9829,7 +9893,9 @@
                     "avgCPU": 0.2547,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000034",
@@ -9849,7 +9915,9 @@
                     "avgCPU": 5.2632,
                     "memoryInBytes": 2900000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000035",
@@ -9869,7 +9937,9 @@
                     "avgCPU": 4.8544,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000036",
@@ -9889,7 +9959,9 @@
                     "avgCPU": 7.5758,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000037",
@@ -9909,7 +9981,9 @@
                     "avgCPU": 7.4627,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000038",
@@ -9929,7 +10003,9 @@
                     "avgCPU": 4.0,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000039",
@@ -9949,7 +10025,9 @@
                     "avgCPU": 9.375,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000040",
@@ -9969,7 +10047,9 @@
                     "avgCPU": 3.0864,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000041",
@@ -9989,7 +10069,9 @@
                     "avgCPU": 1.5106,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000042",
@@ -10009,7 +10091,9 @@
                     "avgCPU": 4.2017,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000043",
@@ -10029,7 +10113,9 @@
                     "avgCPU": 0.5556,
                     "memoryInBytes": 2900000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000044",
@@ -10049,7 +10135,9 @@
                     "avgCPU": 7.2464,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000045",
@@ -10069,7 +10157,9 @@
                     "avgCPU": 6.4935,
                     "memoryInBytes": 2900000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000046",
@@ -10089,7 +10179,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000047",
@@ -10109,7 +10201,9 @@
                     "avgCPU": 2.907,
                     "memoryInBytes": 2932000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000048",
@@ -10129,7 +10223,9 @@
                     "avgCPU": 5.4054,
                     "memoryInBytes": 2836000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000049",
@@ -10149,7 +10245,9 @@
                     "avgCPU": 5.1948,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000050",
@@ -10169,7 +10267,9 @@
                     "avgCPU": 6.6667,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000051",
@@ -10189,7 +10289,9 @@
                     "avgCPU": 5.8824,
                     "memoryInBytes": 2908000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000052",
@@ -10209,7 +10311,9 @@
                     "avgCPU": 8.4507,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000053",
@@ -10229,7 +10333,9 @@
                     "avgCPU": 9.434,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000054",
@@ -10249,7 +10355,9 @@
                     "avgCPU": 4.4643,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000055",
@@ -10269,7 +10377,9 @@
                     "avgCPU": 8.1081,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000056",
@@ -10289,7 +10399,9 @@
                     "avgCPU": 7.0423,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000057",
@@ -10309,7 +10421,9 @@
                     "avgCPU": 3.0769,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000058",
@@ -10329,7 +10443,9 @@
                     "avgCPU": 3.1056,
                     "memoryInBytes": 2932000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000059",
@@ -10349,7 +10465,9 @@
                     "avgCPU": 4.3103,
                     "memoryInBytes": 2932000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000060",
@@ -10369,7 +10487,9 @@
                     "avgCPU": 12.766,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000061",
@@ -10389,7 +10509,9 @@
                     "avgCPU": 6.6667,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000062",
@@ -10409,7 +10531,9 @@
                     "avgCPU": 0.4184,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000063",
@@ -10429,7 +10553,9 @@
                     "avgCPU": 4.6729,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000064",
@@ -10449,7 +10575,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000065",
@@ -10469,7 +10597,9 @@
                     "avgCPU": 7.5758,
                     "memoryInBytes": 2932000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000066",
@@ -10489,7 +10619,9 @@
                     "avgCPU": 3.2051,
                     "memoryInBytes": 2932000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000067",
@@ -10509,7 +10641,9 @@
                     "avgCPU": 0.7022,
                     "memoryInBytes": 2948000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000068",
@@ -10529,7 +10663,9 @@
                     "avgCPU": 12.0,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000069",
@@ -10549,7 +10685,9 @@
                     "avgCPU": 6.4935,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000070",
@@ -10569,7 +10707,9 @@
                     "avgCPU": 3.7975,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000071",
@@ -10589,7 +10729,9 @@
                     "avgCPU": 4.5872,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000072",
@@ -10609,7 +10751,9 @@
                     "avgCPU": 9.434,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000073",
@@ -10629,7 +10773,9 @@
                     "avgCPU": 6.6667,
                     "memoryInBytes": 2928000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000074",
@@ -10649,7 +10795,9 @@
                     "avgCPU": 10.0,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000075",
@@ -10669,7 +10817,9 @@
                     "avgCPU": 3.6765,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000076",
@@ -10689,7 +10839,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2864000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000077",
@@ -10709,7 +10861,9 @@
                     "avgCPU": 9.434,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000078",
@@ -10729,7 +10883,9 @@
                     "avgCPU": 7.8947,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000079",
@@ -10749,7 +10905,9 @@
                     "avgCPU": 12.0,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000080",
@@ -10769,7 +10927,9 @@
                     "avgCPU": 0.8753,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000081",
@@ -10789,7 +10949,9 @@
                     "avgCPU": 4.717,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000082",
@@ -10809,7 +10971,9 @@
                     "avgCPU": 4.717,
                     "memoryInBytes": 2936000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000083",
@@ -10825,7 +10989,9 @@
                     "avgCPU": 71.4777,
                     "memoryInBytes": 70776000,
                     "priority": 40,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000084",
@@ -10843,7 +11009,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 137180000,
                     "priority": 50,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000085",
@@ -10861,7 +11029,9 @@
                     "avgCPU": 36.8113,
                     "memoryInBytes": 69008000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000086",
@@ -10879,7 +11049,9 @@
                     "avgCPU": 55.7282,
                     "memoryInBytes": 69064000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000087",
@@ -10897,7 +11069,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69064000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000088",
@@ -10915,7 +11089,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68972000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000089",
@@ -10933,7 +11109,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69020000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000090",
@@ -10951,7 +11129,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68984000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000091",
@@ -10969,7 +11149,9 @@
                     "avgCPU": 20.9985,
                     "memoryInBytes": 68964000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000092",
@@ -10987,7 +11169,9 @@
                     "avgCPU": 99.654,
                     "memoryInBytes": 69020000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000093",
@@ -11005,7 +11189,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69084000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000094",
@@ -11023,7 +11209,9 @@
                     "avgCPU": 94.3574,
                     "memoryInBytes": 68952000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000095",
@@ -11041,7 +11229,9 @@
                     "avgCPU": 57.3529,
                     "memoryInBytes": 69044000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000096",
@@ -11059,7 +11249,9 @@
                     "avgCPU": 57.8067,
                     "memoryInBytes": 69064000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000097",
@@ -11077,7 +11269,9 @@
                     "avgCPU": 55.8659,
                     "memoryInBytes": 68904000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000098",
@@ -11095,7 +11289,9 @@
                     "avgCPU": 99.6656,
                     "memoryInBytes": 68968000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000099",
@@ -11113,7 +11309,9 @@
                     "avgCPU": 38.4211,
                     "memoryInBytes": 69044000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000100",
@@ -11131,7 +11329,9 @@
                     "avgCPU": 99.6923,
                     "memoryInBytes": 68984000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000101",
@@ -11148,7 +11348,9 @@
                     "avgCPU": 96.2185,
                     "memoryInBytes": 71084000,
                     "priority": 70,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000102",
@@ -11165,7 +11367,9 @@
                     "avgCPU": 55.3846,
                     "memoryInBytes": 70096000,
                     "priority": 80,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000103",
@@ -11187,7 +11391,9 @@
                     "avgCPU": 99.6016,
                     "memoryInBytes": 15900000,
                     "priority": 90,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000104",
@@ -11204,7 +11410,9 @@
                     "avgCPU": 99.6476,
                     "memoryInBytes": 14800000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000105",
@@ -11221,7 +11429,9 @@
                     "avgCPU": 90.5428,
                     "memoryInBytes": 14620000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000106",
@@ -11238,7 +11448,9 @@
                     "avgCPU": 96.7493,
                     "memoryInBytes": 14764000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000107",
@@ -11255,7 +11467,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 14888000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000108",
@@ -11272,7 +11486,9 @@
                     "avgCPU": 95.3815,
                     "memoryInBytes": 14660000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000109",
@@ -11289,7 +11505,9 @@
                     "avgCPU": 95.2503,
                     "memoryInBytes": 14932000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000110",
@@ -11306,7 +11524,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 14856000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000111",
@@ -11323,7 +11543,9 @@
                     "avgCPU": 99.8425,
                     "memoryInBytes": 14880000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000112",
@@ -11340,7 +11562,9 @@
                     "avgCPU": 99.9933,
                     "memoryInBytes": 14740000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000113",
@@ -11357,7 +11581,9 @@
                     "avgCPU": 92.8399,
                     "memoryInBytes": 14704000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000114",
@@ -11374,7 +11600,9 @@
                     "avgCPU": 96.9459,
                     "memoryInBytes": 14712000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000115",
@@ -11391,7 +11619,9 @@
                     "avgCPU": 91.0511,
                     "memoryInBytes": 14740000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000116",
@@ -11408,7 +11638,9 @@
                     "avgCPU": 98.5001,
                     "memoryInBytes": 14600000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000117",
@@ -11425,7 +11657,9 @@
                     "avgCPU": 99.46,
                     "memoryInBytes": 14812000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000118",
@@ -11442,7 +11676,9 @@
                     "avgCPU": 95.064,
                     "memoryInBytes": 14636000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000119",
@@ -11459,7 +11695,9 @@
                     "avgCPU": 99.9936,
                     "memoryInBytes": 14804000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000120",
@@ -11479,7 +11717,9 @@
                     "avgCPU": 4.5045,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000121",
@@ -11499,7 +11739,9 @@
                     "avgCPU": 10.0,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000122",
@@ -11519,7 +11761,9 @@
                     "avgCPU": 2.2936,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000123",
@@ -11539,7 +11783,9 @@
                     "avgCPU": 6.5789,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000124",
@@ -11559,7 +11805,9 @@
                     "avgCPU": 1.3514,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000125",
@@ -11579,7 +11827,9 @@
                     "avgCPU": 3.9683,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000126",
@@ -11599,7 +11849,9 @@
                     "avgCPU": 9.0909,
                     "memoryInBytes": 2836000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000127",
@@ -11619,7 +11871,9 @@
                     "avgCPU": 10.4167,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000128",
@@ -11639,7 +11893,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000129",
@@ -11659,7 +11915,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000130",
@@ -11679,7 +11937,9 @@
                     "avgCPU": 2.3041,
                     "memoryInBytes": 2916000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000131",
@@ -11699,7 +11959,9 @@
                     "avgCPU": 4.0323,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000132",
@@ -11719,7 +11981,9 @@
                     "avgCPU": 3.5971,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000133",
@@ -11739,7 +12003,9 @@
                     "avgCPU": 1.3158,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000134",
@@ -11759,7 +12025,9 @@
                     "avgCPU": 6.6667,
                     "memoryInBytes": 2948000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000135",
@@ -11779,7 +12047,9 @@
                     "avgCPU": 4.1322,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000136",
@@ -11799,7 +12069,9 @@
                     "avgCPU": 1.1601,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000137",
@@ -11819,7 +12091,9 @@
                     "avgCPU": 6.4103,
                     "memoryInBytes": 2900000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000138",
@@ -11839,7 +12113,9 @@
                     "avgCPU": 6.4935,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000139",
@@ -11859,7 +12135,9 @@
                     "avgCPU": 6.5789,
                     "memoryInBytes": 2948000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000140",
@@ -11879,7 +12157,9 @@
                     "avgCPU": 4.878,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000141",
@@ -11899,7 +12179,9 @@
                     "avgCPU": 7.4627,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000142",
@@ -11919,7 +12201,9 @@
                     "avgCPU": 4.0323,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000143",
@@ -11939,7 +12223,9 @@
                     "avgCPU": 11.3208,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000144",
@@ -11959,7 +12245,9 @@
                     "avgCPU": 4.2735,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000145",
@@ -11979,7 +12267,9 @@
                     "avgCPU": 4.0323,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000146",
@@ -11999,7 +12289,9 @@
                     "avgCPU": 2.2059,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000147",
@@ -12019,7 +12311,9 @@
                     "avgCPU": 7.3529,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000148",
@@ -12039,7 +12333,9 @@
                     "avgCPU": 6.4103,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000149",
@@ -12059,7 +12355,9 @@
                     "avgCPU": 7.1429,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000150",
@@ -12079,7 +12377,9 @@
                     "avgCPU": 6.9444,
                     "memoryInBytes": 2916000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000151",
@@ -12099,7 +12399,9 @@
                     "avgCPU": 0.9124,
                     "memoryInBytes": 2900000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000152",
@@ -12119,7 +12421,9 @@
                     "avgCPU": 3.0864,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000153",
@@ -12139,7 +12443,9 @@
                     "avgCPU": 8.3333,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000154",
@@ -12159,7 +12465,9 @@
                     "avgCPU": 5.3191,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000155",
@@ -12179,7 +12487,9 @@
                     "avgCPU": 6.5789,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000156",
@@ -12199,7 +12509,9 @@
                     "avgCPU": 5.4945,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000157",
@@ -12219,7 +12531,9 @@
                     "avgCPU": 8.1967,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000158",
@@ -12239,7 +12553,9 @@
                     "avgCPU": 5.2174,
                     "memoryInBytes": 2936000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000159",
@@ -12259,7 +12575,9 @@
                     "avgCPU": 9.2593,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000160",
@@ -12279,7 +12597,9 @@
                     "avgCPU": 0.3247,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000161",
@@ -12299,7 +12619,9 @@
                     "avgCPU": 6.7568,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000162",
@@ -12319,7 +12641,9 @@
                     "avgCPU": 5.618,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000163",
@@ -12339,7 +12663,9 @@
                     "avgCPU": 7.2464,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000164",
@@ -12359,7 +12685,9 @@
                     "avgCPU": 3.7037,
                     "memoryInBytes": 2904000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000165",
@@ -12379,7 +12707,9 @@
                     "avgCPU": 9.434,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000166",
@@ -12399,7 +12729,9 @@
                     "avgCPU": 3.1056,
                     "memoryInBytes": 2836000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000167",
@@ -12419,7 +12751,9 @@
                     "avgCPU": 9.2593,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000168",
@@ -12439,7 +12773,9 @@
                     "avgCPU": 4.9505,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000169",
@@ -12459,7 +12795,9 @@
                     "avgCPU": 7.4627,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000170",
@@ -12479,7 +12817,9 @@
                     "avgCPU": 0.5643,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000171",
@@ -12499,7 +12839,9 @@
                     "avgCPU": 4.5455,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000172",
@@ -12519,7 +12861,9 @@
                     "avgCPU": 9.434,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000173",
@@ -12539,7 +12883,9 @@
                     "avgCPU": 11.5385,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000174",
@@ -12559,7 +12905,9 @@
                     "avgCPU": 3.4014,
                     "memoryInBytes": 2836000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000175",
@@ -12579,7 +12927,9 @@
                     "avgCPU": 0.5388,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000176",
@@ -12599,7 +12949,9 @@
                     "avgCPU": 10.0,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000177",
@@ -12619,7 +12971,9 @@
                     "avgCPU": 4.5872,
                     "memoryInBytes": 2932000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000178",
@@ -12639,7 +12993,9 @@
                     "avgCPU": 11.5385,
                     "memoryInBytes": 2928000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000179",
@@ -12659,7 +13015,9 @@
                     "avgCPU": 0.7062,
                     "memoryInBytes": 2916000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000180",
@@ -12679,7 +13037,9 @@
                     "avgCPU": 4.4248,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000181",
@@ -12699,7 +13059,9 @@
                     "avgCPU": 11.1111,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000182",
@@ -12719,7 +13081,9 @@
                     "avgCPU": 4.8544,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000183",
@@ -12739,7 +13103,9 @@
                     "avgCPU": 1.0893,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000184",
@@ -12759,7 +13125,9 @@
                     "avgCPU": 3.0864,
                     "memoryInBytes": 2948000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000185",
@@ -12779,7 +13147,9 @@
                     "avgCPU": 7.7922,
                     "memoryInBytes": 2948000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000186",
@@ -12795,7 +13165,9 @@
                     "avgCPU": 99.297,
                     "memoryInBytes": 70924000,
                     "priority": 40,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000187",
@@ -12813,7 +13185,9 @@
                     "avgCPU": 99.9749,
                     "memoryInBytes": 137140000,
                     "priority": 50,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000188",
@@ -12831,7 +13205,9 @@
                     "avgCPU": 48.019,
                     "memoryInBytes": 69004000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000189",
@@ -12849,7 +13225,9 @@
                     "avgCPU": 39.2388,
                     "memoryInBytes": 69016000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000190",
@@ -12867,7 +13245,9 @@
                     "avgCPU": 57.0874,
                     "memoryInBytes": 69044000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000191",
@@ -12885,7 +13265,9 @@
                     "avgCPU": 99.6564,
                     "memoryInBytes": 68980000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000192",
@@ -12903,7 +13285,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68988000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000193",
@@ -12921,7 +13305,9 @@
                     "avgCPU": 45.4683,
                     "memoryInBytes": 68964000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000194",
@@ -12939,7 +13325,9 @@
                     "avgCPU": 97.7199,
                     "memoryInBytes": 69040000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000195",
@@ -12957,7 +13345,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68984000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000196",
@@ -12975,7 +13365,9 @@
                     "avgCPU": 99.654,
                     "memoryInBytes": 69036000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000197",
@@ -12993,7 +13385,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68968000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000198",
@@ -13011,7 +13405,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68992000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000199",
@@ -13029,7 +13425,9 @@
                     "avgCPU": 40.612,
                     "memoryInBytes": 69020000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000200",
@@ -13047,7 +13445,9 @@
                     "avgCPU": 87.2093,
                     "memoryInBytes": 69020000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000201",
@@ -13065,7 +13465,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69064000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000202",
@@ -13083,7 +13485,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69008000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000203",
@@ -13101,7 +13505,9 @@
                     "avgCPU": 47.0681,
                     "memoryInBytes": 68948000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000204",
@@ -13118,7 +13524,9 @@
                     "avgCPU": 99.5781,
                     "memoryInBytes": 71192000,
                     "priority": 70,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000205",
@@ -13135,7 +13543,9 @@
                     "avgCPU": 76.8212,
                     "memoryInBytes": 70032000,
                     "priority": 80,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000206",
@@ -13157,7 +13567,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 15852000,
                     "priority": 90,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000207",
@@ -13174,7 +13586,9 @@
                     "avgCPU": 99.5156,
                     "memoryInBytes": 14800000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000208",
@@ -13191,7 +13605,9 @@
                     "avgCPU": 99.8495,
                     "memoryInBytes": 14896000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000209",
@@ -13208,7 +13624,9 @@
                     "avgCPU": 99.6274,
                     "memoryInBytes": 14696000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000210",
@@ -13225,7 +13643,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 14808000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000211",
@@ -13242,7 +13662,9 @@
                     "avgCPU": 90.6726,
                     "memoryInBytes": 14860000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000212",
@@ -13259,7 +13681,9 @@
                     "avgCPU": 99.994,
                     "memoryInBytes": 14792000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000213",
@@ -13276,7 +13700,9 @@
                     "avgCPU": 99.0778,
                     "memoryInBytes": 14624000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000214",
@@ -13293,7 +13719,9 @@
                     "avgCPU": 93.7576,
                     "memoryInBytes": 14832000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000215",
@@ -13310,7 +13738,9 @@
                     "avgCPU": 93.8574,
                     "memoryInBytes": 14592000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000216",
@@ -13327,7 +13757,9 @@
                     "avgCPU": 99.4408,
                     "memoryInBytes": 14784000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000217",
@@ -13344,7 +13776,9 @@
                     "avgCPU": 99.9942,
                     "memoryInBytes": 14756000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000218",
@@ -13361,7 +13795,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 14896000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000219",
@@ -13378,7 +13814,9 @@
                     "avgCPU": 92.2875,
                     "memoryInBytes": 14744000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000220",
@@ -13395,7 +13833,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 14812000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000221",
@@ -13412,7 +13852,9 @@
                     "avgCPU": 93.0371,
                     "memoryInBytes": 14680000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000222",
@@ -13429,7 +13871,9 @@
                     "avgCPU": 99.9939,
                     "memoryInBytes": 14620000,
                     "priority": 20,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000223",
@@ -13449,7 +13893,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000224",
@@ -13469,7 +13915,9 @@
                     "avgCPU": 6.5789,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000225",
@@ -13489,7 +13937,9 @@
                     "avgCPU": 6.8493,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000226",
@@ -13509,7 +13959,9 @@
                     "avgCPU": 3.5211,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000227",
@@ -13529,7 +13981,9 @@
                     "avgCPU": 7.5758,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000228",
@@ -13549,7 +14003,9 @@
                     "avgCPU": 1.0684,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000229",
@@ -13569,7 +14025,9 @@
                     "avgCPU": 4.4643,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000230",
@@ -13589,7 +14047,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000231",
@@ -13609,7 +14069,9 @@
                     "avgCPU": 7.8947,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000232",
@@ -13629,7 +14091,9 @@
                     "avgCPU": 4.902,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000233",
@@ -13649,7 +14113,9 @@
                     "avgCPU": 8.0,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000234",
@@ -13669,7 +14135,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000235",
@@ -13689,7 +14157,9 @@
                     "avgCPU": 3.7879,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000236",
@@ -13709,7 +14179,9 @@
                     "avgCPU": 7.5758,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000237",
@@ -13729,7 +14201,9 @@
                     "avgCPU": 6.5789,
                     "memoryInBytes": 2860000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000238",
@@ -13749,7 +14223,9 @@
                     "avgCPU": 11.3208,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000239",
@@ -13769,7 +14245,9 @@
                     "avgCPU": 1.6304,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000240",
@@ -13789,7 +14267,9 @@
                     "avgCPU": 4.3478,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000241",
@@ -13809,7 +14289,9 @@
                     "avgCPU": 3.1056,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000242",
@@ -13829,7 +14311,9 @@
                     "avgCPU": 10.0,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000243",
@@ -13849,7 +14333,9 @@
                     "avgCPU": 6.7568,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000244",
@@ -13869,7 +14355,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000245",
@@ -13889,7 +14377,9 @@
                     "avgCPU": 0.4699,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000246",
@@ -13909,7 +14399,9 @@
                     "avgCPU": 4.0,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000247",
@@ -13929,7 +14421,9 @@
                     "avgCPU": 10.0,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000248",
@@ -13949,7 +14443,9 @@
                     "avgCPU": 4.4248,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000249",
@@ -13969,7 +14465,9 @@
                     "avgCPU": 7.4627,
                     "memoryInBytes": 2900000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000250",
@@ -13989,7 +14487,9 @@
                     "avgCPU": 6.9444,
                     "memoryInBytes": 2884000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000251",
@@ -14009,7 +14509,9 @@
                     "avgCPU": 4.0984,
                     "memoryInBytes": 2948000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000252",
@@ -14029,7 +14531,9 @@
                     "avgCPU": 6.5789,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000253",
@@ -14049,7 +14553,9 @@
                     "avgCPU": 0.5543,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000254",
@@ -14069,7 +14575,9 @@
                     "avgCPU": 1.0076,
                     "memoryInBytes": 2836000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000255",
@@ -14089,7 +14597,9 @@
                     "avgCPU": 9.8039,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000256",
@@ -14109,7 +14619,9 @@
                     "avgCPU": 4.4248,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000257",
@@ -14129,7 +14641,9 @@
                     "avgCPU": 2.9197,
                     "memoryInBytes": 2928000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000258",
@@ -14149,7 +14663,9 @@
                     "avgCPU": 11.1111,
                     "memoryInBytes": 2860000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000259",
@@ -14169,7 +14685,9 @@
                     "avgCPU": 4.4643,
                     "memoryInBytes": 2860000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000260",
@@ -14189,7 +14707,9 @@
                     "avgCPU": 0.9074,
                     "memoryInBytes": 2900000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000261",
@@ -14209,7 +14729,9 @@
                     "avgCPU": 6.4935,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000262",
@@ -14229,7 +14751,9 @@
                     "avgCPU": 9.6154,
                     "memoryInBytes": 2928000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000263",
@@ -14249,7 +14773,9 @@
                     "avgCPU": 4.717,
                     "memoryInBytes": 2936000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000264",
@@ -14269,7 +14795,9 @@
                     "avgCPU": 7.5758,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000265",
@@ -14289,7 +14817,9 @@
                     "avgCPU": 7.2464,
                     "memoryInBytes": 2932000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000266",
@@ -14309,7 +14839,9 @@
                     "avgCPU": 3.1746,
                     "memoryInBytes": 2832000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000267",
@@ -14329,7 +14861,9 @@
                     "avgCPU": 6.6667,
                     "memoryInBytes": 2852000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000268",
@@ -14349,7 +14883,9 @@
                     "avgCPU": 1.1161,
                     "memoryInBytes": 2948000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000269",
@@ -14369,7 +14905,9 @@
                     "avgCPU": 4.8544,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000270",
@@ -14389,7 +14927,9 @@
                     "avgCPU": 3.0864,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000271",
@@ -14409,7 +14949,9 @@
                     "avgCPU": 9.8039,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000272",
@@ -14429,7 +14971,9 @@
                     "avgCPU": 5.1948,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000273",
@@ -14449,7 +14993,9 @@
                     "avgCPU": 4.902,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000274",
@@ -14469,7 +15015,9 @@
                     "avgCPU": 1.2136,
                     "memoryInBytes": 2888000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000275",
@@ -14489,7 +15037,9 @@
                     "avgCPU": 7.4627,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000276",
@@ -14509,7 +15059,9 @@
                     "avgCPU": 12.5,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000277",
@@ -14529,7 +15081,9 @@
                     "avgCPU": 6.5789,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000278",
@@ -14549,7 +15103,9 @@
                     "avgCPU": 3.9062,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000279",
@@ -14569,7 +15125,9 @@
                     "avgCPU": 5.1724,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000280",
@@ -14589,7 +15147,9 @@
                     "avgCPU": 2.439,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000281",
@@ -14609,7 +15169,9 @@
                     "avgCPU": 8.0645,
                     "memoryInBytes": 2892000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000282",
@@ -14629,7 +15191,9 @@
                     "avgCPU": 5.1724,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000283",
@@ -14649,7 +15213,9 @@
                     "avgCPU": 8.1967,
                     "memoryInBytes": 2844000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000284",
@@ -14669,7 +15235,9 @@
                     "avgCPU": 3.1056,
                     "memoryInBytes": 2864000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000285",
@@ -14689,7 +15257,9 @@
                     "avgCPU": 1.5267,
                     "memoryInBytes": 2916000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000286",
@@ -14709,7 +15279,9 @@
                     "avgCPU": 7.2464,
                     "memoryInBytes": 2944000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000287",
@@ -14729,7 +15301,9 @@
                     "avgCPU": 8.1967,
                     "memoryInBytes": 2940000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000288",
@@ -14749,7 +15323,9 @@
                     "avgCPU": 5.9701,
                     "memoryInBytes": 2916000,
                     "priority": 30,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000289",
@@ -14765,7 +15341,9 @@
                     "avgCPU": 86.6852,
                     "memoryInBytes": 70788000,
                     "priority": 40,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000290",
@@ -14783,7 +15361,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 137064000,
                     "priority": 50,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000291",
@@ -14801,7 +15381,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69112000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000292",
@@ -14819,7 +15401,9 @@
                     "avgCPU": 66.0044,
                     "memoryInBytes": 68904000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000293",
@@ -14837,7 +15421,9 @@
                     "avgCPU": 99.654,
                     "memoryInBytes": 68964000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000294",
@@ -14855,7 +15441,9 @@
                     "avgCPU": 87.1429,
                     "memoryInBytes": 68948000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000295",
@@ -14873,7 +15461,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68956000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000296",
@@ -14891,7 +15481,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68988000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000297",
@@ -14909,7 +15501,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68964000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000298",
@@ -14927,7 +15521,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68944000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000299",
@@ -14945,7 +15541,9 @@
                     "avgCPU": 99.6441,
                     "memoryInBytes": 68944000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000300",
@@ -14963,7 +15561,9 @@
                     "avgCPU": 56.3327,
                     "memoryInBytes": 69056000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000301",
@@ -14981,7 +15581,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69016000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000302",
@@ -14999,7 +15601,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69048000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000303",
@@ -15017,7 +15621,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69008000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000304",
@@ -15035,7 +15641,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 68964000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000305",
@@ -15053,7 +15661,9 @@
                     "avgCPU": 67.2854,
                     "memoryInBytes": 69040000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000306",
@@ -15071,7 +15681,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69008000,
                     "priority": 60,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000307",
@@ -15088,7 +15700,9 @@
                     "avgCPU": 16.761,
                     "memoryInBytes": 71296000,
                     "priority": 70,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000308",
@@ -15105,7 +15719,9 @@
                     "avgCPU": 99.5935,
                     "memoryInBytes": 70040000,
                     "priority": 80,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000309",
@@ -15127,7 +15743,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 15892000,
                     "priority": 90,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000310",
@@ -15157,7 +15775,9 @@
                     "avgCPU": 81.1475,
                     "memoryInBytes": 17424000,
                     "priority": 90,
-                    "machine": "mem"
+                    "machines": [
+                        "mem"
+                    ]
                 }
             ],
             "machines": [

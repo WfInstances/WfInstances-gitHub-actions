@@ -8145,7 +8145,9 @@
                     },
                     "avgCPU": 8.0829,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000002",
@@ -8188,7 +8190,9 @@
                     },
                     "avgCPU": 3.078,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000003",
@@ -8231,7 +8235,9 @@
                     },
                     "avgCPU": 3.0499,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000004",
@@ -8253,7 +8259,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000005",
@@ -8294,7 +8302,9 @@
                     },
                     "avgCPU": 9.4859,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000006",
@@ -8337,7 +8347,9 @@
                     },
                     "avgCPU": 3.1074,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000007",
@@ -8380,7 +8392,9 @@
                     },
                     "avgCPU": 3.1433,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000008",
@@ -8402,7 +8416,9 @@
                     },
                     "avgCPU": 98.1132,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000009",
@@ -8443,7 +8459,9 @@
                     },
                     "avgCPU": 7.7291,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000010",
@@ -8486,7 +8504,9 @@
                     },
                     "avgCPU": 3.0684,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000011",
@@ -8529,7 +8549,9 @@
                     },
                     "avgCPU": 2.9924,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000012",
@@ -8551,7 +8573,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000013",
@@ -8592,7 +8616,9 @@
                     },
                     "avgCPU": 9.7188,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000014",
@@ -8635,7 +8661,9 @@
                     },
                     "avgCPU": 3.101,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000015",
@@ -8678,7 +8706,9 @@
                     },
                     "avgCPU": 3.2014,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000016",
@@ -8700,7 +8730,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000017",
@@ -8741,7 +8773,9 @@
                     },
                     "avgCPU": 7.346,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000018",
@@ -8784,7 +8818,9 @@
                     },
                     "avgCPU": 4.303,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000019",
@@ -8827,7 +8863,9 @@
                     },
                     "avgCPU": 4.2771,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000020",
@@ -8849,7 +8887,9 @@
                     },
                     "avgCPU": 97.9592,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000021",
@@ -8890,7 +8930,9 @@
                     },
                     "avgCPU": 8.1089,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000022",
@@ -8933,7 +8975,9 @@
                     },
                     "avgCPU": 18.0788,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000023",
@@ -8976,7 +9020,9 @@
                     },
                     "avgCPU": 17.969,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000024",
@@ -8998,7 +9044,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000025",
@@ -9039,7 +9087,9 @@
                     },
                     "avgCPU": 8.5972,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000026",
@@ -9082,7 +9132,9 @@
                     },
                     "avgCPU": 19.6329,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000027",
@@ -9125,7 +9177,9 @@
                     },
                     "avgCPU": 4.1861,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000028",
@@ -9147,7 +9201,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000029",
@@ -9188,7 +9244,9 @@
                     },
                     "avgCPU": 10.3556,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000030",
@@ -9231,7 +9289,9 @@
                     },
                     "avgCPU": 21.1255,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000031",
@@ -9274,7 +9334,9 @@
                     },
                     "avgCPU": 22.8456,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000032",
@@ -9296,7 +9358,9 @@
                     },
                     "avgCPU": 98.0392,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000033",
@@ -9337,7 +9401,9 @@
                     },
                     "avgCPU": 8.3062,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000034",
@@ -9380,7 +9446,9 @@
                     },
                     "avgCPU": 3.4911,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000035",
@@ -9423,7 +9491,9 @@
                     },
                     "avgCPU": 3.2062,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000036",
@@ -9445,7 +9515,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000037",
@@ -9486,7 +9558,9 @@
                     },
                     "avgCPU": 9.0466,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000038",
@@ -9529,7 +9603,9 @@
                     },
                     "avgCPU": 3.1298,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000039",
@@ -9572,7 +9648,9 @@
                     },
                     "avgCPU": 3.1797,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000040",
@@ -9594,7 +9672,9 @@
                     },
                     "avgCPU": 98.1818,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000041",
@@ -9635,7 +9715,9 @@
                     },
                     "avgCPU": 8.8078,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000042",
@@ -9678,7 +9760,9 @@
                     },
                     "avgCPU": 3.853,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000043",
@@ -9721,7 +9805,9 @@
                     },
                     "avgCPU": 3.9417,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000044",
@@ -9743,7 +9829,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000045",
@@ -9784,7 +9872,9 @@
                     },
                     "avgCPU": 9.0698,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000046",
@@ -9827,7 +9917,9 @@
                     },
                     "avgCPU": 4.0566,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000047",
@@ -9870,7 +9962,9 @@
                     },
                     "avgCPU": 4.1243,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000048",
@@ -9892,7 +9986,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000049",
@@ -9933,7 +10029,9 @@
                     },
                     "avgCPU": 7.7913,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000050",
@@ -9976,7 +10074,9 @@
                     },
                     "avgCPU": 2.9493,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000051",
@@ -10019,7 +10119,9 @@
                     },
                     "avgCPU": 3.1014,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000052",
@@ -10041,7 +10143,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000053",
@@ -10082,7 +10186,9 @@
                     },
                     "avgCPU": 8.3369,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000054",
@@ -10125,7 +10231,9 @@
                     },
                     "avgCPU": 4.0675,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000055",
@@ -10168,7 +10276,9 @@
                     },
                     "avgCPU": 3.9762,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000056",
@@ -10190,7 +10300,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000057",
@@ -10231,7 +10343,9 @@
                     },
                     "avgCPU": 8.0535,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000058",
@@ -10274,7 +10388,9 @@
                     },
                     "avgCPU": 3.0811,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000059",
@@ -10317,7 +10433,9 @@
                     },
                     "avgCPU": 3.1376,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000060",
@@ -10339,7 +10457,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000061",
@@ -10380,7 +10500,9 @@
                     },
                     "avgCPU": 8.758,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000062",
@@ -10423,7 +10545,9 @@
                     },
                     "avgCPU": 4.4787,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000063",
@@ -10466,7 +10590,9 @@
                     },
                     "avgCPU": 4.0414,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000064",
@@ -10488,7 +10614,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_output_summary_ID0000065",
@@ -10534,7 +10662,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_summary_ID0000066",
@@ -10580,7 +10710,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 50,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000067",
@@ -10621,7 +10753,9 @@
                     },
                     "avgCPU": 8.1541,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000068",
@@ -10664,7 +10798,9 @@
                     },
                     "avgCPU": 5.9816,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000069",
@@ -10707,7 +10843,9 @@
                     },
                     "avgCPU": 4.2029,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000070",
@@ -10729,7 +10867,9 @@
                     },
                     "avgCPU": 97.9592,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000071",
@@ -10770,7 +10910,9 @@
                     },
                     "avgCPU": 12.6766,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000072",
@@ -10813,7 +10955,9 @@
                     },
                     "avgCPU": 21.2591,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000073",
@@ -10856,7 +11000,9 @@
                     },
                     "avgCPU": 22.354,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000074",
@@ -10878,7 +11024,9 @@
                     },
                     "avgCPU": 98.2759,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000075",
@@ -10919,7 +11067,9 @@
                     },
                     "avgCPU": 9.3613,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000076",
@@ -10962,7 +11112,9 @@
                     },
                     "avgCPU": 20.4302,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000077",
@@ -11005,7 +11157,9 @@
                     },
                     "avgCPU": 20.2627,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000078",
@@ -11027,7 +11181,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000079",
@@ -11068,7 +11224,9 @@
                     },
                     "avgCPU": 12.8299,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000080",
@@ -11111,7 +11269,9 @@
                     },
                     "avgCPU": 4.1713,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000081",
@@ -11154,7 +11314,9 @@
                     },
                     "avgCPU": 4.1502,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000082",
@@ -11176,7 +11338,9 @@
                     },
                     "avgCPU": 42.4,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000083",
@@ -11217,7 +11381,9 @@
                     },
                     "avgCPU": 8.6595,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000084",
@@ -11260,7 +11426,9 @@
                     },
                     "avgCPU": 4.0329,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000085",
@@ -11303,7 +11471,9 @@
                     },
                     "avgCPU": 4.1132,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000086",
@@ -11325,7 +11495,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000087",
@@ -11366,7 +11538,9 @@
                     },
                     "avgCPU": 11.8533,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000088",
@@ -11409,7 +11583,9 @@
                     },
                     "avgCPU": 4.2043,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000089",
@@ -11452,7 +11628,9 @@
                     },
                     "avgCPU": 4.2667,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000090",
@@ -11474,7 +11652,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000091",
@@ -11515,7 +11695,9 @@
                     },
                     "avgCPU": 8.0592,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000092",
@@ -11558,7 +11740,9 @@
                     },
                     "avgCPU": 13.9411,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000093",
@@ -11601,7 +11785,9 @@
                     },
                     "avgCPU": 11.3074,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000094",
@@ -11623,7 +11809,9 @@
                     },
                     "avgCPU": 97.561,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000095",
@@ -11664,7 +11852,9 @@
                     },
                     "avgCPU": 11.4195,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000096",
@@ -11707,7 +11897,9 @@
                     },
                     "avgCPU": 3.1101,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000097",
@@ -11750,7 +11942,9 @@
                     },
                     "avgCPU": 3.2471,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000098",
@@ -11772,7 +11966,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000099",
@@ -11813,7 +12009,9 @@
                     },
                     "avgCPU": 7.4948,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000100",
@@ -11856,7 +12054,9 @@
                     },
                     "avgCPU": 3.0849,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000101",
@@ -11899,7 +12099,9 @@
                     },
                     "avgCPU": 2.9199,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000102",
@@ -11921,7 +12123,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000103",
@@ -11962,7 +12166,9 @@
                     },
                     "avgCPU": 9.3514,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000104",
@@ -12005,7 +12211,9 @@
                     },
                     "avgCPU": 4.3753,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000105",
@@ -12048,7 +12256,9 @@
                     },
                     "avgCPU": 4.4277,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000106",
@@ -12070,7 +12280,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000107",
@@ -12111,7 +12323,9 @@
                     },
                     "avgCPU": 8.3777,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000108",
@@ -12154,7 +12368,9 @@
                     },
                     "avgCPU": 19.5928,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000109",
@@ -12197,7 +12413,9 @@
                     },
                     "avgCPU": 20.1444,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000110",
@@ -12219,7 +12437,9 @@
                     },
                     "avgCPU": 98.1132,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000111",
@@ -12260,7 +12480,9 @@
                     },
                     "avgCPU": 11.3084,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000112",
@@ -12303,7 +12525,9 @@
                     },
                     "avgCPU": 4.1183,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000113",
@@ -12346,7 +12570,9 @@
                     },
                     "avgCPU": 4.4087,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000114",
@@ -12368,7 +12594,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000115",
@@ -12409,7 +12637,9 @@
                     },
                     "avgCPU": 8.0303,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000116",
@@ -12452,7 +12682,9 @@
                     },
                     "avgCPU": 2.8575,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000117",
@@ -12495,7 +12727,9 @@
                     },
                     "avgCPU": 3.0407,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000118",
@@ -12517,7 +12751,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000119",
@@ -12558,7 +12794,9 @@
                     },
                     "avgCPU": 11.1891,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000120",
@@ -12601,7 +12839,9 @@
                     },
                     "avgCPU": 21.9573,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000121",
@@ -12644,7 +12884,9 @@
                     },
                     "avgCPU": 22.2283,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000122",
@@ -12666,7 +12908,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000123",
@@ -12707,7 +12951,9 @@
                     },
                     "avgCPU": 8.7512,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000124",
@@ -12750,7 +12996,9 @@
                     },
                     "avgCPU": 3.0572,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000125",
@@ -12793,7 +13041,9 @@
                     },
                     "avgCPU": 2.9225,
                     "priority": 30,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000126",
@@ -12815,7 +13065,9 @@
                     },
                     "avgCPU": 98.1132,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "baseline_cycles_ID0000127",
@@ -12856,7 +13108,9 @@
                     },
                     "avgCPU": 10.2846,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_ID0000128",
@@ -12899,7 +13153,9 @@
                     },
                     "avgCPU": 21.8726,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "fertilizer_increase_cycles_ID0000129",
@@ -12942,7 +13198,9 @@
                     },
                     "avgCPU": 20.6579,
                     "priority": 30,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_parser_ID0000130",
@@ -12964,7 +13222,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "cycles_output_summary_ID0000131",
@@ -13010,7 +13270,9 @@
                     },
                     "avgCPU": 98.1132,
                     "priority": 40,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_fertilizer_increase_output_summary_ID0000132",
@@ -13056,7 +13318,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 50,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "cycles_plots_ID0000133",
@@ -13071,7 +13335,9 @@
                     },
                     "avgCPU": 115.9919,
                     "priority": 50,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 }
             ],
             "machines": [

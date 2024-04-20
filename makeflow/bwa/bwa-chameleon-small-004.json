@@ -4638,7 +4638,9 @@
                     "readBytes": 2341000,
                     "writtenBytes": 2343000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-1.novalocal"
+                    "machines": [
+                        "worker-1.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_index_ID000002",
@@ -4656,7 +4658,9 @@
                     "readBytes": 1147113000,
                     "writtenBytes": 526773000,
                     "memoryInBytes": 147000000,
-                    "machine": "worker-1.novalocal"
+                    "machines": [
+                        "worker-1.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000003",
@@ -4681,7 +4685,9 @@
                     "readBytes": 167477000,
                     "writtenBytes": 496000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-4.novalocal"
+                    "machines": [
+                        "worker-4.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000004",
@@ -4706,7 +4712,9 @@
                     "readBytes": 167477000,
                     "writtenBytes": 500000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-4.novalocal"
+                    "machines": [
+                        "worker-4.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000005",
@@ -4731,7 +4739,9 @@
                     "readBytes": 167478000,
                     "writtenBytes": 496000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000006",
@@ -4756,7 +4766,9 @@
                     "readBytes": 334949000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000007",
@@ -4781,7 +4793,9 @@
                     "readBytes": 334949000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000008",
@@ -4806,7 +4820,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 992000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000009",
@@ -4831,7 +4847,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000010",
@@ -4856,7 +4874,9 @@
                     "readBytes": 334937000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000011",
@@ -4881,7 +4901,9 @@
                     "readBytes": 334943000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000012",
@@ -4906,7 +4928,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000013",
@@ -4931,7 +4955,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000014",
@@ -4956,7 +4982,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000015",
@@ -4981,7 +5009,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000016",
@@ -5006,7 +5036,9 @@
                     "readBytes": 334944000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000017",
@@ -5031,7 +5063,9 @@
                     "readBytes": 334953000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000018",
@@ -5056,7 +5090,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000019",
@@ -5081,7 +5117,9 @@
                     "readBytes": 334948000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000020",
@@ -5106,7 +5144,9 @@
                     "readBytes": 334953000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000021",
@@ -5131,7 +5171,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000022",
@@ -5156,7 +5198,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000023",
@@ -5181,7 +5225,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000024",
@@ -5206,7 +5252,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000025",
@@ -5231,7 +5279,9 @@
                     "readBytes": 334947000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000026",
@@ -5256,7 +5306,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000027",
@@ -5281,7 +5333,9 @@
                     "readBytes": 334949000,
                     "writtenBytes": 992000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000028",
@@ -5306,7 +5360,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000029",
@@ -5331,7 +5387,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000030",
@@ -5356,7 +5414,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000031",
@@ -5381,7 +5441,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000032",
@@ -5406,7 +5468,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000033",
@@ -5431,7 +5495,9 @@
                     "readBytes": 334948000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000034",
@@ -5456,7 +5522,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000035",
@@ -5481,7 +5549,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000036",
@@ -5506,7 +5576,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000037",
@@ -5531,7 +5603,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000038",
@@ -5556,7 +5630,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000039",
@@ -5581,7 +5657,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000040",
@@ -5606,7 +5684,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000041",
@@ -5631,7 +5711,9 @@
                     "readBytes": 334947000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000042",
@@ -5656,7 +5738,9 @@
                     "readBytes": 334953000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000043",
@@ -5681,7 +5765,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000044",
@@ -5706,7 +5792,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000045",
@@ -5731,7 +5819,9 @@
                     "readBytes": 334943000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000046",
@@ -5756,7 +5846,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000047",
@@ -5781,7 +5873,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000048",
@@ -5806,7 +5900,9 @@
                     "readBytes": 334947000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000049",
@@ -5831,7 +5927,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000050",
@@ -5856,7 +5954,9 @@
                     "readBytes": 334944000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000051",
@@ -5881,7 +5981,9 @@
                     "readBytes": 167478000,
                     "writtenBytes": 500000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000052",
@@ -5906,7 +6008,9 @@
                     "readBytes": 334947000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000053",
@@ -5931,7 +6035,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000054",
@@ -5956,7 +6062,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000055",
@@ -5981,7 +6089,9 @@
                     "readBytes": 167478000,
                     "writtenBytes": 500000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000056",
@@ -6006,7 +6116,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000057",
@@ -6031,7 +6143,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000058",
@@ -6056,7 +6170,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000059",
@@ -6081,7 +6197,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000060",
@@ -6106,7 +6224,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000061",
@@ -6131,7 +6251,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000062",
@@ -6156,7 +6278,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000063",
@@ -6181,7 +6305,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000064",
@@ -6206,7 +6332,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000065",
@@ -6231,7 +6359,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000066",
@@ -6256,7 +6386,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000067",
@@ -6281,7 +6413,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000068",
@@ -6306,7 +6440,9 @@
                     "readBytes": 334950000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000069",
@@ -6331,7 +6467,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000070",
@@ -6356,7 +6494,9 @@
                     "readBytes": 334953000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000071",
@@ -6381,7 +6521,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000072",
@@ -6406,7 +6548,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000073",
@@ -6431,7 +6575,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000074",
@@ -6456,7 +6602,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000075",
@@ -6481,7 +6629,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000076",
@@ -6506,7 +6656,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000077",
@@ -6531,7 +6683,9 @@
                     "readBytes": 334950000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000078",
@@ -6556,7 +6710,9 @@
                     "readBytes": 334949000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000079",
@@ -6581,7 +6737,9 @@
                     "readBytes": 334950000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000080",
@@ -6606,7 +6764,9 @@
                     "readBytes": 334941000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000081",
@@ -6631,7 +6791,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000082",
@@ -6656,7 +6818,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000083",
@@ -6681,7 +6845,9 @@
                     "readBytes": 334946000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000084",
@@ -6706,7 +6872,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000085",
@@ -6731,7 +6899,9 @@
                     "readBytes": 334941000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000086",
@@ -6756,7 +6926,9 @@
                     "readBytes": 334949000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000087",
@@ -6781,7 +6953,9 @@
                     "readBytes": 334941000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000088",
@@ -6806,7 +6980,9 @@
                     "readBytes": 334938000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000089",
@@ -6831,7 +7007,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000090",
@@ -6856,7 +7034,9 @@
                     "readBytes": 334947000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000091",
@@ -6881,7 +7061,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000092",
@@ -6906,7 +7088,9 @@
                     "readBytes": 334953000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000093",
@@ -6931,7 +7115,9 @@
                     "readBytes": 334945000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000094",
@@ -6956,7 +7142,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000095",
@@ -6981,7 +7169,9 @@
                     "readBytes": 334947000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000096",
@@ -7006,7 +7196,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000097",
@@ -7031,7 +7223,9 @@
                     "readBytes": 334952000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000098",
@@ -7056,7 +7250,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000099",
@@ -7081,7 +7277,9 @@
                     "readBytes": 334951000,
                     "writtenBytes": 1000000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000100",
@@ -7106,7 +7304,9 @@
                     "readBytes": 167478000,
                     "writtenBytes": 500000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000101",
@@ -7131,7 +7331,9 @@
                     "readBytes": 167478000,
                     "writtenBytes": 500000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "bwa_ID000102",
@@ -7156,7 +7358,9 @@
                     "readBytes": 167478000,
                     "writtenBytes": 500000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-3.novalocal"
+                    "machines": [
+                        "worker-3.novalocal"
+                    ]
                 },
                 {
                     "id": "cat_bwa_ID000103",
@@ -7174,7 +7378,9 @@
                     "readBytes": 98771000,
                     "writtenBytes": 6578000,
                     "memoryInBytes": 5000000,
-                    "machine": "worker-1.novalocal"
+                    "machines": [
+                        "worker-1.novalocal"
+                    ]
                 },
                 {
                     "id": "cat_ID000104",
@@ -7193,7 +7399,9 @@
                     "readBytes": 25000,
                     "writtenBytes": 15000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-1.novalocal"
+                    "machines": [
+                        "worker-1.novalocal"
+                    ]
                 }
             ],
             "machines": [

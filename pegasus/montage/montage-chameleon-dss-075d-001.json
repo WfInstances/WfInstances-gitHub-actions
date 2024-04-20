@@ -5280,7 +5280,9 @@
                     "avgCPU": 99.9079,
                     "memoryInBytes": 121516000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000002",
@@ -5297,7 +5299,9 @@
                     "avgCPU": 99.9912,
                     "memoryInBytes": 121476000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000003",
@@ -5314,7 +5318,9 @@
                     "avgCPU": 99.9919,
                     "memoryInBytes": 121500000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000004",
@@ -5331,7 +5337,9 @@
                     "avgCPU": 99.9156,
                     "memoryInBytes": 121660000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000005",
@@ -5348,7 +5356,9 @@
                     "avgCPU": 99.9769,
                     "memoryInBytes": 121404000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000006",
@@ -5365,7 +5375,9 @@
                     "avgCPU": 99.7905,
                     "memoryInBytes": 121456000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000007",
@@ -5382,7 +5394,9 @@
                     "avgCPU": 99.9802,
                     "memoryInBytes": 121472000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000008",
@@ -5399,7 +5413,9 @@
                     "avgCPU": 99.6145,
                     "memoryInBytes": 121432000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000009",
@@ -5416,7 +5432,9 @@
                     "avgCPU": 99.2593,
                     "memoryInBytes": 121384000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000010",
@@ -5436,7 +5454,9 @@
                     "avgCPU": 0.1201,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000011",
@@ -5456,7 +5476,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2768000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000012",
@@ -5476,7 +5498,9 @@
                     "avgCPU": 0.1028,
                     "memoryInBytes": 2824000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000013",
@@ -5496,7 +5520,9 @@
                     "avgCPU": 0.3676,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000014",
@@ -5516,7 +5542,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000015",
@@ -5536,7 +5564,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2752000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000016",
@@ -5556,7 +5586,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000017",
@@ -5576,7 +5608,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2812000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000018",
@@ -5596,7 +5630,9 @@
                     "avgCPU": 0.11,
                     "memoryInBytes": 2864000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000019",
@@ -5616,7 +5652,9 @@
                     "avgCPU": 0.277,
                     "memoryInBytes": 2816000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000020",
@@ -5636,7 +5674,9 @@
                     "avgCPU": 0.1493,
                     "memoryInBytes": 2828000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000021",
@@ -5656,7 +5696,9 @@
                     "avgCPU": 0.2481,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000022",
@@ -5676,7 +5718,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000023",
@@ -5696,7 +5740,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2804000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000024",
@@ -5716,7 +5762,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2836000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000025",
@@ -5736,7 +5784,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2764000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000026",
@@ -5756,7 +5806,9 @@
                     "avgCPU": 0.2766,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000027",
@@ -5776,7 +5828,9 @@
                     "avgCPU": 0.2597,
                     "memoryInBytes": 2800000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000028",
@@ -5796,7 +5850,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000029",
@@ -5816,7 +5872,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2756000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000030",
@@ -5836,7 +5894,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2736000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000031",
@@ -5856,7 +5916,9 @@
                     "avgCPU": 0.1536,
                     "memoryInBytes": 2860000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000032",
@@ -5876,7 +5938,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2756000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000033",
@@ -5896,7 +5960,9 @@
                     "avgCPU": 0.1531,
                     "memoryInBytes": 2824000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000034",
@@ -5916,7 +5982,9 @@
                     "avgCPU": 0.3096,
                     "memoryInBytes": 2924000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000035",
@@ -5936,7 +6004,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2764000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000036",
@@ -5956,7 +6026,9 @@
                     "avgCPU": 0.1544,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000037",
@@ -5976,7 +6048,9 @@
                     "avgCPU": 0.3697,
                     "memoryInBytes": 2824000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000038",
@@ -5996,7 +6070,9 @@
                     "avgCPU": 0.1049,
                     "memoryInBytes": 2800000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000039",
@@ -6016,7 +6092,9 @@
                     "avgCPU": 0.3704,
                     "memoryInBytes": 2868000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000040",
@@ -6036,7 +6114,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2752000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000041",
@@ -6056,7 +6136,9 @@
                     "avgCPU": 0.3373,
                     "memoryInBytes": 2812000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000042",
@@ -6076,7 +6158,9 @@
                     "avgCPU": 0.2545,
                     "memoryInBytes": 2876000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000043",
@@ -6096,7 +6180,9 @@
                     "avgCPU": 0.2571,
                     "memoryInBytes": 2800000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000044",
@@ -6116,7 +6202,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2832000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000045",
@@ -6136,7 +6224,9 @@
                     "avgCPU": 0.2551,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000046",
@@ -6152,7 +6242,9 @@
                     "avgCPU": 99.3865,
                     "memoryInBytes": 70756000,
                     "priority": 40,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000047",
@@ -6170,7 +6262,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 137024000,
                     "priority": 50,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000048",
@@ -6188,7 +6282,9 @@
                     "avgCPU": 82.878,
                     "memoryInBytes": 107528000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000049",
@@ -6206,7 +6302,9 @@
                     "avgCPU": 67.2884,
                     "memoryInBytes": 107752000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000050",
@@ -6224,7 +6322,9 @@
                     "avgCPU": 82.1818,
                     "memoryInBytes": 107764000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000051",
@@ -6242,7 +6342,9 @@
                     "avgCPU": 88.2022,
                     "memoryInBytes": 107696000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000052",
@@ -6260,7 +6362,9 @@
                     "avgCPU": 80.9947,
                     "memoryInBytes": 107748000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000053",
@@ -6278,7 +6382,9 @@
                     "avgCPU": 83.5398,
                     "memoryInBytes": 107604000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000054",
@@ -6296,7 +6402,9 @@
                     "avgCPU": 74.4538,
                     "memoryInBytes": 107516000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000055",
@@ -6314,7 +6422,9 @@
                     "avgCPU": 69.3023,
                     "memoryInBytes": 107576000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000056",
@@ -6332,7 +6442,9 @@
                     "avgCPU": 51.6471,
                     "memoryInBytes": 107528000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000057",
@@ -6349,7 +6461,9 @@
                     "avgCPU": 99.0909,
                     "memoryInBytes": 71112000,
                     "priority": 70,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000058",
@@ -6366,7 +6480,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69936000,
                     "priority": 80,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000059",
@@ -6388,7 +6504,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 138648000,
                     "priority": 90,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000060",
@@ -6405,7 +6523,9 @@
                     "avgCPU": 99.9873,
                     "memoryInBytes": 120176000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000061",
@@ -6422,7 +6542,9 @@
                     "avgCPU": 99.9862,
                     "memoryInBytes": 120252000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000062",
@@ -6439,7 +6561,9 @@
                     "avgCPU": 99.9888,
                     "memoryInBytes": 120268000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000063",
@@ -6456,7 +6580,9 @@
                     "avgCPU": 99.9882,
                     "memoryInBytes": 120136000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000064",
@@ -6473,7 +6599,9 @@
                     "avgCPU": 99.9197,
                     "memoryInBytes": 120212000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000065",
@@ -6490,7 +6618,9 @@
                     "avgCPU": 99.9878,
                     "memoryInBytes": 120348000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000066",
@@ -6507,7 +6637,9 @@
                     "avgCPU": 99.987,
                     "memoryInBytes": 120324000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000067",
@@ -6524,7 +6656,9 @@
                     "avgCPU": 99.9735,
                     "memoryInBytes": 120300000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000068",
@@ -6541,7 +6675,9 @@
                     "avgCPU": 99.9549,
                     "memoryInBytes": 120296000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000069",
@@ -6561,7 +6697,9 @@
                     "avgCPU": 0.1034,
                     "memoryInBytes": 2868000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000070",
@@ -6581,7 +6719,9 @@
                     "avgCPU": 25.0,
                     "memoryInBytes": 2736000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000071",
@@ -6601,7 +6741,9 @@
                     "avgCPU": 0.1496,
                     "memoryInBytes": 2864000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000072",
@@ -6621,7 +6763,9 @@
                     "avgCPU": 0.346,
                     "memoryInBytes": 2816000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000073",
@@ -6641,7 +6785,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2760000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000074",
@@ -6661,7 +6807,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000075",
@@ -6681,7 +6829,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2760000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000076",
@@ -6701,7 +6851,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2756000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000077",
@@ -6721,7 +6873,9 @@
                     "avgCPU": 0.1216,
                     "memoryInBytes": 2796000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000078",
@@ -6741,7 +6895,9 @@
                     "avgCPU": 0.2766,
                     "memoryInBytes": 2828000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000079",
@@ -6761,7 +6917,9 @@
                     "avgCPU": 0.1493,
                     "memoryInBytes": 2824000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000080",
@@ -6781,7 +6939,9 @@
                     "avgCPU": 0.2639,
                     "memoryInBytes": 2832000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000081",
@@ -6801,7 +6961,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000082",
@@ -6821,7 +6983,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000083",
@@ -6841,7 +7005,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2804000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000084",
@@ -6861,7 +7027,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2736000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000085",
@@ -6881,7 +7049,9 @@
                     "avgCPU": 0.3454,
                     "memoryInBytes": 2828000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000086",
@@ -6901,7 +7071,9 @@
                     "avgCPU": 0.1372,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000087",
@@ -6921,7 +7093,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2796000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000088",
@@ -6941,7 +7115,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2848000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000089",
@@ -6961,7 +7137,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000090",
@@ -6981,7 +7159,9 @@
                     "avgCPU": 0.1498,
                     "memoryInBytes": 2876000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000091",
@@ -7001,7 +7181,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2856000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000092",
@@ -7021,7 +7203,9 @@
                     "avgCPU": 0.147,
                     "memoryInBytes": 2864000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000093",
@@ -7041,7 +7225,9 @@
                     "avgCPU": 0.4323,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000094",
@@ -7061,7 +7247,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2812000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000095",
@@ -7081,7 +7269,9 @@
                     "avgCPU": 0.153,
                     "memoryInBytes": 2860000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000096",
@@ -7101,7 +7291,9 @@
                     "avgCPU": 0.3425,
                     "memoryInBytes": 2828000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000097",
@@ -7121,7 +7313,9 @@
                     "avgCPU": 0.1506,
                     "memoryInBytes": 2816000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000098",
@@ -7141,7 +7335,9 @@
                     "avgCPU": 0.3413,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000099",
@@ -7161,7 +7357,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000100",
@@ -7181,7 +7379,9 @@
                     "avgCPU": 0.5119,
                     "memoryInBytes": 2824000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000101",
@@ -7201,7 +7401,9 @@
                     "avgCPU": 0.177,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000102",
@@ -7221,7 +7423,9 @@
                     "avgCPU": 0.1639,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000103",
@@ -7241,7 +7445,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2812000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000104",
@@ -7261,7 +7467,9 @@
                     "avgCPU": 0.289,
                     "memoryInBytes": 2804000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000105",
@@ -7277,7 +7485,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 70824000,
                     "priority": 40,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000106",
@@ -7295,7 +7505,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 137056000,
                     "priority": 50,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000107",
@@ -7313,7 +7525,9 @@
                     "avgCPU": 86.5922,
                     "memoryInBytes": 106368000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000108",
@@ -7331,7 +7545,9 @@
                     "avgCPU": 46.9208,
                     "memoryInBytes": 106548000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000109",
@@ -7349,7 +7565,9 @@
                     "avgCPU": 51.3144,
                     "memoryInBytes": 106624000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000110",
@@ -7367,7 +7585,9 @@
                     "avgCPU": 28.6307,
                     "memoryInBytes": 106320000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000111",
@@ -7385,7 +7605,9 @@
                     "avgCPU": 46.2891,
                     "memoryInBytes": 106368000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000112",
@@ -7403,7 +7625,9 @@
                     "avgCPU": 47.5758,
                     "memoryInBytes": 106508000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000113",
@@ -7421,7 +7645,9 @@
                     "avgCPU": 28.707,
                     "memoryInBytes": 106472000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000114",
@@ -7439,7 +7665,9 @@
                     "avgCPU": 28.689,
                     "memoryInBytes": 106540000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000115",
@@ -7457,7 +7685,9 @@
                     "avgCPU": 27.9029,
                     "memoryInBytes": 106536000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000116",
@@ -7474,7 +7704,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 71144000,
                     "priority": 70,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000117",
@@ -7491,7 +7723,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69980000,
                     "priority": 80,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000118",
@@ -7513,7 +7747,9 @@
                     "avgCPU": 97.0789,
                     "memoryInBytes": 143728000,
                     "priority": 90,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000119",
@@ -7530,7 +7766,9 @@
                     "avgCPU": 99.9855,
                     "memoryInBytes": 121228000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000120",
@@ -7547,7 +7785,9 @@
                     "avgCPU": 99.7203,
                     "memoryInBytes": 121280000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000121",
@@ -7564,7 +7804,9 @@
                     "avgCPU": 99.7131,
                     "memoryInBytes": 121356000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000122",
@@ -7581,7 +7823,9 @@
                     "avgCPU": 99.9894,
                     "memoryInBytes": 121084000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000123",
@@ -7598,7 +7842,9 @@
                     "avgCPU": 99.9352,
                     "memoryInBytes": 121144000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000124",
@@ -7615,7 +7861,9 @@
                     "avgCPU": 99.5115,
                     "memoryInBytes": 121216000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000125",
@@ -7632,7 +7880,9 @@
                     "avgCPU": 99.9866,
                     "memoryInBytes": 121168000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000126",
@@ -7649,7 +7899,9 @@
                     "avgCPU": 99.9906,
                     "memoryInBytes": 121272000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000127",
@@ -7666,7 +7918,9 @@
                     "avgCPU": 99.2532,
                     "memoryInBytes": 121176000,
                     "priority": 20,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000128",
@@ -7686,7 +7940,9 @@
                     "avgCPU": 0.1241,
                     "memoryInBytes": 2864000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000129",
@@ -7706,7 +7962,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2832000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000130",
@@ -7726,7 +7984,9 @@
                     "avgCPU": 0.1433,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000131",
@@ -7746,7 +8006,9 @@
                     "avgCPU": 0.3565,
                     "memoryInBytes": 2876000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000132",
@@ -7766,7 +8028,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2804000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000133",
@@ -7786,7 +8050,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2804000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000134",
@@ -7806,7 +8072,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2764000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000135",
@@ -7826,7 +8094,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2792000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000136",
@@ -7846,7 +8116,9 @@
                     "avgCPU": 0.108,
                     "memoryInBytes": 2820000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000137",
@@ -7866,7 +8138,9 @@
                     "avgCPU": 0.3289,
                     "memoryInBytes": 2820000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000138",
@@ -7886,7 +8160,9 @@
                     "avgCPU": 0.1339,
                     "memoryInBytes": 2864000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000139",
@@ -7906,7 +8182,9 @@
                     "avgCPU": 0.274,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000140",
@@ -7926,7 +8204,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2808000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000141",
@@ -7946,7 +8226,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2840000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000142",
@@ -7966,7 +8248,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2764000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000143",
@@ -7986,7 +8270,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2764000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000144",
@@ -8006,7 +8292,9 @@
                     "avgCPU": 0.303,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000145",
@@ -8026,7 +8314,9 @@
                     "avgCPU": 0.2232,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000146",
@@ -8046,7 +8336,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2812000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000147",
@@ -8066,7 +8358,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2736000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000148",
@@ -8086,7 +8380,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2804000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000149",
@@ -8106,7 +8402,9 @@
                     "avgCPU": 0.1318,
                     "memoryInBytes": 2912000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000150",
@@ -8126,7 +8424,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2760000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000151",
@@ -8146,7 +8446,9 @@
                     "avgCPU": 0.1329,
                     "memoryInBytes": 2816000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000152",
@@ -8166,7 +8468,9 @@
                     "avgCPU": 0.3591,
                     "memoryInBytes": 2800000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000153",
@@ -8186,7 +8490,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2768000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000154",
@@ -8206,7 +8512,9 @@
                     "avgCPU": 0.1001,
                     "memoryInBytes": 2868000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000155",
@@ -8226,7 +8534,9 @@
                     "avgCPU": 0.2692,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000156",
@@ -8246,7 +8556,9 @@
                     "avgCPU": 0.122,
                     "memoryInBytes": 2872000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000157",
@@ -8266,7 +8578,9 @@
                     "avgCPU": 0.3683,
                     "memoryInBytes": 2896000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000158",
@@ -8286,7 +8600,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2748000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000159",
@@ -8306,7 +8622,9 @@
                     "avgCPU": 0.2628,
                     "memoryInBytes": 2820000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000160",
@@ -8326,7 +8644,9 @@
                     "avgCPU": 0.2401,
                     "memoryInBytes": 2876000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000161",
@@ -8346,7 +8666,9 @@
                     "avgCPU": 0.2336,
                     "memoryInBytes": 2920000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000162",
@@ -8366,7 +8688,9 @@
                     "avgCPU": 33.3333,
                     "memoryInBytes": 2800000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000163",
@@ -8386,7 +8710,9 @@
                     "avgCPU": 0.2972,
                     "memoryInBytes": 2876000,
                     "priority": 30,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000164",
@@ -8402,7 +8728,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 70856000,
                     "priority": 40,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000165",
@@ -8420,7 +8748,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 137024000,
                     "priority": 50,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000166",
@@ -8438,7 +8768,9 @@
                     "avgCPU": 35.3834,
                     "memoryInBytes": 107244000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000167",
@@ -8456,7 +8788,9 @@
                     "avgCPU": 31.7545,
                     "memoryInBytes": 107424000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000168",
@@ -8474,7 +8808,9 @@
                     "avgCPU": 24.921,
                     "memoryInBytes": 107588000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000169",
@@ -8492,7 +8828,9 @@
                     "avgCPU": 31.4554,
                     "memoryInBytes": 107260000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000170",
@@ -8510,7 +8848,9 @@
                     "avgCPU": 23.9709,
                     "memoryInBytes": 107380000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000171",
@@ -8528,7 +8868,9 @@
                     "avgCPU": 24.4819,
                     "memoryInBytes": 107384000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000172",
@@ -8546,7 +8888,9 @@
                     "avgCPU": 23.3722,
                     "memoryInBytes": 107464000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000173",
@@ -8564,7 +8908,9 @@
                     "avgCPU": 25.0361,
                     "memoryInBytes": 107392000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000174",
@@ -8582,7 +8928,9 @@
                     "avgCPU": 23.1253,
                     "memoryInBytes": 107572000,
                     "priority": 60,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000175",
@@ -8599,7 +8947,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 71112000,
                     "priority": 70,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000176",
@@ -8616,7 +8966,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 69996000,
                     "priority": 80,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000177",
@@ -8638,7 +8990,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 144476000,
                     "priority": 90,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000178",
@@ -8668,7 +9022,9 @@
                     "avgCPU": 100.0,
                     "memoryInBytes": 171256000,
                     "priority": 90,
-                    "machine": "workflowhub-3"
+                    "machines": [
+                        "workflowhub-3"
+                    ]
                 }
             ],
             "machines": [

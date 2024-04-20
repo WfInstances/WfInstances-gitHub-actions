@@ -3000,7 +3000,9 @@
                     },
                     "avgCPU": 99.4458,
                     "priority": 90,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000002",
@@ -3014,7 +3016,9 @@
                     },
                     "avgCPU": 14.609,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000003",
@@ -3028,7 +3032,9 @@
                     },
                     "avgCPU": 18.2745,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000004",
@@ -3042,7 +3048,9 @@
                     },
                     "avgCPU": 14.3222,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000005",
@@ -3056,7 +3064,9 @@
                     },
                     "avgCPU": 14.8489,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000006",
@@ -3070,7 +3080,9 @@
                     },
                     "avgCPU": 23.7705,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000007",
@@ -3084,7 +3096,9 @@
                     },
                     "avgCPU": 15.2465,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000008",
@@ -3098,7 +3112,9 @@
                     },
                     "avgCPU": 12.7635,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000009",
@@ -3112,7 +3128,9 @@
                     },
                     "avgCPU": 12.8974,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000010",
@@ -3126,7 +3144,9 @@
                     },
                     "avgCPU": 19.4251,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000011",
@@ -3140,7 +3160,9 @@
                     },
                     "avgCPU": 15.0608,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000012",
@@ -3154,7 +3176,9 @@
                     },
                     "avgCPU": 25.3357,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000013",
@@ -3168,7 +3192,9 @@
                     },
                     "avgCPU": 15.1547,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000014",
@@ -3182,7 +3208,9 @@
                     },
                     "avgCPU": 19.2698,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000015",
@@ -3196,7 +3224,9 @@
                     },
                     "avgCPU": 17.7984,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000016",
@@ -3210,7 +3240,9 @@
                     },
                     "avgCPU": 17.9586,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000017",
@@ -3224,7 +3256,9 @@
                     },
                     "avgCPU": 16.8684,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000018",
@@ -3238,7 +3272,9 @@
                     },
                     "avgCPU": 16.3673,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000019",
@@ -3252,7 +3288,9 @@
                     },
                     "avgCPU": 26.1246,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000020",
@@ -3266,7 +3304,9 @@
                     },
                     "avgCPU": 15.6592,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000021",
@@ -3280,7 +3320,9 @@
                     },
                     "avgCPU": 14.98,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000022",
@@ -3294,7 +3336,9 @@
                     },
                     "avgCPU": 15.2167,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000023",
@@ -3308,7 +3352,9 @@
                     },
                     "avgCPU": 21.9785,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000024",
@@ -3322,7 +3368,9 @@
                     },
                     "avgCPU": 19.4794,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000025",
@@ -3336,7 +3384,9 @@
                     },
                     "avgCPU": 15.9968,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000026",
@@ -3350,7 +3400,9 @@
                     },
                     "avgCPU": 16.7058,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000027",
@@ -3364,7 +3416,9 @@
                     },
                     "avgCPU": 15.1992,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000028",
@@ -3378,7 +3432,9 @@
                     },
                     "avgCPU": 16.5805,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000029",
@@ -3392,7 +3448,9 @@
                     },
                     "avgCPU": 17.712,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000030",
@@ -3406,7 +3464,9 @@
                     },
                     "avgCPU": 19.3747,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fast2bfq_fast2bfq_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000031",
@@ -3420,7 +3480,9 @@
                     },
                     "avgCPU": 27.477,
                     "priority": 50,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "fastqSplit_fastqSplit_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000032",
@@ -3434,7 +3496,9 @@
                     },
                     "avgCPU": 67.5186,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000033",
@@ -3447,7 +3511,9 @@
                     },
                     "avgCPU": 31.901,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000034",
@@ -3460,7 +3526,9 @@
                     },
                     "avgCPU": 3.8491,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000035",
@@ -3473,7 +3541,9 @@
                     },
                     "avgCPU": 3.5183,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000036",
@@ -3486,7 +3556,9 @@
                     },
                     "avgCPU": 3.6107,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000037",
@@ -3499,7 +3571,9 @@
                     },
                     "avgCPU": 4.16,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000038",
@@ -3512,7 +3586,9 @@
                     },
                     "avgCPU": 3.6351,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000039",
@@ -3525,7 +3601,9 @@
                     },
                     "avgCPU": 3.8167,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000040",
@@ -3538,7 +3616,9 @@
                     },
                     "avgCPU": 3.649,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000041",
@@ -3551,7 +3631,9 @@
                     },
                     "avgCPU": 3.8134,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000042",
@@ -3564,7 +3646,9 @@
                     },
                     "avgCPU": 3.9047,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000043",
@@ -3577,7 +3661,9 @@
                     },
                     "avgCPU": 3.7934,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000044",
@@ -3590,7 +3676,9 @@
                     },
                     "avgCPU": 34.5717,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000045",
@@ -3603,7 +3691,9 @@
                     },
                     "avgCPU": 46.4607,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000046",
@@ -3616,7 +3706,9 @@
                     },
                     "avgCPU": 47.1983,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000047",
@@ -3629,7 +3721,9 @@
                     },
                     "avgCPU": 49.2167,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000048",
@@ -3642,7 +3736,9 @@
                     },
                     "avgCPU": 5.0272,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000049",
@@ -3655,7 +3751,9 @@
                     },
                     "avgCPU": 5.5535,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000050",
@@ -3668,7 +3766,9 @@
                     },
                     "avgCPU": 3.8503,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000051",
@@ -3681,7 +3781,9 @@
                     },
                     "avgCPU": 4.0097,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000052",
@@ -3694,7 +3796,9 @@
                     },
                     "avgCPU": 4.7577,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000053",
@@ -3707,7 +3811,9 @@
                     },
                     "avgCPU": 4.5452,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000054",
@@ -3720,7 +3826,9 @@
                     },
                     "avgCPU": 5.5082,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000055",
@@ -3733,7 +3841,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000056",
@@ -3746,7 +3856,9 @@
                     },
                     "avgCPU": 6.0815,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000057",
@@ -3759,7 +3871,9 @@
                     },
                     "avgCPU": 24.3783,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000058",
@@ -3772,7 +3886,9 @@
                     },
                     "avgCPU": 24.6905,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000059",
@@ -3785,7 +3901,9 @@
                     },
                     "avgCPU": 59.2314,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000060",
@@ -3798,7 +3916,9 @@
                     },
                     "avgCPU": 9.2252,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000061",
@@ -3811,7 +3931,9 @@
                     },
                     "avgCPU": 8.6626,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "filterContams_filterContams_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000062",
@@ -3824,7 +3946,9 @@
                     },
                     "avgCPU": 7.6337,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_ID0000063",
@@ -3838,7 +3962,9 @@
                     },
                     "avgCPU": 99.5323,
                     "priority": 80,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "mapMerge_mapMerge_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_ID0000064",
@@ -3881,7 +4007,9 @@
                     },
                     "avgCPU": 99.2051,
                     "priority": 70,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000065",
@@ -3902,7 +4030,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000066",
@@ -3923,7 +4053,9 @@
                     },
                     "avgCPU": 99.9968,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000067",
@@ -3944,7 +4076,9 @@
                     },
                     "avgCPU": 99.9394,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000068",
@@ -3965,7 +4099,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000069",
@@ -3986,7 +4122,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000070",
@@ -4007,7 +4145,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000071",
@@ -4028,7 +4168,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000072",
@@ -4049,7 +4191,9 @@
                     },
                     "avgCPU": 99.9544,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000073",
@@ -4070,7 +4214,9 @@
                     },
                     "avgCPU": 99.9577,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000074",
@@ -4091,7 +4237,9 @@
                     },
                     "avgCPU": 100.0018,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000075",
@@ -4112,7 +4260,9 @@
                     },
                     "avgCPU": 99.9984,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000076",
@@ -4133,7 +4283,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000077",
@@ -4154,7 +4306,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000078",
@@ -4175,7 +4329,9 @@
                     },
                     "avgCPU": 100.0018,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000079",
@@ -4196,7 +4352,9 @@
                     },
                     "avgCPU": 100.0019,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000080",
@@ -4217,7 +4375,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000081",
@@ -4238,7 +4398,9 @@
                     },
                     "avgCPU": 99.9172,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000082",
@@ -4259,7 +4421,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000083",
@@ -4280,7 +4444,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000084",
@@ -4301,7 +4467,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000085",
@@ -4322,7 +4490,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000086",
@@ -4343,7 +4513,9 @@
                     },
                     "avgCPU": 100.0016,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000087",
@@ -4364,7 +4536,9 @@
                     },
                     "avgCPU": 100.0017,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000088",
@@ -4385,7 +4559,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000089",
@@ -4406,7 +4582,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000090",
@@ -4427,7 +4605,9 @@
                     },
                     "avgCPU": 100.0015,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000091",
@@ -4448,7 +4628,9 @@
                     },
                     "avgCPU": 100.0014,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000092",
@@ -4469,7 +4651,9 @@
                     },
                     "avgCPU": 99.9986,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000093",
@@ -4490,7 +4674,9 @@
                     },
                     "avgCPU": 99.9766,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "map_map_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000094",
@@ -4511,7 +4697,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 60,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "pileup_pileup_ID0000095",
@@ -4529,7 +4717,9 @@
                     },
                     "avgCPU": 188.6206,
                     "priority": 100,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_1_ID0000096",
@@ -4543,7 +4733,9 @@
                     },
                     "avgCPU": 1.9334,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_10_ID0000097",
@@ -4557,7 +4749,9 @@
                     },
                     "avgCPU": 1.2437,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_11_ID0000098",
@@ -4571,7 +4765,9 @@
                     },
                     "avgCPU": 1.3821,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_12_ID0000099",
@@ -4585,7 +4781,9 @@
                     },
                     "avgCPU": 1.4286,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_13_ID0000100",
@@ -4599,7 +4797,9 @@
                     },
                     "avgCPU": 1.6322,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_14_ID0000101",
@@ -4613,7 +4813,9 @@
                     },
                     "avgCPU": 1.9936,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_15_ID0000102",
@@ -4627,7 +4829,9 @@
                     },
                     "avgCPU": 1.3338,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_16_ID0000103",
@@ -4641,7 +4845,9 @@
                     },
                     "avgCPU": 1.4356,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_17_ID0000104",
@@ -4655,7 +4861,9 @@
                     },
                     "avgCPU": 1.4759,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_18_ID0000105",
@@ -4669,7 +4877,9 @@
                     },
                     "avgCPU": 1.6728,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_19_ID0000106",
@@ -4683,7 +4893,9 @@
                     },
                     "avgCPU": 1.521,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_2_ID0000107",
@@ -4697,7 +4909,9 @@
                     },
                     "avgCPU": 1.8599,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_20_ID0000108",
@@ -4711,7 +4925,9 @@
                     },
                     "avgCPU": 2.0597,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_21_ID0000109",
@@ -4725,7 +4941,9 @@
                     },
                     "avgCPU": 1.7621,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_22_ID0000110",
@@ -4739,7 +4957,9 @@
                     },
                     "avgCPU": 1.9431,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_23_ID0000111",
@@ -4753,7 +4973,9 @@
                     },
                     "avgCPU": 1.4473,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_24_ID0000112",
@@ -4767,7 +4989,9 @@
                     },
                     "avgCPU": 1.623,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_25_ID0000113",
@@ -4781,7 +5005,9 @@
                     },
                     "avgCPU": 1.4351,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_26_ID0000114",
@@ -4795,7 +5021,9 @@
                     },
                     "avgCPU": 1.3449,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_27_ID0000115",
@@ -4809,7 +5037,9 @@
                     },
                     "avgCPU": 1.144,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_28_ID0000116",
@@ -4823,7 +5053,9 @@
                     },
                     "avgCPU": 1.4057,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_29_ID0000117",
@@ -4837,7 +5069,9 @@
                     },
                     "avgCPU": 1.6617,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_3_ID0000118",
@@ -4851,7 +5085,9 @@
                     },
                     "avgCPU": 1.8789,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_30_ID0000119",
@@ -4865,7 +5101,9 @@
                     },
                     "avgCPU": 1.1938,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_4_ID0000120",
@@ -4879,7 +5117,9 @@
                     },
                     "avgCPU": 1.9104,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_5_ID0000121",
@@ -4893,7 +5133,9 @@
                     },
                     "avgCPU": 1.6449,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_6_ID0000122",
@@ -4907,7 +5149,9 @@
                     },
                     "avgCPU": 2.3466,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_7_ID0000123",
@@ -4921,7 +5165,9 @@
                     },
                     "avgCPU": 2.0746,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_8_ID0000124",
@@ -4935,7 +5181,9 @@
                     },
                     "avgCPU": 2.2244,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sol2sanger_sol2sanger_080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_9_ID0000125",
@@ -4949,7 +5197,9 @@
                     },
                     "avgCPU": 2.1726,
                     "priority": 40,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 }
             ],
             "machines": [

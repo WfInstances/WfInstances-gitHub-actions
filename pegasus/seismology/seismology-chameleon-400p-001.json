@@ -11661,7 +11661,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000002",
@@ -11675,7 +11677,9 @@
                     },
                     "avgCPU": 55.5066,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000003",
@@ -11689,7 +11693,9 @@
                     },
                     "avgCPU": 99.7773,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000004",
@@ -11703,7 +11709,9 @@
                     },
                     "avgCPU": 46.1823,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000005",
@@ -11717,7 +11725,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000006",
@@ -11731,7 +11741,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000007",
@@ -11745,7 +11757,9 @@
                     },
                     "avgCPU": 68.4129,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000008",
@@ -11759,7 +11773,9 @@
                     },
                     "avgCPU": 27.5656,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000009",
@@ -11773,7 +11789,9 @@
                     },
                     "avgCPU": 56.4378,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000010",
@@ -11787,7 +11805,9 @@
                     },
                     "avgCPU": 86.5191,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000011",
@@ -11801,7 +11821,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000012",
@@ -11815,7 +11837,9 @@
                     },
                     "avgCPU": 99.3421,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000013",
@@ -11829,7 +11853,9 @@
                     },
                     "avgCPU": 99.6795,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000014",
@@ -11843,7 +11869,9 @@
                     },
                     "avgCPU": 99.6997,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000015",
@@ -11857,7 +11885,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000016",
@@ -11871,7 +11901,9 @@
                     },
                     "avgCPU": 15.21,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000017",
@@ -11885,7 +11917,9 @@
                     },
                     "avgCPU": 99.6875,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000018",
@@ -11899,7 +11933,9 @@
                     },
                     "avgCPU": 20.4671,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000019",
@@ -11913,7 +11949,9 @@
                     },
                     "avgCPU": 26.9869,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000020",
@@ -11927,7 +11965,9 @@
                     },
                     "avgCPU": 49.0006,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000021",
@@ -11941,7 +11981,9 @@
                     },
                     "avgCPU": 11.5462,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000022",
@@ -11955,7 +11997,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000023",
@@ -11969,7 +12013,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000024",
@@ -11983,7 +12029,9 @@
                     },
                     "avgCPU": 93.4363,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000025",
@@ -11997,7 +12045,9 @@
                     },
                     "avgCPU": 51.5192,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000026",
@@ -12011,7 +12061,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000027",
@@ -12025,7 +12077,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000028",
@@ -12039,7 +12093,9 @@
                     },
                     "avgCPU": 99.5475,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000029",
@@ -12053,7 +12109,9 @@
                     },
                     "avgCPU": 99.6441,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000030",
@@ -12067,7 +12125,9 @@
                     },
                     "avgCPU": 87.3656,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000031",
@@ -12081,7 +12141,9 @@
                     },
                     "avgCPU": 65.625,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000032",
@@ -12095,7 +12157,9 @@
                     },
                     "avgCPU": 99.5868,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000033",
@@ -12109,7 +12173,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000034",
@@ -12123,7 +12189,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000035",
@@ -12137,7 +12205,9 @@
                     },
                     "avgCPU": 41.4656,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000036",
@@ -12151,7 +12221,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000037",
@@ -12165,7 +12237,9 @@
                     },
                     "avgCPU": 99.7763,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000038",
@@ -12179,7 +12253,9 @@
                     },
                     "avgCPU": 39.3236,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000039",
@@ -12193,7 +12269,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000040",
@@ -12207,7 +12285,9 @@
                     },
                     "avgCPU": 99.1935,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000041",
@@ -12221,7 +12301,9 @@
                     },
                     "avgCPU": 99.7758,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000042",
@@ -12235,7 +12317,9 @@
                     },
                     "avgCPU": 84.6975,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000043",
@@ -12249,7 +12333,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000044",
@@ -12263,7 +12349,9 @@
                     },
                     "avgCPU": 99.7758,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000045",
@@ -12277,7 +12365,9 @@
                     },
                     "avgCPU": 32.3087,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000046",
@@ -12291,7 +12381,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000047",
@@ -12305,7 +12397,9 @@
                     },
                     "avgCPU": 39.5077,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000048",
@@ -12319,7 +12413,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000049",
@@ -12333,7 +12429,9 @@
                     },
                     "avgCPU": 99.375,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000050",
@@ -12347,7 +12445,9 @@
                     },
                     "avgCPU": 37.4272,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000051",
@@ -12361,7 +12461,9 @@
                     },
                     "avgCPU": 89.4825,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000052",
@@ -12375,7 +12477,9 @@
                     },
                     "avgCPU": 83.5907,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000053",
@@ -12389,7 +12493,9 @@
                     },
                     "avgCPU": 10.9779,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000054",
@@ -12403,7 +12509,9 @@
                     },
                     "avgCPU": 67.5025,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000055",
@@ -12417,7 +12525,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000056",
@@ -12431,7 +12541,9 @@
                     },
                     "avgCPU": 99.8607,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000057",
@@ -12445,7 +12557,9 @@
                     },
                     "avgCPU": 24.0627,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000058",
@@ -12459,7 +12573,9 @@
                     },
                     "avgCPU": 16.7155,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000059",
@@ -12473,7 +12589,9 @@
                     },
                     "avgCPU": 99.7792,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000060",
@@ -12487,7 +12605,9 @@
                     },
                     "avgCPU": 99.7462,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000061",
@@ -12501,7 +12621,9 @@
                     },
                     "avgCPU": 77.4834,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000062",
@@ -12515,7 +12637,9 @@
                     },
                     "avgCPU": 79.2723,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000063",
@@ -12529,7 +12653,9 @@
                     },
                     "avgCPU": 99.7778,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000064",
@@ -12543,7 +12669,9 @@
                     },
                     "avgCPU": 91.6185,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000065",
@@ -12557,7 +12685,9 @@
                     },
                     "avgCPU": 22.042,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000066",
@@ -12571,7 +12701,9 @@
                     },
                     "avgCPU": 96.0674,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000067",
@@ -12585,7 +12717,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000068",
@@ -12599,7 +12733,9 @@
                     },
                     "avgCPU": 60.274,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000069",
@@ -12613,7 +12749,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000070",
@@ -12627,7 +12765,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000071",
@@ -12641,7 +12781,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000072",
@@ -12655,7 +12797,9 @@
                     },
                     "avgCPU": 37.885,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000073",
@@ -12669,7 +12813,9 @@
                     },
                     "avgCPU": 43.2987,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000074",
@@ -12683,7 +12829,9 @@
                     },
                     "avgCPU": 7.215,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000075",
@@ -12697,7 +12845,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000076",
@@ -12711,7 +12861,9 @@
                     },
                     "avgCPU": 75.043,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000077",
@@ -12725,7 +12877,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000078",
@@ -12739,7 +12893,9 @@
                     },
                     "avgCPU": 51.9182,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000079",
@@ -12753,7 +12909,9 @@
                     },
                     "avgCPU": 99.3151,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000080",
@@ -12767,7 +12925,9 @@
                     },
                     "avgCPU": 99.7831,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000081",
@@ -12781,7 +12941,9 @@
                     },
                     "avgCPU": 98.9583,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000082",
@@ -12795,7 +12957,9 @@
                     },
                     "avgCPU": 95.8333,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000083",
@@ -12809,7 +12973,9 @@
                     },
                     "avgCPU": 99.0991,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000084",
@@ -12823,7 +12989,9 @@
                     },
                     "avgCPU": 44.918,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000085",
@@ -12837,7 +13005,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000086",
@@ -12851,7 +13021,9 @@
                     },
                     "avgCPU": 100.4219,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000087",
@@ -12865,7 +13037,9 @@
                     },
                     "avgCPU": 100.9804,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000088",
@@ -12879,7 +13053,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000089",
@@ -12893,7 +13069,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000090",
@@ -12907,7 +13085,9 @@
                     },
                     "avgCPU": 60.6469,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000091",
@@ -12921,7 +13101,9 @@
                     },
                     "avgCPU": 99.7831,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000092",
@@ -12935,7 +13117,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000093",
@@ -12949,7 +13133,9 @@
                     },
                     "avgCPU": 55.9913,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000094",
@@ -12963,7 +13149,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000095",
@@ -12977,7 +13165,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000096",
@@ -12991,7 +13181,9 @@
                     },
                     "avgCPU": 54.6667,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000097",
@@ -13005,7 +13197,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000098",
@@ -13019,7 +13213,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000099",
@@ -13033,7 +13229,9 @@
                     },
                     "avgCPU": 98.2759,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000100",
@@ -13047,7 +13245,9 @@
                     },
                     "avgCPU": 75.431,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000101",
@@ -13061,7 +13261,9 @@
                     },
                     "avgCPU": 37.8462,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000102",
@@ -13075,7 +13277,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000103",
@@ -13089,7 +13293,9 @@
                     },
                     "avgCPU": 99.0654,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000104",
@@ -13103,7 +13309,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000105",
@@ -13117,7 +13325,9 @@
                     },
                     "avgCPU": 99.7881,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000106",
@@ -13131,7 +13341,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000107",
@@ -13145,7 +13357,9 @@
                     },
                     "avgCPU": 23.3539,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000108",
@@ -13159,7 +13373,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000109",
@@ -13173,7 +13389,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000110",
@@ -13187,7 +13405,9 @@
                     },
                     "avgCPU": 68.567,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000111",
@@ -13201,7 +13421,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000112",
@@ -13215,7 +13437,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000113",
@@ -13229,7 +13453,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000114",
@@ -13243,7 +13469,9 @@
                     },
                     "avgCPU": 46.2801,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000115",
@@ -13257,7 +13485,9 @@
                     },
                     "avgCPU": 100.7519,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000116",
@@ -13271,7 +13501,9 @@
                     },
                     "avgCPU": 83.7687,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000117",
@@ -13285,7 +13517,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000118",
@@ -13299,7 +13533,9 @@
                     },
                     "avgCPU": 99.7685,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000119",
@@ -13313,7 +13549,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000120",
@@ -13327,7 +13565,9 @@
                     },
                     "avgCPU": 43.7973,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000121",
@@ -13341,7 +13581,9 @@
                     },
                     "avgCPU": 99.2806,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000122",
@@ -13355,7 +13597,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000123",
@@ -13369,7 +13613,9 @@
                     },
                     "avgCPU": 25.6119,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000124",
@@ -13383,7 +13629,9 @@
                     },
                     "avgCPU": 44.3299,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000125",
@@ -13397,7 +13645,9 @@
                     },
                     "avgCPU": 99.0291,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000126",
@@ -13411,7 +13661,9 @@
                     },
                     "avgCPU": 57.0375,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000127",
@@ -13425,7 +13677,9 @@
                     },
                     "avgCPU": 11.9951,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000128",
@@ -13439,7 +13693,9 @@
                     },
                     "avgCPU": 62.7087,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000129",
@@ -13453,7 +13709,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000130",
@@ -13467,7 +13725,9 @@
                     },
                     "avgCPU": 64.7773,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000131",
@@ -13481,7 +13741,9 @@
                     },
                     "avgCPU": 99.6441,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000132",
@@ -13495,7 +13757,9 @@
                     },
                     "avgCPU": 99.3506,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000133",
@@ -13509,7 +13773,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000134",
@@ -13523,7 +13789,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000135",
@@ -13537,7 +13805,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000136",
@@ -13551,7 +13821,9 @@
                     },
                     "avgCPU": 99.7763,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000137",
@@ -13565,7 +13837,9 @@
                     },
                     "avgCPU": 99.2,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000138",
@@ -13579,7 +13853,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000139",
@@ -13593,7 +13869,9 @@
                     },
                     "avgCPU": 70.3854,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000140",
@@ -13607,7 +13885,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000141",
@@ -13621,7 +13901,9 @@
                     },
                     "avgCPU": 99.6835,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000142",
@@ -13635,7 +13917,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000143",
@@ -13649,7 +13933,9 @@
                     },
                     "avgCPU": 26.3218,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000144",
@@ -13663,7 +13949,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000145",
@@ -13677,7 +13965,9 @@
                     },
                     "avgCPU": 99.7849,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000146",
@@ -13691,7 +13981,9 @@
                     },
                     "avgCPU": 76.6972,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000147",
@@ -13705,7 +13997,9 @@
                     },
                     "avgCPU": 79.2453,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000148",
@@ -13719,7 +14013,9 @@
                     },
                     "avgCPU": 100.1134,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000149",
@@ -13733,7 +14029,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000150",
@@ -13747,7 +14045,9 @@
                     },
                     "avgCPU": 13.4485,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000151",
@@ -13761,7 +14061,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000152",
@@ -13775,7 +14077,9 @@
                     },
                     "avgCPU": 99.7722,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000153",
@@ -13789,7 +14093,9 @@
                     },
                     "avgCPU": 26.7848,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000154",
@@ -13803,7 +14109,9 @@
                     },
                     "avgCPU": 99.7778,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000155",
@@ -13817,7 +14125,9 @@
                     },
                     "avgCPU": 49.631,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000156",
@@ -13831,7 +14141,9 @@
                     },
                     "avgCPU": 13.9592,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000157",
@@ -13845,7 +14157,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000158",
@@ -13859,7 +14173,9 @@
                     },
                     "avgCPU": 38.3935,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000159",
@@ -13873,7 +14189,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000160",
@@ -13887,7 +14205,9 @@
                     },
                     "avgCPU": 84.5842,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000161",
@@ -13901,7 +14221,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000162",
@@ -13915,7 +14237,9 @@
                     },
                     "avgCPU": 90.2844,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000163",
@@ -13929,7 +14253,9 @@
                     },
                     "avgCPU": 82.9128,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000164",
@@ -13943,7 +14269,9 @@
                     },
                     "avgCPU": 48.1192,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000165",
@@ -13957,7 +14285,9 @@
                     },
                     "avgCPU": 44.1379,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000166",
@@ -13971,7 +14301,9 @@
                     },
                     "avgCPU": 100.6944,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000167",
@@ -13985,7 +14317,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000168",
@@ -13999,7 +14333,9 @@
                     },
                     "avgCPU": 76.947,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000169",
@@ -14013,7 +14349,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000170",
@@ -14027,7 +14365,9 @@
                     },
                     "avgCPU": 48.329,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000171",
@@ -14041,7 +14381,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000172",
@@ -14055,7 +14397,9 @@
                     },
                     "avgCPU": 99.7788,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000173",
@@ -14069,7 +14413,9 @@
                     },
                     "avgCPU": 65.0313,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000174",
@@ -14083,7 +14429,9 @@
                     },
                     "avgCPU": 69.8198,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000175",
@@ -14097,7 +14445,9 @@
                     },
                     "avgCPU": 82.3944,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000176",
@@ -14111,7 +14461,9 @@
                     },
                     "avgCPU": 99.0991,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000177",
@@ -14125,7 +14477,9 @@
                     },
                     "avgCPU": 53.3286,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000178",
@@ -14139,7 +14493,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000179",
@@ -14153,7 +14509,9 @@
                     },
                     "avgCPU": 64.7986,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000180",
@@ -14167,7 +14525,9 @@
                     },
                     "avgCPU": 60.658,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000181",
@@ -14181,7 +14541,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000182",
@@ -14195,7 +14557,9 @@
                     },
                     "avgCPU": 99.7561,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000183",
@@ -14209,7 +14573,9 @@
                     },
                     "avgCPU": 99.7797,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000184",
@@ -14223,7 +14589,9 @@
                     },
                     "avgCPU": 50.9898,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000185",
@@ -14237,7 +14605,9 @@
                     },
                     "avgCPU": 99.7812,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000186",
@@ -14251,7 +14621,9 @@
                     },
                     "avgCPU": 61.9165,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000187",
@@ -14265,7 +14637,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000188",
@@ -14279,7 +14653,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000189",
@@ -14293,7 +14669,9 @@
                     },
                     "avgCPU": 77.8742,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000190",
@@ -14307,7 +14685,9 @@
                     },
                     "avgCPU": 17.8894,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000191",
@@ -14321,7 +14701,9 @@
                     },
                     "avgCPU": 71.5818,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000192",
@@ -14335,7 +14717,9 @@
                     },
                     "avgCPU": 44.2105,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000193",
@@ -14349,7 +14733,9 @@
                     },
                     "avgCPU": 100.8264,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000194",
@@ -14363,7 +14749,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000195",
@@ -14377,7 +14765,9 @@
                     },
                     "avgCPU": 98.9736,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000196",
@@ -14391,7 +14781,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000197",
@@ -14405,7 +14797,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000198",
@@ -14419,7 +14813,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000199",
@@ -14433,7 +14829,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000200",
@@ -14447,7 +14845,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000201",
@@ -14461,7 +14861,9 @@
                     },
                     "avgCPU": 81.7863,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000202",
@@ -14475,7 +14877,9 @@
                     },
                     "avgCPU": 56.2771,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000203",
@@ -14489,7 +14893,9 @@
                     },
                     "avgCPU": 93.7662,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000204",
@@ -14503,7 +14909,9 @@
                     },
                     "avgCPU": 99.7831,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000205",
@@ -14517,7 +14925,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000206",
@@ -14531,7 +14941,9 @@
                     },
                     "avgCPU": 46.9281,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000207",
@@ -14545,7 +14957,9 @@
                     },
                     "avgCPU": 20.3604,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000208",
@@ -14559,7 +14973,9 @@
                     },
                     "avgCPU": 16.3594,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000209",
@@ -14573,7 +14989,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000210",
@@ -14587,7 +15005,9 @@
                     },
                     "avgCPU": 97.0437,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000211",
@@ -14601,7 +15021,9 @@
                     },
                     "avgCPU": 89.3617,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000212",
@@ -14615,7 +15037,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000213",
@@ -14629,7 +15053,9 @@
                     },
                     "avgCPU": 99.7872,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000214",
@@ -14643,7 +15069,9 @@
                     },
                     "avgCPU": 16.2753,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000215",
@@ -14657,7 +15085,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000216",
@@ -14671,7 +15101,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000217",
@@ -14685,7 +15117,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000218",
@@ -14699,7 +15133,9 @@
                     },
                     "avgCPU": 55.8967,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000219",
@@ -14713,7 +15149,9 @@
                     },
                     "avgCPU": 99.7647,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000220",
@@ -14727,7 +15165,9 @@
                     },
                     "avgCPU": 35.04,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000221",
@@ -14741,7 +15181,9 @@
                     },
                     "avgCPU": 58.5567,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000222",
@@ -14755,7 +15197,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000223",
@@ -14769,7 +15213,9 @@
                     },
                     "avgCPU": 99.6528,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000224",
@@ -14783,7 +15229,9 @@
                     },
                     "avgCPU": 99.7802,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000225",
@@ -14797,7 +15245,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000226",
@@ -14811,7 +15261,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000227",
@@ -14825,7 +15277,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000228",
@@ -14839,7 +15293,9 @@
                     },
                     "avgCPU": 71.7391,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000229",
@@ -14853,7 +15309,9 @@
                     },
                     "avgCPU": 39.1041,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000230",
@@ -14867,7 +15325,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000231",
@@ -14881,7 +15341,9 @@
                     },
                     "avgCPU": 41.7391,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000232",
@@ -14895,7 +15357,9 @@
                     },
                     "avgCPU": 68.779,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000233",
@@ -14909,7 +15373,9 @@
                     },
                     "avgCPU": 94.1317,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000234",
@@ -14923,7 +15389,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000235",
@@ -14937,7 +15405,9 @@
                     },
                     "avgCPU": 98.9899,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000236",
@@ -14951,7 +15421,9 @@
                     },
                     "avgCPU": 77.3138,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000237",
@@ -14965,7 +15437,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000238",
@@ -14979,7 +15453,9 @@
                     },
                     "avgCPU": 69.1131,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000239",
@@ -14993,7 +15469,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000240",
@@ -15007,7 +15485,9 @@
                     },
                     "avgCPU": 88.8545,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000241",
@@ -15021,7 +15501,9 @@
                     },
                     "avgCPU": 99.67,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000242",
@@ -15035,7 +15517,9 @@
                     },
                     "avgCPU": 49.7525,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000243",
@@ -15049,7 +15533,9 @@
                     },
                     "avgCPU": 99.0654,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000244",
@@ -15063,7 +15549,9 @@
                     },
                     "avgCPU": 99.0741,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000245",
@@ -15077,7 +15565,9 @@
                     },
                     "avgCPU": 100.6897,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000246",
@@ -15091,7 +15581,9 @@
                     },
                     "avgCPU": 99.5434,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000247",
@@ -15105,7 +15597,9 @@
                     },
                     "avgCPU": 90.6593,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000248",
@@ -15119,7 +15613,9 @@
                     },
                     "avgCPU": 37.4396,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000249",
@@ -15133,7 +15629,9 @@
                     },
                     "avgCPU": 68.3307,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000250",
@@ -15147,7 +15645,9 @@
                     },
                     "avgCPU": 99.7835,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000251",
@@ -15161,7 +15661,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000252",
@@ -15175,7 +15677,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000253",
@@ -15189,7 +15693,9 @@
                     },
                     "avgCPU": 33.5275,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000254",
@@ -15203,7 +15709,9 @@
                     },
                     "avgCPU": 30.0351,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000255",
@@ -15217,7 +15725,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000256",
@@ -15231,7 +15741,9 @@
                     },
                     "avgCPU": 47.6554,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000257",
@@ -15245,7 +15757,9 @@
                     },
                     "avgCPU": 99.7758,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000258",
@@ -15259,7 +15773,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000259",
@@ -15273,7 +15789,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000260",
@@ -15287,7 +15805,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000261",
@@ -15301,7 +15821,9 @@
                     },
                     "avgCPU": 99.6552,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000262",
@@ -15315,7 +15837,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000263",
@@ -15329,7 +15853,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000264",
@@ -15343,7 +15869,9 @@
                     },
                     "avgCPU": 99.7899,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000265",
@@ -15357,7 +15885,9 @@
                     },
                     "avgCPU": 99.6441,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000266",
@@ -15371,7 +15901,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000267",
@@ -15385,7 +15917,9 @@
                     },
                     "avgCPU": 9.8403,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000268",
@@ -15399,7 +15933,9 @@
                     },
                     "avgCPU": 43.9746,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000269",
@@ -15413,7 +15949,9 @@
                     },
                     "avgCPU": 31.9417,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000270",
@@ -15427,7 +15965,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000271",
@@ -15441,7 +15981,9 @@
                     },
                     "avgCPU": 37.3357,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000272",
@@ -15455,7 +15997,9 @@
                     },
                     "avgCPU": 92.0592,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000273",
@@ -15469,7 +16013,9 @@
                     },
                     "avgCPU": 87.6552,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000274",
@@ -15483,7 +16029,9 @@
                     },
                     "avgCPU": 31.822,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000275",
@@ -15497,7 +16045,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000276",
@@ -15511,7 +16061,9 @@
                     },
                     "avgCPU": 99.7717,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000277",
@@ -15525,7 +16077,9 @@
                     },
                     "avgCPU": 99.7821,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000278",
@@ -15539,7 +16093,9 @@
                     },
                     "avgCPU": 72.1154,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000279",
@@ -15553,7 +16109,9 @@
                     },
                     "avgCPU": 99.7191,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000280",
@@ -15567,7 +16125,9 @@
                     },
                     "avgCPU": 90.7928,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000281",
@@ -15581,7 +16141,9 @@
                     },
                     "avgCPU": 99.7183,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000282",
@@ -15595,7 +16157,9 @@
                     },
                     "avgCPU": 83.3333,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000283",
@@ -15609,7 +16173,9 @@
                     },
                     "avgCPU": 41.9165,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000284",
@@ -15623,7 +16189,9 @@
                     },
                     "avgCPU": 68.4502,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000285",
@@ -15637,7 +16205,9 @@
                     },
                     "avgCPU": 77.9487,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000286",
@@ -15651,7 +16221,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000287",
@@ -15665,7 +16237,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000288",
@@ -15679,7 +16253,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000289",
@@ -15693,7 +16269,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000290",
@@ -15707,7 +16285,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000291",
@@ -15721,7 +16301,9 @@
                     },
                     "avgCPU": 99.7788,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000292",
@@ -15735,7 +16317,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000293",
@@ -15749,7 +16333,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000294",
@@ -15763,7 +16349,9 @@
                     },
                     "avgCPU": 100.8333,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000295",
@@ -15777,7 +16365,9 @@
                     },
                     "avgCPU": 65.4045,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000296",
@@ -15791,7 +16381,9 @@
                     },
                     "avgCPU": 63.8229,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000297",
@@ -15805,7 +16397,9 @@
                     },
                     "avgCPU": 39.9142,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000298",
@@ -15819,7 +16413,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000299",
@@ -15833,7 +16429,9 @@
                     },
                     "avgCPU": 99.7758,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000300",
@@ -15847,7 +16445,9 @@
                     },
                     "avgCPU": 52.8049,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000301",
@@ -15861,7 +16461,9 @@
                     },
                     "avgCPU": 99.6942,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000302",
@@ -15875,7 +16477,9 @@
                     },
                     "avgCPU": 29.5397,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000303",
@@ -15889,7 +16493,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000304",
@@ -15903,7 +16509,9 @@
                     },
                     "avgCPU": 84.7019,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000305",
@@ -15917,7 +16525,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000306",
@@ -15931,7 +16541,9 @@
                     },
                     "avgCPU": 100.9804,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000307",
@@ -15945,7 +16557,9 @@
                     },
                     "avgCPU": 99.5868,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000308",
@@ -15959,7 +16573,9 @@
                     },
                     "avgCPU": 70.4082,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000309",
@@ -15973,7 +16589,9 @@
                     },
                     "avgCPU": 100.8333,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000310",
@@ -15987,7 +16605,9 @@
                     },
                     "avgCPU": 66.7791,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000311",
@@ -16001,7 +16621,9 @@
                     },
                     "avgCPU": 48.3589,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000312",
@@ -16015,7 +16637,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000313",
@@ -16029,7 +16653,9 @@
                     },
                     "avgCPU": 52.0095,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000314",
@@ -16043,7 +16669,9 @@
                     },
                     "avgCPU": 85.0288,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000315",
@@ -16057,7 +16685,9 @@
                     },
                     "avgCPU": 99.2857,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000316",
@@ -16071,7 +16701,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000317",
@@ -16085,7 +16717,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000318",
@@ -16099,7 +16733,9 @@
                     },
                     "avgCPU": 99.7033,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000319",
@@ -16113,7 +16749,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000320",
@@ -16127,7 +16765,9 @@
                     },
                     "avgCPU": 34.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000321",
@@ -16141,7 +16781,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000322",
@@ -16155,7 +16797,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000323",
@@ -16169,7 +16813,9 @@
                     },
                     "avgCPU": 99.2647,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000324",
@@ -16183,7 +16829,9 @@
                     },
                     "avgCPU": 99.6139,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000325",
@@ -16197,7 +16845,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000326",
@@ -16211,7 +16861,9 @@
                     },
                     "avgCPU": 49.4737,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000327",
@@ -16225,7 +16877,9 @@
                     },
                     "avgCPU": 62.1771,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000328",
@@ -16239,7 +16893,9 @@
                     },
                     "avgCPU": 54.5045,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000329",
@@ -16253,7 +16909,9 @@
                     },
                     "avgCPU": 69.044,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000330",
@@ -16267,7 +16925,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000331",
@@ -16281,7 +16941,9 @@
                     },
                     "avgCPU": 39.8289,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000332",
@@ -16295,7 +16957,9 @@
                     },
                     "avgCPU": 99.5662,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000333",
@@ -16309,7 +16973,9 @@
                     },
                     "avgCPU": 82.8125,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000334",
@@ -16323,7 +16989,9 @@
                     },
                     "avgCPU": 6.9851,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000335",
@@ -16337,7 +17005,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000336",
@@ -16351,7 +17021,9 @@
                     },
                     "avgCPU": 99.2,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000337",
@@ -16365,7 +17037,9 @@
                     },
                     "avgCPU": 92.2819,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000338",
@@ -16379,7 +17053,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000339",
@@ -16393,7 +17069,9 @@
                     },
                     "avgCPU": 82.1179,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000340",
@@ -16407,7 +17085,9 @@
                     },
                     "avgCPU": 74.2068,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000341",
@@ -16421,7 +17101,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000342",
@@ -16435,7 +17117,9 @@
                     },
                     "avgCPU": 84.296,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000343",
@@ -16449,7 +17133,9 @@
                     },
                     "avgCPU": 67.9873,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000344",
@@ -16463,7 +17149,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000345",
@@ -16477,7 +17165,9 @@
                     },
                     "avgCPU": 99.4012,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000346",
@@ -16491,7 +17181,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000347",
@@ -16505,7 +17197,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000348",
@@ -16519,7 +17213,9 @@
                     },
                     "avgCPU": 40.0535,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000349",
@@ -16533,7 +17229,9 @@
                     },
                     "avgCPU": 12.7148,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000350",
@@ -16547,7 +17245,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000351",
@@ -16561,7 +17261,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000352",
@@ -16575,7 +17277,9 @@
                     },
                     "avgCPU": 95.646,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000353",
@@ -16589,7 +17293,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000354",
@@ -16603,7 +17309,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000355",
@@ -16617,7 +17325,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000356",
@@ -16631,7 +17341,9 @@
                     },
                     "avgCPU": 32.2046,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000357",
@@ -16645,7 +17357,9 @@
                     },
                     "avgCPU": 52.4362,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000358",
@@ -16659,7 +17373,9 @@
                     },
                     "avgCPU": 72.428,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000359",
@@ -16673,7 +17389,9 @@
                     },
                     "avgCPU": 35.7827,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000360",
@@ -16687,7 +17405,9 @@
                     },
                     "avgCPU": 99.1812,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000361",
@@ -16701,7 +17421,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000362",
@@ -16715,7 +17437,9 @@
                     },
                     "avgCPU": 35.8491,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000363",
@@ -16729,7 +17453,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000364",
@@ -16743,7 +17469,9 @@
                     },
                     "avgCPU": 60.4381,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000365",
@@ -16757,7 +17485,9 @@
                     },
                     "avgCPU": 77.8266,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000366",
@@ -16771,7 +17501,9 @@
                     },
                     "avgCPU": 82.256,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000367",
@@ -16785,7 +17517,9 @@
                     },
                     "avgCPU": 15.4056,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000368",
@@ -16799,7 +17533,9 @@
                     },
                     "avgCPU": 74.1803,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000369",
@@ -16813,7 +17549,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000370",
@@ -16827,7 +17565,9 @@
                     },
                     "avgCPU": 99.7925,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000371",
@@ -16841,7 +17581,9 @@
                     },
                     "avgCPU": 89.0496,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000372",
@@ -16855,7 +17597,9 @@
                     },
                     "avgCPU": 83.3462,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000373",
@@ -16869,7 +17613,9 @@
                     },
                     "avgCPU": 83.165,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000374",
@@ -16883,7 +17629,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000375",
@@ -16897,7 +17645,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000376",
@@ -16911,7 +17661,9 @@
                     },
                     "avgCPU": 99.5327,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000377",
@@ -16925,7 +17677,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000378",
@@ -16939,7 +17693,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000379",
@@ -16953,7 +17709,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000380",
@@ -16967,7 +17725,9 @@
                     },
                     "avgCPU": 96.3265,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000381",
@@ -16981,7 +17741,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000382",
@@ -16995,7 +17757,9 @@
                     },
                     "avgCPU": 89.9061,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000383",
@@ -17009,7 +17773,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000384",
@@ -17023,7 +17789,9 @@
                     },
                     "avgCPU": 83.8235,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000385",
@@ -17037,7 +17805,9 @@
                     },
                     "avgCPU": 36.8421,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000386",
@@ -17051,7 +17821,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000387",
@@ -17065,7 +17837,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000388",
@@ -17079,7 +17853,9 @@
                     },
                     "avgCPU": 34.3131,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000389",
@@ -17093,7 +17869,9 @@
                     },
                     "avgCPU": 48.7206,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000390",
@@ -17107,7 +17885,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000391",
@@ -17121,7 +17901,9 @@
                     },
                     "avgCPU": 40.5872,
                     "priority": 20,
-                    "machine": "cc-worker-4"
+                    "machines": [
+                        "cc-worker-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000392",
@@ -17135,7 +17917,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-5"
+                    "machines": [
+                        "compute-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000393",
@@ -17149,7 +17933,9 @@
                     },
                     "avgCPU": 99.1441,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000394",
@@ -17163,7 +17949,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000395",
@@ -17177,7 +17965,9 @@
                     },
                     "avgCPU": 27.7014,
                     "priority": 20,
-                    "machine": "cc-worker-5"
+                    "machines": [
+                        "cc-worker-5"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000396",
@@ -17191,7 +17981,9 @@
                     },
                     "avgCPU": 64.9192,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000397",
@@ -17205,7 +17997,9 @@
                     },
                     "avgCPU": 48.8789,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000398",
@@ -17219,7 +18013,9 @@
                     },
                     "avgCPU": 84.4037,
                     "priority": 20,
-                    "machine": "compute-4"
+                    "machines": [
+                        "compute-4"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000399",
@@ -17233,7 +18029,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 },
                 {
                     "id": "sG1IterDecon_ID0000400",
@@ -17247,7 +18045,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 20,
-                    "machine": "compute-7"
+                    "machines": [
+                        "compute-7"
+                    ]
                 },
                 {
                     "id": "wrapper_siftSTFByMisfit_ID0000401",
@@ -17659,7 +18459,9 @@
                     },
                     "avgCPU": 99.4286,
                     "priority": 30,
-                    "machine": "compute-3"
+                    "machines": [
+                        "compute-3"
+                    ]
                 }
             ],
             "machines": [

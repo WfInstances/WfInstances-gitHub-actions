@@ -13931,7 +13931,9 @@
                     },
                     "avgCPU": 98.6005,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000002",
@@ -13947,7 +13949,9 @@
                     },
                     "avgCPU": 98.9256,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000003",
@@ -13963,7 +13967,9 @@
                     },
                     "avgCPU": 99.8445,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000004",
@@ -13979,7 +13985,9 @@
                     },
                     "avgCPU": 99.8548,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000005",
@@ -13995,7 +14003,9 @@
                     },
                     "avgCPU": 99.7171,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000006",
@@ -14011,7 +14021,9 @@
                     },
                     "avgCPU": 98.8721,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000007",
@@ -14027,7 +14039,9 @@
                     },
                     "avgCPU": 99.839,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000008",
@@ -14043,7 +14057,9 @@
                     },
                     "avgCPU": 99.7857,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000009",
@@ -14059,7 +14075,9 @@
                     },
                     "avgCPU": 99.7985,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000010",
@@ -14075,7 +14093,9 @@
                     },
                     "avgCPU": 97.9479,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000011",
@@ -14091,7 +14111,9 @@
                     },
                     "avgCPU": 99.898,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000012",
@@ -14107,7 +14129,9 @@
                     },
                     "avgCPU": 98.9856,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000013",
@@ -14123,7 +14147,9 @@
                     },
                     "avgCPU": 98.7502,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000014",
@@ -14139,7 +14165,9 @@
                     },
                     "avgCPU": 99.7614,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000015",
@@ -14155,7 +14183,9 @@
                     },
                     "avgCPU": 99.9155,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000016",
@@ -14171,7 +14201,9 @@
                     },
                     "avgCPU": 99.882,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000017",
@@ -14190,7 +14222,9 @@
                     },
                     "avgCPU": 0.0088,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000018",
@@ -14209,7 +14243,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000019",
@@ -14228,7 +14264,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000020",
@@ -14247,7 +14285,9 @@
                     },
                     "avgCPU": 0.0393,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000021",
@@ -14266,7 +14306,9 @@
                     },
                     "avgCPU": 0.1159,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000022",
@@ -14285,7 +14327,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000023",
@@ -14304,7 +14348,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000024",
@@ -14323,7 +14369,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000025",
@@ -14342,7 +14390,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000026",
@@ -14361,7 +14411,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000027",
@@ -14380,7 +14432,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000028",
@@ -14399,7 +14453,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000029",
@@ -14418,7 +14474,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000030",
@@ -14437,7 +14495,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000031",
@@ -14456,7 +14516,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000032",
@@ -14475,7 +14537,9 @@
                     },
                     "avgCPU": 0.1514,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000033",
@@ -14494,7 +14558,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000034",
@@ -14513,7 +14579,9 @@
                     },
                     "avgCPU": 0.6046,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000035",
@@ -14532,7 +14600,9 @@
                     },
                     "avgCPU": 0.0715,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000036",
@@ -14551,7 +14621,9 @@
                     },
                     "avgCPU": 0.0407,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000037",
@@ -14570,7 +14642,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000038",
@@ -14589,7 +14663,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000039",
@@ -14608,7 +14684,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000040",
@@ -14627,7 +14705,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000041",
@@ -14646,7 +14726,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000042",
@@ -14665,7 +14747,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000043",
@@ -14684,7 +14768,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000044",
@@ -14703,7 +14789,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000045",
@@ -14722,7 +14810,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000046",
@@ -14741,7 +14831,9 @@
                     },
                     "avgCPU": 0.0375,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000047",
@@ -14760,7 +14852,9 @@
                     },
                     "avgCPU": 42.8571,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000048",
@@ -14779,7 +14873,9 @@
                     },
                     "avgCPU": 0.102,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000049",
@@ -14798,7 +14894,9 @@
                     },
                     "avgCPU": 0.1097,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000050",
@@ -14817,7 +14915,9 @@
                     },
                     "avgCPU": 0.1314,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000051",
@@ -14836,7 +14936,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000052",
@@ -14855,7 +14957,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000053",
@@ -14874,7 +14978,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000054",
@@ -14893,7 +14999,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000055",
@@ -14912,7 +15020,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000056",
@@ -14931,7 +15041,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000057",
@@ -14950,7 +15062,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000058",
@@ -14969,7 +15083,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000059",
@@ -14988,7 +15104,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000060",
@@ -15007,7 +15125,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000061",
@@ -15026,7 +15146,9 @@
                     },
                     "avgCPU": 0.11,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000062",
@@ -15045,7 +15167,9 @@
                     },
                     "avgCPU": 0.1356,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000063",
@@ -15064,7 +15188,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000064",
@@ -15083,7 +15209,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000065",
@@ -15102,7 +15230,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000066",
@@ -15121,7 +15251,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000067",
@@ -15140,7 +15272,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000068",
@@ -15159,7 +15293,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000069",
@@ -15178,7 +15314,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000070",
@@ -15197,7 +15335,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000071",
@@ -15216,7 +15356,9 @@
                     },
                     "avgCPU": 0.0344,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000072",
@@ -15235,7 +15377,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000073",
@@ -15254,7 +15398,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000074",
@@ -15273,7 +15419,9 @@
                     },
                     "avgCPU": 0.077,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000075",
@@ -15292,7 +15440,9 @@
                     },
                     "avgCPU": 0.2616,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000076",
@@ -15311,7 +15461,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000077",
@@ -15330,7 +15482,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000078",
@@ -15349,7 +15503,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000079",
@@ -15368,7 +15524,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000080",
@@ -15387,7 +15545,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000081",
@@ -15406,7 +15566,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000082",
@@ -15425,7 +15587,9 @@
                     },
                     "avgCPU": 0.056,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000083",
@@ -15444,7 +15608,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000084",
@@ -15463,7 +15629,9 @@
                     },
                     "avgCPU": 0.0886,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000085",
@@ -15482,7 +15650,9 @@
                     },
                     "avgCPU": 0.0422,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000086",
@@ -15501,7 +15671,9 @@
                     },
                     "avgCPU": 0.1259,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000087",
@@ -15520,7 +15692,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000088",
@@ -15539,7 +15713,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000089",
@@ -15558,7 +15734,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000090",
@@ -15577,7 +15755,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000091",
@@ -15596,7 +15776,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000092",
@@ -15615,7 +15797,9 @@
                     },
                     "avgCPU": 0.3559,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000093",
@@ -15634,7 +15818,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000094",
@@ -15653,7 +15839,9 @@
                     },
                     "avgCPU": 0.4381,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000095",
@@ -15672,7 +15860,9 @@
                     },
                     "avgCPU": 0.0688,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000096",
@@ -15691,7 +15881,9 @@
                     },
                     "avgCPU": 0.982,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000097",
@@ -15710,7 +15902,9 @@
                     },
                     "avgCPU": 42.8571,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000098",
@@ -15729,7 +15923,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000099",
@@ -15748,7 +15944,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000100",
@@ -15767,7 +15965,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000101",
@@ -15786,7 +15986,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000102",
@@ -15805,7 +16007,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000103",
@@ -15824,7 +16028,9 @@
                     },
                     "avgCPU": 0.5988,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000104",
@@ -15843,7 +16049,9 @@
                     },
                     "avgCPU": 0.4577,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000105",
@@ -15862,7 +16070,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000106",
@@ -15881,7 +16091,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000107",
@@ -15900,7 +16112,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000108",
@@ -15919,7 +16133,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000109",
@@ -15938,7 +16154,9 @@
                     },
                     "avgCPU": 0.0188,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000110",
@@ -15957,7 +16175,9 @@
                     },
                     "avgCPU": 42.8571,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000111",
@@ -15976,7 +16196,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000112",
@@ -15995,7 +16217,9 @@
                     },
                     "avgCPU": 0.03,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000113",
@@ -16014,7 +16238,9 @@
                     },
                     "avgCPU": 0.2459,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000114",
@@ -16033,7 +16259,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000115",
@@ -16052,7 +16280,9 @@
                     },
                     "avgCPU": 50.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000116",
@@ -16071,7 +16301,9 @@
                     },
                     "avgCPU": 0.1815,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000117",
@@ -16090,7 +16322,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000118",
@@ -16109,7 +16343,9 @@
                     },
                     "avgCPU": 0.0815,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000119",
@@ -16128,7 +16364,9 @@
                     },
                     "avgCPU": 0.3626,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000120",
@@ -16147,7 +16385,9 @@
                     },
                     "avgCPU": 0.7987,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000121",
@@ -16166,7 +16406,9 @@
                     },
                     "avgCPU": 2.8571,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000122",
@@ -16185,7 +16427,9 @@
                     },
                     "avgCPU": 0.109,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000123",
@@ -16204,7 +16448,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000124",
@@ -16223,7 +16469,9 @@
                     },
                     "avgCPU": 0.7937,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000125",
@@ -16242,7 +16490,9 @@
                     },
                     "avgCPU": 0.1004,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000126",
@@ -16261,7 +16511,9 @@
                     },
                     "avgCPU": 0.3407,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000127",
@@ -16280,7 +16532,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000128",
@@ -16299,7 +16553,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000129",
@@ -16318,7 +16574,9 @@
                     },
                     "avgCPU": 0.3103,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000130",
@@ -16337,7 +16595,9 @@
                     },
                     "avgCPU": 0.3113,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000131",
@@ -16356,7 +16616,9 @@
                     },
                     "avgCPU": 0.3943,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000132",
@@ -16375,7 +16637,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000133",
@@ -16394,7 +16658,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000134",
@@ -16413,7 +16679,9 @@
                     },
                     "avgCPU": 0.3655,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000135",
@@ -16432,7 +16700,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000136",
@@ -16451,7 +16721,9 @@
                     },
                     "avgCPU": 0.2366,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000137",
@@ -16466,7 +16738,9 @@
                     },
                     "avgCPU": 99.7669,
                     "priority": 40,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000138",
@@ -16483,7 +16757,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 50,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000139",
@@ -16500,7 +16776,9 @@
                     },
                     "avgCPU": 4.6959,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000140",
@@ -16517,7 +16795,9 @@
                     },
                     "avgCPU": 4.5446,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000141",
@@ -16534,7 +16814,9 @@
                     },
                     "avgCPU": 4.8588,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000142",
@@ -16551,7 +16833,9 @@
                     },
                     "avgCPU": 4.4673,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000143",
@@ -16568,7 +16852,9 @@
                     },
                     "avgCPU": 3.8444,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000144",
@@ -16585,7 +16871,9 @@
                     },
                     "avgCPU": 3.5053,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000145",
@@ -16602,7 +16890,9 @@
                     },
                     "avgCPU": 3.4645,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000146",
@@ -16619,7 +16909,9 @@
                     },
                     "avgCPU": 4.7666,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000147",
@@ -16636,7 +16928,9 @@
                     },
                     "avgCPU": 4.7173,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000148",
@@ -16653,7 +16947,9 @@
                     },
                     "avgCPU": 4.5745,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000149",
@@ -16670,7 +16966,9 @@
                     },
                     "avgCPU": 4.4533,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000150",
@@ -16687,7 +16985,9 @@
                     },
                     "avgCPU": 4.2577,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000151",
@@ -16704,7 +17004,9 @@
                     },
                     "avgCPU": 4.5288,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000152",
@@ -16721,7 +17023,9 @@
                     },
                     "avgCPU": 4.6609,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000153",
@@ -16738,7 +17042,9 @@
                     },
                     "avgCPU": 4.5211,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000154",
@@ -16755,7 +17061,9 @@
                     },
                     "avgCPU": 3.7055,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000155",
@@ -16771,7 +17079,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 70,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000156",
@@ -16787,7 +17097,9 @@
                     },
                     "avgCPU": 74.3484,
                     "priority": 80,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000157",
@@ -16808,7 +17120,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 90,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000158",
@@ -16824,7 +17138,9 @@
                     },
                     "avgCPU": 99.9043,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000159",
@@ -16840,7 +17156,9 @@
                     },
                     "avgCPU": 97.1199,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000160",
@@ -16856,7 +17174,9 @@
                     },
                     "avgCPU": 96.6695,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000161",
@@ -16872,7 +17192,9 @@
                     },
                     "avgCPU": 99.7768,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000162",
@@ -16888,7 +17210,9 @@
                     },
                     "avgCPU": 96.8996,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000163",
@@ -16904,7 +17228,9 @@
                     },
                     "avgCPU": 99.8825,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000164",
@@ -16920,7 +17246,9 @@
                     },
                     "avgCPU": 96.5401,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000165",
@@ -16936,7 +17264,9 @@
                     },
                     "avgCPU": 97.0567,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000166",
@@ -16952,7 +17282,9 @@
                     },
                     "avgCPU": 99.7437,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000167",
@@ -16968,7 +17300,9 @@
                     },
                     "avgCPU": 96.9953,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000168",
@@ -16984,7 +17318,9 @@
                     },
                     "avgCPU": 99.8508,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000169",
@@ -17000,7 +17336,9 @@
                     },
                     "avgCPU": 98.1478,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000170",
@@ -17016,7 +17354,9 @@
                     },
                     "avgCPU": 99.3555,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000171",
@@ -17032,7 +17372,9 @@
                     },
                     "avgCPU": 99.1835,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000172",
@@ -17048,7 +17390,9 @@
                     },
                     "avgCPU": 97.0433,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000173",
@@ -17064,7 +17408,9 @@
                     },
                     "avgCPU": 99.9202,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000174",
@@ -17083,7 +17429,9 @@
                     },
                     "avgCPU": 0.039,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000175",
@@ -17102,7 +17450,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000176",
@@ -17121,7 +17471,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000177",
@@ -17140,7 +17492,9 @@
                     },
                     "avgCPU": 0.0464,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000178",
@@ -17159,7 +17513,9 @@
                     },
                     "avgCPU": 0.073,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000179",
@@ -17178,7 +17534,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000180",
@@ -17197,7 +17555,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000181",
@@ -17216,7 +17576,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000182",
@@ -17235,7 +17597,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000183",
@@ -17254,7 +17618,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000184",
@@ -17273,7 +17639,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000185",
@@ -17292,7 +17660,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000186",
@@ -17311,7 +17681,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000187",
@@ -17330,7 +17702,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000188",
@@ -17349,7 +17723,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000189",
@@ -17368,7 +17744,9 @@
                     },
                     "avgCPU": 0.0277,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000190",
@@ -17387,7 +17765,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000191",
@@ -17406,7 +17786,9 @@
                     },
                     "avgCPU": 0.0873,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000192",
@@ -17425,7 +17807,9 @@
                     },
                     "avgCPU": 0.0365,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000193",
@@ -17444,7 +17828,9 @@
                     },
                     "avgCPU": 0.7353,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000194",
@@ -17463,7 +17849,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000195",
@@ -17482,7 +17870,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000196",
@@ -17501,7 +17891,9 @@
                     },
                     "avgCPU": 60.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000197",
@@ -17520,7 +17912,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000198",
@@ -17539,7 +17933,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000199",
@@ -17558,7 +17954,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000200",
@@ -17577,7 +17975,9 @@
                     },
                     "avgCPU": 50.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000201",
@@ -17596,7 +17996,9 @@
                     },
                     "avgCPU": 42.8571,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000202",
@@ -17615,7 +18017,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000203",
@@ -17634,7 +18038,9 @@
                     },
                     "avgCPU": 0.0458,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000204",
@@ -17653,7 +18059,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000205",
@@ -17672,7 +18080,9 @@
                     },
                     "avgCPU": 0.071,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000206",
@@ -17691,7 +18101,9 @@
                     },
                     "avgCPU": 0.1557,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000207",
@@ -17710,7 +18122,9 @@
                     },
                     "avgCPU": 0.0932,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000208",
@@ -17729,7 +18143,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000209",
@@ -17748,7 +18164,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000210",
@@ -17767,7 +18185,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000211",
@@ -17786,7 +18206,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000212",
@@ -17805,7 +18227,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000213",
@@ -17824,7 +18248,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000214",
@@ -17843,7 +18269,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000215",
@@ -17862,7 +18290,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000216",
@@ -17881,7 +18311,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000217",
@@ -17900,7 +18332,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000218",
@@ -17919,7 +18353,9 @@
                     },
                     "avgCPU": 0.4664,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000219",
@@ -17938,7 +18374,9 @@
                     },
                     "avgCPU": 0.109,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000220",
@@ -17957,7 +18395,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000221",
@@ -17976,7 +18416,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000222",
@@ -17995,7 +18437,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000223",
@@ -18014,7 +18458,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000224",
@@ -18033,7 +18479,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000225",
@@ -18052,7 +18500,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000226",
@@ -18071,7 +18521,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000227",
@@ -18090,7 +18542,9 @@
                     },
                     "avgCPU": 14.2857,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000228",
@@ -18109,7 +18563,9 @@
                     },
                     "avgCPU": 0.0745,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000229",
@@ -18128,7 +18584,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000230",
@@ -18147,7 +18605,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000231",
@@ -18166,7 +18626,9 @@
                     },
                     "avgCPU": 0.0296,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000232",
@@ -18185,7 +18647,9 @@
                     },
                     "avgCPU": 0.3318,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000233",
@@ -18204,7 +18668,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000234",
@@ -18223,7 +18689,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000235",
@@ -18242,7 +18710,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000236",
@@ -18261,7 +18731,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000237",
@@ -18280,7 +18752,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000238",
@@ -18299,7 +18773,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000239",
@@ -18318,7 +18794,9 @@
                     },
                     "avgCPU": 0.1374,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000240",
@@ -18337,7 +18815,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000241",
@@ -18356,7 +18836,9 @@
                     },
                     "avgCPU": 0.1087,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000242",
@@ -18375,7 +18857,9 @@
                     },
                     "avgCPU": 0.0532,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000243",
@@ -18394,7 +18878,9 @@
                     },
                     "avgCPU": 0.1231,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000244",
@@ -18413,7 +18899,9 @@
                     },
                     "avgCPU": 42.8571,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000245",
@@ -18432,7 +18920,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000246",
@@ -18451,7 +18941,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000247",
@@ -18470,7 +18962,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000248",
@@ -18489,7 +18983,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000249",
@@ -18508,7 +19004,9 @@
                     },
                     "avgCPU": 0.1212,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000250",
@@ -18527,7 +19025,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000251",
@@ -18546,7 +19046,9 @@
                     },
                     "avgCPU": 0.1578,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000252",
@@ -18565,7 +19067,9 @@
                     },
                     "avgCPU": 0.042,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000253",
@@ -18584,7 +19088,9 @@
                     },
                     "avgCPU": 0.626,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000254",
@@ -18603,7 +19109,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000255",
@@ -18622,7 +19130,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000256",
@@ -18641,7 +19151,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000257",
@@ -18660,7 +19172,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000258",
@@ -18679,7 +19193,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000259",
@@ -18698,7 +19214,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000260",
@@ -18717,7 +19235,9 @@
                     },
                     "avgCPU": 0.5587,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000261",
@@ -18736,7 +19256,9 @@
                     },
                     "avgCPU": 0.3226,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000262",
@@ -18755,7 +19277,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000263",
@@ -18774,7 +19298,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000264",
@@ -18793,7 +19319,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000265",
@@ -18812,7 +19340,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000266",
@@ -18831,7 +19361,9 @@
                     },
                     "avgCPU": 0.0596,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000267",
@@ -18850,7 +19382,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000268",
@@ -18869,7 +19403,9 @@
                     },
                     "avgCPU": 50.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000269",
@@ -18888,7 +19424,9 @@
                     },
                     "avgCPU": 0.078,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000270",
@@ -18907,7 +19445,9 @@
                     },
                     "avgCPU": 0.2083,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000271",
@@ -18926,7 +19466,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000272",
@@ -18945,7 +19487,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000273",
@@ -18964,7 +19508,9 @@
                     },
                     "avgCPU": 0.033,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000274",
@@ -18983,7 +19529,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000275",
@@ -19002,7 +19550,9 @@
                     },
                     "avgCPU": 0.5701,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000276",
@@ -19021,7 +19571,9 @@
                     },
                     "avgCPU": 0.0499,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000277",
@@ -19040,7 +19592,9 @@
                     },
                     "avgCPU": 0.11,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000278",
@@ -19059,7 +19613,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000279",
@@ -19078,7 +19634,9 @@
                     },
                     "avgCPU": 0.2418,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000280",
@@ -19097,7 +19655,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000281",
@@ -19116,7 +19676,9 @@
                     },
                     "avgCPU": 0.2019,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000282",
@@ -19135,7 +19697,9 @@
                     },
                     "avgCPU": 0.0364,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000283",
@@ -19154,7 +19718,9 @@
                     },
                     "avgCPU": 0.1186,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000284",
@@ -19173,7 +19739,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000285",
@@ -19192,7 +19760,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000286",
@@ -19211,7 +19781,9 @@
                     },
                     "avgCPU": 0.3481,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000287",
@@ -19230,7 +19802,9 @@
                     },
                     "avgCPU": 0.3209,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000288",
@@ -19249,7 +19823,9 @@
                     },
                     "avgCPU": 0.2053,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000289",
@@ -19268,7 +19844,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000290",
@@ -19287,7 +19865,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000291",
@@ -19306,7 +19886,9 @@
                     },
                     "avgCPU": 0.651,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000292",
@@ -19325,7 +19907,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000293",
@@ -19344,7 +19928,9 @@
                     },
                     "avgCPU": 0.0798,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000294",
@@ -19359,7 +19945,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000295",
@@ -19376,7 +19964,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 50,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000296",
@@ -19393,7 +19983,9 @@
                     },
                     "avgCPU": 5.1663,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000297",
@@ -19410,7 +20002,9 @@
                     },
                     "avgCPU": 4.5509,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000298",
@@ -19427,7 +20021,9 @@
                     },
                     "avgCPU": 15.7732,
                     "priority": 60,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000299",
@@ -19444,7 +20040,9 @@
                     },
                     "avgCPU": 15.2138,
                     "priority": 60,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000300",
@@ -19461,7 +20059,9 @@
                     },
                     "avgCPU": 2.1955,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000301",
@@ -19478,7 +20078,9 @@
                     },
                     "avgCPU": 2.3175,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000302",
@@ -19495,7 +20097,9 @@
                     },
                     "avgCPU": 2.3518,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000303",
@@ -19512,7 +20116,9 @@
                     },
                     "avgCPU": 21.2628,
                     "priority": 60,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000304",
@@ -19529,7 +20135,9 @@
                     },
                     "avgCPU": 15.1389,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000305",
@@ -19546,7 +20154,9 @@
                     },
                     "avgCPU": 2.4895,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000306",
@@ -19563,7 +20173,9 @@
                     },
                     "avgCPU": 8.3762,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000307",
@@ -19580,7 +20192,9 @@
                     },
                     "avgCPU": 41.9831,
                     "priority": 60,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000308",
@@ -19597,7 +20211,9 @@
                     },
                     "avgCPU": 15.4248,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000309",
@@ -19614,7 +20230,9 @@
                     },
                     "avgCPU": 31.0464,
                     "priority": 60,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000310",
@@ -19631,7 +20249,9 @@
                     },
                     "avgCPU": 46.2595,
                     "priority": 60,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000311",
@@ -19648,7 +20268,9 @@
                     },
                     "avgCPU": 5.6327,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000312",
@@ -19664,7 +20286,9 @@
                     },
                     "avgCPU": 99.5261,
                     "priority": 70,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000313",
@@ -19680,7 +20304,9 @@
                     },
                     "avgCPU": 57.8176,
                     "priority": 80,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000314",
@@ -19701,7 +20327,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 90,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000315",
@@ -19717,7 +20345,9 @@
                     },
                     "avgCPU": 97.63,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000316",
@@ -19733,7 +20363,9 @@
                     },
                     "avgCPU": 96.2739,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000317",
@@ -19749,7 +20381,9 @@
                     },
                     "avgCPU": 98.8739,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000318",
@@ -19765,7 +20399,9 @@
                     },
                     "avgCPU": 98.4352,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000319",
@@ -19781,7 +20417,9 @@
                     },
                     "avgCPU": 99.4853,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000320",
@@ -19797,7 +20435,9 @@
                     },
                     "avgCPU": 99.8384,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000321",
@@ -19813,7 +20453,9 @@
                     },
                     "avgCPU": 99.1374,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000322",
@@ -19829,7 +20471,9 @@
                     },
                     "avgCPU": 98.1219,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000323",
@@ -19845,7 +20489,9 @@
                     },
                     "avgCPU": 97.018,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000324",
@@ -19861,7 +20507,9 @@
                     },
                     "avgCPU": 98.433,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000325",
@@ -19877,7 +20525,9 @@
                     },
                     "avgCPU": 96.9767,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000326",
@@ -19893,7 +20543,9 @@
                     },
                     "avgCPU": 98.8559,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000327",
@@ -19909,7 +20561,9 @@
                     },
                     "avgCPU": 99.8387,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000328",
@@ -19925,7 +20579,9 @@
                     },
                     "avgCPU": 97.5273,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000329",
@@ -19941,7 +20597,9 @@
                     },
                     "avgCPU": 99.3123,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mProject_ID0000330",
@@ -19957,7 +20615,9 @@
                     },
                     "avgCPU": 98.4466,
                     "priority": 20,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000331",
@@ -19976,7 +20636,9 @@
                     },
                     "avgCPU": 0.1261,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000332",
@@ -19995,7 +20657,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000333",
@@ -20014,7 +20678,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000334",
@@ -20033,7 +20699,9 @@
                     },
                     "avgCPU": 0.1733,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000335",
@@ -20052,7 +20720,9 @@
                     },
                     "avgCPU": 0.155,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000336",
@@ -20071,7 +20741,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000337",
@@ -20090,7 +20762,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000338",
@@ -20109,7 +20783,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000339",
@@ -20128,7 +20804,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000340",
@@ -20147,7 +20825,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000341",
@@ -20166,7 +20846,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000342",
@@ -20185,7 +20867,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000343",
@@ -20204,7 +20888,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000344",
@@ -20223,7 +20909,9 @@
                     },
                     "avgCPU": 12.5,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000345",
@@ -20242,7 +20930,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000346",
@@ -20261,7 +20951,9 @@
                     },
                     "avgCPU": 0.0321,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000347",
@@ -20280,7 +20972,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000348",
@@ -20299,7 +20993,9 @@
                     },
                     "avgCPU": 0.0637,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000349",
@@ -20318,7 +21014,9 @@
                     },
                     "avgCPU": 0.0987,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000350",
@@ -20337,7 +21035,9 @@
                     },
                     "avgCPU": 0.2365,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000351",
@@ -20356,7 +21056,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000352",
@@ -20375,7 +21077,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000353",
@@ -20394,7 +21098,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000354",
@@ -20413,7 +21119,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000355",
@@ -20432,7 +21140,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000356",
@@ -20451,7 +21161,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000357",
@@ -20470,7 +21182,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000358",
@@ -20489,7 +21203,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000359",
@@ -20508,7 +21224,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000360",
@@ -20527,7 +21245,9 @@
                     },
                     "avgCPU": 0.0167,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000361",
@@ -20546,7 +21266,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000362",
@@ -20565,7 +21287,9 @@
                     },
                     "avgCPU": 0.1074,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000363",
@@ -20584,7 +21308,9 @@
                     },
                     "avgCPU": 0.0369,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000364",
@@ -20603,7 +21329,9 @@
                     },
                     "avgCPU": 0.0553,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000365",
@@ -20622,7 +21350,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000366",
@@ -20641,7 +21371,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000367",
@@ -20660,7 +21392,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000368",
@@ -20679,7 +21413,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000369",
@@ -20698,7 +21434,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000370",
@@ -20717,7 +21455,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000371",
@@ -20736,7 +21476,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000372",
@@ -20755,7 +21497,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000373",
@@ -20774,7 +21518,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000374",
@@ -20793,7 +21539,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000375",
@@ -20812,7 +21560,9 @@
                     },
                     "avgCPU": 0.2749,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000376",
@@ -20831,7 +21581,9 @@
                     },
                     "avgCPU": 0.1367,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000377",
@@ -20850,7 +21602,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000378",
@@ -20869,7 +21623,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000379",
@@ -20888,7 +21644,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000380",
@@ -20907,7 +21665,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000381",
@@ -20926,7 +21686,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000382",
@@ -20945,7 +21707,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000383",
@@ -20964,7 +21728,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000384",
@@ -20983,7 +21749,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000385",
@@ -21002,7 +21770,9 @@
                     },
                     "avgCPU": 0.2468,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000386",
@@ -21021,7 +21791,9 @@
                     },
                     "avgCPU": 50.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000387",
@@ -21040,7 +21812,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000388",
@@ -21059,7 +21833,9 @@
                     },
                     "avgCPU": 0.0219,
                     "priority": 30,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000389",
@@ -21078,7 +21854,9 @@
                     },
                     "avgCPU": 0.2961,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000390",
@@ -21097,7 +21875,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000391",
@@ -21116,7 +21896,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000392",
@@ -21135,7 +21917,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000393",
@@ -21154,7 +21938,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000394",
@@ -21173,7 +21959,9 @@
                     },
                     "avgCPU": 42.8571,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000395",
@@ -21192,7 +21980,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000396",
@@ -21211,7 +22001,9 @@
                     },
                     "avgCPU": 0.1994,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000397",
@@ -21230,7 +22022,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000398",
@@ -21249,7 +22043,9 @@
                     },
                     "avgCPU": 0.1622,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000399",
@@ -21268,7 +22064,9 @@
                     },
                     "avgCPU": 0.0471,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000400",
@@ -21287,7 +22085,9 @@
                     },
                     "avgCPU": 0.1204,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000401",
@@ -21306,7 +22106,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000402",
@@ -21325,7 +22127,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000403",
@@ -21344,7 +22148,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000404",
@@ -21363,7 +22169,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000405",
@@ -21382,7 +22190,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000406",
@@ -21401,7 +22211,9 @@
                     },
                     "avgCPU": 0.3626,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000407",
@@ -21420,7 +22232,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000408",
@@ -21439,7 +22253,9 @@
                     },
                     "avgCPU": 0.3597,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000409",
@@ -21458,7 +22274,9 @@
                     },
                     "avgCPU": 0.1478,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000410",
@@ -21477,7 +22295,9 @@
                     },
                     "avgCPU": 0.4095,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000411",
@@ -21496,7 +22316,9 @@
                     },
                     "avgCPU": 42.8571,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000412",
@@ -21515,7 +22337,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000413",
@@ -21534,7 +22358,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000414",
@@ -21553,7 +22379,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000415",
@@ -21572,7 +22400,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000416",
@@ -21591,7 +22421,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000417",
@@ -21610,7 +22442,9 @@
                     },
                     "avgCPU": 0.1076,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000418",
@@ -21629,7 +22463,9 @@
                     },
                     "avgCPU": 0.3513,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000419",
@@ -21648,7 +22484,9 @@
                     },
                     "avgCPU": 25.0,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000420",
@@ -21667,7 +22505,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000421",
@@ -21686,7 +22526,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000422",
@@ -21705,7 +22547,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000423",
@@ -21724,7 +22568,9 @@
                     },
                     "avgCPU": 0.3197,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000424",
@@ -21743,7 +22589,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000425",
@@ -21762,7 +22610,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000426",
@@ -21781,7 +22631,9 @@
                     },
                     "avgCPU": 0.1441,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000427",
@@ -21800,7 +22652,9 @@
                     },
                     "avgCPU": 0.4776,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000428",
@@ -21819,7 +22673,9 @@
                     },
                     "avgCPU": 22.2222,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000429",
@@ -21838,7 +22694,9 @@
                     },
                     "avgCPU": 60.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000430",
@@ -21857,7 +22715,9 @@
                     },
                     "avgCPU": 0.1333,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000431",
@@ -21876,7 +22736,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000432",
@@ -21895,7 +22757,9 @@
                     },
                     "avgCPU": 0.2372,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000433",
@@ -21914,7 +22778,9 @@
                     },
                     "avgCPU": 0.0425,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000434",
@@ -21933,7 +22799,9 @@
                     },
                     "avgCPU": 0.1654,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000435",
@@ -21952,7 +22820,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000436",
@@ -21971,7 +22841,9 @@
                     },
                     "avgCPU": 0.0503,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000437",
@@ -21990,7 +22862,9 @@
                     },
                     "avgCPU": 28.5714,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000438",
@@ -22009,7 +22883,9 @@
                     },
                     "avgCPU": 0.1945,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000439",
@@ -22028,7 +22904,9 @@
                     },
                     "avgCPU": 0.0953,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000440",
@@ -22047,7 +22925,9 @@
                     },
                     "avgCPU": 0.7112,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000441",
@@ -22066,7 +22946,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000442",
@@ -22085,7 +22967,9 @@
                     },
                     "avgCPU": 33.3333,
                     "priority": 30,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000443",
@@ -22104,7 +22988,9 @@
                     },
                     "avgCPU": 0.507,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000444",
@@ -22123,7 +23009,9 @@
                     },
                     "avgCPU": 0.1386,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000445",
@@ -22142,7 +23030,9 @@
                     },
                     "avgCPU": 0.4762,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000446",
@@ -22161,7 +23051,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-4"
+                    "machines": [
+                        "pegasus-4"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000447",
@@ -22180,7 +23072,9 @@
                     },
                     "avgCPU": 37.5,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000448",
@@ -22199,7 +23093,9 @@
                     },
                     "avgCPU": 0.1521,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000449",
@@ -22218,7 +23114,9 @@
                     },
                     "avgCPU": 40.0,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mDiffFit_ID0000450",
@@ -22237,7 +23135,9 @@
                     },
                     "avgCPU": 0.2446,
                     "priority": 30,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mConcatFit_ID0000451",
@@ -22252,7 +23152,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 40,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mBgModel_ID0000452",
@@ -22269,7 +23171,9 @@
                     },
                     "avgCPU": 100.0,
                     "priority": 50,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000453",
@@ -22286,7 +23190,9 @@
                     },
                     "avgCPU": 39.856,
                     "priority": 60,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000454",
@@ -22303,7 +23209,9 @@
                     },
                     "avgCPU": 9.7366,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000455",
@@ -22320,7 +23228,9 @@
                     },
                     "avgCPU": 8.9786,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000456",
@@ -22337,7 +23247,9 @@
                     },
                     "avgCPU": 4.6339,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000457",
@@ -22354,7 +23266,9 @@
                     },
                     "avgCPU": 8.7362,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000458",
@@ -22371,7 +23285,9 @@
                     },
                     "avgCPU": 4.6498,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000459",
@@ -22388,7 +23304,9 @@
                     },
                     "avgCPU": 4.6308,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000460",
@@ -22405,7 +23323,9 @@
                     },
                     "avgCPU": 10.2315,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000461",
@@ -22422,7 +23342,9 @@
                     },
                     "avgCPU": 4.0758,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000462",
@@ -22439,7 +23361,9 @@
                     },
                     "avgCPU": 34.3537,
                     "priority": 60,
-                    "machine": "pegasus-3"
+                    "machines": [
+                        "pegasus-3"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000463",
@@ -22456,7 +23380,9 @@
                     },
                     "avgCPU": 3.2367,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000464",
@@ -22473,7 +23399,9 @@
                     },
                     "avgCPU": 8.282,
                     "priority": 60,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000465",
@@ -22490,7 +23418,9 @@
                     },
                     "avgCPU": 4.5718,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000466",
@@ -22507,7 +23437,9 @@
                     },
                     "avgCPU": 3.8726,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000467",
@@ -22524,7 +23456,9 @@
                     },
                     "avgCPU": 4.3262,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mBackground_ID0000468",
@@ -22541,7 +23475,9 @@
                     },
                     "avgCPU": 4.1647,
                     "priority": 60,
-                    "machine": "pegasus-2"
+                    "machines": [
+                        "pegasus-2"
+                    ]
                 },
                 {
                     "id": "mImgtbl_ID0000469",
@@ -22557,7 +23493,9 @@
                     },
                     "avgCPU": 99.5475,
                     "priority": 70,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mAdd_ID0000470",
@@ -22573,7 +23511,9 @@
                     },
                     "avgCPU": 31.896,
                     "priority": 80,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000471",
@@ -22594,7 +23534,9 @@
                     },
                     "avgCPU": 98.9377,
                     "priority": 90,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 },
                 {
                     "id": "mViewer_ID0000472",
@@ -22623,7 +23565,9 @@
                     },
                     "avgCPU": 99.9937,
                     "priority": 90,
-                    "machine": "pegasus-5"
+                    "machines": [
+                        "pegasus-5"
+                    ]
                 }
             ],
             "machines": [

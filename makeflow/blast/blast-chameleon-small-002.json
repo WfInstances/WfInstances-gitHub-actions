@@ -1620,7 +1620,9 @@
                     "readBytes": 660000,
                     "writtenBytes": 312000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-1.novalocal"
+                    "machines": [
+                        "worker-1.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000002",
@@ -1646,7 +1648,9 @@
                     "readBytes": 49000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 508000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000003",
@@ -1672,7 +1676,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 39000,
                     "memoryInBytes": 469000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000004",
@@ -1698,7 +1704,9 @@
                     "readBytes": 50000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 487000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000005",
@@ -1724,7 +1732,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 492000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000006",
@@ -1750,7 +1760,9 @@
                     "readBytes": 48000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 473000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000007",
@@ -1776,7 +1788,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 562000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000008",
@@ -1802,7 +1816,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 477000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000009",
@@ -1828,7 +1844,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 503000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000010",
@@ -1854,7 +1872,9 @@
                     "readBytes": 50000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 491000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000011",
@@ -1880,7 +1900,9 @@
                     "readBytes": 52000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 482000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000012",
@@ -1906,7 +1928,9 @@
                     "readBytes": 47000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 499000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000013",
@@ -1932,7 +1956,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 39000,
                     "memoryInBytes": 505000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000014",
@@ -1958,7 +1984,9 @@
                     "readBytes": 52000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 480000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000015",
@@ -1984,7 +2012,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 475000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000016",
@@ -2010,7 +2040,9 @@
                     "readBytes": 50000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 481000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000017",
@@ -2036,7 +2068,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 559000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000018",
@@ -2062,7 +2096,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 495000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000019",
@@ -2088,7 +2124,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 482000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000020",
@@ -2114,7 +2152,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 535000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000021",
@@ -2140,7 +2180,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 54000,
                     "memoryInBytes": 538000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000022",
@@ -2166,7 +2208,9 @@
                     "readBytes": 45000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 606000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000023",
@@ -2192,7 +2236,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 529000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000024",
@@ -2218,7 +2264,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 946000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000025",
@@ -2244,7 +2292,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 39000,
                     "memoryInBytes": 465000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000026",
@@ -2270,7 +2320,9 @@
                     "readBytes": 45000,
                     "writtenBytes": 179000,
                     "memoryInBytes": 946000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000027",
@@ -2296,7 +2348,9 @@
                     "readBytes": 47000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 480000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000028",
@@ -2322,7 +2376,9 @@
                     "readBytes": 49000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 505000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000029",
@@ -2348,7 +2404,9 @@
                     "readBytes": 50000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 505000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000030",
@@ -2374,7 +2432,9 @@
                     "readBytes": 51000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 484000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000031",
@@ -2400,7 +2460,9 @@
                     "readBytes": 50000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 514000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000032",
@@ -2426,7 +2488,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 15000,
                     "memoryInBytes": 490000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000033",
@@ -2452,7 +2516,9 @@
                     "readBytes": 48000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 492000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000034",
@@ -2478,7 +2544,9 @@
                     "readBytes": 48000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 521000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000035",
@@ -2504,7 +2572,9 @@
                     "readBytes": 45000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 499000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000036",
@@ -2530,7 +2600,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 484000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000037",
@@ -2556,7 +2628,9 @@
                     "readBytes": 47000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 496000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000038",
@@ -2582,7 +2656,9 @@
                     "readBytes": 52000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 517000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000039",
@@ -2608,7 +2684,9 @@
                     "readBytes": 46000,
                     "writtenBytes": 39000,
                     "memoryInBytes": 483000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000040",
@@ -2634,7 +2712,9 @@
                     "readBytes": 50000,
                     "writtenBytes": 31000,
                     "memoryInBytes": 508000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "blastall_ID000041",
@@ -2660,7 +2740,9 @@
                     "readBytes": 50000,
                     "writtenBytes": 23000,
                     "memoryInBytes": 518000000,
-                    "machine": "worker-2.novalocal"
+                    "machines": [
+                        "worker-2.novalocal"
+                    ]
                 },
                 {
                     "id": "cat_blast_ID000042",
@@ -2717,7 +2799,9 @@
                     "readBytes": 1114000,
                     "writtenBytes": 476000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-1.novalocal"
+                    "machines": [
+                        "worker-1.novalocal"
+                    ]
                 },
                 {
                     "id": "cat_ID000043",
@@ -2774,7 +2858,9 @@
                     "avgCPU": 65.9735,
                     "readBytes": 12000,
                     "memoryInBytes": 3000000,
-                    "machine": "worker-1.novalocal"
+                    "machines": [
+                        "worker-1.novalocal"
+                    ]
                 }
             ],
             "machines": [
