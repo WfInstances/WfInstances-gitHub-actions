@@ -5,4 +5,11 @@
 <a href="https://wfcommons.org" target="_blank"><img src="https://wfcommons.org/images/wfcommons-horizontal.png" width="350" /></a>
 
 # WfInstances
-Collection and curation of open access production workflow executions from various scientific applications using WfFormat
+Collection and curation of open access production workflow executions from various scientific applications. These <i>workflow instances</i> are described using the [WfFormat format](https://github.com/wfcommons/WfFormat).
+
+A web application is available to easily browse, filter, and visualize the instances available in this repository:
+
+<a href="https://dirt02.ics.hawaii.edu">
+<img src="./wfinstances-browser-screenshot.jpeg">
+<a>
+
