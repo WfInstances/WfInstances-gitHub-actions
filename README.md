@@ -9,7 +9,7 @@ Collection and curation of open access production workflow executions from vario
 
 A web application is available to easily browse, filter, and visualize the instances available in this repository:
 
-<a href="https://dirt02.ics.hawaii.edu">
-<img src="./wfinstances-browser-screenshot.jpeg" size=100>
+<a href="https://dirt02.ics.hawaii.edu" target="_blank">
+<img src="./wfinstances-browser-screenshot.jpeg" width=200>
 <a>
 
