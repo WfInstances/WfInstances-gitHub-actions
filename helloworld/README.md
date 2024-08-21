@@ -1,7 +1,7 @@
 <a href="https://wfcommons.org" target="_blank"><img src="https://wfcommons.org/images/wfcommons-horizontal.png" width="350"/></a>
 
 
-# Sample "hello worlf!" Workflow Execution Instances
+# Sample "hello world!" Workflow Execution Instances
 
 This directory contains made up workflow execution instances for testing
 purposes, described using the [WfCommons JSON
