@@ -11,17 +11,17 @@
         "specification": {
             "tasks": [
                 {
-                    "name": "None_forkjoin_00000001",
-                    "id": "None_forkjoin_00000001",
+                    "name": "cpuhog_forkjoin_00000001",
+                    "id": "cpuhog_forkjoin_00000001",
                     "children": [
-                        "None_forkjoin_00000002",
-                        "None_forkjoin_00000003",
-                        "None_forkjoin_00000004",
-                        "None_forkjoin_00000005",
-                        "None_forkjoin_00000006",
-                        "None_forkjoin_00000007",
-                        "None_forkjoin_00000008",
-                        "None_forkjoin_00000009"
+                        "cpuhog_forkjoin_00000002",
+                        "cpuhog_forkjoin_00000003",
+                        "cpuhog_forkjoin_00000004",
+                        "cpuhog_forkjoin_00000005",
+                        "cpuhog_forkjoin_00000006",
+                        "cpuhog_forkjoin_00000007",
+                        "cpuhog_forkjoin_00000008",
+                        "cpuhog_forkjoin_00000009"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_input.txt"
@@ -32,10 +32,10 @@
                     "parents": []
                 },
                 {
-                    "name": "None_forkjoin_00000002",
-                    "id": "None_forkjoin_00000002",
+                    "name": "cpuhog_forkjoin_00000002",
+                    "id": "cpuhog_forkjoin_00000002",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -44,12 +44,12 @@
                         "forkjoin_00000002_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000010",
-                    "id": "None_forkjoin_00000010",
+                    "name": "cpuhog_forkjoin_00000010",
+                    "id": "cpuhog_forkjoin_00000010",
                     "children": [
                     ],
                     "inputFiles": [
@@ -66,21 +66,21 @@
                         "forkjoin_00000010_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000002",
-                        "None_forkjoin_00000003",
-                        "None_forkjoin_00000004",
-                        "None_forkjoin_00000005",
-                        "None_forkjoin_00000006",
-                        "None_forkjoin_00000007",
-                        "None_forkjoin_00000008",
-                        "None_forkjoin_00000009"
+                        "cpuhog_forkjoin_00000002",
+                        "cpuhog_forkjoin_00000003",
+                        "cpuhog_forkjoin_00000004",
+                        "cpuhog_forkjoin_00000005",
+                        "cpuhog_forkjoin_00000006",
+                        "cpuhog_forkjoin_00000007",
+                        "cpuhog_forkjoin_00000008",
+                        "cpuhog_forkjoin_00000009"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000003",
-                    "id": "None_forkjoin_00000003",
+                    "name": "cpuhog_forkjoin_00000003",
+                    "id": "cpuhog_forkjoin_00000003",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -89,14 +89,14 @@
                         "forkjoin_00000003_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000004",
-                    "id": "None_forkjoin_00000004",
+                    "name": "cpuhog_forkjoin_00000004",
+                    "id": "cpuhog_forkjoin_00000004",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -105,14 +105,14 @@
                         "forkjoin_00000004_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000005",
-                    "id": "None_forkjoin_00000005",
+                    "name": "cpuhog_forkjoin_00000005",
+                    "id": "cpuhog_forkjoin_00000005",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -121,14 +121,14 @@
                         "forkjoin_00000005_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000006",
-                    "id": "None_forkjoin_00000006",
+                    "name": "cpuhog_forkjoin_00000006",
+                    "id": "cpuhog_forkjoin_00000006",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -137,14 +137,14 @@
                         "forkjoin_00000006_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000007",
-                    "id": "None_forkjoin_00000007",
+                    "name": "cpuhog_forkjoin_00000007",
+                    "id": "cpuhog_forkjoin_00000007",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -153,14 +153,14 @@
                         "forkjoin_00000007_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000008",
-                    "id": "None_forkjoin_00000008",
+                    "name": "cpuhog_forkjoin_00000008",
+                    "id": "cpuhog_forkjoin_00000008",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -169,14 +169,14 @@
                         "forkjoin_00000008_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 },
                 {
-                    "name": "None_forkjoin_00000009",
-                    "id": "None_forkjoin_00000009",
+                    "name": "cpuhog_forkjoin_00000009",
+                    "id": "cpuhog_forkjoin_00000009",
                     "children": [
-                        "None_forkjoin_00000010"
+                        "cpuhog_forkjoin_00000010"
                     ],
                     "inputFiles": [
                         "forkjoin_00000001_output.txt"
@@ -185,7 +185,7 @@
                         "forkjoin_00000009_output.txt"
                     ],
                     "parents": [
-                        "None_forkjoin_00000001"
+                        "cpuhog_forkjoin_00000001"
                     ]
                 }
             ],
@@ -241,10 +241,10 @@
             "executedAt": "05-04-23T10:46:27Z",
             "tasks": [
                 {
-                    "id": "None_forkjoin_00000001",
+                    "id": "cpuhog_forkjoin_00000001",
                     "runtimeInSeconds": 100.187,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000001",
                             "--percent-cpu 0.6",
@@ -263,10 +263,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000002",
+                    "id": "cpuhog_forkjoin_00000002",
                     "runtimeInSeconds": 107.353,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000002",
                             "--percent-cpu 0.6",
@@ -285,10 +285,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000010",
+                    "id": "cpuhog_forkjoin_00000010",
                     "runtimeInSeconds": 99.82,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000010",
                             "--percent-cpu 0.6",
@@ -314,10 +314,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000003",
+                    "id": "cpuhog_forkjoin_00000003",
                     "runtimeInSeconds": 102.889,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000003",
                             "--percent-cpu 0.6",
@@ -336,10 +336,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000004",
+                    "id": "cpuhog_forkjoin_00000004",
                     "runtimeInSeconds": 103.57,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000004",
                             "--percent-cpu 0.6",
@@ -358,10 +358,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000005",
+                    "id": "cpuhog_forkjoin_00000005",
                     "runtimeInSeconds": 102.475,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000005",
                             "--percent-cpu 0.6",
@@ -380,10 +380,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000006",
+                    "id": "cpuhog_forkjoin_00000006",
                     "runtimeInSeconds": 103.207,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000006",
                             "--percent-cpu 0.6",
@@ -402,10 +402,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000007",
+                    "id": "cpuhog_forkjoin_00000007",
                     "runtimeInSeconds": 102.513,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000007",
                             "--percent-cpu 0.6",
@@ -424,10 +424,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000008",
+                    "id": "cpuhog_forkjoin_00000008",
                     "runtimeInSeconds": 103.576,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000008",
                             "--percent-cpu 0.6",
@@ -446,10 +446,10 @@
                     ]
                 },
                 {
-                    "id": "None_forkjoin_00000009",
+                    "id": "cpuhog_forkjoin_00000009",
                     "runtimeInSeconds": 103.114,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "forkjoin_00000009",
                             "--percent-cpu 0.6",

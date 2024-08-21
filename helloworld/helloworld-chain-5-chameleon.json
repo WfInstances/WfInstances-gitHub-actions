@@ -11,10 +11,10 @@
         "specification": {
             "tasks": [
                 {
-                    "name": "None_chain_00000001",
-                    "id": "None_chain_00000001",
+                    "name": "cpuhog_chain_00000001",
+                    "id": "cpuhog_chain_00000001",
                     "children": [
-                        "None_chain_00000002"
+                        "cpuhog_chain_00000002"
                     ],
                     "inputFiles": [
                         "chain_00000001_input.txt"
@@ -25,10 +25,10 @@
                     "parents": []
                 },
                 {
-                    "name": "None_chain_00000002",
-                    "id": "None_chain_00000002",
+                    "name": "cpuhog_chain_00000002",
+                    "id": "cpuhog_chain_00000002",
                     "children": [
-                        "None_chain_00000003"
+                        "cpuhog_chain_00000003"
                     ],
                     "inputFiles": [
                         "chain_00000001_output.txt"
@@ -37,14 +37,14 @@
                         "chain_00000002_output.txt"
                     ],
                     "parents": [
-                        "None_chain_00000001"
+                        "cpuhog_chain_00000001"
                     ]
                 },
                 {
-                    "name": "None_chain_00000003",
-                    "id": "None_chain_00000003",
+                    "name": "cpuhog_chain_00000003",
+                    "id": "cpuhog_chain_00000003",
                     "children": [
-                        "None_chain_00000004"
+                        "cpuhog_chain_00000004"
                     ],
                     "inputFiles": [
                         "chain_00000002_output.txt"
@@ -53,14 +53,14 @@
                         "chain_00000003_output.txt"
                     ],
                     "parents": [
-                        "None_chain_00000002"
+                        "cpuhog_chain_00000002"
                     ]
                 },
                 {
-                    "name": "None_chain_00000004",
-                    "id": "None_chain_00000004",
+                    "name": "cpuhog_chain_00000004",
+                    "id": "cpuhog_chain_00000004",
                     "children": [
-                        "None_chain_00000005"
+                        "cpuhog_chain_00000005"
                     ],
                     "inputFiles": [
                         "chain_00000003_output.txt"
@@ -69,12 +69,12 @@
                         "chain_00000004_output.txt"
                     ],
                     "parents": [
-                        "None_chain_00000003"
+                        "cpuhog_chain_00000003"
                     ]
                 },
                 {
-                    "name": "None_chain_00000005",
-                    "id": "None_chain_00000005",
+                    "name": "cpuhog_chain_00000005",
+                    "id": "cpuhog_chain_00000005",
                     "children": [
                     ],
                     "inputFiles": [
@@ -84,7 +84,7 @@
                         "chain_00000005_output.txt"
                     ],
                     "parents": [
-                        "None_chain_00000004"
+                        "cpuhog_chain_00000004"
                     ]
                 }
             ],
@@ -120,10 +120,10 @@
             "executedAt": "05-10-23T16:23:32Z",
             "tasks": [
                 {
-                    "id": "None_chain_00000001",
+                    "id": "cpuhog_chain_00000001",
                     "runtimeInSeconds": 100.376,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "chain_00000001",
                             "--percent-cpu 0.6",
@@ -142,10 +142,10 @@
                     ]
                 },
                 {
-                    "id": "None_chain_00000002",
+                    "id": "cpuhog_chain_00000002",
                     "runtimeInSeconds": 100.12,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "chain_00000002",
                             "--percent-cpu 0.6",
@@ -164,10 +164,10 @@
                     ]
                 },
                 {
-                    "id": "None_chain_00000003",
+                    "id": "cpuhog_chain_00000003",
                     "runtimeInSeconds": 99.396,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "chain_00000003",
                             "--percent-cpu 0.6",
@@ -186,10 +186,10 @@
                     ]
                 },
                 {
-                    "id": "None_chain_00000004",
+                    "id": "cpuhog_chain_00000004",
                     "runtimeInSeconds": 100.886,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "chain_00000004",
                             "--percent-cpu 0.6",
@@ -208,10 +208,10 @@
                     ]
                 },
                 {
-                    "id": "None_chain_00000005",
+                    "id": "cpuhog_chain_00000005",
                     "runtimeInSeconds": 100.462,
                     "command": {
-                        "program": "None",
+                        "program": "cpuhog",
                         "arguments": [
                             "chain_00000005",
                             "--percent-cpu 0.6",
