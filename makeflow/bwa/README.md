@@ -28,7 +28,7 @@ The figure below shows an overview of the BWA workflow structure:
 Execution traces are formatted according to the
 [WfCommons JSON format](https://github.com/wfcommons/workflow-schema) for
 describing workflow executions. Execution traces from different computing
-platforms are organized into sub-folders.
+platforms are organized into sub-directories.
 
 Trace files are named using the following convention:
 `bwa-<COMPUTE_PLATFORM>-<WF_SIZE>-<RUN_ID>.json`, where:

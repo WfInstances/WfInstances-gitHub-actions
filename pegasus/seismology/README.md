@@ -39,7 +39,7 @@ publication:
 Execution instances are formatted according to the
 [WfCommons JSON format](https://github.com/wfcommons/workflow-schema)
 for describing workflow executions. Execution instances from different
-computing platforms are organized into sub-folders.
+computing platforms are organized into sub-directories.
 
 Instance files are named using the following convention:
 `seismology-<COMPUTE_PLATFORM>-<NUM_PAIRS>p-<RUN_ID>.json`, where:

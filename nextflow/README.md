@@ -4,14 +4,14 @@
 
 # Nextflow Execution Instances
 
-This repository contains workflow execution instances generated from
+This directory contains workflow execution instances generated from
 [Nextflow](https://nextflow.io) executions. The instances hosted in 
-this repository use [WfFormat](https://github.com/wfcommons/wfformat)
+this directory use [WfFormat](https://github.com/wfcommons/wfformat)
 for describing workflow executions.
 
 ### Workflow Applications
 
-The workflow execution instances recorded in this repository are from
+The workflow execution instances recorded in this directory are from
 open-source applications hosted at the [nf-co.re](https://nf-co.re)
 repository:
 
@@ -33,6 +33,6 @@ repository:
 
 ### Workflow Simulator
 
-The execution instances provided in this repository are compatible to any
+The execution instances provided in this directory are compatible with any
 [simulator framework](https://wfcommons.org/simulation) that implements
 [WfFormat](https://github.com/wfcommons/wfformat).

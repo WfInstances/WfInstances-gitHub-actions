@@ -29,7 +29,7 @@ The figure below shows an overview of the SRA Search workflow structure:
 Execution instances are formatted according to the
 [WfCommons JSON format](https://github.com/wfcommons/workflow-schema) for
 describing workflow executions. Execution instances from different computing
-platforms are organized into sub-folders.
+platforms are organized into sub-directories.
 
 Instance files are named using the following convention:
 `srasearch-<COMPUTE_PLATFORM>-<ACCESSION_LIST_SIZE>-<RUN_ID>.json`, where:

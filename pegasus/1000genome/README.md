@@ -47,7 +47,7 @@ performance metrics can be found in the following research publication:
 Execution instances are formatted according to the
 [WfCommons JSON format](https://github.com/wfcommons/workflow-schema) for
 describing workflow executions. Execution instances from different computing
-platforms are organized into sub-folders.
+platforms are organized into sub-directories.
 
 Instance files are named using the following convention:
 `1000genome-<COMPUTE_PLATFORM>-<NUM_CH>ch-<NUM_SEQ>-<RUN_ID>.json`, where:
