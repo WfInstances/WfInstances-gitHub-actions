@@ -10,7 +10,7 @@ Collection and curation of open access production workflow executions from vario
 
 ## WfInstances browser web application
 
-A [WfFormat WfInstances browser web application](https://dirt02.ics.hawaii.edu) is available to easily browse, filter, and visualize the instances available in this repository.
+A [WfFormat WfInstances browser web application](https://wfinstances.ics.hawaii.edu) is available to easily browse, filter, and visualize the instances available in this repository.
 
 <a href="https://wfinstances.ics.hawaii.edu" target="_blank"><img src="./wfinstances-browser-screenshot.jpeg" width=350 /></a>
 
