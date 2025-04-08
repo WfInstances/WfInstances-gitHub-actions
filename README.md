@@ -1,6 +1,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12510982.svg)](https://doi.org/10.5281/zenodo.12510982)&nbsp;&nbsp;
 ![Build](https://github.com/wfcommons/WfInstances/workflows/Build/badge.svg)&nbsp;&nbsp;
 [![GitHub Release](https://img.shields.io/github/release/wfcommons/wfinstances/all.svg)](https://github.com/wfcommons/wfinstances/releases)
+![Downloads](https://img.shields.io/badge/downloads-151-blue.svg)
+![Visualizations](https://img.shields.io/badge/visualizations-430-orange.svg)
+![Simulations](https://img.shields.io/badge/simulations-88-success.svg)
+![Users](https://img.shields.io/badge/users-72-lightgrey.svg)
 
 <a href="https://wfcommons.org" target="_blank"><img src="https://wfcommons.org/images/wfcommons-horizontal.png" width="350" /></a>
 
