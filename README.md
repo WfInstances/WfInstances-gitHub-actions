@@ -13,6 +13,7 @@ Collection and curation of open access production workflow executions from vario
 A [WfFormat WfInstances browser web application](https://wfinstances.ics.hawaii.edu) is available to easily browse, filter, and visualize the instances available in this repository.
 
 <a href="https://wfinstances.ics.hawaii.edu" target="_blank"><img src="./wfinstances-browser-screenshot.jpeg" width=350 /></a>
+
 ![Downloads](https://img.shields.io/badge/downloads-151-blue.svg)
 ![Visualizations](https://img.shields.io/badge/visualizations-430-orange.svg)
 ![Simulations](https://img.shields.io/badge/simulations-88-success.svg)
